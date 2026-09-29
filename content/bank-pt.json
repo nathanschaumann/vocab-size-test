@@ -1,0 +1,9896 @@
+{
+"language": "pt",
+"bankVersion": "pt-bank-v1",
+"listVersion": "pt-lemmas-v1",
+"items": [
+{
+"id": "mc-pt-0001",
+"lemma": "dever",
+"rank": 81,
+"pos": "verb",
+"options": [
+"to owe, to be bound by duty",
+"to smile, to beam with joy",
+"to scrub, to clean with water",
+"to soar, to glide through the air"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0002",
+"lemma": "mundo",
+"rank": 86,
+"pos": "noun",
+"options": [
+"the Earth, all of humanity",
+"a set of rules, a code",
+"a sharp blade, a cutting tool",
+"a period of rest, a pause"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0003",
+"lemma": "maior",
+"rank": 109,
+"pos": "adj",
+"options": [
+"bigger, of greater size or degree",
+"very old, advanced in years",
+"rather thin, of slight build",
+"quite early, before the usual time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0004",
+"lemma": "formar",
+"rank": 111,
+"pos": "verb",
+"options": [
+"to bring something into being or shape",
+"to hand money in exchange for goods",
+"to move away quickly from danger",
+"to cut something into two halves"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0005",
+"lemma": "deus",
+"rank": 119,
+"pos": "noun",
+"options": [
+"a divine or worshipped being",
+"a leader chosen by a community",
+"a very old or ancient story",
+"a set of rules for a group"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0006",
+"lemma": "foto",
+"rank": 130,
+"pos": "noun",
+"options": [
+"a printed or digital likeness",
+"a short trip, a brief outing",
+"a typed letter, a written note",
+"a thin sheet, a flat layer"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0007",
+"lemma": "cada",
+"rank": 145,
+"pos": "other",
+"options": [
+"every, each one of a set",
+"right away, at once",
+"only, merely, just",
+"even, still, yet"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0008",
+"lemma": "alguém",
+"rank": 160,
+"pos": "other",
+"options": [
+"some person, an unspecified individual",
+"nothing at all, not any thing",
+"every single one, without exception",
+"right away, without any delay"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0009",
+"lemma": "desde",
+"rank": 164,
+"pos": "other",
+"options": [
+"starting from a point in time",
+"in addition to something else",
+"in spite of a condition",
+"on behalf of someone"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0010",
+"lemma": "gostar",
+"rank": 178,
+"pos": "verb",
+"options": [
+"to find something pleasing or enjoyable",
+"to reach a destination after traveling",
+"to break something into smaller parts",
+"to put words down on paper"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0011",
+"lemma": "lugar",
+"rank": 181,
+"pos": "noun",
+"options": [
+"a spot or specific area",
+"a strong feeling of anger or fury",
+"a long written story with characters",
+"a period of rest during the night"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0012",
+"lemma": "lado",
+"rank": 187,
+"pos": "noun",
+"options": [
+"a flank, an edge or side",
+"a spoken request, a plea",
+"a heavy blow, a strike",
+"a shared meal, a feast"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0013",
+"lemma": "tentar",
+"rank": 196,
+"pos": "verb",
+"options": [
+"to make an effort to do something",
+"to hold something tightly in your hands",
+"to rest the body during the night",
+"to look carefully at something far away"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0014",
+"lemma": "ouvir",
+"rank": 202,
+"pos": "verb",
+"options": [
+"to perceive sound, to hear",
+"to carry forward, to bring along",
+"to run away, to flee",
+"to look at, to watch"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0015",
+"lemma": "social",
+"rank": 203,
+"pos": "adj",
+"options": [
+"relating to people living together in groups",
+"easily bent without breaking apart",
+"happening at a great distance away",
+"covered entirely in water or liquid"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0016",
+"lemma": "quantum",
+"rank": 217,
+"pos": "noun",
+"options": [
+"a discrete unit of energy",
+"a written agreement, a contract",
+"a spoken greeting, a salutation",
+"a soft covering, a layer"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0017",
+"lemma": "gente",
+"rank": 238,
+"pos": "noun",
+"options": [
+"a group of human beings",
+"the hard surface beneath your feet",
+"a collection of written documents",
+"the money earned from doing work"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0018",
+"lemma": "algo",
+"rank": 239,
+"pos": "other",
+"options": [
+"a certain thing, an unspecified thing",
+"in whatever manner",
+"at some earlier time",
+"to a great degree"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0019",
+"lemma": "único",
+"rank": 244,
+"pos": "adj",
+"options": [
+"being the only one of its kind",
+"happening at fixed intervals",
+"shared among many people",
+"too large to measure"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0020",
+"lemma": "equipar",
+"rank": 259,
+"pos": "verb",
+"options": [
+"to furnish with gear, to outfit",
+"to calm down, to soothe",
+"to dig up, to unearth",
+"to bend, to curve inward"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0021",
+"lemma": "lhe",
+"rank": 263,
+"pos": "other",
+"options": [
+"to him, to her, to them",
+"from here, away from this place",
+"even so, nevertheless",
+"by means of, through"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0022",
+"lemma": "tomar",
+"rank": 281,
+"pos": "verb",
+"options": [
+"to grab, to take hold of",
+"to send away, to dismiss",
+"to fall down, to collapse",
+"to mix together, to blend"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0023",
+"lemma": "tarde",
+"rank": 300,
+"pos": "noun",
+"options": [
+"the part of day after midday",
+"the edge of a river or lake",
+"a long journey over water or land",
+"a round object used in games"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0024",
+"lemma": "sob",
+"rank": 330,
+"pos": "other",
+"options": [
+"beneath, below something",
+"against, in opposition to",
+"beyond, on the far side of",
+"among, in the midst of"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0025",
+"lemma": "matar",
+"rank": 354,
+"pos": "verb",
+"options": [
+"to cause someone to die",
+"to run away quickly",
+"to put something in writing",
+"to carry a heavy load"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0026",
+"lemma": "polícia",
+"rank": 357,
+"pos": "noun",
+"options": [
+"the body that maintains public order",
+"the group that manages public spending",
+"the gathering held for collective prayer",
+"the system for moving goods between places"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0027",
+"lemma": "isto",
+"rank": 366,
+"pos": "other",
+"options": [
+"used to point to something nearby",
+"used to show belonging to someone",
+"used to ask which of several things",
+"used to link two contrasting ideas"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0028",
+"lemma": "forte",
+"rank": 369,
+"pos": "adj",
+"options": [
+"powerful, having great might",
+"easily broken or damaged",
+"moving at high speed",
+"tall and of great height"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0029",
+"lemma": "abrir",
+"rank": 373,
+"pos": "verb",
+"options": [
+"to make something no longer shut",
+"to hand something over to another",
+"to move toward a distant place",
+"to say words aloud to others"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0030",
+"lemma": "vária",
+"rank": 386,
+"pos": "adj",
+"options": [
+"several, of more than one kind",
+"very deep, far below the surface",
+"completely empty, with nothing inside",
+"quite narrow, of little width"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0031",
+"lemma": "comer",
+"rank": 413,
+"pos": "verb",
+"options": [
+"to ingest, to consume as food",
+"to stroll, to walk at leisure",
+"to seal, to close something shut",
+"to holler, to call out loudly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0032",
+"lemma": "legal",
+"rank": 415,
+"pos": "adj",
+"options": [
+"cool, great, awesome",
+"worn out, exhausted",
+"soft, gentle, mild",
+"far away, distant"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0033",
+"lemma": "manhã",
+"rank": 425,
+"pos": "noun",
+"options": [
+"the early part of the day",
+"a stretch of open land",
+"the evening meal",
+"a deep feeling of longing"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0034",
+"lemma": "empresar",
+"rank": 426,
+"pos": "verb",
+"options": [
+"to manage or run a show",
+"to wrap or bundle items tightly",
+"to borrow money from a bank",
+"to send a letter or package"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0035",
+"lemma": "povo",
+"rank": 434,
+"pos": "noun",
+"options": [
+"a group of people sharing a homeland",
+"a piece of land beside water",
+"a set of written laws",
+"a skilled trade or craft"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0036",
+"lemma": "maioria",
+"rank": 469,
+"pos": "noun",
+"options": [
+"the greater part of a group",
+"a written law or rule",
+"a fixed monthly payment",
+"the outer edge of a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0037",
+"lemma": "assunto",
+"rank": 474,
+"pos": "noun",
+"options": [
+"a topic or matter being discussed",
+"a written agreement between parties",
+"a feeling of deep worry or fear",
+"a tool used for measuring length"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0038",
+"lemma": "negócio",
+"rank": 477,
+"pos": "noun",
+"options": [
+"a trade, a commercial deal",
+"a narrow path, a trail",
+"a large gathering, a crowd",
+"a written record, a document"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0039",
+"lemma": "explicar",
+"rank": 489,
+"pos": "verb",
+"options": [
+"to make the meaning clear",
+"to carry, to bring something along",
+"to jump, to leap over something",
+"to cook, to prepare a meal"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0040",
+"lemma": "ordem",
+"rank": 490,
+"pos": "noun",
+"options": [
+"a command or instruction given",
+"a written agreement between two parties",
+"a feeling of great happiness",
+"a journey taken to a far place"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0041",
+"lemma": "ocorrer",
+"rank": 501,
+"pos": "verb",
+"options": [
+"to take place or come to pass",
+"to pour liquid into another vessel",
+"to pull something toward oneself with force",
+"to sit quietly without making any movement"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0042",
+"lemma": "porto",
+"rank": 503,
+"pos": "noun",
+"options": [
+"a harbor, a place for ships",
+"a woven basket, a container",
+"a forest clearing, an open field",
+"a spoken vow, a sworn promise"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0043",
+"lemma": "perto",
+"rank": 508,
+"pos": "adv",
+"options": [
+"at a short distance away",
+"in a slow, unhurried manner",
+"with great force or strength",
+"at an earlier point in time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0044",
+"lemma": "quarto",
+"rank": 519,
+"pos": "noun",
+"options": [
+"a sleeping or living chamber",
+"a shared meal eaten together",
+"a flight of steps between floors",
+"a piece of ground for growing plants"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0045",
+"lemma": "sala",
+"rank": 533,
+"pos": "noun",
+"options": [
+"a room for gathering or living",
+"a shallow dish, a bowl",
+"a steep cliff, a rocky drop",
+"a thick rope, a cord"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0046",
+"lemma": "sucesso",
+"rank": 534,
+"pos": "noun",
+"options": [
+"the attainment of a desired aim",
+"a feeling of great sadness or grief",
+"the right to make decisions for others",
+"a written record of past events"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0047",
+"lemma": "mudança",
+"rank": 536,
+"pos": "noun",
+"options": [
+"a shift from one state to another",
+"a spoken remark or statement",
+"a feeling of deep sorrow",
+"the outer edge of a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0048",
+"lemma": "agosto",
+"rank": 537,
+"pos": "noun",
+"options": [
+"the eighth month of the year",
+"a heavy tool for cutting wood",
+"the third day of the week",
+"a celebration held once a year"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0049",
+"lemma": "amanhã",
+"rank": 556,
+"pos": "adv",
+"options": [
+"on the day following today",
+"in a place far from here",
+"a short while ago or recently",
+"at any moment without warning"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0050",
+"lemma": "dezembro",
+"rank": 558,
+"pos": "noun",
+"options": [
+"the final month of the year",
+"the day on which someone was born",
+"the period between sunrise and sunset",
+"a set of seven consecutive days"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0051",
+"lemma": "justiçar",
+"rank": 569,
+"pos": "verb",
+"options": [
+"to put someone to death as punishment",
+"to hand over goods to someone",
+"to move quietly without being heard",
+"to gather crops from the field"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0052",
+"lemma": "idade",
+"rank": 582,
+"pos": "noun",
+"options": [
+"number of years one has lived",
+"a written law passed by a government",
+"a feeling of great happiness or joy",
+"the total amount of money one earns"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0053",
+"lemma": "natural",
+"rank": 631,
+"pos": "adj",
+"options": [
+"normal, expected, not artificial",
+"worn out from long use",
+"belonging to a wealthy class",
+"hidden from ordinary view"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0054",
+"lemma": "funcionar",
+"rank": 637,
+"pos": "verb",
+"options": [
+"to work or operate properly",
+"to grow larger over time",
+"to carry something from one place",
+"to break apart into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0055",
+"lemma": "novamente",
+"rank": 652,
+"pos": "adv",
+"options": [
+"one more time, once more",
+"in a slow and careful way",
+"without any doubt or question",
+"very close by, not far away"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0056",
+"lemma": "eleição",
+"rank": 656,
+"pos": "noun",
+"options": [
+"a vote to choose someone for office",
+"a fee charged for crossing a bridge",
+"a written complaint sent to a court",
+"bringing goods into a country"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0057",
+"lemma": "vontade",
+"rank": 662,
+"pos": "noun",
+"options": [
+"a wish or desire",
+"a step or pace",
+"a fault or blame",
+"a shadow or shade"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0058",
+"lemma": "professorar",
+"rank": 697,
+"pos": "verb",
+"options": [
+"to work as a classroom instructor",
+"to take care of sick people",
+"to oversee a business or organization",
+"to perform in front of an audience"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0059",
+"lemma": "dançar",
+"rank": 705,
+"pos": "verb",
+"options": [
+"to move the body rhythmically to music",
+"to pull something along the ground",
+"to write words on a surface",
+"to fall asleep without intending to"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0060",
+"lemma": "efeito",
+"rank": 706,
+"pos": "noun",
+"options": [
+"a result brought about by a cause",
+"a written promise or pledge",
+"a sudden burst of laughter",
+"a boundary or dividing line"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0061",
+"lemma": "indicar",
+"rank": 707,
+"pos": "verb",
+"options": [
+"to point out, to show",
+"to hold back, to restrain",
+"to break apart, to shatter",
+"to hand over, to deliver"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0062",
+"lemma": "casamento",
+"rank": 729,
+"pos": "noun",
+"options": [
+"a wedding or matrimonial union",
+"a legal dispute or lawsuit",
+"a business agreement or deal",
+"a religious celebration or feast day"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0063",
+"lemma": "atingir",
+"rank": 732,
+"pos": "verb",
+"options": [
+"to reach or hit a target",
+"to carry or bring along",
+"to fold or bend inward",
+"to pour or fill a vessel"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0064",
+"lemma": "superior",
+"rank": 742,
+"pos": "adj",
+"options": [
+"higher in rank or quality",
+"relating to the ground or lower level",
+"occurring at an earlier point in time",
+"having a cheerful or lively manner"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0065",
+"lemma": "policial",
+"rank": 749,
+"pos": "noun",
+"options": [
+"a law enforcement officer",
+"a person who teaches children",
+"a person who treats sick people",
+"a person who runs a company"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0066",
+"lemma": "usado",
+"rank": 751,
+"pos": "adj",
+"options": [
+"previously owned, not brand new",
+"very large in size or amount",
+"pleasing to look at, visually appealing",
+"required by law or by rules"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0067",
+"lemma": "príncipe",
+"rank": 754,
+"pos": "noun",
+"options": [
+"a king or queen's male child",
+"a written agreement between two parties",
+"a large warship at sea",
+"the head of a religious community"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0068",
+"lemma": "boa",
+"rank": 757,
+"pos": "adj",
+"options": [
+"pleasant, of high quality",
+"small in size or extent",
+"fast or quick in motion",
+"far away in distance"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0069",
+"lemma": "erro",
+"rank": 763,
+"pos": "noun",
+"options": [
+"a mistake or something done wrongly",
+"a sharp tool used for cutting wood",
+"a sudden feeling of great joy",
+"a formal spoken greeting to a crowd"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0070",
+"lemma": "comentário",
+"rank": 768,
+"pos": "noun",
+"options": [
+"a spoken or written remark about something",
+"a set of rules for behavior",
+"a formal request to a court",
+"a sum of money owed to someone"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0071",
+"lemma": "repúblico",
+"rank": 770,
+"pos": "noun",
+"options": [
+"a devoted servant of the common good",
+"a skilled craftsman who works with wood",
+"a written official order or decree",
+"a market trade overseer"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0072",
+"lemma": "surgir",
+"rank": 778,
+"pos": "verb",
+"options": [
+"to come into view, to emerge",
+"to fold cloth into neat layers",
+"to hand something over to another",
+"to make a loud knocking sound"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0073",
+"lemma": "mar",
+"rank": 781,
+"pos": "noun",
+"options": [
+"the vast salty expanse of water",
+"a dense growth of trees and undergrowth",
+"the flat open land used for farming",
+"a high rocky formation rising above"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0074",
+"lemma": "simplesmente",
+"rank": 787,
+"pos": "adv",
+"options": [
+"in a plain, uncomplicated way",
+"with great force and speed",
+"in a secretive or hidden manner",
+"at a much earlier point in time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0075",
+"lemma": "união",
+"rank": 789,
+"pos": "noun",
+"options": [
+"a joining together of parts or groups",
+"a tool for cutting or shaping",
+"a feeling of deep sadness or grief",
+"a written record of daily events"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0076",
+"lemma": "revistar",
+"rank": 797,
+"pos": "verb",
+"options": [
+"to search a person or place thoroughly",
+"to borrow money from a lender",
+"to kneel down in submission",
+"to cook food over an open flame"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0077",
+"lemma": "celular",
+"rank": 829,
+"pos": "noun",
+"options": [
+"a handheld wireless telephone device",
+"a small folding seat for travel",
+"a bag worn over the shoulder",
+"a flat screen for watching shows"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0078",
+"lemma": "incrível",
+"rank": 835,
+"pos": "adj",
+"options": [
+"extremely surprising or wonderful",
+"very small in size",
+"easy to understand",
+"slow and careful in manner"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0079",
+"lemma": "faculdade",
+"rank": 838,
+"pos": "noun",
+"options": [
+"a higher learning institution",
+"a legal right or entitlement",
+"a formal written agreement",
+"a branch of military service"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0080",
+"lemma": "preferir",
+"rank": 855,
+"pos": "verb",
+"options": [
+"to like one thing more than another",
+"to keep something hidden from others",
+"to hand something over to someone else",
+"to make something ready for use"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0081",
+"lemma": "vendar",
+"rank": 866,
+"pos": "verb",
+"options": [
+"to blindfold someone",
+"to squeeze or press tightly",
+"to sweep a surface clean",
+"to knot rope around a post"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0082",
+"lemma": "interessante",
+"rank": 874,
+"pos": "adj",
+"options": [
+"appealing to the mind, not boring",
+"very heavy and hard to lift",
+"filled with great fear or dread",
+"easy to reach or obtain"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0083",
+"lemma": "formação",
+"rank": 882,
+"pos": "noun",
+"options": [
+"the training or education one receives",
+"a written agreement between two parties",
+"the money earned from work",
+"a feeling of deep sadness"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0084",
+"lemma": "informar",
+"rank": 883,
+"pos": "verb",
+"options": [
+"to tell someone facts or news",
+"to draw a picture of something",
+"to push something with great force",
+"to hide something from others"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0085",
+"lemma": "agradecer",
+"rank": 886,
+"pos": "verb",
+"options": [
+"to express gratitude to someone",
+"to send a message in writing",
+"to leave a place behind",
+"to break something into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0086",
+"lemma": "estudante",
+"rank": 890,
+"pos": "noun",
+"options": [
+"a person who attends school or college",
+"a person who repairs buildings",
+"a person who enforces laws",
+"a person who sells goods"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0087",
+"lemma": "interior",
+"rank": 907,
+"pos": "noun",
+"options": [
+"the inside part of something",
+"the upper edge of a structure",
+"a narrow path between buildings",
+"the outer boundary of a region"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0088",
+"lemma": "reunir",
+"rank": 909,
+"pos": "verb",
+"options": [
+"to bring people together in one place",
+"to send word to a distant person",
+"to break something into smaller pieces",
+"to move from one place to another"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0089",
+"lemma": "levantar",
+"rank": 922,
+"pos": "verb",
+"options": [
+"to raise or lift something up",
+"to cut into smaller parts",
+"to run away quickly",
+"to mix things together"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0090",
+"lemma": "departamento",
+"rank": 940,
+"pos": "noun",
+"options": [
+"a distinct branch of an organization",
+"a sworn statement given before a judge",
+"a tool used for measuring angles",
+"a formal written request or petition"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0091",
+"lemma": "estadual",
+"rank": 952,
+"pos": "adj",
+"options": [
+"relating to a governing territorial unit",
+"covered with a shiny coating",
+"done with great care and skill",
+"belonging to a distant era"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0092",
+"lemma": "organizar",
+"rank": 955,
+"pos": "verb",
+"options": [
+"to put things in order or arrange",
+"to speak in front of a crowd",
+"to borrow money from a bank",
+"to remove dirt from a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0093",
+"lemma": "aniversário",
+"rank": 956,
+"pos": "noun",
+"options": [
+"a day marking a yearly return",
+"a short journey to a nearby place",
+"a written request sent formally",
+"a gathering held for worship"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0094",
+"lemma": "votar",
+"rank": 976,
+"pos": "verb",
+"options": [
+"to cast a ballot in an election",
+"to sign a written agreement",
+"to speak in front of a crowd",
+"to give goods for money"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0095",
+"lemma": "azul",
+"rank": 977,
+"pos": "adj",
+"options": [
+"having the colour of a clear sky",
+"tasting sharp and sour on the tongue",
+"giving off a warm bright glow",
+"rough and uneven to the touch"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0096",
+"lemma": "cinema",
+"rank": 981,
+"pos": "noun",
+"options": [
+"a building for screening films",
+"a soft melody, a tune",
+"a colorful drawing, a sketch",
+"a written record, a ledger"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0097",
+"lemma": "medido",
+"rank": 984,
+"pos": "adj",
+"options": [
+"carefully controlled and not excessive",
+"completely worn out and tired",
+"well known and widely praised",
+"broken and no longer working"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0098",
+"lemma": "gol",
+"rank": 992,
+"pos": "noun",
+"options": [
+"a point scored in football",
+"the starting position in a race",
+"a piece of sports clothing",
+"a foul committed by a player"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0099",
+"lemma": "delas",
+"rank": 994,
+"pos": "other",
+"options": [
+"belonging to those women, of them",
+"in front of, ahead of",
+"at that moment, back then",
+"for that reason, thus"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0100",
+"lemma": "permanecer",
+"rank": 999,
+"pos": "verb",
+"options": [
+"to stay in a place or condition",
+"to break something into many pieces",
+"to choose one thing over another",
+"to follow someone without being noticed"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0101",
+"lemma": "crise",
+"rank": 1015,
+"pos": "noun",
+"options": [
+"a time of great trouble or danger",
+"a sharp jump in prices over time",
+"a regular gathering of people",
+"a formal written agreement"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0102",
+"lemma": "ok",
+"rank": 1017,
+"pos": "other",
+"options": [
+"all is well, no problems exist",
+"expressing strong surprise or shock",
+"used to greet someone warmly",
+"expressing doubt or hesitation"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0103",
+"lemma": "limite",
+"rank": 1018,
+"pos": "noun",
+"options": [
+"a boundary, a furthest point allowed",
+"a sudden, sharp pain",
+"a written agreement between parties",
+"a tool used for measuring weight"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0104",
+"lemma": "vila",
+"rank": 1022,
+"pos": "noun",
+"options": [
+"a small town or settlement",
+"a long journey taken by sea",
+"a feeling of deep sadness",
+"a thick rope used for pulling"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0105",
+"lemma": "beleza",
+"rank": 1036,
+"pos": "noun",
+"options": [
+"quality of being pleasing to the eye",
+"a feeling of deep sadness or grief",
+"the strength or power of a person",
+"a group of people living together"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0106",
+"lemma": "desafio",
+"rank": 1037,
+"pos": "noun",
+"options": [
+"a difficult task or test",
+"a spoken agreement",
+"a monetary reward",
+"a loud gathering"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0107",
+"lemma": "alcançar",
+"rank": 1041,
+"pos": "verb",
+"options": [
+"to get to or attain something",
+"to dig a hole in the ground",
+"to fold cloth into a neat shape",
+"to taste food before serving it"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0108",
+"lemma": "estranho",
+"rank": 1047,
+"pos": "adj",
+"options": [
+"weird, not normal or familiar",
+"deeply upset or troubled",
+"worn out, lacking energy",
+"sharply pointed at the tip"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0109",
+"lemma": "carreira",
+"rank": 1053,
+"pos": "noun",
+"options": [
+"one's professional working life",
+"a strong personal belief",
+"a large enclosed outdoor area",
+"a written official report"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0110",
+"lemma": "iriar",
+"rank": 1058,
+"pos": "verb",
+"options": [
+"to show rainbow-like colors, to shimmer",
+"to cut into small pieces",
+"to make a loud, sharp sound",
+"to pull or drag with force"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0111",
+"lemma": "pressão",
+"rank": 1063,
+"pos": "noun",
+"options": [
+"a pushing or squeezing force on something",
+"a soft melody played on strings",
+"the act of hiding something away",
+"a short trip taken for pleasure"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0112",
+"lemma": "campeão",
+"rank": 1094,
+"pos": "noun",
+"options": [
+"the winner of a contest or title",
+"a person who studies ancient buildings",
+"a written rule that governs behavior",
+"a tool used to measure distance"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0113",
+"lemma": "marido",
+"rank": 1111,
+"pos": "noun",
+"options": [
+"a woman's male spouse",
+"a large fruit with thick skin",
+"cloth worn around the neck",
+"the upper floor of a building"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0114",
+"lemma": "irar",
+"rank": 1113,
+"pos": "verb",
+"options": [
+"to make someone furious, to enrage",
+"to walk quietly without being heard",
+"to tie or bind with a rope",
+"to gather things into a pile"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0115",
+"lemma": "armar",
+"rank": 1149,
+"pos": "verb",
+"options": [
+"to set up, to put together",
+"to slow down, to brake",
+"to sweep, to clean the floor",
+"to tie, to fasten with a knot"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0116",
+"lemma": "pro",
+"rank": 1163,
+"pos": "other",
+"options": [
+"in favor of, on the side of",
+"instead of, in place of",
+"against, in opposition to",
+"apart from, aside from"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0117",
+"lemma": "vermelho",
+"rank": 1170,
+"pos": "adj",
+"options": [
+"of the color of blood or fire",
+"tall and strongly built",
+"smooth and shiny in texture",
+"bent or curved in shape"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0118",
+"lemma": "breve",
+"rank": 1211,
+"pos": "adj",
+"options": [
+"short in duration, not long",
+"having great weight or heaviness",
+"loud and forceful in sound",
+"wide and spread out in space"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0119",
+"lemma": "braço",
+"rank": 1224,
+"pos": "noun",
+"options": [
+"the limb from shoulder to hand",
+"the lower part of the face",
+"a curved bone in the chest",
+"the top of the spine"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0120",
+"lemma": "mídia",
+"rank": 1226,
+"pos": "noun",
+"options": [
+"news channels, outlets, and broadcasting collectively",
+"a type of street market or fair",
+"a formal written request or petition",
+"a public gathering in a town square"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0121",
+"lemma": "penso",
+"rank": 1240,
+"pos": "noun",
+"options": [
+"a wound covering, a bandage strip",
+"a light midday meal",
+"a rocky cliff face",
+"a woven floor mat"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0122",
+"lemma": "leve",
+"rank": 1243,
+"pos": "adj",
+"options": [
+"not heavy, of little weight",
+"wide and open in space",
+"deeply felt and heartfelt",
+"lasting a very long time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0123",
+"lemma": "ônibus",
+"rank": 1249,
+"pos": "noun",
+"options": [
+"a large road vehicle carrying many passengers",
+"a tall structure used to send signals",
+"a small handheld device for measuring",
+"a broad path between rows of trees"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0124",
+"lemma": "pergunta",
+"rank": 1263,
+"pos": "noun",
+"options": [
+"an inquiry, something asked",
+"a warning given to someone",
+"a written official record",
+"a choice between two things"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0125",
+"lemma": "parir",
+"rank": 1265,
+"pos": "verb",
+"options": [
+"to bring a baby into the world",
+"to kneel down before someone",
+"to borrow money from a friend",
+"to remove leaves from a branch"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0126",
+"lemma": "conflito",
+"rank": 1268,
+"pos": "noun",
+"options": [
+"a serious fight or disagreement",
+"a gathering of people in one place",
+"a written record of past events",
+"a warm covering used in bed"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0127",
+"lemma": "cá",
+"rank": 1273,
+"pos": "adv",
+"options": [
+"here, over on this side",
+"very slowly and without rushing",
+"at some point yet to come",
+"once more, for a second time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0128",
+"lemma": "valer",
+"rank": 1280,
+"pos": "verb",
+"options": [
+"to have a certain price or worth",
+"to rest in a lying-down position",
+"to wrap tightly with both arms",
+"to taste something with the tongue"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0129",
+"lemma": "relacionamento",
+"rank": 1311,
+"pos": "noun",
+"options": [
+"a bond or connection between people",
+"a sudden outburst of anger",
+"a written record of events",
+"a gathering held to honor someone"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0130",
+"lemma": "prazer",
+"rank": 1321,
+"pos": "noun",
+"options": [
+"a feeling of happiness or enjoyment",
+"a sharp tool for cutting wood",
+"a set of rules for a game",
+"a short trip to a nearby place"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0131",
+"lemma": "cobrir",
+"rank": 1324,
+"pos": "verb",
+"options": [
+"to place something over another",
+"to break into small pieces",
+"to pull or drag toward oneself",
+"to hand something to another person"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0132",
+"lemma": "onda",
+"rank": 1337,
+"pos": "noun",
+"options": [
+"a moving ridge of water",
+"a narrow strip of land",
+"a sharp bend in a road",
+"a gathering of many people"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0133",
+"lemma": "violência",
+"rank": 1355,
+"pos": "noun",
+"options": [
+"brutal force used to harm others",
+"a strong feeling of joy or delight",
+"the act of telling an untruth",
+"a long stretch of open road"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0134",
+"lemma": "comércio",
+"rank": 1356,
+"pos": "noun",
+"options": [
+"the buying and selling of goods",
+"a place of worship and prayer",
+"a formal evening celebration",
+"the study of living things"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0135",
+"lemma": "puta",
+"rank": 1369,
+"pos": "noun",
+"options": [
+"a woman who sells sex for money",
+"a close female companion",
+"a sharp, cutting remark",
+"a female ruler or leader"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0136",
+"lemma": "criticar",
+"rank": 1382,
+"pos": "verb",
+"options": [
+"to point out faults or shortcomings",
+"to move something to a new location",
+"to write down information on paper",
+"to make a hole through a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0137",
+"lemma": "inicial",
+"rank": 1389,
+"pos": "adj",
+"options": [
+"belonging to the very beginning",
+"relating to a foreign country",
+"too large to be moved easily",
+"done without any help from others"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0138",
+"lemma": "recusar",
+"rank": 1426,
+"pos": "verb",
+"options": [
+"to say no, to decline an offer",
+"to gather things together in one spot",
+"to relay news to a distant person",
+"to fix something that was broken"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0139",
+"lemma": "duplo",
+"rank": 1439,
+"pos": "adj",
+"options": [
+"twice the usual amount or size",
+"very faint or hard to see",
+"stretched out over a long span",
+"roughly shaped or unfinished"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0140",
+"lemma": "declaração",
+"rank": 1442,
+"pos": "noun",
+"options": [
+"a formal spoken or written statement",
+"a sharp rise in water level",
+"a measure of land or territory",
+"a gathering held to mark an event"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0141",
+"lemma": "torno",
+"rank": 1453,
+"pos": "noun",
+"options": [
+"a lathe or gripping workbench tool",
+"a wide cloth worn over the shoulders",
+"a tall upright post in a fence",
+"a flat board used for writing"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0142",
+"lemma": "vá",
+"rank": 1460,
+"pos": "verb",
+"options": [
+"to move toward a place, to travel",
+"to bring something back",
+"to remain in one spot",
+"to look at something"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0143",
+"lemma": "tradição",
+"rank": 1465,
+"pos": "noun",
+"options": [
+"a long-held custom passed down",
+"a written law or rule",
+"a formal business agreement",
+"a sudden change in direction"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0144",
+"lemma": "caminhar",
+"rank": 1474,
+"pos": "verb",
+"options": [
+"to go on foot, to stroll",
+"to fall asleep quickly",
+"to lift something heavy overhead",
+"to cut into smaller pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0145",
+"lemma": "suspeito",
+"rank": 1479,
+"pos": "adj",
+"options": [
+"regarded with distrust or doubt",
+"widely known and admired by many",
+"covered with a thick layer of dust",
+"happening at the same moment in time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0146",
+"lemma": "crédito",
+"rank": 1507,
+"pos": "noun",
+"options": [
+"funds lent for later repayment",
+"a sharp drop in selling price",
+"a tax placed on imported goods",
+"a penalty imposed for breaking rules"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0147",
+"lemma": "li",
+"rank": 1544,
+"pos": "verb",
+"options": [
+"went through written text, first-person past",
+"tied or fastened something securely",
+"handed something over to another",
+"felt a sharp pain suddenly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0148",
+"lemma": "banheiro",
+"rank": 1557,
+"pos": "noun",
+"options": [
+"room with a toilet and sink",
+"large open field for growing crops",
+"wooden seat used at a table",
+"covered area attached to a house"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0149",
+"lemma": "cenário",
+"rank": 1560,
+"pos": "noun",
+"options": [
+"a setting or backdrop for events",
+"a spoken greeting between strangers",
+"a tool used for measuring distance",
+"a legal right over someone's property"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0150",
+"lemma": "tenta",
+"rank": 1577,
+"pos": "verb",
+"options": [
+"to try, to make an effort",
+"to carry, to bring along",
+"to turn, to rotate around",
+"to warn, to give notice"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0151",
+"lemma": "derrotar",
+"rank": 1592,
+"pos": "verb",
+"options": [
+"to beat an opposing side",
+"to remove from a position",
+"to send off on a journey",
+"to break apart into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0152",
+"lemma": "característica",
+"rank": 1606,
+"pos": "noun",
+"options": [
+"a notable quality that sets something apart",
+"a law that must be obeyed",
+"a sudden change in the weather",
+"a short rest taken during work"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0153",
+"lemma": "assembleia",
+"rank": 1614,
+"pos": "noun",
+"options": [
+"a formal gathering of people to deliberate",
+"a small room used for storage",
+"a tax paid to the government",
+"the outer edge of a garment"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0154",
+"lemma": "confiança",
+"rank": 1628,
+"pos": "noun",
+"options": [
+"a firm belief in someone's reliability",
+"a feeling of deep sadness or grief",
+"the right to use someone else's property",
+"a shared festive meal among people"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0155",
+"lemma": "conduzir",
+"rank": 1639,
+"pos": "verb",
+"options": [
+"to lead or steer something forward",
+"to break something into small bits",
+"to hang something from above",
+"to wrap tightly around an object"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0156",
+"lemma": "corrente",
+"rank": 1650,
+"pos": "noun",
+"options": [
+"flow of water or air; stream",
+"a loop of metal rings linked together",
+"a soft indoor shoe worn at home",
+"a narrow strip of raised land"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0157",
+"lemma": "transmissão",
+"rank": 1651,
+"pos": "noun",
+"options": [
+"sending or passing on of information",
+"a formal written agreement between two parties",
+"a sudden outbreak of violent conflict",
+"the outer boundary enclosing an area"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0158",
+"lemma": "doente",
+"rank": 1652,
+"pos": "adj",
+"options": [
+"suffering from illness or poor health",
+"very tall and hard to reach",
+"known by many people",
+"made from a single solid piece"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0159",
+"lemma": "ocasião",
+"rank": 1654,
+"pos": "noun",
+"options": [
+"a moment or fitting time for something",
+"a strong feeling of worry or fear",
+"a written agreement between two parties",
+"the outer edge of an area"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0160",
+"lemma": "florestar",
+"rank": 1662,
+"pos": "verb",
+"options": [
+"to plant trees over land",
+"to dig up the ground",
+"to gather ripe grain",
+"to drain water from soil"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0161",
+"lemma": "pago",
+"rank": 1666,
+"pos": "adj",
+"options": [
+"having received money owed",
+"broken into many small fragments",
+"covered with a thick layer of ice",
+"grown too old for a certain role"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0162",
+"lemma": "debater",
+"rank": 1670,
+"pos": "verb",
+"options": [
+"to argue or talk over a topic",
+"to break into pieces",
+"to run away quickly",
+"to hand something over"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0163",
+"lemma": "jantar",
+"rank": 1679,
+"pos": "noun",
+"options": [
+"the evening meal",
+"a midday break",
+"a morning gathering",
+"a weekly celebration"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0164",
+"lemma": "liderança",
+"rank": 1680,
+"pos": "noun",
+"options": [
+"the role or skill of guiding others",
+"a strong feeling of sadness or grief",
+"the hem of a garment",
+"a sum of money owed to someone"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0165",
+"lemma": "nascimento",
+"rank": 1682,
+"pos": "noun",
+"options": [
+"the moment a living being arrives",
+"a joining of two families",
+"a lengthy sea journey",
+"the handing over of land"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0166",
+"lemma": "orar",
+"rank": 1689,
+"pos": "verb",
+"options": [
+"to speak to God, to pray",
+"to rest lying down on a surface",
+"to move quickly on foot",
+"to give money in exchange for goods"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0167",
+"lemma": "comunicar",
+"rank": 1712,
+"pos": "verb",
+"options": [
+"to share information with others",
+"to dig a hole in the ground",
+"to choose between two options",
+"to light a fire or flame"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0168",
+"lemma": "humor",
+"rank": 1715,
+"pos": "noun",
+"options": [
+"a person's mood or state of mind",
+"a written agreement between two parties",
+"the last part of a long journey",
+"a tool used for cutting wood"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0169",
+"lemma": "transmitir",
+"rank": 1732,
+"pos": "verb",
+"options": [
+"to send or pass on to another",
+"to break apart into pieces",
+"to hold back or keep in place",
+"to look carefully at something"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0170",
+"lemma": "sobreviver",
+"rank": 1735,
+"pos": "verb",
+"options": [
+"to remain alive after peril",
+"to look after someone who is ill",
+"to get bigger or grow in amount",
+"to hold on to what one owns"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0171",
+"lemma": "novidade",
+"rank": 1736,
+"pos": "noun",
+"options": [
+"something recently happened or learned",
+"a feeling of deep sadness or grief",
+"a written official request or complaint",
+"the total amount of money earned"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0172",
+"lemma": "bruno",
+"rank": 1742,
+"pos": "adj",
+"options": [
+"having a dark brownish complexion",
+"extremely cold to the touch",
+"making very little or no sound",
+"having an uneven or jagged surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0173",
+"lemma": "trouxe",
+"rank": 1762,
+"pos": "verb",
+"options": [
+"carried or fetched here (past)",
+"wore or put on (past)",
+"grew or raised up (past)",
+"stayed or remained behind (past)"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0174",
+"lemma": "masculino",
+"rank": 1769,
+"pos": "adj",
+"options": [
+"relating to men or boys",
+"done with great care and detail",
+"belonging to a foreign land",
+"soft and easily bent"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0175",
+"lemma": "caber",
+"rank": 1796,
+"pos": "verb",
+"options": [
+"to fit within a given space",
+"to fall down suddenly from a height",
+"to grow larger over time",
+"to repeat the same words again"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0176",
+"lemma": "caçar",
+"rank": 1797,
+"pos": "verb",
+"options": [
+"to track and kill wild animals",
+"to tie two pieces of rope together",
+"to serve food onto a dish",
+"to walk slowly through shallow water"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0177",
+"lemma": "naquela",
+"rank": 1809,
+"pos": "other",
+"options": [
+"in that one, inside that specific thing",
+"from this very moment forward",
+"belonging to more than two people",
+"toward the far side of something"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0178",
+"lemma": "lenir",
+"rank": 1815,
+"pos": "verb",
+"options": [
+"to soothe or ease pain",
+"to sharpen a blade",
+"to fold cloth neatly",
+"to scatter seeds broadly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0179",
+"lemma": "senado",
+"rank": 1848,
+"pos": "noun",
+"options": [
+"the upper house of a national legislature",
+"a large open-air sporting arena",
+"a formal gathering of church leaders",
+"a written record of past events"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0180",
+"lemma": "inúmero",
+"rank": 1887,
+"pos": "adj",
+"options": [
+"too many to be counted, countless",
+"lasting for only a brief time",
+"belonging to a single person alone",
+"arranged in a neat and tidy way"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0181",
+"lemma": "constituir",
+"rank": 1896,
+"pos": "verb",
+"options": [
+"to make up or form something",
+"to flee from a dangerous place",
+"to wrap tightly around an object",
+"to pour liquid into a container"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0182",
+"lemma": "previsto",
+"rank": 1902,
+"pos": "adj",
+"options": [
+"expected or scheduled in advance",
+"broken down and beyond repair",
+"surrounded on all four sides",
+"spoken aloud in front of others"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0183",
+"lemma": "par",
+"rank": 1915,
+"pos": "noun",
+"options": [
+"a set of two matching things",
+"the edge or border of a surface",
+"a large building for storing goods",
+"a soft covering used on a bed"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0184",
+"lemma": "conclusão",
+"rank": 1918,
+"pos": "noun",
+"options": [
+"the final outcome or end result",
+"a meeting held between two leaders",
+"the money paid for doing a job",
+"a narrow path between two buildings"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0185",
+"lemma": "anúncio",
+"rank": 1947,
+"pos": "noun",
+"options": [
+"a notice or posted message",
+"a sharp, pointed tool",
+"a written agreement between parties",
+"a narrow stretch of water"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0186",
+"lemma": "porquê",
+"rank": 1977,
+"pos": "noun",
+"options": [
+"the motive or grounds for something",
+"a brief rest during the day",
+"a sharp bend in a road",
+"the smell given off by food"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0187",
+"lemma": "argumento",
+"rank": 1979,
+"pos": "noun",
+"options": [
+"a reason given to support a claim",
+"a flat surface used for writing",
+"a formal gathering of many people",
+"a small room attached to a house"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0188",
+"lemma": "instalar",
+"rank": 1982,
+"pos": "verb",
+"options": [
+"to set up equipment for use",
+"to ask someone a series of questions",
+"to mix different substances together",
+"to return something to its owner"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0189",
+"lemma": "tropa",
+"rank": 1992,
+"pos": "noun",
+"options": [
+"a group of soldiers or armed fighters",
+"a thin flat piece of baked bread",
+"the money paid for doing a job",
+"a sharp curve in a road"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0190",
+"lemma": "visar",
+"rank": 1996,
+"pos": "verb",
+"options": [
+"to aim at or seek to achieve",
+"to watch over someone closely",
+"to hand something to another person",
+"to break apart into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0191",
+"lemma": "treinar",
+"rank": 2021,
+"pos": "verb",
+"options": [
+"to practice a skill or sport repeatedly",
+"to ask someone for a favor",
+"to divide something into equal parts",
+"to keep something hidden from others"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0192",
+"lemma": "parlamentar",
+"rank": 2074,
+"pos": "noun",
+"options": [
+"a member of a lawmaking assembly",
+"a person who leads a religious community",
+"a soldier of the highest rank",
+"an official who oversees city finances"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0193",
+"lemma": "ativo",
+"rank": 2113,
+"pos": "adj",
+"options": [
+"busy, energetic, in motion",
+"feeling sad or low in spirit",
+"rough or uneven in texture",
+"clear and easy to see through"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0194",
+"lemma": "técnica",
+"rank": 2128,
+"pos": "noun",
+"options": [
+"a skilled way of doing something",
+"the cost of buying a product",
+"a written note left for someone",
+"a formal gathering of many people"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0195",
+"lemma": "filosofia",
+"rank": 2130,
+"pos": "noun",
+"options": [
+"the study of knowledge and meaning",
+"the craft of making pottery",
+"the practice of healing the sick",
+"the art of writing stories"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0196",
+"lemma": "juntamente",
+"rank": 2160,
+"pos": "adv",
+"options": [
+"at the same time, together with",
+"in a rough or harsh way",
+"barely, almost not at all",
+"on a later occasion, afterward"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0197",
+"lemma": "marcado",
+"rank": 2173,
+"pos": "adj",
+"options": [
+"clearly defined or set apart",
+"worn out or exhausted",
+"gently curved or rounded",
+"loosely tied or fastened"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0198",
+"lemma": "barco",
+"rank": 2183,
+"pos": "noun",
+"options": [
+"a vessel that travels on water",
+"a wheeled vehicle for carrying goods",
+"a large bag worn on the back",
+"a rope used for tying things"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0199",
+"lemma": "tensão",
+"rank": 2201,
+"pos": "noun",
+"options": [
+"a state of strain or mental stress",
+"a fee paid for goods received",
+"a written record of events",
+"a gap or break in a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0200",
+"lemma": "expor",
+"rank": 2230,
+"pos": "verb",
+"options": [
+"to put on display, to show",
+"to promise, to pledge",
+"to carry, to bring along",
+"to demand, to require"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0201",
+"lemma": "rocha",
+"rank": 2232,
+"pos": "noun",
+"options": [
+"a hard mass of stone",
+"a wide stretch of open water",
+"a tall tree with broad leafy branches",
+"a narrow path through a wooded area"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0202",
+"lemma": "partilhar",
+"rank": 2251,
+"pos": "verb",
+"options": [
+"to divide and hold in common",
+"to sharpen a pencil or blade",
+"to lift a heavy object overhead",
+"to rinse clothing under water"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0203",
+"lemma": "bloquear",
+"rank": 2280,
+"pos": "verb",
+"options": [
+"to stop movement or passage through",
+"to split something into halves",
+"to wrap a gift with paper",
+"to hang a picture on a wall"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0204",
+"lemma": "convite",
+"rank": 2288,
+"pos": "noun",
+"options": [
+"a request asking someone to attend",
+"a penalty imposed for breaking a rule",
+"a tool used for cutting rope",
+"a cramped loft beneath the roof"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0205",
+"lemma": "souza",
+"rank": 2355,
+"pos": "noun",
+"options": [
+"a very common Brazilian family name",
+"a type of clay roofing tile",
+"a small freshwater fish",
+"a dense riverside thicket"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0206",
+"lemma": "composto",
+"rank": 2368,
+"pos": "adj",
+"options": [
+"made up of several parts or elements",
+"very well known by many people",
+"feeling sad or low in spirit",
+"happening or done without any planning"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0207",
+"lemma": "absurdo",
+"rank": 2369,
+"pos": "adj",
+"options": [
+"wildly unreasonable, making no sense",
+"very slow and dragging",
+"bright and easy to see",
+"worn out from heavy use"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0208",
+"lemma": "ingresso",
+"rank": 2389,
+"pos": "noun",
+"options": [
+"a ticket allowing entry to a place",
+"a written personal letter",
+"a small monetary tip or gift",
+"a formal spoken greeting"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0209",
+"lemma": "lar",
+"rank": 2402,
+"pos": "noun",
+"options": [
+"a place where one lives, a dwelling",
+"a tool used for digging soil",
+"a strip of cloth for binding wounds",
+"a sweet baked treat"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0210",
+"lemma": "marca",
+"rank": 2422,
+"pos": "noun",
+"options": [
+"a visible sign or trace left behind",
+"a spoken promise made in public",
+"a thick woolen blanket or cover",
+"a narrow path through the woods"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0211",
+"lemma": "guerreiro",
+"rank": 2428,
+"pos": "noun",
+"options": [
+"a fighter who goes to battle",
+"a person who trades goods",
+"a skilled horseback rider",
+"a leader who governs others"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0212",
+"lemma": "glória",
+"rank": 2465,
+"pos": "noun",
+"options": [
+"great honor and widespread praise",
+"a feeling of deep sadness or grief",
+"a fierce battle or armed struggle",
+"the final outcome of a long effort"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0213",
+"lemma": "perante",
+"rank": 2490,
+"pos": "other",
+"options": [
+"in the presence of",
+"shortly before a given moment",
+"apart from, not counting",
+"by means of something"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0214",
+"lemma": "papo",
+"rank": 2502,
+"pos": "noun",
+"options": [
+"a casual chat or talk",
+"a large wooden barrel",
+"a strong river current",
+"a folded bed sheet"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0215",
+"lemma": "resumo",
+"rank": 2518,
+"pos": "noun",
+"options": [
+"a brief overview of a longer text",
+"a formal written request",
+"a weekly planning chart",
+"a spoken greeting or farewell"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0216",
+"lemma": "critério",
+"rank": 2523,
+"pos": "noun",
+"options": [
+"a rule or measure for judging",
+"a shared evening meal",
+"a hand-drawn city map",
+"a written travel permit"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0217",
+"lemma": "esportivo",
+"rank": 2552,
+"pos": "adj",
+"options": [
+"relating to games and athletic activity",
+"having a smooth and shiny surface",
+"belonging to a distant or faraway place",
+"dealing with money and trade matters"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0218",
+"lemma": "caminhão",
+"rank": 2560,
+"pos": "noun",
+"options": [
+"a large road freight vehicle",
+"a small rowing vessel",
+"a wheeled chair on rails",
+"a paved outdoor walkway"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0219",
+"lemma": "diferença",
+"rank": 2562,
+"pos": "noun",
+"options": [
+"the way two things are not alike",
+"a long journey on foot",
+"a warm feeling of fondness",
+"a written list of rules"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0220",
+"lemma": "painel",
+"rank": 2591,
+"pos": "noun",
+"options": [
+"a flat board or display surface",
+"a woven floor covering",
+"a folded paper shape",
+"a small cooking pot"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0221",
+"lemma": "mamãe",
+"rank": 2613,
+"pos": "noun",
+"options": [
+"mom, a child's word for mother",
+"older sister in a family",
+"a close female friend",
+"grandmother, a father's mother"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0222",
+"lemma": "inocente",
+"rank": 2626,
+"pos": "adj",
+"options": [
+"not guilty, free of wrongdoing",
+"very tired after hard work",
+"quick to react, easily startled",
+"well-known and widely respected"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0223",
+"lemma": "preocupado",
+"rank": 2630,
+"pos": "adj",
+"options": [
+"troubled by worry, anxious about something",
+"deeply tired after long effort",
+"pleased and glad about something",
+"confused and unable to decide"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0224",
+"lemma": "pular",
+"rank": 2644,
+"pos": "verb",
+"options": [
+"to leap, to spring off the ground",
+"to borrow something from a friend",
+"to wipe a surface clean",
+"to squeeze something tightly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0225",
+"lemma": "actividade",
+"rank": 2656,
+"pos": "noun",
+"options": [
+"a task, pursuit, or thing being done",
+"a joining or fastening together",
+"a sharp or bitter taste",
+"a feeling of deep sorrow"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0226",
+"lemma": "roubo",
+"rank": 2669,
+"pos": "noun",
+"options": [
+"the act of stealing something",
+"a loud crowd noise",
+"a deep river crossing",
+"a formal oath taken"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0227",
+"lemma": "mito",
+"rank": 2677,
+"pos": "noun",
+"options": [
+"a legend, a made-up tale",
+"a sudden, loud sound",
+"a written agreement between parties",
+"a small, handheld cutting tool"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0228",
+"lemma": "buraco",
+"rank": 2692,
+"pos": "noun",
+"options": [
+"a hollow gap in a surface",
+"a thin woven fabric",
+"a narrow wooden shelf",
+"a rounded clay vessel"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0229",
+"lemma": "bebido",
+"rank": 2707,
+"pos": "adj",
+"options": [
+"heavily intoxicated, full of alcohol",
+"deeply tired after long effort",
+"soaking wet from rain or water",
+"very angry and ready to fight"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0230",
+"lemma": "be",
+"rank": 2718,
+"pos": "noun",
+"options": [
+"a small stinging insect that makes honey",
+"a large wild animal with thick fur",
+"rounded seed from a legume pod",
+"a flat round dish used for eating"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0231",
+"lemma": "greve",
+"rank": 2755,
+"pos": "noun",
+"options": [
+"a work stoppage by employees",
+"a large outdoor bonfire",
+"a sharp drop in prices",
+"a heavy rainstorm season"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0232",
+"lemma": "barato",
+"rank": 2762,
+"pos": "adj",
+"options": [
+"costing very little money",
+"easily bent or shaped by hand",
+"very crowded and full of people",
+"done in a slow and careful way"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0233",
+"lemma": "ave",
+"rank": 2763,
+"pos": "noun",
+"options": [
+"a feathered, winged creature that lays eggs",
+"a narrow body of salt water",
+"a round stone found in a riverbed",
+"a short cord for fastening things"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0234",
+"lemma": "desfile",
+"rank": 2871,
+"pos": "noun",
+"options": [
+"a march of people along a street",
+"a heated argument between two sides",
+"a building where laws are made",
+"a written list of names or items"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0235",
+"lemma": "pescar",
+"rank": 2907,
+"pos": "verb",
+"options": [
+"to catch fish from water",
+"to dig a hole in the ground",
+"to hang cloth out to dry",
+"to split wood into smaller pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0236",
+"lemma": "compra",
+"rank": 2927,
+"pos": "noun",
+"options": [
+"act of getting something for money",
+"a formal greeting",
+"a written complaint",
+"a short journey"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0237",
+"lemma": "extraordinário",
+"rank": 2939,
+"pos": "adj",
+"options": [
+"far beyond what is usual or expected",
+"relating to a shared boundary or edge",
+"belonging to a period long past",
+"causing a sharp, stinging sensation"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0238",
+"lemma": "sensível",
+"rank": 2949,
+"pos": "adj",
+"options": [
+"easily affected by feelings or touch",
+"bold and daring in manner",
+"relating to dry, arid land",
+"slow to learn or grasp ideas"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0239",
+"lemma": "aplicado",
+"rank": 2968,
+"pos": "adj",
+"options": [
+"hardworking and devoted to one's tasks",
+"very tall compared to those around it",
+"feeling uneasy around other people",
+"broken into many small pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0240",
+"lemma": "agradável",
+"rank": 2992,
+"pos": "adj",
+"options": [
+"giving a sense of comfort and delight",
+"very sharp and difficult to handle",
+"taken from a foreign or distant land",
+"happening at an unexpected moment"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0241",
+"lemma": "abrigo",
+"rank": 3023,
+"pos": "noun",
+"options": [
+"a shelter or place of refuge",
+"a type of sharp cutting tool",
+"a written legal agreement",
+"a wooden storage chest"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0242",
+"lemma": "vira",
+"rank": 3034,
+"pos": "verb",
+"options": [
+"to turn, to spin around",
+"to fall, to drop down",
+"to shout, to cry out",
+"to grab, to hold tight"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0243",
+"lemma": "amplamente",
+"rank": 3073,
+"pos": "adv",
+"options": [
+"widely, to a great extent",
+"slowly, in a hesitant way",
+"secretly, in a hidden way",
+"roughly, in an uneven way"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0244",
+"lemma": "paisagem",
+"rank": 3100,
+"pos": "noun",
+"options": [
+"a stretch of countryside or scenery",
+"a brief moment in time",
+"a governing body or council",
+"a woven floor covering"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0245",
+"lemma": "comandar",
+"rank": 3124,
+"pos": "verb",
+"options": [
+"to be in charge and give orders",
+"to fold cloth into neat layers",
+"to swim across a wide river",
+"to measure the weight of objects"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0246",
+"lemma": "criatividade",
+"rank": 3169,
+"pos": "noun",
+"options": [
+"ability to invent or make new things",
+"a feeling of deep sadness or grief",
+"the skill of speaking clearly in public",
+"a strong desire to win or succeed"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0247",
+"lemma": "celebração",
+"rank": 3189,
+"pos": "noun",
+"options": [
+"a festive gathering marking a happy occasion",
+"a written record of past events",
+"a steady flow of moving water",
+"a harsh judgment handed down in court"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0248",
+"lemma": "acelerar",
+"rank": 3194,
+"pos": "verb",
+"options": [
+"to speed up, to go faster",
+"to calm down, to relax",
+"to turn around, to reverse",
+"to lift up, to raise"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0249",
+"lemma": "arco",
+"rank": 3197,
+"pos": "noun",
+"options": [
+"a curved structure spanning an opening",
+"a flat open field or plain",
+"a sharp pointed blade or knife",
+"a deep hole dug in the ground"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0250",
+"lemma": "director",
+"rank": 3208,
+"pos": "noun",
+"options": [
+"person who leads an organization or film",
+"written agreement between two parties",
+"tool used for measuring distances",
+"fee charged for a service or entry"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0251",
+"lemma": "vestido",
+"rank": 3218,
+"pos": "noun",
+"options": [
+"a garment worn by women",
+"a flat woven floor covering",
+"a piece of furniture for sleeping",
+"a tool used for cutting"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0252",
+"lemma": "luxo",
+"rank": 3227,
+"pos": "noun",
+"options": [
+"great wealth and comfort in living",
+"a sharp pain or cramp",
+"a ray of light or brightness",
+"a feeling of deep sorrow"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0253",
+"lemma": "suave",
+"rank": 3231,
+"pos": "adj",
+"options": [
+"gentle and mild",
+"very noisy",
+"badly worn",
+"tightly shut"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0254",
+"lemma": "privacidade",
+"rank": 3234,
+"pos": "noun",
+"options": [
+"freedom from unwanted outside attention",
+"a fixed sum owed as a penalty",
+"a gulp of cool fresh air",
+"a wide stretch of open land"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0255",
+"lemma": "implementação",
+"rank": 3236,
+"pos": "noun",
+"options": [
+"the act of putting plans into practice",
+"a formal written agreement between two parties",
+"the gathering of facts and figures",
+"a public announcement of new rules"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0256",
+"lemma": "enxergar",
+"rank": 3310,
+"pos": "verb",
+"options": [
+"to perceive with the eyes",
+"to lift and carry an object",
+"to send a message to someone",
+"to rest during the night"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0257",
+"lemma": "líquido",
+"rank": 3317,
+"pos": "adj",
+"options": [
+"flowing and wet, not solid or gas",
+"having a sharp, bitter taste",
+"relating to the sky or heavens",
+"smooth and shiny in appearance"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0258",
+"lemma": "soldar",
+"rank": 3330,
+"pos": "verb",
+"options": [
+"to join metal pieces using heat",
+"to chase away birds from crops",
+"to sharpen a blade on a stone",
+"to knot rope around a wooden post"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0259",
+"lemma": "extremo",
+"rank": 3338,
+"pos": "adj",
+"options": [
+"very far beyond the usual degree",
+"well known and widely admired",
+"carefully measured and well balanced",
+"relating to the distant past"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0260",
+"lemma": "defeito",
+"rank": 3341,
+"pos": "noun",
+"options": [
+"a flaw or shortcoming in something",
+"a sudden burst of loud noise",
+"a firm promise or commitment",
+"a sharp bend in a road"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0261",
+"lemma": "conduta",
+"rank": 3381,
+"pos": "noun",
+"options": [
+"manner of behaving; way one acts",
+"a length of railway track",
+"a written legal agreement",
+"a type of woven floor covering"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0262",
+"lemma": "sinceramente",
+"rank": 3416,
+"pos": "adv",
+"options": [
+"in a truthful, genuine way",
+"at a slow, unhurried pace",
+"in a forceful, loud manner",
+"with great care and neatness"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0263",
+"lemma": "confirmado",
+"rank": 3427,
+"pos": "adj",
+"options": [
+"verified and settled beyond doubt",
+"kept hidden from others on purpose",
+"left unfinished and still in progress",
+"set apart for a special religious use"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0264",
+"lemma": "portão",
+"rank": 3450,
+"pos": "noun",
+"options": [
+"a large gate or entrance barrier",
+"a wooden shelf fixed to a wall",
+"a narrow alley between buildings",
+"a raised platform at a train station"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0265",
+"lemma": "multar",
+"rank": 3453,
+"pos": "verb",
+"options": [
+"to charge a monetary penalty",
+"to repair or mend something",
+"to gather or bring together",
+"to measure or weigh carefully"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0266",
+"lemma": "exibição",
+"rank": 3476,
+"pos": "noun",
+"options": [
+"a showing, a staged viewing",
+"a written legal agreement",
+"a loud outdoor gathering",
+"a set of daily routines"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0267",
+"lemma": "disciplinar",
+"rank": 3477,
+"pos": "verb",
+"options": [
+"to bring under orderly control",
+"to pull apart, to separate into pieces",
+"to hand over something to another person",
+"to move slowly toward a distant place"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0268",
+"lemma": "exportação",
+"rank": 3483,
+"pos": "noun",
+"options": [
+"the act of sending goods abroad",
+"the raising of farm animals",
+"the gathering of crops from fields",
+"the building of roads and bridges"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0269",
+"lemma": "simpático",
+"rank": 3487,
+"pos": "adj",
+"options": [
+"friendly and pleasant to be around",
+"feeling deep sadness or grief",
+"highly skilled at a craft",
+"having a neat, tidy appearance"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0270",
+"lemma": "sagrar",
+"rank": 3496,
+"pos": "verb",
+"options": [
+"to make holy, to bless ritually",
+"to break apart, to shatter",
+"to wrap up, to cover tightly",
+"to set in motion, to launch"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0271",
+"lemma": "magoar",
+"rank": 3503,
+"pos": "verb",
+"options": [
+"to wound someone's feelings",
+"to tie or bind something firmly",
+"to stir liquid in a container",
+"to lift and carry a heavy load"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0272",
+"lemma": "adiante",
+"rank": 3512,
+"pos": "adv",
+"options": [
+"further ahead, farther on",
+"right away, at once",
+"on the contrary, instead",
+"by chance, perhaps"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0273",
+"lemma": "suspensão",
+"rank": 3529,
+"pos": "noun",
+"options": [
+"a temporary halt or ban",
+"a written court request",
+"a narrow mountain trail",
+"a thick morning fog"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0274",
+"lemma": "tento",
+"rank": 3537,
+"pos": "noun",
+"options": [
+"care, caution, close attention",
+"a long stretch of open land",
+"a sudden feeling of sadness",
+"a steady rhythm or beat"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0275",
+"lemma": "civilização",
+"rank": 3538,
+"pos": "noun",
+"options": [
+"a large, complex, and settled human culture",
+"a long journey across open water",
+"a formal agreement between two nations",
+"a sudden violent overthrow of power"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0276",
+"lemma": "orlar",
+"rank": 3540,
+"pos": "verb",
+"options": [
+"to trim or border with an edge",
+"to lift or raise upward",
+"to whisper or murmur softly",
+"to scatter or spread around"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0277",
+"lemma": "íntimo",
+"rank": 3546,
+"pos": "adj",
+"options": [
+"very close and deeply personal",
+"loud and easily overheard",
+"flat and without any curves",
+"recent and not yet well known"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0278",
+"lemma": "fraude",
+"rank": 3547,
+"pos": "noun",
+"options": [
+"deliberate dishonest trick to gain money",
+"a written order to pay a sum",
+"a binding agreement between two sides",
+"government tax on traded goods"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0279",
+"lemma": "prévio",
+"rank": 3550,
+"pos": "adj",
+"options": [
+"coming before, done beforehand",
+"lasting for a long time",
+"belonging to another person",
+"sharp or pointed at the end"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0280",
+"lemma": "bicho",
+"rank": 3570,
+"pos": "noun",
+"options": [
+"a bug, beast, or small creature",
+"a thorny wild shrub",
+"a muddy puddle or bog",
+"a worn-out old tool"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0281",
+"lemma": "socialista",
+"rank": 3598,
+"pos": "adj",
+"options": [
+"favoring shared ownership by the state",
+"relating to the study of living things",
+"tending to avoid other people",
+"holding strict religious beliefs"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0282",
+"lemma": "gramar",
+"rank": 3600,
+"pos": "verb",
+"options": [
+"to endure something unwanted",
+"to fold something completely flat",
+"to move without being noticed",
+"to set fire to dry material"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0283",
+"lemma": "obstáculo",
+"rank": 3601,
+"pos": "noun",
+"options": [
+"something that blocks progress",
+"a written agreement between two parties",
+"a flat open stretch of land",
+"a feeling of deep sadness or grief"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0284",
+"lemma": "extinção",
+"rank": 3608,
+"pos": "noun",
+"options": [
+"the dying out of a species forever",
+"a sudden rise in temperature",
+"a formal gathering of leaders",
+"the splitting of a large group"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0285",
+"lemma": "caçador",
+"rank": 3619,
+"pos": "noun",
+"options": [
+"a person who pursues wild animals",
+"a skilled boat operator",
+"a person who tends crops",
+"a foot soldier in an army"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0286",
+"lemma": "dinâmico",
+"rank": 3662,
+"pos": "adj",
+"options": [
+"full of energy and activity",
+"causing great sadness or grief",
+"prone to sudden outbursts of anger",
+"easily bent without breaking"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0287",
+"lemma": "distribuído",
+"rank": 3669,
+"pos": "adj",
+"options": [
+"spread out or handed out among many",
+"kept secret from others",
+"broken into small pieces",
+"tied together in a bundle"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0288",
+"lemma": "pinheiro",
+"rank": 3700,
+"pos": "noun",
+"options": [
+"an evergreen tree bearing cones",
+"a large flat stone used for grinding",
+"a wooden post marking a boundary",
+"a small freshwater fish"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0289",
+"lemma": "retomar",
+"rank": 3702,
+"pos": "verb",
+"options": [
+"to carry on again after a stop",
+"to greet someone upon their arrival",
+"to break something into smaller pieces",
+"to move quietly without being noticed"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0290",
+"lemma": "autorizado",
+"rank": 3711,
+"pos": "adj",
+"options": [
+"given official permission or approval",
+"kept apart from everything else",
+"broken beyond any repair",
+"left empty and unused"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0291",
+"lemma": "estacionamento",
+"rank": 3718,
+"pos": "noun",
+"options": [
+"a place to leave a vehicle",
+"a waiting room for patients",
+"a seasonal farm market",
+"a formal government decree"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0292",
+"lemma": "resenhar",
+"rank": 3769,
+"pos": "verb",
+"options": [
+"to write a critical review of",
+"to dig up or unearth something buried",
+"to wrap or cover with cloth",
+"to arrange furniture in a room"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0293",
+"lemma": "enterrar",
+"rank": 3772,
+"pos": "verb",
+"options": [
+"to place something under the ground",
+"to cut into small pieces",
+"to climb up a steep slope",
+"to wash thoroughly with water"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0294",
+"lemma": "ameaça",
+"rank": 3780,
+"pos": "noun",
+"options": [
+"a menacing warning of harm",
+"a solemn binding pledge",
+"a stroke of good fortune",
+"a formal written complaint"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0295",
+"lemma": "assento",
+"rank": 3805,
+"pos": "noun",
+"options": [
+"a chair or bench spot",
+"a written record kept over time",
+"a path connecting two buildings",
+"a tool used for measuring weight"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0296",
+"lemma": "fracasso",
+"rank": 3819,
+"pos": "noun",
+"options": [
+"a total lack of success, a flop",
+"a tool used for digging in soil",
+"a sweet treat eaten after a meal",
+"a sudden loud clap of thunder"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0297",
+"lemma": "liar",
+"rank": 3832,
+"pos": "verb",
+"options": [
+"to tie or bind together",
+"to hand something over to someone",
+"to walk through water or mud",
+"to light a fire or flame"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0298",
+"lemma": "modificar",
+"rank": 3834,
+"pos": "verb",
+"options": [
+"to alter or make changes to something",
+"to cut or trim with a blade",
+"to greet someone on arrival",
+"to pour liquid into a container"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0299",
+"lemma": "dependência",
+"rank": 3858,
+"pos": "noun",
+"options": [
+"a state of relying on something else",
+"a spoken greeting between strangers",
+"a hard outer shell or casing",
+"a slow rise in temperature"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0300",
+"lemma": "visualização",
+"rank": 3880,
+"pos": "noun",
+"options": [
+"the act of viewing or displaying something",
+"a written record of past events",
+"the process of reaching an agreement",
+"a formal gathering of many people"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0301",
+"lemma": "agressivo",
+"rank": 3881,
+"pos": "adj",
+"options": [
+"prone to attacking or being hostile",
+"feeling deep sorrow or regret",
+"easily frightened or timid",
+"fond of laughter and fun"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0302",
+"lemma": "mérito",
+"rank": 3882,
+"pos": "noun",
+"options": [
+"worthiness earned by one's actions",
+"a light beam or ray",
+"the bottom edge of a garment",
+"a short rest or pause"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0303",
+"lemma": "financiar",
+"rank": 3896,
+"pos": "verb",
+"options": [
+"to fund, to back with money",
+"to earn a wage, to get paid",
+"to handle, to manage tasks",
+"to owe money, be indebted"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0304",
+"lemma": "balançar",
+"rank": 3902,
+"pos": "verb",
+"options": [
+"to sway back and forth",
+"to cut wood into planks",
+"to transfer liquid between two vessels",
+"to remove weeds from a garden"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0305",
+"lemma": "dependente",
+"rank": 3904,
+"pos": "adj",
+"options": [
+"relying on another for support",
+"very well known by all",
+"having a sharp pointed tip",
+"kept away from other people"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0306",
+"lemma": "tremer",
+"rank": 3932,
+"pos": "verb",
+"options": [
+"to shake, to quiver",
+"to lift, to raise up",
+"to gather, to collect",
+"to shout, to cry out"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0307",
+"lemma": "ciúme",
+"rank": 3937,
+"pos": "noun",
+"options": [
+"unhappy feeling when fearing loss of affection",
+"a deep sense of shame or guilt",
+"a sudden rush of happiness",
+"the state of being very tired"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0308",
+"lemma": "gene",
+"rank": 3952,
+"pos": "noun",
+"options": [
+"hereditary unit in a living cell",
+"a spoken or written story",
+"a unit of heat or energy",
+"a curved line on a map"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0309",
+"lemma": "complexar",
+"rank": 3954,
+"pos": "verb",
+"options": [
+"to give someone an emotional hang-up",
+"to fold or crease a sheet",
+"to seek or chase after something",
+"to grow or become larger over time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0310",
+"lemma": "consultor",
+"rank": 3997,
+"pos": "noun",
+"options": [
+"a hired expert who gives professional advice",
+"a person who collects money owed",
+"a worker who builds or repairs walls",
+"an officer who keeps order in public"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0311",
+"lemma": "pesadelo",
+"rank": 4026,
+"pos": "noun",
+"options": [
+"a frightening dream",
+"a small rocky hill",
+"a debt owed to someone",
+"a celebratory evening meal"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0312",
+"lemma": "longa",
+"rank": 4042,
+"pos": "adj",
+"options": [
+"not short in extent",
+"smooth and even in texture",
+"giving off much heat",
+"weighing a great amount"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0313",
+"lemma": "músculo",
+"rank": 4089,
+"pos": "noun",
+"options": [
+"body tissue that contracts to produce movement",
+"a hard material forming the skeleton",
+"a thin cord connecting body parts",
+"the outer layer covering the human body"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0314",
+"lemma": "diferenciar",
+"rank": 4114,
+"pos": "verb",
+"options": [
+"to tell apart, to set apart",
+"to hand over, to give up",
+"to slow down, to hold back",
+"to wear out, to break down"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0315",
+"lemma": "fotográfico",
+"rank": 4125,
+"pos": "adj",
+"options": [
+"of or captured by a camera",
+"having a rough or uneven surface",
+"of or relating to the stars",
+"belonging to an earlier age or era"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0316",
+"lemma": "racista",
+"rank": 4139,
+"pos": "adj",
+"options": [
+"prejudiced against people of certain races",
+"lacking any clear order or plan",
+"devoted to strict religious observance",
+"relating to very old times or customs"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0317",
+"lemma": "desportivo",
+"rank": 4233,
+"pos": "adj",
+"options": [
+"of or relating to athletic games",
+"calm and steady in manner",
+"of or relating to a school",
+"of or relating to a country's laws"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0318",
+"lemma": "colo",
+"rank": 4266,
+"pos": "noun",
+"options": [
+"the lap, upper front when seated",
+"a thin rope or cord",
+"a rounded water-carrying container",
+"a soft bed covering cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0319",
+"lemma": "divertido",
+"rank": 4267,
+"pos": "adj",
+"options": [
+"causing laughter and enjoyment, entertaining",
+"very tired after long hard work",
+"feeling shy around other people",
+"done with great care and attention"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0320",
+"lemma": "digno",
+"rank": 4287,
+"pos": "adj",
+"options": [
+"deserving of respect or merit",
+"relating to a far-off region",
+"easily broken or damaged",
+"having a very sweet taste"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0321",
+"lemma": "holanda",
+"rank": 4303,
+"pos": "noun",
+"options": [
+"a fine smooth woven linen cloth",
+"a long curved blade used in farming",
+"a sweet bread eaten at celebrations",
+"a small boat used on rivers"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0322",
+"lemma": "eterno",
+"rank": 4338,
+"pos": "adj",
+"options": [
+"lasting forever, without end",
+"relating to the sky or heavens",
+"known and admired by many",
+"pure and free from wrongdoing"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0323",
+"lemma": "terrestre",
+"rank": 4339,
+"pos": "adj",
+"options": [
+"relating to land, not sea or sky",
+"made of thin, delicate threads",
+"belonging to a royal or noble rank",
+"having a bitter or sour taste"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0324",
+"lemma": "cocar",
+"rank": 4353,
+"pos": "noun",
+"options": [
+"feathered ceremonial headdress",
+"woven basket for carrying goods",
+"clay pot used for cooking",
+"wooden staff carried by a chief"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0325",
+"lemma": "diplomar",
+"rank": 4408,
+"pos": "verb",
+"options": [
+"to award a degree or certificate to",
+"to forbid or ban someone from",
+"to move from one place to another",
+"to write down in an official record"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0326",
+"lemma": "erva",
+"rank": 4424,
+"pos": "noun",
+"options": [
+"a plant with soft green stems; herb",
+"a piece of woven cloth or fabric",
+"a curved blade for cutting grain",
+"a narrow path through a forest"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0327",
+"lemma": "módulo",
+"rank": 4434,
+"pos": "noun",
+"options": [
+"a self-contained unit or section",
+"a written agreement between parties",
+"a sharp bend in a path",
+"a thin outer covering or skin"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0328",
+"lemma": "desemprego",
+"rank": 4444,
+"pos": "noun",
+"options": [
+"the state of having no paid work",
+"the shortage of food in a region",
+"relocating permanently to a foreign country",
+"the condition of owing money to others"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0329",
+"lemma": "aceitação",
+"rank": 4453,
+"pos": "noun",
+"options": [
+"approval, willingness to receive something",
+"a sudden feeling of fear or dread",
+"the act of leaving a place behind",
+"a formal written agreement between parties"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0330",
+"lemma": "soma",
+"rank": 4467,
+"pos": "noun",
+"options": [
+"the total of added figures",
+"a thick rope or cord",
+"a written law or rule",
+"a round loaf of bread"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0331",
+"lemma": "mudo",
+"rank": 4486,
+"pos": "adj",
+"options": [
+"unable to speak, making no sound",
+"worn out from hard effort",
+"easy to bend or shape",
+"covered in thick hair or fur"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0332",
+"lemma": "telefônico",
+"rank": 4501,
+"pos": "adj",
+"options": [
+"relating to voice calls over wires",
+"having to do with printed images",
+"relating to written legal agreements",
+"concerning outdoor street lighting"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0333",
+"lemma": "submeter",
+"rank": 4572,
+"pos": "verb",
+"options": [
+"to send in for consideration",
+"to split into equal halves",
+"to bring in a harvest",
+"to pull on an item of clothing"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0334",
+"lemma": "contratação",
+"rank": 4610,
+"pos": "noun",
+"options": [
+"the hiring of a new worker",
+"the sending of goods to another place",
+"a loud and angry disagreement",
+"the closing down of a business"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0335",
+"lemma": "borracho",
+"rank": 4611,
+"pos": "adj",
+"options": [
+"heavily intoxicated, very drunk",
+"extremely tired after too much effort",
+"deeply unhappy or filled with sadness",
+"gaunt and weak from hunger"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0336",
+"lemma": "residencial",
+"rank": 4691,
+"pos": "adj",
+"options": [
+"relating to where people live and dwell",
+"suited for growing crops and farming",
+"concerned with buying and selling goods",
+"belonging to a seat of government"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0337",
+"lemma": "canadense",
+"rank": 4699,
+"pos": "adj",
+"options": [
+"of or from the maple-leaf country",
+"relating to a cold southern polar region",
+"belonging to a large Pacific island nation",
+"of or from a Scandinavian kingdom"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0338",
+"lemma": "fundamento",
+"rank": 4702,
+"pos": "noun",
+"options": [
+"a core basis or underlying reason",
+"a sharp pointed tool",
+"a brief spoken greeting",
+"a raised wooden walkway"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0339",
+"lemma": "salvação",
+"rank": 4859,
+"pos": "noun",
+"options": [
+"the act of being rescued from harm",
+"a formal greeting between strangers",
+"the right to own land",
+"a gathering for shared meals"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0340",
+"lemma": "aparecido",
+"rank": 4897,
+"pos": "adj",
+"options": [
+"come into view",
+"torn into pieces",
+"firmly bound up",
+"worn down by use"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0341",
+"lemma": "gerenciar",
+"rank": 4921,
+"pos": "verb",
+"options": [
+"to run or oversee an operation",
+"to hand over to another party",
+"to break apart into pieces",
+"to lift or carry a heavy load"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0342",
+"lemma": "baleia",
+"rank": 4936,
+"pos": "noun",
+"options": [
+"a massive air-breathing sea mammal",
+"a sharp-toothed fish living in the ocean",
+"a large bird soaring over coastal waters",
+"a hard-shelled creature found on the seabed"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0343",
+"lemma": "piedade",
+"rank": 4962,
+"pos": "noun",
+"options": [
+"sorrow and mercy felt for others",
+"a strip of land along the shore",
+"the power to make final decisions",
+"a gap or opening between two walls"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0344",
+"lemma": "servo",
+"rank": 5002,
+"pos": "noun",
+"options": [
+"a person who works in another's household",
+"a curved blade used for cutting grass",
+"a written note passed between people",
+"a cloth used to dry one's hands"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0345",
+"lemma": "nacionalidade",
+"rank": 5003,
+"pos": "noun",
+"options": [
+"status of belonging to a country",
+"a formal spoken address to a crowd",
+"the skill of managing money well",
+"a written record of someone's life"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0346",
+"lemma": "tutorial",
+"rank": 5076,
+"pos": "noun",
+"options": [
+"a guided lesson walking through steps",
+"a formal written agreement between parties",
+"a fee charged for a professional service",
+"a short recorded news broadcast"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0347",
+"lemma": "término",
+"rank": 5091,
+"pos": "noun",
+"options": [
+"the end or conclusion of something",
+"a paved open area before a building",
+"a strong desire or craving for something",
+"a scheduled meeting between two parties"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0348",
+"lemma": "farmácia",
+"rank": 5097,
+"pos": "noun",
+"options": [
+"a shop where medicines are sold",
+"place serving prepared meals to customers",
+"a building where sick people receive care",
+"an office where legal documents are handled"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0349",
+"lemma": "vacina",
+"rank": 5133,
+"pos": "noun",
+"options": [
+"a shot that protects against disease",
+"a flat open area of farmland",
+"a written promise or pledge",
+"a tool for cutting cloth or paper"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0350",
+"lemma": "contido",
+"rank": 5145,
+"pos": "adj",
+"options": [
+"held back, kept under restraint",
+"stretched out flat on a surface",
+"covered in a thick layer of dust",
+"split into two equal halves"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0351",
+"lemma": "farol",
+"rank": 5176,
+"pos": "noun",
+"options": [
+"lighthouse or vehicle headlight",
+"a wooden tool for digging soil",
+"a woven cloth for covering tables",
+"a hollow vessel for holding liquid"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0352",
+"lemma": "oriundo",
+"rank": 5191,
+"pos": "adj",
+"options": [
+"coming from a particular place",
+"marked by careful attention to detail",
+"known and liked by many people",
+"worn down by long use or age"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0353",
+"lemma": "efetivamente",
+"rank": 5205,
+"pos": "adv",
+"options": [
+"indeed, in actual fact",
+"in a manner hard to comprehend",
+"without making any sound",
+"much earlier than expected"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0354",
+"lemma": "captar",
+"rank": 5229,
+"pos": "verb",
+"options": [
+"to gather or receive a signal",
+"to cut something into pieces",
+"to send a written reply",
+"to fall down suddenly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0355",
+"lemma": "cegar",
+"rank": 5338,
+"pos": "verb",
+"options": [
+"to make unable to see",
+"to fall to the ground",
+"to move at great speed",
+"to grow cold or freeze"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0356",
+"lemma": "azar",
+"rank": 5420,
+"pos": "noun",
+"options": [
+"bad fortune, ill fate",
+"a strong desire or craving",
+"a sharp, bitter taste",
+"a sudden loud noise"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0357",
+"lemma": "chef",
+"rank": 5422,
+"pos": "noun",
+"options": [
+"head cook in a kitchen",
+"lead singer in a band",
+"senior officer on a ship",
+"head of a government department"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0358",
+"lemma": "propriamente",
+"rank": 5444,
+"pos": "adv",
+"options": [
+"in a fitting or correct manner",
+"in a slow and cautious way",
+"with great force or strength",
+"at an earlier point in time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0359",
+"lemma": "magnético",
+"rank": 5465,
+"pos": "adj",
+"options": [
+"powerfully charming, drawing others irresistibly",
+"relating to the open sea or ocean",
+"causing harm or bodily hurt",
+"of a bitter or sharp-tasting quality"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0360",
+"lemma": "suicidar",
+"rank": 5482,
+"pos": "verb",
+"options": [
+"to take one's own life",
+"to run away from home",
+"to fall into a deep sleep",
+"to give up one's belongings"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0361",
+"lemma": "calado",
+"rank": 5495,
+"pos": "adj",
+"options": [
+"saying nothing, keeping quiet",
+"very tired after hard effort",
+"heavily loaded with goods",
+"twisted and bent out of shape"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0362",
+"lemma": "naval",
+"rank": 5533,
+"pos": "adj",
+"options": [
+"of a country's sea-based armed forces",
+"having to do with mountain regions",
+"belonging to a royal household",
+"concerning underground tunnels"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0363",
+"lemma": "focado",
+"rank": 5550,
+"pos": "adj",
+"options": [
+"with full attention on one thing",
+"dressed in fine clothing",
+"worn down by long use",
+"tangled or knotted together"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0364",
+"lemma": "encorajar",
+"rank": 5558,
+"pos": "verb",
+"options": [
+"to give someone boldness or confidence",
+"to wrap something tightly in cloth",
+"to shift a heavy object elsewhere",
+"to write down words on paper"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0365",
+"lemma": "podre",
+"rank": 5672,
+"pos": "adj",
+"options": [
+"rotten, decayed, spoiled",
+"sharp, pointed at the tip",
+"shy, reluctant to speak",
+"narrow, confined in width"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0366",
+"lemma": "bombardear",
+"rank": 5673,
+"pos": "verb",
+"options": [
+"to drop heavy weapons on a place",
+"to wave goodbye to someone",
+"to whisper a secret warning",
+"to sew two pieces of cloth together"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0367",
+"lemma": "sertanejo",
+"rank": 5688,
+"pos": "adj",
+"options": [
+"relating to the dry inland backlands",
+"found along the coastal shoreline",
+"belonging to a mountain highland region",
+"typical of a large river delta area"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0368",
+"lemma": "assentamento",
+"rank": 5725,
+"pos": "noun",
+"options": [
+"a place where people newly settle",
+"a large building used to house soldiers",
+"a gathering of people for shared concerns",
+"a device used to measure land boundaries"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0369",
+"lemma": "temporariamente",
+"rank": 5784,
+"pos": "adv",
+"options": [
+"for a limited time only, not forever",
+"across an extremely broad geographic range",
+"in a careful and thorough manner",
+"without being seen or noticed by others"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0370",
+"lemma": "inconsciente",
+"rank": 5819,
+"pos": "adj",
+"options": [
+"in a state of lost awareness",
+"deeply sorrowful, grief-stricken",
+"easily startled or frightened",
+"unwilling to share or give"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0371",
+"lemma": "dedicação",
+"rank": 5825,
+"pos": "noun",
+"options": [
+"strong commitment and hard effort",
+"a formal written agreement",
+"the act of leaving a place",
+"a sudden feeling of fear"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0372",
+"lemma": "sudoeste",
+"rank": 5861,
+"pos": "noun",
+"options": [
+"the compass point between south and west",
+"the upper floor of a building",
+"a dry, treeless open plain",
+"the far outer edge of a city"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0373",
+"lemma": "pedreiro",
+"rank": 5893,
+"pos": "noun",
+"options": [
+"a worker who lays bricks and stone",
+"a person who sells fresh fish",
+"someone who repairs broken shoes",
+"a craftsman who shapes wood into furniture"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0374",
+"lemma": "modesto",
+"rank": 5916,
+"pos": "adj",
+"options": [
+"not boastful, humble about oneself",
+"very tired, lacking energy",
+"sharp and cutting in manner",
+"widely known by many people"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0375",
+"lemma": "declínio",
+"rank": 5987,
+"pos": "noun",
+"options": [
+"a gradual fall or worsening in quality",
+"a large gathering of people outdoors",
+"a strong feeling of joyful excitement",
+"a formal agreement between two parties"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0376",
+"lemma": "preventivo",
+"rank": 5996,
+"pos": "adj",
+"options": [
+"designed to stop harm before it happens",
+"belonging to a time long past",
+"covering a very wide area",
+"lacking any clear or obvious purpose"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0377",
+"lemma": "argélia",
+"rank": 6006,
+"pos": "noun",
+"options": [
+"a large country in northern Africa",
+"a flat, narrow blade for spreading food",
+"a soft mineral found in white rock",
+"a woven floor covering in a room"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0378",
+"lemma": "alterado",
+"rank": 6052,
+"pos": "adj",
+"options": [
+"changed from its earlier state",
+"tied firmly to a fixed point",
+"free from dirt or stains",
+"growing steadily over time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0379",
+"lemma": "tweet",
+"rank": 6125,
+"pos": "noun",
+"options": [
+"brief online post of limited length",
+"printed sheet listing items for sale",
+"digital file storing recorded sounds",
+"bound volume held in a library"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0380",
+"lemma": "pesada",
+"rank": 6219,
+"pos": "adj",
+"options": [
+"having great weight, not light",
+"moving with great speed",
+"of sharp or pointed edge",
+"giving off strong bright light"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0381",
+"lemma": "vagabundo",
+"rank": 6227,
+"pos": "noun",
+"options": [
+"a homeless drifter, a bum",
+"a clever trickster, a con artist",
+"a hired hand, a laborer",
+"a loud bully, a troublemaker"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0382",
+"lemma": "expressivo",
+"rank": 6231,
+"pos": "adj",
+"options": [
+"clearly showing feeling or meaning",
+"kept apart from others",
+"moving at great speed",
+"built to last a long time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0383",
+"lemma": "fascista",
+"rank": 6265,
+"pos": "adj",
+"options": [
+"relating to far-right authoritarian rule",
+"having a very cheerful and lively manner",
+"tied to rural farming life",
+"marked by strong religious devotion"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0384",
+"lemma": "hardware",
+"rank": 6266,
+"pos": "noun",
+"options": [
+"the physical parts of a computing machine",
+"coded instructions that run a machine",
+"a fast wireless link between devices",
+"the stored data on a remote server"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0385",
+"lemma": "condado",
+"rank": 6340,
+"pos": "noun",
+"options": [
+"a regional district used for local governing",
+"a formal gathering of church leaders",
+"a long trip across open land",
+"a binding agreement between two sides"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0386",
+"lemma": "tirado",
+"rank": 6352,
+"pos": "adj",
+"options": [
+"removed or taken away from a place",
+"warped out of shape",
+"joined firmly together with glue or heat",
+"covered with a layer of another material"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0387",
+"lemma": "entrevistado",
+"rank": 6404,
+"pos": "noun",
+"options": [
+"a person who is questioned or surveyed",
+"a person who commits a wrongful act",
+"someone who donates money to causes",
+"a person who watches an event unfold"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0388",
+"lemma": "telar",
+"rank": 6414,
+"pos": "noun",
+"options": [
+"a machine for weaving cloth",
+"a device for measuring heat or cold",
+"a long wooden handle on a tool",
+"a raised platform for speakers or performers"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0389",
+"lemma": "demônios",
+"rank": 6459,
+"pos": "noun",
+"options": [
+"evil spirits, wicked supernatural beings",
+"small flowering plants in a garden",
+"formal written requests to authority",
+"heavy rains during a wet season"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0390",
+"lemma": "estimativa",
+"rank": 6463,
+"pos": "noun",
+"options": [
+"a rough numerical approximation or guess",
+"a formal written complaint",
+"a binding promise between two parties",
+"a detailed list of goods or items"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0391",
+"lemma": "crescido",
+"rank": 6504,
+"pos": "adj",
+"options": [
+"fully grown, no longer a child",
+"deeply sorrowful and grieving",
+"covered with a thick coating",
+"bent or twisted out of shape"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0392",
+"lemma": "média",
+"rank": 6579,
+"pos": "noun",
+"options": [
+"a middle value among numbers",
+"a sharp tool for cutting meat",
+"a written agreement between parties",
+"the outer rim of a flat surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0393",
+"lemma": "cru",
+"rank": 6637,
+"pos": "adj",
+"options": [
+"not cooked, uncooked",
+"very narrow and pointed",
+"worn out from heavy use",
+"too bright to look at directly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0394",
+"lemma": "disciplina",
+"rank": 6674,
+"pos": "noun",
+"options": [
+"orderly conduct and self-control",
+"a large area of flat open land",
+"a feeling of deep sadness or grief",
+"the outer covering of a tree trunk"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0395",
+"lemma": "rótulo",
+"rank": 6727,
+"pos": "noun",
+"options": [
+"a tag or sticker on a product",
+"a short, sharp blade for cutting",
+"a wheeled cart for carrying goods",
+"a hollow tube for draining liquid"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0396",
+"lemma": "atualizada",
+"rank": 6844,
+"pos": "adj",
+"options": [
+"brought up to date, made current",
+"torn apart, badly damaged",
+"well known, widely recognized",
+"carefully arranged in order"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0397",
+"lemma": "vocabulário",
+"rank": 6897,
+"pos": "noun",
+"options": [
+"all the words someone knows",
+"a sequence of musical notes",
+"a record of daily spending",
+"a map of an enclosed building"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0398",
+"lemma": "encanto",
+"rank": 6911,
+"pos": "noun",
+"options": [
+"a feeling of delight or magic appeal",
+"a sharp pain or discomfort",
+"a formal written agreement",
+"a narrow path through the woods"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0399",
+"lemma": "cláusula",
+"rank": 6925,
+"pos": "noun",
+"options": [
+"a specific term in a contract",
+"a short musical piece for solo instrument",
+"a mark or sign on official paper",
+"a narrow passage between two walls"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0400",
+"lemma": "bezerro",
+"rank": 6945,
+"pos": "noun",
+"options": [
+"a young cow, a calf",
+"a low wooden bench",
+"a clay drinking vessel",
+"a bundle of dry grass"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0401",
+"lemma": "flexível",
+"rank": 6971,
+"pos": "adj",
+"options": [
+"able to bend without breaking",
+"very noisy and disruptive",
+"completely hidden from view",
+"having a sharp, bitter taste"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0402",
+"lemma": "içar",
+"rank": 7035,
+"pos": "verb",
+"options": [
+"to raise a flag or sail upward",
+"to cut or trim away excess",
+"to wrap tightly with rope",
+"to lean against a wall or post"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0403",
+"lemma": "implementado",
+"rank": 7052,
+"pos": "adj",
+"options": [
+"put into action, carried out in practice",
+"twisted into a tight spiral shape",
+"left behind and forgotten by everyone",
+"spread thin across a wide surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0404",
+"lemma": "iraquiano",
+"rank": 7103,
+"pos": "adj",
+"options": [
+"of the Tigris-Euphrates nation",
+"relating to a vast cold northern land",
+"coming from a large Pacific island",
+"belonging to a mountainous central Asian region"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0405",
+"lemma": "óptico",
+"rank": 7108,
+"pos": "adj",
+"options": [
+"relating to sight or the eyes",
+"having to do with heat or warmth",
+"relating to the movement of water",
+"concerned with measuring the earth"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0406",
+"lemma": "repassar",
+"rank": 7117,
+"pos": "verb",
+"options": [
+"to pass on, to hand over again",
+"to wrap up tightly in cloth",
+"to shout out loudly at someone",
+"to dig a hole in the ground"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0407",
+"lemma": "frei",
+"rank": 7121,
+"pos": "noun",
+"options": [
+"a monk's name prefix",
+"a large pot with two handles",
+"a strip of colored ribbon",
+"a short note passed by hand"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0408",
+"lemma": "tonto",
+"rank": 7128,
+"pos": "adj",
+"options": [
+"dizzy or lightheaded",
+"very tired and in need of rest",
+"unable to see clearly in the dark",
+"filled with a strong sense of anger"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0409",
+"lemma": "engordar",
+"rank": 7137,
+"pos": "verb",
+"options": [
+"to gain weight, to become fat",
+"to wake up after sleeping",
+"to wander without a fixed path",
+"to stretch out and become longer"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0410",
+"lemma": "vegetariano",
+"rank": 7149,
+"pos": "adj",
+"options": [
+"containing no meat or animal flesh",
+"written in an old or ancient style",
+"having very little moisture or water",
+"belonging to a distant foreign land"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0411",
+"lemma": "comandado",
+"rank": 7150,
+"pos": "adj",
+"options": [
+"directed, led by another",
+"broken into many small pieces",
+"held tightly against a surface",
+"filled with strong emotion"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0412",
+"lemma": "marfim",
+"rank": 7180,
+"pos": "noun",
+"options": [
+"hard white tusk material from elephants",
+"a small freshwater fish",
+"a type of woven floor covering",
+"a hardwood timber from tropical trees"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0413",
+"lemma": "incompleto",
+"rank": 7210,
+"pos": "adj",
+"options": [
+"not finished or lacking parts",
+"too bright or harsh to see",
+"well known by many people",
+"tightly joined and hard to break"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0414",
+"lemma": "enterro",
+"rank": 7245,
+"pos": "noun",
+"options": [
+"a ceremony for burying a dead person",
+"a steep flight of stone steps",
+"a written agreement between two parties",
+"a heavy midday meal with guests"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0415",
+"lemma": "agressor",
+"rank": 7252,
+"pos": "noun",
+"options": [
+"one who attacks or harms another",
+"a person who draws up legal papers",
+"someone who tends to sick people",
+"a worker who builds stone walls"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0416",
+"lemma": "impressionado",
+"rank": 7310,
+"pos": "adj",
+"options": [
+"filled with awe or strong admiration",
+"completely worn out from effort",
+"worried about what may happen",
+"well-known by many people"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0417",
+"lemma": "calça",
+"rank": 7322,
+"pos": "noun",
+"options": [
+"a garment worn on the legs",
+"a flat rubber sole under a shoe",
+"a long scarf worn around the neck",
+"a small bag carried by hand"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0418",
+"lemma": "divorciar",
+"rank": 7331,
+"pos": "verb",
+"options": [
+"to end a marriage legally",
+"to rent out a property",
+"to fall asleep suddenly",
+"to wrap or cover tightly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0419",
+"lemma": "coerente",
+"rank": 7350,
+"pos": "adj",
+"options": [
+"logically consistent and easy to follow",
+"stubbornly refusing to change",
+"brightly colored and eye-catching",
+"deeply rooted in old traditions"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0420",
+"lemma": "feitiço",
+"rank": 7355,
+"pos": "noun",
+"options": [
+"a charm or magic spell",
+"a sharp cutting blade",
+"a written legal claim",
+"a woven floor covering"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0421",
+"lemma": "eternamente",
+"rank": 7382,
+"pos": "adv",
+"options": [
+"for all time, without end",
+"in a calm, quiet manner",
+"with great strength or force",
+"very close by, nearby"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0422",
+"lemma": "mouse",
+"rank": 7399,
+"pos": "noun",
+"options": [
+"handheld device for moving a cursor",
+"a flat board with keys for typing",
+"a screen showing images from a computer",
+"a small device storing digital files"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0423",
+"lemma": "cozinheiro",
+"rank": 7419,
+"pos": "noun",
+"options": [
+"a person who prepares food for eating",
+"someone who repairs and builds with bricks",
+"a person who watches over young children",
+"someone who drives passengers for payment"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0424",
+"lemma": "sentimental",
+"rank": 7424,
+"pos": "adj",
+"options": [
+"easily moved by tender or fond feelings",
+"inclined to argue or pick fights",
+"very slow and careful in moving",
+"having great wealth and possessions"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0425",
+"lemma": "rotação",
+"rank": 7448,
+"pos": "noun",
+"options": [
+"spinning movement around a central axis",
+"a sudden loud crack or bang",
+"a written record of events",
+"the joining of two separate groups"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0426",
+"lemma": "convivência",
+"rank": 7452,
+"pos": "noun",
+"options": [
+"living together, daily togetherness",
+"a formal written pledge or promise",
+"a sudden burst of strong feeling",
+"the right to own or hold something"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0427",
+"lemma": "ocar",
+"rank": 7461,
+"pos": "noun",
+"options": [
+"a round indigenous dwelling hut",
+"a wooden storage chest",
+"a narrow boat hull",
+"a woven grass mat"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0428",
+"lemma": "portela",
+"rank": 7464,
+"pos": "noun",
+"options": [
+"a low gap or pass between hills",
+"a thin slice of dried meat",
+"a clay roof tile",
+"a coarse woolen overgarment"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0429",
+"lemma": "curiosamente",
+"rank": 7477,
+"pos": "adv",
+"options": [
+"in a strange or unexpected way",
+"in a slow or unhurried way",
+"in a loud or forceful way",
+"in a kind or gentle way"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0430",
+"lemma": "exactamente",
+"rank": 7484,
+"pos": "adv",
+"options": [
+"precisely, with no error at all",
+"from time to time, not always",
+"in a gentle and quiet way",
+"very far away in the distance"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0431",
+"lemma": "ferver",
+"rank": 7530,
+"pos": "verb",
+"options": [
+"to bubble and steam with intense heat",
+"to cut something into small pieces",
+"to bow as a greeting",
+"to wrap something tightly in cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0432",
+"lemma": "emboscado",
+"rank": 7544,
+"pos": "adj",
+"options": [
+"lying in wait, hidden to attack",
+"worn out, physically exhausted",
+"tangled up, hopelessly knotted",
+"soaked through, completely wet"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0433",
+"lemma": "faminto",
+"rank": 7549,
+"pos": "adj",
+"options": [
+"suffering from lack of food",
+"feeling very tired and weak",
+"deeply sorrowful or grieving",
+"covered in dirt or filth"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0434",
+"lemma": "agulhar",
+"rank": 7551,
+"pos": "verb",
+"options": [
+"to jab with a sharp pointed object",
+"to wrap something tightly in cloth",
+"to float gently on moving water",
+"to clap hands together in approval"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0435",
+"lemma": "apertado",
+"rank": 7553,
+"pos": "adj",
+"options": [
+"fitting too snugly, not loose",
+"broken into small pieces",
+"deeply submerged in water",
+"covered in thick dust"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0436",
+"lemma": "artilheiro",
+"rank": 7643,
+"pos": "noun",
+"options": [
+"a soldier who operates heavy guns",
+"a rider on horseback in battle",
+"a scout sent ahead of an army",
+"an officer who commands a naval vessel"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0437",
+"lemma": "modernidade",
+"rank": 7657,
+"pos": "noun",
+"options": [
+"the condition of being up to date",
+"a long stretch of open water",
+"the state of being alone or isolated",
+"a formal gathering of people"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0438",
+"lemma": "xingar",
+"rank": 7660,
+"pos": "verb",
+"options": [
+"to insult or swear at someone",
+"to tie a knot around something",
+"to soften something by heating it",
+"to clap hands together in approval"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0439",
+"lemma": "paragem",
+"rank": 7671,
+"pos": "noun",
+"options": [
+"a place where vehicles stop briefly",
+"a wide stretch of open water",
+"a gathering of people for a celebration",
+"a long narrow path through trees"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0440",
+"lemma": "suspense",
+"rank": 7727,
+"pos": "noun",
+"options": [
+"anxious uncertainty about what will happen next",
+"a sudden shift in the weather",
+"the quality of being very bright",
+"a feeling of deep sadness or grief"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0441",
+"lemma": "súbito",
+"rank": 7754,
+"pos": "adj",
+"options": [
+"happening without warning, abrupt",
+"heavy and hard to carry",
+"very loud and harsh",
+"worn out from effort"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0442",
+"lemma": "desconfiança",
+"rank": 7757,
+"pos": "noun",
+"options": [
+"doubt or wariness toward others",
+"a brief pause in a conversation",
+"a written record of a legal agreement",
+"a sudden change in the weather"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0443",
+"lemma": "louça",
+"rank": 7760,
+"pos": "noun",
+"options": [
+"dishes and cups for eating",
+"knives, forks, and spoons for dining",
+"pots and pans for cooking meals",
+"cloths used to dry kitchen items"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0444",
+"lemma": "insignificante",
+"rank": 7769,
+"pos": "adj",
+"options": [
+"too minor to be worth noticing",
+"widely known and admired",
+"relating to an earlier time",
+"causing great fear or worry"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0445",
+"lemma": "arrogância",
+"rank": 7791,
+"pos": "noun",
+"options": [
+"excessive pride in oneself",
+"deep envy of another's good fortune",
+"great sadness felt after a loss",
+"firm loyalty to a person or group"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0446",
+"lemma": "elétrica",
+"rank": 7801,
+"pos": "adj",
+"options": [
+"powered by or relating to current flow",
+"made of metal, hard and shiny",
+"relating to heat or warmth",
+"driven by burning fuel"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0447",
+"lemma": "retomado",
+"rank": 7828,
+"pos": "adj",
+"options": [
+"picked up again after a pause",
+"kept safe from harm or danger",
+"reduced in strength or intensity",
+"spread out over a wide area"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0448",
+"lemma": "engajamento",
+"rank": 7860,
+"pos": "noun",
+"options": [
+"active involvement or commitment to a cause",
+"an official declaration of war between nations",
+"the quality of being widely known",
+"the act of signing an official document"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0449",
+"lemma": "lotado",
+"rank": 7873,
+"pos": "adj",
+"options": [
+"completely full, with no room left",
+"very quiet and free of noise",
+"recently built or newly opened",
+"split into two equal halves"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0450",
+"lemma": "unificar",
+"rank": 7995,
+"pos": "verb",
+"options": [
+"to merge separate parts into one",
+"to make something longer",
+"to remove something entirely",
+"to put something on display"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0451",
+"lemma": "moldar",
+"rank": 8063,
+"pos": "verb",
+"options": [
+"to shape material into a desired form",
+"to chew and swallow food",
+"to drift slowly through the air",
+"to read aloud in front of others"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0452",
+"lemma": "encarregado",
+"rank": 8104,
+"pos": "noun",
+"options": [
+"a person put in charge, a supervisor",
+"a written agreement between two parties",
+"a hired helper who does outdoor work",
+"a formal gathering of elected members"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0453",
+"lemma": "opar",
+"rank": 8108,
+"pos": "verb",
+"options": [
+"to become hazy or foggy",
+"to sink or submerge",
+"to bend or curve",
+"to scratch or scrape"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0454",
+"lemma": "malvado",
+"rank": 8248,
+"pos": "adj",
+"options": [
+"wicked, deeply cruel or evil",
+"shy and reluctant to speak",
+"prone to forgetfulness",
+"overly cautious and hesitant"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0455",
+"lemma": "autônomo",
+"rank": 8391,
+"pos": "adj",
+"options": [
+"self-governing, independent of others",
+"deeply rooted in old traditions",
+"easily broken or made fragile",
+"shared among many people equally"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0456",
+"lemma": "testado",
+"rank": 8474,
+"pos": "adj",
+"options": [
+"tried out and proven to work",
+"broken beyond repair",
+"kept in a sealed container",
+"chosen by a group vote"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0457",
+"lemma": "condicional",
+"rank": 8590,
+"pos": "adj",
+"options": [
+"dependent on certain requirements being met",
+"related to a long journey or voyage",
+"belonging to a specific trade or craft",
+"done in a slow and careful manner"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0458",
+"lemma": "matricular",
+"rank": 8621,
+"pos": "verb",
+"options": [
+"to register as a new student",
+"to hand over to another person",
+"to mark a surface with a tool",
+"to pull or drag something heavy"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0459",
+"lemma": "inundar",
+"rank": 8630,
+"pos": "verb",
+"options": [
+"to overflow with water, to swamp",
+"to dig or hollow out a pit",
+"to dry out or wither away",
+"to lift and carry to another place"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0460",
+"lemma": "sacudir",
+"rank": 8633,
+"pos": "verb",
+"options": [
+"to move something rapidly back and forth",
+"to gather crops from the fields",
+"to fasten two things firmly together",
+"to look at something very carefully"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0461",
+"lemma": "impróprio",
+"rank": 8635,
+"pos": "adj",
+"options": [
+"wrong for the occasion or setting",
+"lacking in courage",
+"badly worn or torn",
+"difficult to reach"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0462",
+"lemma": "bit",
+"rank": 8649,
+"pos": "noun",
+"options": [
+"a small female dog",
+"a sharp cutting tool",
+"a narrow wooden plank",
+"a woven floor covering"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0463",
+"lemma": "suspiro",
+"rank": 8819,
+"pos": "noun",
+"options": [
+"a deep, audible breath of feeling",
+"a sudden crack or split",
+"a soft, woven floor covering",
+"a sharp, ringing bell tone"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0464",
+"lemma": "quarteirão",
+"rank": 8855,
+"pos": "noun",
+"options": [
+"a city block or street segment",
+"a small open-air food stall",
+"a narrow stretch of river",
+"a shared boundary fence"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0465",
+"lemma": "desconforto",
+"rank": 8953,
+"pos": "noun",
+"options": [
+"a feeling of unease or bodily irritation",
+"a sudden burst of bright light",
+"a shared meal among neighbors",
+"a long delay before a reply"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0466",
+"lemma": "hidrelétrica",
+"rank": 9020,
+"pos": "noun",
+"options": [
+"a plant that makes power from water",
+"a road built over a valley",
+"a place where grain is stored",
+"a building for treating the sick"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0467",
+"lemma": "suplente",
+"rank": 9105,
+"pos": "noun",
+"options": [
+"a stand-in or backup person",
+"a written request or petition",
+"a person who gives advice",
+"a helper who carries loads"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0468",
+"lemma": "benção",
+"rank": 9154,
+"pos": "noun",
+"options": [
+"a sacred gift of divine favor",
+"a formal written agreement",
+"a sharp weapon or blade",
+"a period of deep sleep"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0469",
+"lemma": "deslizar",
+"rank": 9401,
+"pos": "verb",
+"options": [
+"to glide or slip smoothly along",
+"to wrap tightly with cloth",
+"to whisper into someone's ear",
+"to scatter in all directions"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0470",
+"lemma": "hidrográfico",
+"rank": 9408,
+"pos": "adj",
+"options": [
+"relating to rivers, lakes, and water bodies",
+"relating to soil layers and rock strata",
+"relating to wind patterns and air currents",
+"relating to plant growth and vegetation"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0471",
+"lemma": "lingerie",
+"rank": 9485,
+"pos": "noun",
+"options": [
+"delicate underclothing worn next to the skin",
+"a light outer jacket for cool weather",
+"a decorative ribbon worn in the hair",
+"a loose garment put on after bathing"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0472",
+"lemma": "vetar",
+"rank": 9514,
+"pos": "verb",
+"options": [
+"to block or forbid officially",
+"to hand over to another",
+"to mark or stamp a document",
+"to call out loudly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0473",
+"lemma": "aplicável",
+"rank": 9523,
+"pos": "adj",
+"options": [
+"relevant and usable in a given situation",
+"causing a feeling of wonder or awe",
+"related to or coming from another country",
+"easy to bend without breaking"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0474",
+"lemma": "sofisticar",
+"rank": 9609,
+"pos": "verb",
+"options": [
+"to make refined or more advanced",
+"to wrap or bundle tightly",
+"to carry goods from one place",
+"to cut into smaller pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0475",
+"lemma": "incorporação",
+"rank": 9618,
+"pos": "noun",
+"options": [
+"merging something into a larger whole",
+"a formal written complaint or grievance",
+"the gradual wearing away of a surface",
+"a sudden outburst of strong feeling"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0476",
+"lemma": "antecipado",
+"rank": 9620,
+"pos": "adj",
+"options": [
+"done or given ahead of time",
+"kept hidden from others",
+"spread across a wide area",
+"worn down by long use"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0477",
+"lemma": "envolto",
+"rank": 9651,
+"pos": "adj",
+"options": [
+"covered all around, wrapped up",
+"left behind, forgotten",
+"torn apart roughly",
+"raised up high"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0478",
+"lemma": "qi",
+"rank": 9729,
+"pos": "noun",
+"options": [
+"a measure of reasoning and mental ability",
+"a record of money owed and paid",
+"a rating of physical strength and fitness",
+"a tally of words in a text"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0479",
+"lemma": "iogurte",
+"rank": 9758,
+"pos": "noun",
+"options": [
+"a chilled, tangy fermented milk product",
+"a sweet fruit drink served cold",
+"a hard, aged block of pressed milk",
+"a thin soup made from boiled grains"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0480",
+"lemma": "brando",
+"rank": 9785,
+"pos": "adj",
+"options": [
+"mild, soft, or gentle in nature",
+"deeply rooted in the past",
+"strikingly tall and thin",
+"full of unexpected twists"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0481",
+"lemma": "isento",
+"rank": 9806,
+"pos": "adj",
+"options": [
+"free from obligation or charge",
+"broken into small pieces",
+"tied together firmly",
+"stretched out flat"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0482",
+"lemma": "aclamar",
+"rank": 9902,
+"pos": "verb",
+"options": [
+"to cheer, to hail with approval",
+"to judge or sentence formally",
+"to warn someone of danger",
+"to gather troops for battle"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0483",
+"lemma": "enforcar",
+"rank": 10205,
+"pos": "verb",
+"options": [
+"to kill by rope around the neck",
+"to dig a hole in the ground",
+"to wrap a gift with ribbon",
+"to shout loudly at someone"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0484",
+"lemma": "tara",
+"rank": 10269,
+"pos": "noun",
+"options": [
+"weight of an empty container",
+"a deep cut or wound",
+"a woven floor covering",
+"a written legal document"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0485",
+"lemma": "turbulência",
+"rank": 10307,
+"pos": "noun",
+"options": [
+"rough, chaotic movement or unrest",
+"the act of healing a wound",
+"a formal written agreement",
+"steady forward progress"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0486",
+"lemma": "policiamento",
+"rank": 10404,
+"pos": "noun",
+"options": [
+"keeping order through law enforcement",
+"a gathering of elected lawmakers",
+"the buying and selling of goods",
+"a written record of events"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0487",
+"lemma": "cauteloso",
+"rank": 10439,
+"pos": "adj",
+"options": [
+"very careful to avoid danger or mistakes",
+"covered with thick, coarse hair",
+"belonging to a time long ago",
+"producing a very loud, harsh sound"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0488",
+"lemma": "escopo",
+"rank": 10440,
+"pos": "noun",
+"options": [
+"aim, intended goal or purpose",
+"a flat, open field or terrain",
+"a written record or document",
+"a small hook or clasp"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0489",
+"lemma": "borda",
+"rank": 10490,
+"pos": "noun",
+"options": [
+"the rim or outer edge of something",
+"the central beam of a roof",
+"a wide open field or meadow",
+"the underside of a staircase"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0490",
+"lemma": "náusea",
+"rank": 10633,
+"pos": "noun",
+"options": [
+"urge to vomit",
+"sharp pain behind the eyes",
+"sudden feeling of deep sadness",
+"ringing sound heard in the ears"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0491",
+"lemma": "eólico",
+"rank": 10739,
+"pos": "adj",
+"options": [
+"relating to wind power or wind",
+"relating to tidal or sea movement",
+"relating to underground or subterranean forces",
+"relating to heat or thermal energy"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0492",
+"lemma": "contrabando",
+"rank": 10756,
+"pos": "noun",
+"options": [
+"items smuggled illegally across a border",
+"a written pact between two parties",
+"a heavy fee imposed on imported goods",
+"an official record of court proceedings"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0493",
+"lemma": "encolher",
+"rank": 10761,
+"pos": "verb",
+"options": [
+"to become smaller or draw back",
+"to carry a heavy load upstairs",
+"to write down one's thoughts",
+"to speak very loudly in a crowd"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0494",
+"lemma": "escriturar",
+"rank": 10775,
+"pos": "verb",
+"options": [
+"to log financial entries in books",
+"to wrap up, to pack for shipping",
+"to clear away, to tidy a space",
+"to set fire to, to burn down"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0495",
+"lemma": "estranhamente",
+"rank": 10827,
+"pos": "adv",
+"options": [
+"in an unfamiliar or off-putting manner",
+"in a thorough and careful manner",
+"in a warm and welcoming manner",
+"in a sudden and forceful manner"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0496",
+"lemma": "parasitar",
+"rank": 10882,
+"pos": "verb",
+"options": [
+"to live off another organism or host",
+"to fold cloth into neat layers",
+"to grind grain into fine powder",
+"to chip away at a hard surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0497",
+"lemma": "baralho",
+"rank": 10910,
+"pos": "noun",
+"options": [
+"a set of playing cards",
+"a wooden cutting board",
+"a woven floor mat",
+"a hand-held folding fan"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0498",
+"lemma": "comovente",
+"rank": 11026,
+"pos": "adj",
+"options": [
+"deeply touching, stirring the heart",
+"causing great anger or rage",
+"widely known and celebrated",
+"highly skilled and precise"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0499",
+"lemma": "celeiro",
+"rank": 11029,
+"pos": "noun",
+"options": [
+"a farm building where grain is kept",
+"a place where boats are repaired",
+"a room where wine bottles are stored",
+"a shed for keeping working animals"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0500",
+"lemma": "pulsar",
+"rank": 11075,
+"pos": "verb",
+"options": [
+"to beat rhythmically, to throb",
+"to leap over an obstacle",
+"to grind into fine powder",
+"to wrap tightly around something"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0501",
+"lemma": "infiel",
+"rank": 11081,
+"pos": "adj",
+"options": [
+"not loyal, untrue to a partner",
+"prone to sudden mood changes",
+"lacking any bodily strength",
+"too young to bear responsibility"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0502",
+"lemma": "elegível",
+"rank": 11083,
+"pos": "adj",
+"options": [
+"meeting the requirements to be picked",
+"very easy to read or follow",
+"causing joy and delight",
+"free from blame or fault"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0503",
+"lemma": "amora",
+"rank": 11187,
+"pos": "noun",
+"options": [
+"a small dark berry fruit",
+"a flat woven floor covering",
+"a handheld cutting tool",
+"a narrow waterway channel"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0504",
+"lemma": "bingo",
+"rank": 11206,
+"pos": "noun",
+"options": [
+"a game of chance using numbered cards",
+"a low wooden seat with no back",
+"a soft cloth worn around the neck",
+"a sweet drink made from fruit"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0505",
+"lemma": "ilegalidade",
+"rank": 11312,
+"pos": "noun",
+"options": [
+"the quality of being against the law",
+"a lack of skill or training",
+"the state of being completely alone",
+"an absence of clear meaning"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0506",
+"lemma": "sondagem",
+"rank": 11371,
+"pos": "noun",
+"options": [
+"a probe or investigation to gather information",
+"a formal written agreement between parties",
+"a public display of artistic works",
+"an official gathering of elected lawmakers"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0507",
+"lemma": "melhorado",
+"rank": 11373,
+"pos": "adj",
+"options": [
+"made better than before",
+"soaked through with water",
+"cut into equal halves",
+"tied to a fixed point"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0508",
+"lemma": "sarro",
+"rank": 11605,
+"pos": "noun",
+"options": [
+"hardened crust that builds on teeth",
+"loose thread on a garment",
+"worn sole of a shoe",
+"dried flake of peeling paint"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0509",
+"lemma": "empreender",
+"rank": 11649,
+"pos": "verb",
+"options": [
+"to take on an undertaking",
+"to hand over, to deliver something",
+"to slow down, to hold back",
+"to mix together, to blend"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0510",
+"lemma": "denso",
+"rank": 11669,
+"pos": "adj",
+"options": [
+"thick with tightly packed matter or substance",
+"faded, drained of its original brightness",
+"brittle, snapping easily under slight pressure",
+"hollow, empty inside with nothing within"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0511",
+"lemma": "unilateral",
+"rank": 11687,
+"pos": "adj",
+"options": [
+"involving only one party",
+"shared among all members",
+"occurring at the same time",
+"kept hidden from others"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0512",
+"lemma": "conscientizar",
+"rank": 11706,
+"pos": "verb",
+"options": [
+"to make someone aware of something",
+"to carry out a task carefully",
+"to earn money through hard work",
+"to put things in a specific order"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0513",
+"lemma": "progressivamente",
+"rank": 11748,
+"pos": "adv",
+"options": [
+"gradually, by increasing degrees",
+"in a disorganized, haphazard manner",
+"against one's own wishes",
+"simultaneously, at the very same time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0514",
+"lemma": "redondezas",
+"rank": 11754,
+"pos": "noun",
+"options": [
+"the surrounding area or nearby region",
+"the upper floors of a building",
+"the written rules of an institution",
+"the inner workings of a machine"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0515",
+"lemma": "aflito",
+"rank": 11818,
+"pos": "adj",
+"options": [
+"distressed, deeply worried or anxious",
+"overly proud of oneself",
+"worn out from long use",
+"slow to grasp new ideas"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0516",
+"lemma": "compulsivo",
+"rank": 11944,
+"pos": "adj",
+"options": [
+"driven by an uncontrollable inner urge",
+"relating to or involving written records",
+"easily frightened or made nervous",
+"generous and willing to give freely"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0517",
+"lemma": "indeciso",
+"rank": 11988,
+"pos": "adj",
+"options": [
+"unable to make up one's mind",
+"deeply sorrowful or mournful",
+"lacking physical strength or energy",
+"overly proud of oneself"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0518",
+"lemma": "imperdível",
+"rank": 12004,
+"pos": "adj",
+"options": [
+"too good to be missed",
+"very easy to carry",
+"impossible to fully understand",
+"free of any flaw"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0519",
+"lemma": "fisioterapia",
+"rank": 12036,
+"pos": "noun",
+"options": [
+"rehabilitation using movement, massage, and exercise",
+"diagnosis of illness through blood analysis",
+"long-term support for people with memory loss",
+"removal of diseased tissue by a surgeon"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0520",
+"lemma": "mensalmente",
+"rank": 12055,
+"pos": "adv",
+"options": [
+"once every four weeks",
+"at all times, without pause",
+"every seven days",
+"twice within a year"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0521",
+"lemma": "segregação",
+"rank": 12071,
+"pos": "noun",
+"options": [
+"enforced division of social groups",
+"a steady rise in prices over time",
+"the handing down of family traits",
+"a formal greeting between strangers"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0522",
+"lemma": "busto",
+"rank": 12152,
+"pos": "noun",
+"options": [
+"a sculpted head and shoulders",
+"a small rounded hill or mound",
+"a folded cloth worn around the neck",
+"a narrow passageway between buildings"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0523",
+"lemma": "oráculo",
+"rank": 12308,
+"pos": "noun",
+"options": [
+"divine prophetic voice or shrine",
+"written royal decree",
+"ancient battle formation",
+"ceremonial burial rite"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0524",
+"lemma": "talibã",
+"rank": 12340,
+"pos": "noun",
+"options": [
+"member of an Afghan militant movement",
+"a form of Islamic charitable giving",
+"a traditional Middle Eastern head covering",
+"a written decree from a religious leader"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0525",
+"lemma": "sida",
+"rank": 12422,
+"pos": "noun",
+"options": [
+"illness that destroys immune defenses",
+"a dry, sandy stretch of land",
+"a feeling of deep sadness",
+"a sharp tool for cutting wood"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0526",
+"lemma": "teta",
+"rank": 12479,
+"pos": "noun",
+"options": [
+"a milk-producing gland or nipple",
+"the back of the knee joint",
+"a thin layer of outer skin",
+"the hollow of the throat"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0527",
+"lemma": "tutelar",
+"rank": 12630,
+"pos": "adj",
+"options": [
+"serving as a ward or guardian",
+"relating to a measurement of time",
+"having a rough or uneven surface",
+"belonging to a distant or foreign land"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0528",
+"lemma": "insulina",
+"rank": 12653,
+"pos": "noun",
+"options": [
+"hormone that regulates blood sugar",
+"drug used to fight bacterial infections",
+"substance that carries oxygen in blood",
+"chemical that triggers allergic reactions"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0529",
+"lemma": "materializar",
+"rank": 12687,
+"pos": "verb",
+"options": [
+"to make real, to bring into being",
+"to break apart, to split into pieces",
+"to hand over, to give something away",
+"to conclude, to finish"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0530",
+"lemma": "anunciada",
+"rank": 12694,
+"pos": "adj",
+"options": [
+"publicly declared",
+"highly regarded",
+"left unclaimed",
+"carefully concealed"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0531",
+"lemma": "sinfônica",
+"rank": 12760,
+"pos": "adj",
+"options": [
+"relating to a large orchestral ensemble",
+"dealing with matters of faith and worship",
+"belonging to a royal or noble household",
+"involving underwater or deep-sea activity"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0532",
+"lemma": "lesionar",
+"rank": 12798,
+"pos": "verb",
+"options": [
+"to cause bodily harm to someone",
+"to move from one place to another",
+"to make a formal request",
+"to put something off until later"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0533",
+"lemma": "afirmativo",
+"rank": 12834,
+"pos": "adj",
+"options": [
+"expressing yes or agreement",
+"relating to events in the past",
+"very difficult to understand",
+"belonging to one person alone"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0534",
+"lemma": "arrastado",
+"rank": 12921,
+"pos": "adj",
+"options": [
+"dragged along the ground, pulled slowly",
+"filled to the very top with liquid",
+"tied tightly with a knot or cord",
+"broken into many scattered pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0535",
+"lemma": "livramento",
+"rank": 12930,
+"pos": "noun",
+"options": [
+"act of being set free from danger",
+"formal written complaint",
+"gathering of many people in one place",
+"monthly wage or salary payment"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0536",
+"lemma": "interligado",
+"rank": 12963,
+"pos": "adj",
+"options": [
+"joined together, mutually linked",
+"spread out over a wide area",
+"broken apart, in separate pieces",
+"hidden beneath the surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0537",
+"lemma": "diurno",
+"rank": 12969,
+"pos": "adj",
+"options": [
+"relating to or happening in the daytime",
+"lasting for a very short moment",
+"belonging to a foreign land",
+"done with great care and effort"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0538",
+"lemma": "fraldar",
+"rank": 13045,
+"pos": "verb",
+"options": [
+"to put a nappy on a baby",
+"to sweep a floor clean",
+"to tie a knot firmly",
+"to stir a liquid slowly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0539",
+"lemma": "eliminatório",
+"rank": 13126,
+"pos": "adj",
+"options": [
+"serving to knock out and remove competitors",
+"relating to a final prize ceremony",
+"intended to encourage fair play",
+"describing a tie between two sides"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0540",
+"lemma": "papa",
+"rank": 13157,
+"pos": "noun",
+"options": [
+"the head of the Roman Catholic Church",
+"a soft mashed food for infants",
+"flat round bread cooked on griddle",
+"a male duck or goose"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0541",
+"lemma": "apuro",
+"rank": 13188,
+"pos": "noun",
+"options": [
+"a tight spot, a fix",
+"a gentle breeze, a draft",
+"a wooden shelf or ledge",
+"a loud shout or cry"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0542",
+"lemma": "font",
+"rank": 13232,
+"pos": "noun",
+"options": [
+"a spring or well of water",
+"a thick woven cloth",
+"a metal hook or clasp",
+"a narrow wooded valley"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0543",
+"lemma": "admirado",
+"rank": 13328,
+"pos": "adj",
+"options": [
+"filled with wonder or surprise",
+"worn down from heavy use",
+"tied up with a strong cord",
+"covered in a thin layer of dust"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0544",
+"lemma": "codificar",
+"rank": 13503,
+"pos": "verb",
+"options": [
+"to put information into a standard form",
+"to melt metal down for reuse",
+"to sweep or clean a floor",
+"to mark land boundaries with stakes"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0545",
+"lemma": "papelão",
+"rank": 13543,
+"pos": "noun",
+"options": [
+"thick stiff sheet used for boxes",
+"a soft woven floor covering",
+"a folded cloth worn around the neck",
+"a clay pot used for cooking"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0546",
+"lemma": "manequim",
+"rank": 13544,
+"pos": "noun",
+"options": [
+"a dummy figure used to display clothing",
+"a set of steps leading between floors",
+"a device for measuring temperature",
+"a flat board for writing or drawing"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0547",
+"lemma": "antologia",
+"rank": 13549,
+"pos": "noun",
+"options": [
+"curated collection of literary works",
+"formal written complaint",
+"record of births and deaths",
+"branch of medicine for the elderly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0548",
+"lemma": "besouro",
+"rank": 13709,
+"pos": "noun",
+"options": [
+"a hard-shelled flying insect",
+"a small edible freshwater fish",
+"a thorny wild shrub or bush",
+"a pointed digging hand tool"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0549",
+"lemma": "obsessivo",
+"rank": 13725,
+"pos": "adj",
+"options": [
+"fixated beyond reason on one thing",
+"easily angered or irritated",
+"slow to learn or understand",
+"cheerful and full of energy"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0550",
+"lemma": "pesqueiro",
+"rank": 13844,
+"pos": "adj",
+"options": [
+"relating to catching fish",
+"relating to raising livestock",
+"relating to growing crops",
+"relating to cutting timber"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0551",
+"lemma": "alarmante",
+"rank": 13855,
+"pos": "adj",
+"options": [
+"causing worry or fear; deeply troubling",
+"worthy of praise or admiration",
+"relating to warmth or high temperature",
+"happening by chance or unexpectedly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0552",
+"lemma": "ileso",
+"rank": 13890,
+"pos": "adj",
+"options": [
+"unharmed, without any injury",
+"well-known and widely admired",
+"deeply troubled and confused",
+"forbidden and off-limits"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0553",
+"lemma": "poça",
+"rank": 13899,
+"pos": "noun",
+"options": [
+"small puddle of liquid",
+"a length of woven cloth or fabric",
+"a hollow dug in the earth",
+"a thin flexible blade for cutting"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0554",
+"lemma": "chaminé",
+"rank": 13904,
+"pos": "noun",
+"options": [
+"a pipe or shaft venting smoke",
+"a curved blade for cutting grain",
+"a wooden peg holding planks together",
+"a narrow strip of woven cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0555",
+"lemma": "promulgado",
+"rank": 13919,
+"pos": "adj",
+"options": [
+"officially decreed and made into law",
+"strictly forbidden by authority",
+"temporarily delayed or put on hold",
+"widely praised and celebrated"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0556",
+"lemma": "interceptação",
+"rank": 14041,
+"pos": "noun",
+"options": [
+"stopping or seizing something in transit",
+"formal written declaration of intent",
+"gradual wearing away of a surface",
+"official record of a financial transaction"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0557",
+"lemma": "adiantado",
+"rank": 14095,
+"pos": "adj",
+"options": [
+"early, arriving before the expected time",
+"broken, no longer in working order",
+"soaked, drenched with liquid throughout",
+"bound, restrained and unable to move"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0558",
+"lemma": "narrado",
+"rank": 14100,
+"pos": "adj",
+"options": [
+"told in a story, recounted",
+"clearly seen, witnessed",
+"written down, recorded in text",
+"widely praised, celebrated"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0559",
+"lemma": "cadear",
+"rank": 14126,
+"pos": "verb",
+"options": [
+"to fasten with a lock",
+"to fold into small sections",
+"to dig a hole in the ground",
+"to stir a liquid slowly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0560",
+"lemma": "acertado",
+"rank": 14241,
+"pos": "adj",
+"options": [
+"correct, well-judged, on the mark",
+"worn out, weary from effort",
+"tightly closed, sealed shut",
+"rough in texture, coarse to the touch"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0561",
+"lemma": "adjacente",
+"rank": 14278,
+"pos": "adj",
+"options": [
+"sharing a border or wall with something",
+"worn out from heavy use",
+"bright and full of light",
+"faint and barely noticeable"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0562",
+"lemma": "assombrado",
+"rank": 14281,
+"pos": "adj",
+"options": [
+"haunted by spirits or filled with dread",
+"covered in a thick layer of dust",
+"worn out from long hard effort",
+"brightly lit from all directions"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0563",
+"lemma": "coletor",
+"rank": 14318,
+"pos": "noun",
+"options": [
+"one who gathers or retrieves things",
+"a sharp cutting blade",
+"a frame holding a window pane",
+"a written summary of events"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0564",
+"lemma": "franjar",
+"rank": 14335,
+"pos": "verb",
+"options": [
+"to edge with hanging decorative threads",
+"to soak through, to drench with water",
+"to lift up, to raise overhead",
+"to greet warmly, to welcome someone"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0565",
+"lemma": "iniciantes",
+"rank": 14346,
+"pos": "noun",
+"options": [
+"people just starting to learn something",
+"those who hold official positions",
+"people who have retired from work",
+"those living in a shared dwelling"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0566",
+"lemma": "respeitoso",
+"rank": 14410,
+"pos": "adj",
+"options": [
+"showing regard and courtesy toward others",
+"known for telling the truth",
+"quick to understand new things",
+"fond of being alone"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0567",
+"lemma": "sádico",
+"rank": 14440,
+"pos": "adj",
+"options": [
+"taking pleasure in others' pain",
+"overly cautious or timid",
+"deeply devoted to a belief",
+"marked by clever wit"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0568",
+"lemma": "nuance",
+"rank": 14560,
+"pos": "noun",
+"options": [
+"a subtle shade of meaning",
+"a loud repeated knocking sound",
+"a large open field of grass",
+"a thick rope used for pulling"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0569",
+"lemma": "penitência",
+"rank": 14652,
+"pos": "noun",
+"options": [
+"punishment done to show regret for wrongdoing",
+"a formal written promise or pledge",
+"setting something aside for later",
+"a feeling of deep joy or delight"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0570",
+"lemma": "aclamado",
+"rank": 14665,
+"pos": "adj",
+"options": [
+"widely praised and celebrated",
+"kept hidden from the general public",
+"worn out from too much work",
+"freshly built and not yet used"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0571",
+"lemma": "singelo",
+"rank": 14676,
+"pos": "adj",
+"options": [
+"plain, modest, and unadorned",
+"extremely loud and boisterous",
+"sharp and cutting in tone",
+"wide and stretching far across"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0572",
+"lemma": "sinfonia",
+"rank": 14679,
+"pos": "noun",
+"options": [
+"a major multi-movement work for full orchestra",
+"a short amusing stage performance",
+"a carved stone wall decoration",
+"a formal speech of praise"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0573",
+"lemma": "soda",
+"rank": 14797,
+"pos": "noun",
+"options": [
+"fizzy water or soft drink",
+"a flat baking pan",
+"a heavy floor covering",
+"a wooden storage chest"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0574",
+"lemma": "rolante",
+"rank": 14965,
+"pos": "adj",
+"options": [
+"moving by turning over and over",
+"giving off bright light",
+"stretched out flat",
+"broken into small pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0575",
+"lemma": "dormente",
+"rank": 15031,
+"pos": "adj",
+"options": [
+"numb, without feeling",
+"bent out of shape",
+"wide open, not shut",
+"worn out from hard work"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0576",
+"lemma": "advindo",
+"rank": 15057,
+"pos": "adj",
+"options": [
+"coming from, resulting out of",
+"worn out or exhausted",
+"hidden or kept secret",
+"broken apart or shattered"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0577",
+"lemma": "zelo",
+"rank": 15156,
+"pos": "noun",
+"options": [
+"careful dedication, diligence",
+"sudden burst of anger",
+"deep personal shame",
+"fondness for a place"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0578",
+"lemma": "golear",
+"rank": 15192,
+"pos": "verb",
+"options": [
+"to defeat a team by many goals",
+"to kick a ball out of bounds",
+"to cheer loudly for a team",
+"to recruit a player to a club"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0579",
+"lemma": "túlipa",
+"rank": 15414,
+"pos": "noun",
+"options": [
+"a bright cup-shaped garden flower",
+"a thin slice of dried meat",
+"a soft woolen head covering",
+"a small freshwater fish"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0580",
+"lemma": "computer",
+"rank": 15441,
+"pos": "noun",
+"options": [
+"a machine that processes data",
+"a flat woven floor covering",
+"a handheld cutting tool",
+"a sealed glass drinking vessel"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0581",
+"lemma": "laticínios",
+"rank": 15478,
+"pos": "noun",
+"options": [
+"milk-based foods, dairy goods",
+"root vegetables and tubers",
+"cured meats and cold cuts",
+"baked breads and pastries"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0582",
+"lemma": "calmaria",
+"rank": 15534,
+"pos": "noun",
+"options": [
+"a state of quiet and stillness",
+"a sudden rush of cold wind",
+"a feeling of deep sadness",
+"a period of great hardship"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0583",
+"lemma": "geleia",
+"rank": 15563,
+"pos": "noun",
+"options": [
+"sweet fruit spread for bread",
+"thick soup made from vegetables",
+"hard outer shell of a seed",
+"thin flat piece of baked dough"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0584",
+"lemma": "jangada",
+"rank": 15725,
+"pos": "noun",
+"options": [
+"flat wooden craft that floats on water",
+"large woven basket for carrying goods",
+"heavy iron tool for digging soil",
+"wide-brimmed hat worn in the sun"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0585",
+"lemma": "tendão",
+"rank": 15777,
+"pos": "noun",
+"options": [
+"a cord joining muscle to bone",
+"a fold of skin on the elbow",
+"a hollow in the ground",
+"a hard layer of tooth covering"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0586",
+"lemma": "custear",
+"rank": 15804,
+"pos": "verb",
+"options": [
+"to pay the expenses of something",
+"to hold back or delay",
+"to sort or arrange in order",
+"to draw near or approach"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0587",
+"lemma": "repressivo",
+"rank": 15814,
+"pos": "adj",
+"options": [
+"harshly controlling, crushing freedoms",
+"quick to forgive wrongdoing",
+"relating to seasonal weather changes",
+"overly talkative and chatty"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0588",
+"lemma": "deflagrar",
+"rank": 15830,
+"pos": "verb",
+"options": [
+"to spark or unleash a sudden event",
+"to tie a knot firmly in place",
+"to gradually reduce in size or number",
+"to sort items into separate groups"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0589",
+"lemma": "selfie",
+"rank": 15932,
+"pos": "noun",
+"options": [
+"portrait one takes of one's own face",
+"short written note to a friend",
+"drawing made with colored pencils",
+"live broadcast on the internet"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0590",
+"lemma": "honraria",
+"rank": 15954,
+"pos": "noun",
+"options": [
+"a mark of distinction given to someone",
+"a steep rocky cliff face",
+"a shared meal among friends",
+"a written list of rules"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0591",
+"lemma": "texturar",
+"rank": 16009,
+"pos": "verb",
+"options": [
+"to add surface pattern or roughness",
+"to stretch and flatten dough by hand",
+"to soak cloth in dye overnight",
+"to carve a figure out of wood"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0592",
+"lemma": "oitocentos",
+"rank": 16017,
+"pos": "other",
+"options": [
+"the figure eight hundred",
+"the figure four thousand",
+"the figure sixty",
+"the figure one million"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0593",
+"lemma": "potencialidade",
+"rank": 16166,
+"pos": "noun",
+"options": [
+"a latent capacity or hidden power",
+"a sudden shift in weather",
+"a formal written agreement",
+"the outer edge of a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0594",
+"lemma": "cozer",
+"rank": 16176,
+"pos": "verb",
+"options": [
+"to prepare food with heat",
+"to cut into small pieces",
+"to wrap tightly with thread",
+"to slide or move sideways"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0595",
+"lemma": "reduto",
+"rank": 16193,
+"pos": "noun",
+"options": [
+"a stronghold or last refuge",
+"a written complaint or grievance",
+"a wooded area near a river",
+"a formal gathering of officials"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0596",
+"lemma": "gargalhada",
+"rank": 16246,
+"pos": "noun",
+"options": [
+"a loud, hearty burst of laughter",
+"a device that joins two vehicles together",
+"a field planted densely with sugarcane",
+"the sudden crumbling away of a hillside"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0597",
+"lemma": "termal",
+"rank": 16331,
+"pos": "adj",
+"options": [
+"relating to hot springs or heated baths",
+"covered with a hard outer shell",
+"having a sharp, bitter taste",
+"belonging to the open countryside"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0598",
+"lemma": "adoptado",
+"rank": 16395,
+"pos": "adj",
+"options": [
+"taken into a family as one's child",
+"covered in a thick, rough surface",
+"broken into many small pieces",
+"widely known and talked about by many"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0599",
+"lemma": "lombo",
+"rank": 16732,
+"pos": "noun",
+"options": [
+"the back or loin of an animal",
+"a narrow dirt path through fields",
+"a clay pot for cooking stew",
+"the outer edge of a wooden wheel"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0600",
+"lemma": "dolares",
+"rank": 16840,
+"pos": "noun",
+"options": [
+"units of American currency",
+"sharp stabbing pains",
+"rows of planted crops",
+"ceremonial governing titles"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0601",
+"lemma": "sismo",
+"rank": 16963,
+"pos": "noun",
+"options": [
+"a shaking of the ground",
+"a sudden rush of water",
+"a powerful wind storm",
+"a loud clap of thunder"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0602",
+"lemma": "aritmético",
+"rank": 16987,
+"pos": "adj",
+"options": [
+"relating to counting and basic calculation",
+"concerning the study of living things",
+"describing motion through open air",
+"pertaining to the depths of the sea"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0603",
+"lemma": "eucaristia",
+"rank": 17069,
+"pos": "noun",
+"options": [
+"Christian ritual of bread and wine",
+"a solemn prayer recited at burial",
+"a formal vow taken before a congregation",
+"the washing of feet in a ceremony"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0604",
+"lemma": "cíclico",
+"rank": 17237,
+"pos": "adj",
+"options": [
+"repeating in a regular pattern",
+"flat and level in shape",
+"relating to living things",
+"having many separate parts"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0605",
+"lemma": "povão",
+"rank": 17524,
+"pos": "noun",
+"options": [
+"the common folk, ordinary people",
+"a thick wooded area",
+"a large cooking pot",
+"a stretch of flat open land"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0606",
+"lemma": "embutir",
+"rank": 17595,
+"pos": "verb",
+"options": [
+"to embed something into a surface",
+"to divide something into equal shares",
+"to carry goods across a border",
+"to draw moisture out of food"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0607",
+"lemma": "comissariar",
+"rank": 17639,
+"pos": "verb",
+"options": [
+"to oversee on behalf of another",
+"to wrap or fold tightly",
+"to drift or float downstream",
+"to sharpen or hone a blade"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0608",
+"lemma": "correctamente",
+"rank": 17902,
+"pos": "adv",
+"options": [
+"in a right and proper manner",
+"with a great deal of physical force",
+"in a harmful way toward living things",
+"at a very slow and unhurried pace"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0609",
+"lemma": "adereço",
+"rank": 18039,
+"pos": "noun",
+"options": [
+"a prop or accessory used in performance",
+"a folded bed covering",
+"a written note or brief letter",
+"a flat outdoor walking surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0610",
+"lemma": "poliana",
+"rank": 18146,
+"pos": "noun",
+"options": [
+"a naively cheerful and overly optimistic person",
+"a person who spreads harmful rumors",
+"a strict and demanding instructor",
+"a wanderer with no fixed home"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0611",
+"lemma": "federado",
+"rank": 18225,
+"pos": "adj",
+"options": [
+"joined under a shared governing body",
+"worn out from long use",
+"hidden from plain sight",
+"split into rival factions"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0612",
+"lemma": "redemocratização",
+"rank": 18389,
+"pos": "noun",
+"options": [
+"return to rule by the people",
+"a rise in prices over time",
+"the spreading out of a population",
+"a formal written agreement between states"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0613",
+"lemma": "profético",
+"rank": 18519,
+"pos": "adj",
+"options": [
+"relating to foreseeing future events",
+"full of deep sorrow or grief",
+"belonging to a royal court",
+"marked by strict moral codes"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0614",
+"lemma": "parrar",
+"rank": 19156,
+"pos": "verb",
+"options": [
+"to spread branches out wide",
+"to sink below the surface",
+"to grind into small pieces",
+"to wrap tightly with cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0615",
+"lemma": "ciencias",
+"rank": 19274,
+"pos": "noun",
+"options": [
+"knowledge domains built on systematic inquiry",
+"sets of moral rules guiding right conduct",
+"bodies of religious writings and teaching",
+"collections of traditional stories and myths"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0616",
+"lemma": "canavial",
+"rank": 19445,
+"pos": "noun",
+"options": [
+"a field or plantation of sugarcane",
+"a small pouch surrounding a hair root",
+"a sudden crumbling or falling of earth",
+"a brain chemical tied to happiness"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0617",
+"lemma": "branqueamento",
+"rank": 19479,
+"pos": "noun",
+"options": [
+"a whitening or bleaching process",
+"the process of choosing a group leader",
+"a formal gathering of important officials",
+"the removal of a tree's outer covering"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0618",
+"lemma": "restaurador",
+"rank": 19624,
+"pos": "noun",
+"options": [
+"one who repairs or renews old things",
+"a person who writes laws",
+"one who trains horses",
+"a keeper of financial records"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0619",
+"lemma": "implicado",
+"rank": 19678,
+"pos": "adj",
+"options": [
+"caught up in a suspicious affair",
+"worn smooth from repeated handling",
+"shut away from outside observation",
+"puffed up after a blow or sting"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0620",
+"lemma": "serenata",
+"rank": 20186,
+"pos": "noun",
+"options": [
+"an evening song performed outdoors for someone",
+"a formal ballroom dancing event",
+"a gathering held around a bonfire",
+"a slow and mournful funeral march"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0621",
+"lemma": "pampulha",
+"rank": 20342,
+"pos": "noun",
+"options": [
+"a small decorative pond or lake",
+"a type of woven basket",
+"a wooden fence or gate",
+"a clay rooftile or shingle"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0623",
+"lemma": "patria",
+"rank": 20848,
+"pos": "noun",
+"options": [
+"one's native land or homeland",
+"a large open field or meadow",
+"a long journey by sea",
+"a formal gathering of citizens"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0624",
+"lemma": "fundamentação",
+"rank": 20956,
+"pos": "noun",
+"options": [
+"the reasoning or grounds supporting a claim",
+"the gathering of crops at harvest time",
+"the daily upkeep of a building",
+"the breaking apart of a large group"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0625",
+"lemma": "desanimado",
+"rank": 20957,
+"pos": "adj",
+"options": [
+"lacking spirit or motivation; downhearted",
+"unable to make firm decisions",
+"overly cautious about spending money",
+"confused by too many choices"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0626",
+"lemma": "paradoxalmente",
+"rank": 21103,
+"pos": "adv",
+"options": [
+"in a seemingly contradictory way",
+"in a gradual, step-by-step manner",
+"in a straightforward, direct way",
+"in a repeated or ongoing fashion"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0627",
+"lemma": "radialistas",
+"rank": 21112,
+"pos": "noun",
+"options": [
+"people who work in broadcast sound media",
+"people who repair motor vehicles",
+"people who manage outdoor markets",
+"people who deliver postal packages"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0628",
+"lemma": "defronte",
+"rank": 21280,
+"pos": "adv",
+"options": [
+"facing, across from, on the other side",
+"soon, in a short while",
+"slowly, without any hurry",
+"together, side by side"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0629",
+"lemma": "afugentar",
+"rank": 21409,
+"pos": "verb",
+"options": [
+"to drive away or cause to flee",
+"to sort items into separate groups",
+"to wrap something tightly in cloth",
+"to reduce the size of a garment"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0630",
+"lemma": "hidratado",
+"rank": 21608,
+"pos": "adj",
+"options": [
+"having enough moisture, well-watered",
+"deeply tanned, darkened by the sun",
+"fully rested, free from tiredness",
+"tightly sealed, kept airtight"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0631",
+"lemma": "principiante",
+"rank": 21869,
+"pos": "noun",
+"options": [
+"a person just starting out, a newcomer",
+"a skilled craftsman or artisan",
+"a close friend or companion",
+"a formal written agreement"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0632",
+"lemma": "violentado",
+"rank": 21880,
+"pos": "adj",
+"options": [
+"subjected to brutal force or assault",
+"kept apart from others by rule",
+"worn down after long and hard effort",
+"left behind and no longer wanted"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0633",
+"lemma": "romã",
+"rank": 22096,
+"pos": "noun",
+"options": [
+"a round red fruit with many seeds",
+"a type of flat woven floor covering",
+"a small rodent kept as a pet",
+"a climbing woody garden plant"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0634",
+"lemma": "pasmar",
+"rank": 22136,
+"pos": "verb",
+"options": [
+"to be left speechless with amazement",
+"to feel deep sorrow or grief",
+"to move quietly without being heard",
+"to hold something tightly in one's hands"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0635",
+"lemma": "caprichoso",
+"rank": 22147,
+"pos": "adj",
+"options": [
+"tending to change mood on a whim",
+"deeply devoted to one's beliefs",
+"easily frightened or startled",
+"slow and careful in movement"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0636",
+"lemma": "angustiado",
+"rank": 22682,
+"pos": "adj",
+"options": [
+"filled with distress or torment",
+"easily fooled or misled",
+"worn out from hard labor",
+"overly proud of one's appearance"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0637",
+"lemma": "desmoronamento",
+"rank": 22977,
+"pos": "noun",
+"options": [
+"a sudden falling apart or crumbling",
+"a loud burst of laughter",
+"a legal ruling or judgment",
+"a sharp road bend"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0638",
+"lemma": "servil",
+"rank": 22984,
+"pos": "adj",
+"options": [
+"overly eager to obey and please others",
+"covered with a thick layer of frost",
+"having a pleasant and cheerful manner",
+"producing a large amount of offspring"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0639",
+"lemma": "polarizado",
+"rank": 22988,
+"pos": "adj",
+"options": [
+"divided into opposing sides",
+"covered in a thin outer layer",
+"stretched out over a wide area",
+"worn down by repeated use"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0640",
+"lemma": "viscoso",
+"rank": 23183,
+"pos": "adj",
+"options": [
+"thick and sticky in texture",
+"very bright, visible from far",
+"broken into tiny pieces",
+"extremely cold to the touch"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0641",
+"lemma": "ultrapassagem",
+"rank": 23480,
+"pos": "noun",
+"options": [
+"the act of going past another vehicle",
+"a sudden drop in ground level",
+"a written agreement between two parties",
+"a narrow strip of land near water"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0642",
+"lemma": "festeiro",
+"rank": 23715,
+"pos": "noun",
+"options": [
+"a person who loves parties and merrymaking",
+"a craftsman who builds wooden furniture",
+"a trader who sells goods at market",
+"a nomad drifting between towns"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0643",
+"lemma": "crismar",
+"rank": 23720,
+"pos": "verb",
+"options": [
+"to perform a confirmation rite on",
+"to gather grain after a harvest",
+"to fold cloth into neat layers",
+"to carve letters into a stone surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0644",
+"lemma": "homologar",
+"rank": 23722,
+"pos": "verb",
+"options": [
+"to officially approve or certify something",
+"to wrap a gift with decorative paper",
+"to divide land into equal plots",
+"to reply in writing to someone"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0645",
+"lemma": "reivindicado",
+"rank": 23731,
+"pos": "adj",
+"options": [
+"demanded or asserted as one's own right",
+"worn down after long use",
+"carefully arranged in neat rows",
+"left without any owner or guardian"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0646",
+"lemma": "lince",
+"rank": 23733,
+"pos": "noun",
+"options": [
+"a wild spotted cat with tufted ears",
+"a flat-bottomed boat for river crossing",
+"a curved hook for hanging goods",
+"a hard outer shell of a seed"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0647",
+"lemma": "sabiá",
+"rank": 23802,
+"pos": "noun",
+"options": [
+"a Brazilian thrush, a singing bird",
+"a large flat-bottomed river boat",
+"a type of woven straw basket",
+"a small freshwater fish"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0648",
+"lemma": "separador",
+"rank": 24017,
+"pos": "noun",
+"options": [
+"a barrier that keeps things apart",
+"a tool used to measure curved surfaces",
+"a handle attached to a heavy door",
+"a shelf used to store kitchen goods"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0649",
+"lemma": "maestria",
+"rank": 24189,
+"pos": "noun",
+"options": [
+"great skill or mastery of a craft",
+"a feeling of deep sorrow",
+"a formal written request",
+"the state of being worn out"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0650",
+"lemma": "sensivelmente",
+"rank": 24236,
+"pos": "adv",
+"options": [
+"noticeably, to a meaningful degree",
+"in a slow and cautious manner",
+"at a very early stage or time",
+"repeatedly and without interruption"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0651",
+"lemma": "talco",
+"rank": 24244,
+"pos": "noun",
+"options": [
+"a soft white powdery mineral for skin",
+"a woven cotton bed covering",
+"a small carved wooden figure",
+"a hollow clay cooking vessel"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0652",
+"lemma": "guarita",
+"rank": 24302,
+"pos": "noun",
+"options": [
+"a small booth where a watchman stands",
+"a clay cooking pot with a lid",
+"a narrow strip of sandy shoreline",
+"a wooden bench in a courtyard"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0653",
+"lemma": "decapitado",
+"rank": 24307,
+"pos": "adj",
+"options": [
+"having had the head cut off",
+"left without any money or means",
+"covered from head to toe in cloth",
+"beaten and left badly injured"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0654",
+"lemma": "chicotada",
+"rank": 24323,
+"pos": "noun",
+"options": [
+"a stroke delivered with a whip",
+"a heavy blow from a closed fist",
+"a loud burst of angry shouting",
+"a deep cut made by a blade"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0655",
+"lemma": "urais",
+"rank": 24523,
+"pos": "noun",
+"options": [
+"the mountain range dividing Europe and Asia",
+"a type of small freshwater fish",
+"a set of ancient written symbols",
+"southern folk dance style"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0656",
+"lemma": "julgador",
+"rank": 24565,
+"pos": "noun",
+"options": [
+"one who decides on a verdict",
+"a skilled worker who repairs machinery",
+"a vendor of market goods",
+"an official who collects taxes"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0657",
+"lemma": "marrone",
+"rank": 24750,
+"pos": "adj",
+"options": [
+"having a dark reddish-brown color",
+"very thin and easy to see through",
+"covered with a rough, grainy coating",
+"giving off a very strong, sweet smell"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0658",
+"lemma": "antever",
+"rank": 24898,
+"pos": "verb",
+"options": [
+"to see or sense ahead of time",
+"to hold back or restrain",
+"to mix or blend together",
+"to wear out through repeated use"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0659",
+"lemma": "autarca",
+"rank": 24912,
+"pos": "noun",
+"options": [
+"a local government official",
+"a religious community leader",
+"a military commanding officer",
+"a licensed medical practitioner"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0660",
+"lemma": "manta",
+"rank": 25024,
+"pos": "noun",
+"options": [
+"a thick cloth used to keep warm",
+"a large flat tray for serving food",
+"a narrow band worn around the waist",
+"a wooden frame holding a door"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0661",
+"lemma": "reformador",
+"rank": 25114,
+"pos": "noun",
+"options": [
+"one who seeks to improve institutions",
+"a skilled builder of wooden furniture",
+"a keeper of financial records",
+"a person who delivers official letters"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0662",
+"lemma": "estagnar",
+"rank": 25151,
+"pos": "verb",
+"options": [
+"to stop flowing or making progress",
+"to gather fallen leaves into a pile",
+"to address a crowd loudly",
+"to mark a boundary with stones"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0663",
+"lemma": "escaravelho",
+"rank": 25186,
+"pos": "noun",
+"options": [
+"a hard-shelled insect, a beetle",
+"a large thorny bush or shrub",
+"a coarse woolen blanket or cloak",
+"a long curved blade on a pole"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0664",
+"lemma": "culpabilidade",
+"rank": 25232,
+"pos": "noun",
+"options": [
+"the state of being responsible for wrongdoing",
+"a strong desire to eat sweet foods",
+"the condition of being very tired",
+"an ability to recall past events clearly"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0665",
+"lemma": "trincar",
+"rank": 25445,
+"pos": "verb",
+"options": [
+"to bite or crunch with teeth",
+"to tie or fasten tightly",
+"to drag or pull along",
+"to shake or rattle noisily"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0666",
+"lemma": "paraiso",
+"rank": 25597,
+"pos": "noun",
+"options": [
+"a place of perfect bliss or joy",
+"a long journey by sea",
+"a written agreement between two sides",
+"outer edge of a piece of land"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0667",
+"lemma": "punto",
+"rank": 25613,
+"pos": "noun",
+"options": [
+"a stitch or knitting loop",
+"a spoken or written greeting",
+"a wooden handle or grip",
+"a thin iron hook or clasp"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0668",
+"lemma": "infligido",
+"rank": 25662,
+"pos": "adj",
+"options": [
+"forcibly brought upon someone as punishment",
+"carefully arranged in neat rows",
+"openly declared to the public",
+"gradually worn down over time"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0669",
+"lemma": "interactivo",
+"rank": 26034,
+"pos": "adj",
+"options": [
+"allowing two-way response or input",
+"relating to a fixed, unvarying schedule",
+"able to be folded or collapsed flat",
+"having a sharp, bitter taste"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0670",
+"lemma": "atroz",
+"rank": 26055,
+"pos": "adj",
+"options": [
+"extremely cruel and horrifying",
+"bold and self-confident in manner",
+"slow and difficult to understand",
+"neat and carefully arranged"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0671",
+"lemma": "chaleirar",
+"rank": 26075,
+"pos": "verb",
+"options": [
+"to flatter or sweet-talk someone",
+"to trip or stumble while walking",
+"to sort or arrange items in rows",
+"to boil water in a pot"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0672",
+"lemma": "náutica",
+"rank": 26457,
+"pos": "noun",
+"options": [
+"art and science of seafaring",
+"the study of stars and celestial bodies",
+"the craft of drawing maps and charts",
+"the practice of diving underwater"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0673",
+"lemma": "calibração",
+"rank": 26609,
+"pos": "noun",
+"options": [
+"adjusting a tool to a standard",
+"a formal gathering of elected members",
+"the gradual wearing away of a surface",
+"a written record of financial dealings"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0674",
+"lemma": "secco",
+"rank": 26789,
+"pos": "adj",
+"options": [
+"having no moisture, not wet",
+"soft and easily shaped",
+"sharp or cutting in taste",
+"worn out from heavy use"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0675",
+"lemma": "relançamento",
+"rank": 26860,
+"pos": "noun",
+"options": [
+"a fresh bringing back to market",
+"a deep feeling of sorrow",
+"a formal gathering of people",
+"a written record of events"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0676",
+"lemma": "batuta",
+"rank": 26899,
+"pos": "noun",
+"options": [
+"stick used to conduct an orchestra",
+"a small open boat used for fishing",
+"a clay pot used for cooking stew",
+"a long bench found in a church"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0677",
+"lemma": "domesticado",
+"rank": 26900,
+"pos": "adj",
+"options": [
+"tamed, kept as a pet",
+"badly worn or frayed",
+"deeply rooted in faith",
+"known across a wide region"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0678",
+"lemma": "custoso",
+"rank": 26914,
+"pos": "adj",
+"options": [
+"requiring great effort or money",
+"easily broken or damaged",
+"widely known and admired",
+"tending to cause anger"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0679",
+"lemma": "domiciliário",
+"rank": 27161,
+"pos": "adj",
+"options": [
+"relating to one's place of residence",
+"causing great harm or ruin",
+"of or belonging to a religious order",
+"occurring at regular fixed intervals"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0680",
+"lemma": "cordialidade",
+"rank": 27257,
+"pos": "noun",
+"options": [
+"warm and friendly manner",
+"firm rule or command",
+"shared belief or opinion",
+"sudden burst of strong feeling"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0681",
+"lemma": "pigmentação",
+"rank": 27373,
+"pos": "noun",
+"options": [
+"natural coloring found in skin or tissue",
+"the overall shape of a living body",
+"the layered growth of hair strands",
+"the gradual hardening of bone matter"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0682",
+"lemma": "postumamente",
+"rank": 27378,
+"pos": "adv",
+"options": [
+"after someone's death, belatedly",
+"in a hurried, rushed manner",
+"with great pride and ceremony",
+"secretly, without others knowing"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0683",
+"lemma": "tapinha",
+"rank": 27407,
+"pos": "noun",
+"options": [
+"a gentle small slap or pat",
+"a short sweet baked treat",
+"a soft quiet spoken word",
+"a tiny fold in a garment"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0684",
+"lemma": "lubrificar",
+"rank": 27450,
+"pos": "verb",
+"options": [
+"to oil parts to reduce friction",
+"to wrap something in protective covering",
+"to cut metal into smaller sections",
+"to heat a substance until it melts"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0685",
+"lemma": "escaldar",
+"rank": 27478,
+"pos": "verb",
+"options": [
+"to burn with boiling water or steam",
+"to bend or twist out of shape",
+"to sort items into groups",
+"to engrave a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0686",
+"lemma": "bias",
+"rank": 27528,
+"pos": "noun",
+"options": [
+"a tendency to favor one side unfairly",
+"a written record of events",
+"a sudden sharp drop in price",
+"a formal rule governing conduct"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0687",
+"lemma": "setentrional",
+"rank": 27757,
+"pos": "adj",
+"options": [
+"of or facing the northern direction",
+"relating to the warm lower landmasses",
+"lying far inland, away from the coast",
+"found in or typical of highland terrain"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0688",
+"lemma": "endoscopia",
+"rank": 27836,
+"pos": "noun",
+"options": [
+"internal body cavity examination",
+"removal of a diseased organ",
+"measurement of blood flow",
+"study of skin conditions"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0689",
+"lemma": "senda",
+"rank": 28357,
+"pos": "noun",
+"options": [
+"a narrow trail through the countryside",
+"a wooden storage chest",
+"a warning sign or signal",
+"a shallow river crossing"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0690",
+"lemma": "fluxograma",
+"rank": 28622,
+"pos": "noun",
+"options": [
+"a diagram showing steps in a process",
+"a written record of daily expenses",
+"a map showing land boundaries",
+"a table listing staff working hours"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0691",
+"lemma": "figuração",
+"rank": 28666,
+"pos": "noun",
+"options": [
+"background extras in a film or show",
+"the setting of a broken bone",
+"a legal transfer of land ownership",
+"the weaving of threads into cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0692",
+"lemma": "pensante",
+"rank": 28833,
+"pos": "adj",
+"options": [
+"capable of reasoning, having a mind",
+"deeply sorrowful and grieving",
+"slow-moving and heavy-bodied",
+"bold and willing to take risks"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0693",
+"lemma": "relance",
+"rank": 28971,
+"pos": "noun",
+"options": [
+"a quick, brief look at something",
+"a sharp bend in a river's path",
+"a faint smell carried on the wind",
+"a soft padding placed under a seat"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0694",
+"lemma": "radiofônica",
+"rank": 29155,
+"pos": "adj",
+"options": [
+"relating to broadcast sound transmission",
+"carried out on a moving vessel",
+"belonging to a written legal document",
+"connected to underground rail travel"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0695",
+"lemma": "binóculos",
+"rank": 29315,
+"pos": "noun",
+"options": [
+"a handheld device for seeing distant things",
+"a set of weights used for measuring",
+"a pair of padded gloves for warmth",
+"a folding city or region map"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0696",
+"lemma": "expôr",
+"rank": 29370,
+"pos": "verb",
+"options": [
+"to display or reveal something",
+"to return something to its former owner",
+"to wrap something carefully for storage",
+"to divide resources among several parties"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0697",
+"lemma": "makeup",
+"rank": 29432,
+"pos": "noun",
+"options": [
+"cosmetics worn on the face",
+"a thick woolen blanket",
+"a legal written agreement",
+"a small handheld tool"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0698",
+"lemma": "ametista",
+"rank": 29842,
+"pos": "noun",
+"options": [
+"a violet or purple gemstone",
+"a tall flowering marsh plant",
+"a curved blade for cutting grain",
+"a soft woven head covering"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0699",
+"lemma": "cigarra",
+"rank": 29879,
+"pos": "noun",
+"options": [
+"a loud buzzing insect of summer",
+"a small freshwater fish",
+"a type of climbing vine",
+"a hand-rolled tobacco leaf"
+],
+"correct": 0
+},
+{
+"id": "mc-pt-0700",
+"lemma": "assexuado",
+"rank": 29890,
+"pos": "adj",
+"options": [
+"lacking any drive or attraction toward others",
+"easily angered or irritated",
+"relating to the outdoors or wild nature",
+"done without any preparation or planning"
+],
+"correct": 0
+}
+],
+"pseudowords": [
+{
+"id": "pw-pt-0031",
+"form": "espridar"
+},
+{
+"id": "pw-pt-0032",
+"form": "belunhar"
+},
+{
+"id": "pw-pt-0033",
+"form": "frimador"
+},
+{
+"id": "pw-pt-0034",
+"form": "desvalir"
+},
+{
+"id": "pw-pt-0035",
+"form": "mentural"
+},
+{
+"id": "pw-pt-0037",
+"form": "tonfadar"
+},
+{
+"id": "pw-pt-0038",
+"form": "granudar"
+},
+{
+"id": "pw-pt-0039",
+"form": "contilha"
+},
+{
+"id": "pw-pt-0040",
+"form": "blandecer"
+},
+{
+"id": "pw-pt-0041",
+"form": "restrumar"
+},
+{
+"id": "pw-pt-0042",
+"form": "februlhar"
+},
+{
+"id": "pw-pt-0043",
+"form": "belsonar"
+},
+{
+"id": "pw-pt-0044",
+"form": "tralundar"
+},
+{
+"id": "pw-pt-0045",
+"form": "frangonha"
+},
+{
+"id": "pw-pt-0046",
+"form": "contralha"
+},
+{
+"id": "pw-pt-0047",
+"form": "trevombar"
+},
+{
+"id": "pw-pt-0048",
+"form": "belandar"
+},
+{
+"id": "pw-pt-0049",
+"form": "ventelha"
+},
+{
+"id": "pw-pt-0050",
+"form": "bespunar"
+},
+{
+"id": "pw-pt-0069",
+"form": "perludar"
+},
+{
+"id": "pw-pt-0070",
+"form": "frandilho"
+},
+{
+"id": "pw-pt-0071",
+"form": "espombar"
+},
+{
+"id": "pw-pt-0072",
+"form": "trinhadal"
+},
+{
+"id": "pw-pt-0073",
+"form": "almofura"
+},
+{
+"id": "pw-pt-0074",
+"form": "contrudar"
+},
+{
+"id": "pw-pt-0075",
+"form": "palvinha"
+},
+{
+"id": "pw-pt-0076",
+"form": "descumar"
+},
+{
+"id": "pw-pt-0077",
+"form": "bornelha"
+},
+{
+"id": "pw-pt-0078",
+"form": "espadural"
+},
+{
+"id": "pw-pt-0079",
+"form": "frenidar"
+},
+{
+"id": "pw-pt-0080",
+"form": "montulhar"
+},
+{
+"id": "pw-pt-0081",
+"form": "comprular"
+},
+{
+"id": "pw-pt-0083",
+"form": "bolfinar"
+},
+{
+"id": "pw-pt-0084",
+"form": "entravada"
+},
+{
+"id": "pw-pt-0086",
+"form": "resputar"
+},
+{
+"id": "pw-pt-0100",
+"form": "vimponar"
+},
+{
+"id": "pw-pt-0101",
+"form": "lacridar"
+},
+{
+"id": "pw-pt-0102",
+"form": "fentrulha"
+},
+{
+"id": "pw-pt-0103",
+"form": "molvestar"
+},
+{
+"id": "pw-pt-0104",
+"form": "prantulho"
+},
+{
+"id": "pw-pt-0105",
+"form": "abrunfar"
+},
+{
+"id": "pw-pt-0106",
+"form": "listombar"
+},
+{
+"id": "pw-pt-0107",
+"form": "trentudar"
+},
+{
+"id": "pw-pt-0108",
+"form": "bolvinhar"
+},
+{
+"id": "pw-pt-0109",
+"form": "mespidar"
+},
+{
+"id": "pw-pt-0139",
+"form": "fentulhar"
+},
+{
+"id": "pw-pt-0140",
+"form": "crambolha"
+},
+{
+"id": "pw-pt-0141",
+"form": "destrivar"
+},
+{
+"id": "pw-pt-0142",
+"form": "esfolgura"
+},
+{
+"id": "pw-pt-0143",
+"form": "tralbidar"
+},
+{
+"id": "pw-pt-0144",
+"form": "crontulha"
+},
+{
+"id": "pw-pt-0146",
+"form": "brencador"
+},
+{
+"id": "pw-pt-0147",
+"form": "montridar"
+},
+{
+"id": "pw-pt-0148",
+"form": "valtridar"
+},
+{
+"id": "pw-pt-0149",
+"form": "tralfunda"
+},
+{
+"id": "pw-pt-0150",
+"form": "esprunhar"
+},
+{
+"id": "pw-pt-0151",
+"form": "destolvar"
+},
+{
+"id": "pw-pt-0152",
+"form": "brestulha"
+},
+{
+"id": "pw-pt-0153",
+"form": "renfoldar"
+},
+{
+"id": "pw-pt-0154",
+"form": "calmidura"
+},
+{
+"id": "pw-pt-0155",
+"form": "esbrulhar"
+},
+{
+"id": "pw-pt-0156",
+"form": "varnimdar"
+},
+{
+"id": "pw-pt-0157",
+"form": "drenvolar"
+},
+{
+"id": "pw-pt-0158",
+"form": "pelmostar"
+},
+{
+"id": "pw-pt-0159",
+"form": "caltridar"
+},
+{
+"id": "pw-pt-0160",
+"form": "mentoldar"
+},
+{
+"id": "pw-pt-0161",
+"form": "calmobrar"
+},
+{
+"id": "pw-pt-0162",
+"form": "dervuldar"
+},
+{
+"id": "pw-pt-0163",
+"form": "caltimbar"
+},
+{
+"id": "pw-pt-0164",
+"form": "festridar"
+},
+{
+"id": "pw-pt-0165",
+"form": "trandolar"
+},
+{
+"id": "pw-pt-0167",
+"form": "caltronar"
+},
+{
+"id": "pw-pt-0168",
+"form": "esgrumada"
+},
+{
+"id": "pw-pt-0172",
+"form": "velnifar"
+},
+{
+"id": "pw-pt-0174",
+"form": "brenfilar"
+},
+{
+"id": "pw-pt-0177",
+"form": "velnimada"
+},
+{
+"id": "pw-pt-0178",
+"form": "esgruvada"
+},
+{
+"id": "pw-pt-0179",
+"form": "delvunhar"
+},
+{
+"id": "pw-pt-0181",
+"form": "folmecida"
+},
+{
+"id": "pw-pt-0182",
+"form": "calvomdar"
+},
+{
+"id": "pw-pt-0184",
+"form": "reltovada"
+},
+{
+"id": "pw-pt-0185",
+"form": "crelturar"
+},
+{
+"id": "pw-pt-0187",
+"form": "folvedura"
+},
+{
+"id": "pw-pt-0188",
+"form": "esprantir"
+},
+{
+"id": "pw-pt-0189",
+"form": "resdovura"
+},
+{
+"id": "pw-pt-0190",
+"form": "espaltida"
+},
+{
+"id": "pw-pt-0191",
+"form": "tralvonar"
+},
+{
+"id": "pw-pt-0194",
+"form": "desnolvar"
+},
+{
+"id": "pw-pt-0195",
+"form": "crembulha"
+},
+{
+"id": "pw-pt-0197",
+"form": "calvimura"
+},
+{
+"id": "pw-pt-0198",
+"form": "brenoldar"
+},
+{
+"id": "pw-pt-0199",
+"form": "esfaltura"
+},
+{
+"id": "pw-pt-0003",
+"form": "despinçar"
+},
+{
+"id": "pw-pt-0004",
+"form": "voluçar"
+},
+{
+"id": "pw-pt-0006",
+"form": "torçável"
+},
+{
+"id": "pw-pt-0008",
+"form": "graçilho"
+},
+{
+"id": "pw-pt-0012",
+"form": "perlíçar"
+},
+{
+"id": "pw-pt-0013",
+"form": "mundaçar"
+},
+{
+"id": "pw-pt-0015",
+"form": "biluça"
+},
+{
+"id": "pw-pt-0018",
+"form": "pralçeza"
+},
+{
+"id": "pw-pt-0023",
+"form": "colçeda"
+},
+{
+"id": "pw-pt-0028",
+"form": "contiçar"
+},
+{
+"id": "pw-pt-0036",
+"form": "prolixar"
+},
+{
+"id": "pw-pt-0051",
+"form": "zarvelha"
+},
+{
+"id": "pw-pt-0052",
+"form": "prezundar"
+},
+{
+"id": "pw-pt-0057",
+"form": "luzivante"
+},
+{
+"id": "pw-pt-0062",
+"form": "rezumbar"
+},
+{
+"id": "pw-pt-0064",
+"form": "frizolar"
+},
+{
+"id": "pw-pt-0067",
+"form": "reluzar"
+},
+{
+"id": "pw-pt-0085",
+"form": "cortulhão"
+},
+{
+"id": "pw-pt-0087",
+"form": "jolvinar"
+},
+{
+"id": "pw-pt-0091",
+"form": "jilvonar"
+},
+{
+"id": "pw-pt-0092",
+"form": "rejondar"
+},
+{
+"id": "pw-pt-0098",
+"form": "jenvolar"
+},
+{
+"id": "pw-pt-0116",
+"form": "fendrixar"
+},
+{
+"id": "pw-pt-0117",
+"form": "comprixar"
+},
+{
+"id": "pw-pt-0120",
+"form": "luxovinar"
+},
+{
+"id": "pw-pt-0125",
+"form": "quintrela"
+},
+{
+"id": "pw-pt-0126",
+"form": "quirofão"
+},
+{
+"id": "pw-pt-0128",
+"form": "quembular"
+},
+{
+"id": "pw-pt-0131",
+"form": "querfulho"
+},
+{
+"id": "pw-pt-0136",
+"form": "quelvonar"
+},
+{
+"id": "pw-pt-0145",
+"form": "vespulhão"
+},
+{
+"id": "pw-pt-0166",
+"form": "vesmulhã"
+},
+{
+"id": "pw-pt-0171",
+"form": "mantrivão"
+},
+{
+"id": "pw-pt-0173",
+"form": "trandavão"
+},
+{
+"id": "pw-pt-0175",
+"form": "esgrumão"
+},
+{
+"id": "pw-pt-0176",
+"form": "frentadão"
+},
+{
+"id": "pw-pt-0180",
+"form": "bortundão"
+},
+{
+"id": "pw-pt-0183",
+"form": "brentigão"
+},
+{
+"id": "pw-pt-0186",
+"form": "brestivão"
+},
+{
+"id": "pw-pt-0201",
+"form": "frenibar"
+},
+{
+"id": "pw-pt-0202",
+"form": "trevulhar"
+},
+{
+"id": "pw-pt-0203",
+"form": "mondopar"
+},
+{
+"id": "pw-pt-0204",
+"form": "silvetrar"
+},
+{
+"id": "pw-pt-0205",
+"form": "almofinar"
+},
+{
+"id": "pw-pt-0206",
+"form": "entropir"
+},
+{
+"id": "pw-pt-0207",
+"form": "braminhar"
+},
+{
+"id": "pw-pt-0208",
+"form": "nestupir"
+},
+{
+"id": "pw-pt-0209",
+"form": "calmotrar"
+},
+{
+"id": "pw-pt-0210",
+"form": "blondavar"
+},
+{
+"id": "pw-pt-0211",
+"form": "ormendiar"
+},
+{
+"id": "pw-pt-0212",
+"form": "trevolpar"
+},
+{
+"id": "pw-pt-0213",
+"form": "sornidar"
+},
+{
+"id": "pw-pt-0214",
+"form": "blandavir"
+},
+{
+"id": "pw-pt-0215",
+"form": "tresolpar"
+},
+{
+"id": "pw-pt-0216",
+"form": "bonfirdar"
+},
+{
+"id": "pw-pt-0217",
+"form": "tolmendar"
+},
+{
+"id": "pw-pt-0218",
+"form": "mondevir"
+},
+{
+"id": "pw-pt-0219",
+"form": "bletonar"
+},
+{
+"id": "pw-pt-0220",
+"form": "sontemir"
+},
+{
+"id": "pw-pt-0221",
+"form": "palvundar"
+},
+{
+"id": "pw-pt-0222",
+"form": "tornelhar"
+},
+{
+"id": "pw-pt-0223",
+"form": "frisombar"
+},
+{
+"id": "pw-pt-0224",
+"form": "blandupir"
+},
+{
+"id": "pw-pt-0225",
+"form": "trepulhar"
+},
+{
+"id": "pw-pt-0226",
+"form": "montalvir"
+},
+{
+"id": "pw-pt-0227",
+"form": "eltromir"
+},
+{
+"id": "pw-pt-0228",
+"form": "trelvidar"
+},
+{
+"id": "pw-pt-0229",
+"form": "sombular"
+},
+{
+"id": "pw-pt-0230",
+"form": "entrilhar"
+},
+{
+"id": "pw-pt-0231",
+"form": "pronastem"
+},
+{
+"id": "pw-pt-0232",
+"form": "belgomira"
+},
+{
+"id": "pw-pt-0233",
+"form": "verdilhar"
+},
+{
+"id": "pw-pt-0234",
+"form": "prumestal"
+},
+{
+"id": "pw-pt-0235",
+"form": "colvenhar"
+},
+{
+"id": "pw-pt-0236",
+"form": "frestomar"
+},
+{
+"id": "pw-pt-0237",
+"form": "blendipar"
+},
+{
+"id": "pw-pt-0238",
+"form": "monstular"
+},
+{
+"id": "pw-pt-0239",
+"form": "trinhodar"
+},
+{
+"id": "pw-pt-0240",
+"form": "sorvelpar"
+},
+{
+"id": "pw-pt-0241",
+"form": "beltromar"
+},
+{
+"id": "pw-pt-0242",
+"form": "pinhofar"
+},
+{
+"id": "pw-pt-0243",
+"form": "crustilha"
+},
+{
+"id": "pw-pt-0244",
+"form": "frendipar"
+},
+{
+"id": "pw-pt-0245",
+"form": "solvonhar"
+},
+{
+"id": "pw-pt-0246",
+"form": "minhafar"
+},
+{
+"id": "pw-pt-0247",
+"form": "blentural"
+},
+{
+"id": "pw-pt-0248",
+"form": "tromidar"
+},
+{
+"id": "pw-pt-0249",
+"form": "calvonhar"
+},
+{
+"id": "pw-pt-0250",
+"form": "sortelhar"
+},
+{
+"id": "pw-pt-0251",
+"form": "frendilha"
+},
+{
+"id": "pw-pt-0252",
+"form": "prinhomar"
+},
+{
+"id": "pw-pt-0253",
+"form": "blentonar"
+},
+{
+"id": "pw-pt-0254",
+"form": "solvefar"
+},
+{
+"id": "pw-pt-0255",
+"form": "tronvalha"
+},
+{
+"id": "pw-pt-0256",
+"form": "minhofar"
+},
+{
+"id": "pw-pt-0257",
+"form": "sorbidar"
+},
+{
+"id": "pw-pt-0258",
+"form": "belhofar"
+},
+{
+"id": "pw-pt-0259",
+"form": "tronmidar"
+},
+{
+"id": "pw-pt-0260",
+"form": "fremdalha"
+},
+{
+"id": "pw-pt-0261",
+"form": "solvernal"
+},
+{
+"id": "pw-pt-0262",
+"form": "frenhopar"
+},
+{
+"id": "pw-pt-0263",
+"form": "praltiver"
+},
+{
+"id": "pw-pt-0264",
+"form": "sombulhar"
+},
+{
+"id": "pw-pt-0265",
+"form": "trendafor"
+},
+{
+"id": "pw-pt-0266",
+"form": "gremnido"
+},
+{
+"id": "pw-pt-0267",
+"form": "calvipar"
+},
+{
+"id": "pw-pt-0268",
+"form": "esplombar"
+},
+{
+"id": "pw-pt-0269",
+"form": "brelsopar"
+}
+]
+}

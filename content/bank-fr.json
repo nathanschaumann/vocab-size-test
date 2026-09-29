@@ -1,0 +1,9896 @@
+{
+"language": "fr",
+"bankVersion": "fr-bank-v1",
+"listVersion": "fr-lemmas-v1",
+"items": [
+{
+"id": "mc-fr-0001",
+"lemma": "trouver",
+"rank": 78,
+"pos": "verb",
+"options": [
+"to come upon, to locate something",
+"to cut into pieces or divide",
+"to move forward or advance",
+"to put down or set aside"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0002",
+"lemma": "année",
+"rank": 88,
+"pos": "noun",
+"options": [
+"a span of twelve months",
+"a period of seven days",
+"a brief moment or instant",
+"a stretch of several decades"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0003",
+"lemma": "parler",
+"rank": 95,
+"pos": "verb",
+"options": [
+"to utter words aloud",
+"to go from place to place",
+"to look at with great care",
+"to set something down somewhere"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0004",
+"lemma": "juste",
+"rank": 112,
+"pos": "adj",
+"options": [
+"fair, right, proper",
+"deeply felt, heartfelt",
+"soft and quiet in manner",
+"worn out, very tired"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0005",
+"lemma": "gens",
+"rank": 114,
+"pos": "noun",
+"options": [
+"persons, human beings in a group",
+"goods or belongings owned",
+"words spoken aloud in a room",
+"tasks that must be done"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0006",
+"lemma": "aimer",
+"rank": 117,
+"pos": "verb",
+"options": [
+"to feel warmth and fondness toward",
+"to fasten two things together tightly",
+"to cut something into small pieces",
+"to pour liquid into a container"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0007",
+"lemma": "croire",
+"rank": 125,
+"pos": "verb",
+"options": [
+"to hold something to be true",
+"to look carefully at something",
+"to hand something over to another",
+"to move quickly on foot"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0008",
+"lemma": "cela",
+"rank": 135,
+"pos": "other",
+"options": [
+"that thing, that fact",
+"my own self, myself",
+"each one, every part",
+"here, in this spot"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0009",
+"lemma": "enfant",
+"rank": 137,
+"pos": "noun",
+"options": [
+"a young boy or girl",
+"a grown woman or man",
+"a close blood relative",
+"a dear personal friend"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0010",
+"lemma": "certain",
+"rank": 150,
+"pos": "adj",
+"options": [
+"sure, without any doubt",
+"quick, done without delay",
+"soft to the touch, gentle",
+"widely known, talked about by many"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0011",
+"lemma": "nom",
+"rank": 165,
+"pos": "noun",
+"options": [
+"a word identifying a person or thing",
+"a written mark or signature",
+"a spoken request or demand",
+"a brief story or account"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0012",
+"lemma": "mois",
+"rank": 166,
+"pos": "noun",
+"options": [
+"one of twelve divisions of the year",
+"a unit of measuring distance",
+"a written record of events",
+"a gathering of people in one place"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0013",
+"lemma": "famille",
+"rank": 183,
+"pos": "noun",
+"options": [
+"parents, children, and close relations",
+"a set of tools kept together",
+"a long journey by sea",
+"the upper floor of a building"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0014",
+"lemma": "semaine",
+"rank": 185,
+"pos": "noun",
+"options": [
+"a span of seven days",
+"the warmth given off by the sun",
+"a short piece of writing",
+"a flight of steps between floors"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0015",
+"lemma": "regarder",
+"rank": 188,
+"pos": "verb",
+"options": [
+"to look at, to watch",
+"to carry or bring along",
+"to sit down and rest",
+"to speak loudly or call out"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0016",
+"lemma": "également",
+"rank": 191,
+"pos": "adv",
+"options": [
+"in the same way, as well",
+"right away, without delay",
+"barely, with great difficulty",
+"in a loud and strong manner"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0017",
+"lemma": "besoin",
+"rank": 196,
+"pos": "noun",
+"options": [
+"a want, something lacking",
+"a short journey on foot",
+"a bitter dispute or quarrel",
+"a wooden shelf or ledge"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0018",
+"lemma": "lors",
+"rank": 198,
+"pos": "adv",
+"options": [
+"at that point in time, then",
+"in a certain place, there",
+"by that means, therefore",
+"in spite of that, still"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0019",
+"lemma": "effet",
+"rank": 199,
+"pos": "noun",
+"options": [
+"a result brought about by a cause",
+"a soft bed covering used for warmth",
+"a curved line drawn on paper",
+"a small sweet cake or biscuit"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0020",
+"lemma": "porte",
+"rank": 206,
+"pos": "noun",
+"options": [
+"a hinged panel closing a doorway",
+"a long wooden bench for sitting",
+"a thick outer garment for cold weather",
+"a large open field of grass"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0021",
+"lemma": "utiliser",
+"rank": 209,
+"pos": "verb",
+"options": [
+"to make use of, to employ",
+"to put away, to store",
+"to repair, to fix up",
+"to hand over, to give out"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0022",
+"lemma": "sens",
+"rank": 230,
+"pos": "noun",
+"options": [
+"meaning, what a word conveys",
+"a sharp cutting tool",
+"the outer boundary of a shape",
+"a small unit of money"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0023",
+"lemma": "nombre",
+"rank": 241,
+"pos": "noun",
+"options": [
+"a figure used for counting",
+"a heavy rolling sound from the sky",
+"a thin flat piece of wood",
+"the smell given off by a flower"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0024",
+"lemma": "travailler",
+"rank": 265,
+"pos": "verb",
+"options": [
+"to do a job, put in effort",
+"to move from one place to another",
+"to speak at length to a group",
+"to pull or drag something heavy"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0025",
+"lemma": "appeler",
+"rank": 266,
+"pos": "verb",
+"options": [
+"to give a name to, to summon",
+"to cut something into two halves",
+"to put clothing onto one's body",
+"to fall down suddenly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0026",
+"lemma": "répondre",
+"rank": 302,
+"pos": "verb",
+"options": [
+"to give a reply",
+"to walk quietly without making noise",
+"to put something down on a surface",
+"to divide food equally among people"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0027",
+"lemma": "but",
+"rank": 312,
+"pos": "noun",
+"options": [
+"an aim or desired end point",
+"a sharp bend in a road",
+"a spoken remark or comment",
+"a unit of liquid measure"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0028",
+"lemma": "apprendre",
+"rank": 330,
+"pos": "verb",
+"options": [
+"to gain knowledge or a new skill",
+"to give something to someone else",
+"to wait for a period of time",
+"to break something into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0029",
+"lemma": "chercher",
+"rank": 345,
+"pos": "verb",
+"options": [
+"to look for, to try to find",
+"to cut into pieces",
+"to fall down suddenly",
+"to hand over to someone"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0030",
+"lemma": "type",
+"rank": 373,
+"pos": "noun",
+"options": [
+"a kind or sort of thing",
+"a written mark or sign",
+"a flat woven cloth",
+"a sharp cutting blade"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0031",
+"lemma": "vite",
+"rank": 383,
+"pos": "adv",
+"options": [
+"quickly, without delay",
+"softly, in a low voice",
+"barely, hardly at all",
+"far away, at a distance"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0032",
+"lemma": "chambre",
+"rank": 387,
+"pos": "noun",
+"options": [
+"a room for sleeping",
+"a large outdoor open space",
+"a set of stairs or steps",
+"a shared meal or dinner table"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0033",
+"lemma": "activité",
+"rank": 388,
+"pos": "noun",
+"options": [
+"something one does, a pursuit or task",
+"a feeling of deep sadness",
+"a formal written agreement",
+"the quality of being loud or noisy"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0034",
+"lemma": "cinq",
+"rank": 406,
+"pos": "other",
+"options": [
+"the number 5, one more than four",
+"every single one, the whole set",
+"not any, not even one",
+"a great many, more than enough"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0035",
+"lemma": "longtemps",
+"rank": 448,
+"pos": "adv",
+"options": [
+"for a great while",
+"very far away in distance",
+"in a slow, unhurried way",
+"at an earlier point, previously"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0036",
+"lemma": "changer",
+"rank": 466,
+"pos": "verb",
+"options": [
+"to make or become different, to shift",
+"to ask for something politely",
+"to hold something firmly in one's hands",
+"to sit down and rest one's legs"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0037",
+"lemma": "difficile",
+"rank": 468,
+"pos": "adj",
+"options": [
+"hard to do or deal with",
+"glad to meet others",
+"far away in space",
+"without color or light"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0038",
+"lemma": "toucher",
+"rank": 471,
+"pos": "verb",
+"options": [
+"to make contact with by hand",
+"to move from one place to another",
+"to speak in a loud, clear voice",
+"to break apart into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0039",
+"lemma": "parmi",
+"rank": 474,
+"pos": "other",
+"options": [
+"amid, surrounded by",
+"just before, ahead of",
+"except for, leaving out",
+"on top of, above"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0040",
+"lemma": "date",
+"rank": 498,
+"pos": "noun",
+"options": [
+"a specific day on the calendar",
+"a written mark or printed sign",
+"a sudden loud noise or bang",
+"a thin flat piece of metal"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0041",
+"lemma": "avis",
+"rank": 501,
+"pos": "noun",
+"options": [
+"a personal view or judgment",
+"a written agreement between parties",
+"a formal greeting or salutation",
+"a small monetary fee"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0042",
+"lemma": "hier",
+"rank": 503,
+"pos": "adv",
+"options": [
+"the day just past",
+"far from this place",
+"very soon now",
+"all night long"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0043",
+"lemma": "message",
+"rank": 523,
+"pos": "noun",
+"options": [
+"words sent from one person to another",
+"a formal gathering for a shared purpose",
+"a lengthy stretch of open land",
+"a binding agreement between two parties"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0044",
+"lemma": "voiture",
+"rank": 532,
+"pos": "noun",
+"options": [
+"a motorized road vehicle",
+"a written agreement",
+"a long sea journey",
+"a household tool or utensil"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0045",
+"lemma": "rôle",
+"rank": 537,
+"pos": "noun",
+"options": [
+"part played by an actor",
+"a written law or decree",
+"a journey taken by sea",
+"a length of woven cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0046",
+"lemma": "avril",
+"rank": 550,
+"pos": "noun",
+"options": [
+"the fourth month of the year",
+"the last day of the week",
+"a period of ten years",
+"the middle of the night"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0047",
+"lemma": "pratique",
+"rank": 555,
+"pos": "adj",
+"options": [
+"useful, convenient, easy to use",
+"widely known, celebrated",
+"morally upright, virtuous",
+"soft and yielding to the touch"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0048",
+"lemma": "plaisir",
+"rank": 558,
+"pos": "noun",
+"options": [
+"a feeling of enjoyment and delight",
+"a stretch of open, flat land",
+"a sharp pain in one's body",
+"a small gift wrapped up tightly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0049",
+"lemma": "propos",
+"rank": 561,
+"pos": "noun",
+"options": [
+"words spoken, a remark",
+"a written law, a rule",
+"a journey taken on foot",
+"a flat drawing, a sketch"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0050",
+"lemma": "situer",
+"rank": 568,
+"pos": "verb",
+"options": [
+"to place or set in a location",
+"to carry out a task",
+"to hand over to another",
+"to break apart into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0051",
+"lemma": "bout",
+"rank": 582,
+"pos": "noun",
+"options": [
+"the far end of something",
+"a short period of rest",
+"a sharp wooden peg",
+"a narrow winding path"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0052",
+"lemma": "mondial",
+"rank": 598,
+"pos": "adj",
+"options": [
+"covering the whole earth, global",
+"having great worth or value",
+"known by very few people",
+"happening at a set time each year"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0053",
+"lemma": "heureux",
+"rank": 612,
+"pos": "adj",
+"options": [
+"feeling joy and contentment",
+"tired after long effort",
+"sharp and quick in thought",
+"too proud of oneself"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0054",
+"lemma": "chemin",
+"rank": 613,
+"pos": "noun",
+"options": [
+"a road or path on foot",
+"a dwelling place or shelter",
+"a spoken or written greeting",
+"a stretch of open water"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0055",
+"lemma": "représenter",
+"rank": 617,
+"pos": "verb",
+"options": [
+"to stand in for another party",
+"to gather things together into a pile",
+"to cut something into smaller pieces",
+"to move quickly away from a place"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0056",
+"lemma": "internet",
+"rank": 619,
+"pos": "noun",
+"options": [
+"the worldwide digital network",
+"a printed daily news sheet",
+"a long-distance phone call",
+"a public broadcasting signal"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0057",
+"lemma": "préparer",
+"rank": 623,
+"pos": "verb",
+"options": [
+"to get something ready beforehand",
+"to look at something carefully",
+"to hand something over to another",
+"to walk alongside someone"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0058",
+"lemma": "payer",
+"rank": 627,
+"pos": "verb",
+"options": [
+"to hand over money for something",
+"to cut or trim with a blade",
+"to carry a load from one place",
+"to fold or arrange in layers"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0059",
+"lemma": "sinon",
+"rank": 632,
+"pos": "other",
+"options": [
+"if not, or else, otherwise",
+"even though, despite that",
+"as soon as, right when",
+"so that, in order to"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0060",
+"lemma": "annonce",
+"rank": 665,
+"pos": "noun",
+"options": [
+"a public notice or advertisement",
+"a written law or decree",
+"a sharp rise in price",
+"a formal gathering of people"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0061",
+"lemma": "espèce",
+"rank": 670,
+"pos": "noun",
+"options": [
+"a category of living things",
+"a fleeting hope or wish",
+"a written promise",
+"a sudden outburst of anger"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0062",
+"lemma": "création",
+"rank": 672,
+"pos": "noun",
+"options": [
+"the act of making something new",
+"a set of written laws",
+"a sudden burst of anger",
+"the joining of two groups"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0063",
+"lemma": "plupart",
+"rank": 686,
+"pos": "other",
+"options": [
+"the majority, most of a group",
+"a small leftover portion",
+"an equal share among all",
+"the very first of a series"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0064",
+"lemma": "mourir",
+"rank": 692,
+"pos": "verb",
+"options": [
+"to stop living, to pass away",
+"to grow larger over time",
+"to fall into a deep sleep",
+"to wander without a clear path"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0065",
+"lemma": "transport",
+"rank": 693,
+"pos": "noun",
+"options": [
+"moving people or goods around",
+"a fee paid for a journey",
+"a long path between two towns",
+"a device for lifting heavy loads"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0066",
+"lemma": "capital",
+"rank": 696,
+"pos": "noun",
+"options": [
+"money or wealth used for investment",
+"the main city of a country",
+"a written letter in its large form",
+"a punishment handed down by a court"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0067",
+"lemma": "hein",
+"rank": 701,
+"pos": "other",
+"options": [
+"eh? (seeking agreement or clarification)",
+"ouch! (cry of sudden pain)",
+"alas! (cry of sorrow or regret)",
+"shh! (call for quiet or silence)"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0068",
+"lemma": "changement",
+"rank": 705,
+"pos": "noun",
+"options": [
+"a shift from one state to another",
+"a spoken or written order",
+"a strong feeling of dislike",
+"a piece of land near water"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0069",
+"lemma": "objectif",
+"rank": 712,
+"pos": "noun",
+"options": [
+"the end result one is working toward",
+"a written set of guiding rules",
+"a monetary reward or prize",
+"a formal spoken statement"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0070",
+"lemma": "téléphoner",
+"rank": 715,
+"pos": "verb",
+"options": [
+"to make a call, to ring someone",
+"to send a written message",
+"to meet up with someone",
+"to shout across a distance"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0071",
+"lemma": "version",
+"rank": 733,
+"pos": "noun",
+"options": [
+"a particular rendering or account of something",
+"a sudden burst of laughter or noise",
+"the edge or rim of a surface",
+"a brief pause between two spoken turns"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0072",
+"lemma": "demi",
+"rank": 752,
+"pos": "adj",
+"options": [
+"half, one of two equal parts",
+"very small, tiny in size",
+"bent or curved inward",
+"coming before all others in time"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0073",
+"lemma": "empêcher",
+"rank": 753,
+"pos": "verb",
+"options": [
+"to stop something from happening",
+"to give away belongings to others",
+"to join two things firmly together",
+"to ask many questions in a row"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0074",
+"lemma": "courant",
+"rank": 775,
+"pos": "adj",
+"options": [
+"ordinarily met with day to day",
+"broken and no longer working",
+"tall and standing above others",
+"afraid and unwilling to act"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0075",
+"lemma": "arrêté",
+"rank": 778,
+"pos": "noun",
+"options": [
+"an official ruling by authorities",
+"a formal written complaint",
+"a public square or plaza",
+"a printed notice or flyer"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0076",
+"lemma": "frais",
+"rank": 793,
+"pos": "adj",
+"options": [
+"pleasantly cool to the touch",
+"loud and boisterous",
+"deeply hidden from view",
+"torn and badly worn"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0077",
+"lemma": "instant",
+"rank": 829,
+"pos": "noun",
+"options": [
+"a very brief point in time",
+"a sharp cutting edge",
+"a sudden loud noise",
+"a fixed sum of money"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0078",
+"lemma": "monsieur",
+"rank": 844,
+"pos": "noun",
+"options": [
+"a title for an adult man",
+"a young child's toy",
+"a piece of outer clothing",
+"a written note or letter"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0079",
+"lemma": "appelé",
+"rank": 852,
+"pos": "adj",
+"options": [
+"named, known by a certain title",
+"broken into smaller parts",
+"placed in a row or line",
+"wrapped tightly around something"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0080",
+"lemma": "adorer",
+"rank": 856,
+"pos": "verb",
+"options": [
+"to love deeply, to cherish",
+"to leave behind, to go away from",
+"to put up with, to bear something",
+"to reach out, to speak to someone"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0081",
+"lemma": "ouest",
+"rank": 860,
+"pos": "noun",
+"options": [
+"the direction where the sun goes down",
+"the sky above the earth",
+"the edge where land meets water",
+"the middle point of a given area"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0082",
+"lemma": "rapidement",
+"rank": 861,
+"pos": "adv",
+"options": [
+"in a short amount of time, swiftly",
+"in a soft, quiet manner",
+"with great effort and care",
+"at a great distance away"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0083",
+"lemma": "entier",
+"rank": 877,
+"pos": "adj",
+"options": [
+"complete, with nothing left out",
+"fresh and newly made",
+"tall and standing straight up",
+"slow and taking a long time"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0084",
+"lemma": "annoncer",
+"rank": 879,
+"pos": "verb",
+"options": [
+"to make something publicly known",
+"to hand money over to someone",
+"to fasten two things firmly together",
+"to leave a place behind"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0085",
+"lemma": "dormir",
+"rank": 893,
+"pos": "verb",
+"options": [
+"to rest with eyes closed",
+"to haul heavy loads away",
+"to speak angrily at someone",
+"to write one's name on paper"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0086",
+"lemma": "adresse",
+"rank": 910,
+"pos": "noun",
+"options": [
+"a place where someone lives or works",
+"a short written message or note",
+"a set of rules for a game",
+"a building's upper floor or level"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0087",
+"lemma": "policier",
+"rank": 919,
+"pos": "noun",
+"options": [
+"an officer who upholds the law",
+"a person who grows food on land",
+"a trained healer who treats the sick",
+"a worker who builds walls and houses"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0088",
+"lemma": "paix",
+"rank": 925,
+"pos": "noun",
+"options": [
+"a state of calm with no fighting",
+"the fee owed for using a service",
+"a sharp tool used to cut wood",
+"a soft cover used on a bed"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0089",
+"lemma": "poursuivre",
+"rank": 934,
+"pos": "verb",
+"options": [
+"to chase or keep going with",
+"to lend money to a friend",
+"to remove dirt by washing",
+"to fold cloth into a neat shape"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0090",
+"lemma": "exprimer",
+"rank": 938,
+"pos": "verb",
+"options": [
+"to put thoughts or feelings into words",
+"to move from one place to another",
+"to break apart into pieces",
+"to gather or bring together"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0091",
+"lemma": "mur",
+"rank": 939,
+"pos": "noun",
+"options": [
+"a vertical structure dividing spaces",
+"a flat piece of ground",
+"a pane of transparent glass",
+"a narrow path between hedges"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0092",
+"lemma": "tôt",
+"rank": 943,
+"pos": "adv",
+"options": [
+"before the expected or usual time",
+"much later than planned",
+"right at the scheduled moment",
+"at some unspecified future point"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0093",
+"lemma": "classique",
+"rank": 952,
+"pos": "adj",
+"options": [
+"of a traditional, well-established style",
+"relating to a bright, vivid color",
+"done in a rushed, hurried manner",
+"belonging to a far-off, distant land"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0094",
+"lemma": "gérer",
+"rank": 953,
+"pos": "verb",
+"options": [
+"to oversee and run something",
+"to cut something into pieces",
+"to fall down without warning",
+"to speak quietly in someone's ear"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0095",
+"lemma": "album",
+"rank": 964,
+"pos": "noun",
+"options": [
+"a bound book for photos or records",
+"a short written message or note",
+"a piece of cloth for wiping dishes",
+"a small wheeled cart for luggage"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0096",
+"lemma": "pareil",
+"rank": 976,
+"pos": "adj",
+"options": [
+"of the same kind, alike",
+"soft to the touch",
+"easy to bend without breaking",
+"very old and from long ago"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0097",
+"lemma": "cul",
+"rank": 987,
+"pos": "noun",
+"options": [
+"the fleshy backside one sits on",
+"the tip of a sharp blade",
+"the hollow of one's hand",
+"the front of a person's face"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0098",
+"lemma": "dos",
+"rank": 991,
+"pos": "noun",
+"options": [
+"the rear part of the body's trunk",
+"a pointed tooth",
+"a sleeping place",
+"the tip of a finger"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0099",
+"lemma": "populaire",
+"rank": 994,
+"pos": "adj",
+"options": [
+"liked by many, widely favored",
+"of great monetary worth",
+"extremely old, ancient",
+"easily broken, fragile"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0100",
+"lemma": "toutefois",
+"rank": 995,
+"pos": "adv",
+"options": [
+"nevertheless, all the same",
+"as a result, therefore",
+"in addition, furthermore",
+"at first, beforehand"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0101",
+"lemma": "interdire",
+"rank": 1008,
+"pos": "verb",
+"options": [
+"to forbid, to ban something",
+"to divide into equal parts",
+"to hand over to another",
+"to write down carefully"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0102",
+"lemma": "rencontrer",
+"rank": 1015,
+"pos": "verb",
+"options": [
+"to come across, to meet someone",
+"to push back, to send away",
+"to gather up, to collect items",
+"to break apart, to split in two"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0103",
+"lemma": "ajouter",
+"rank": 1021,
+"pos": "verb",
+"options": [
+"to include something more alongside",
+"to copy out by hand",
+"to cut and remove a portion",
+"to walk away from a place"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0104",
+"lemma": "complètement",
+"rank": 1022,
+"pos": "adv",
+"options": [
+"wholly, all the way, not partly",
+"barely, just enough",
+"in a quick manner",
+"by chance, without planning"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0105",
+"lemma": "ressembler",
+"rank": 1023,
+"pos": "verb",
+"options": [
+"to look like something else",
+"to walk away from a place",
+"to hold tightly in one's arms",
+"to speak loudly in anger"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0106",
+"lemma": "blanche",
+"rank": 1036,
+"pos": "adj",
+"options": [
+"of a pale, snowy hue",
+"of a deep, dark shade",
+"of a rough, uneven surface",
+"of a loud, piercing tone"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0107",
+"lemma": "clair",
+"rank": 1038,
+"pos": "adj",
+"options": [
+"bright, not dark; easy to grasp",
+"rough, uneven in texture",
+"bitter, sharp to the taste",
+"heavy, slow to move"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0108",
+"lemma": "ouvrer",
+"rank": 1068,
+"pos": "verb",
+"options": [
+"to work or shape a material",
+"to move something to another place",
+"to cut or slice into pieces",
+"to gather crops from a field"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0109",
+"lemma": "probablement",
+"rank": 1075,
+"pos": "adv",
+"options": [
+"in all likelihood, most likely",
+"right away, without delay",
+"in a gentle, soft manner",
+"once more, a second time"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0110",
+"lemma": "traité",
+"rank": 1116,
+"pos": "noun",
+"options": [
+"a formal agreement between countries",
+"a public speech to a crowd",
+"a tax on imported goods",
+"a court's final ruling"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0111",
+"lemma": "fonctionner",
+"rank": 1145,
+"pos": "verb",
+"options": [
+"to run, to be in working order",
+"to wash, to rinse thoroughly",
+"to believe, to hold an opinion",
+"to gather, to bring people together"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0112",
+"lemma": "espagne",
+"rank": 1149,
+"pos": "noun",
+"options": [
+"a country in southwestern Europe",
+"narrow land linking two larger areas",
+"a formal agreement between parties",
+"the ruling body of a town"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0113",
+"lemma": "responsabilité",
+"rank": 1171,
+"pos": "noun",
+"options": [
+"duty to answer for one's actions",
+"the quality of being well known",
+"a formal written agreement",
+"the state of being without money"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0114",
+"lemma": "partager",
+"rank": 1173,
+"pos": "verb",
+"options": [
+"to divide up or split among others",
+"to cross over to the other side",
+"to push back or drive away",
+"to grow bigger over time"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0115",
+"lemma": "espagnol",
+"rank": 1175,
+"pos": "adj",
+"options": [
+"of or relating to Spain",
+"bright, vivid, striking in color",
+"done or occurring each week",
+"free of charge, costing nothing"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0116",
+"lemma": "gratuit",
+"rank": 1191,
+"pos": "adj",
+"options": [
+"available at no cost",
+"very heavy and hard to lift",
+"widely known by many people",
+"done later than expected"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0117",
+"lemma": "changé",
+"rank": 1195,
+"pos": "adj",
+"options": [
+"altered, made different",
+"worn out, exhausted",
+"well known, celebrated",
+"firmly attached, devoted"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0118",
+"lemma": "disposition",
+"rank": 1203,
+"pos": "noun",
+"options": [
+"a person's natural mood or temperament",
+"sharp bend in a road",
+"the outer edge of a surface",
+"a set of rules governing a group"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0119",
+"lemma": "blessé",
+"rank": 1209,
+"pos": "adj",
+"options": [
+"having suffered physical harm to the body",
+"worn out from too much effort",
+"held back and unable to move",
+"filled with fear and alarm"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0120",
+"lemma": "balle",
+"rank": 1218,
+"pos": "noun",
+"options": [
+"a small round object used in games",
+"a thin flat piece of cloth",
+"a large heavy farm vehicle",
+"a sharp tool for cutting wood"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0121",
+"lemma": "britannique",
+"rank": 1233,
+"pos": "adj",
+"options": [
+"of or from the British Isles",
+"relating to the far northern lands",
+"of or from the southern sea peoples",
+"belonging to an ancient river valley"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0122",
+"lemma": "nommé",
+"rank": 1246,
+"pos": "adj",
+"options": [
+"bearing a particular title or label",
+"well-known, widely praised",
+"lacking any fixed place, wandering",
+"recently arrived, newly brought in"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0123",
+"lemma": "mérite",
+"rank": 1253,
+"pos": "noun",
+"options": [
+"worth deserved by one's efforts",
+"a branch of learning or study",
+"the way something is shaped or built",
+"a sum of money owed to another"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0124",
+"lemma": "coût",
+"rank": 1255,
+"pos": "noun",
+"options": [
+"the price or amount paid for something",
+"a long narrow passageway indoors",
+"a stiff fabric collar on a shirt",
+"the outer layer of a building"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0125",
+"lemma": "frontière",
+"rank": 1270,
+"pos": "noun",
+"options": [
+"line dividing two countries",
+"stretch of sandy shore",
+"upper surface of a building",
+"written pact between parties"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0126",
+"lemma": "financier",
+"rank": 1279,
+"pos": "verb",
+"options": [
+"to fund, to pay for something",
+"to carry out, to bring about",
+"to sort out, to put in order",
+"to break apart, to take to pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0127",
+"lemma": "maintenir",
+"rank": 1280,
+"pos": "verb",
+"options": [
+"to keep in place, to hold steady",
+"to hand over, to give to another",
+"to tear down, to bring to ruin",
+"to grow larger, to swell in size"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0128",
+"lemma": "craindre",
+"rank": 1282,
+"pos": "verb",
+"options": [
+"to be afraid of, to dread",
+"to follow closely behind",
+"to hold back, to restrain",
+"to reach out toward"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0129",
+"lemma": "célèbre",
+"rank": 1287,
+"pos": "adj",
+"options": [
+"widely known, talked about by many",
+"easily bent, not stiff or rigid",
+"bitter in flavor, sharp on the tongue",
+"closely packed, with little open space"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0130",
+"lemma": "delà",
+"rank": 1288,
+"pos": "adv",
+"options": [
+"on the far side, beyond",
+"right away, at once",
+"halfway through, midway",
+"underneath, down below"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0131",
+"lemma": "prouver",
+"rank": 1299,
+"pos": "verb",
+"options": [
+"to establish a fact beyond doubt",
+"to put off until a later time",
+"to gather people into a group",
+"to break apart into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0132",
+"lemma": "naissance",
+"rank": 1303,
+"pos": "noun",
+"options": [
+"the moment of coming into the world",
+"a formal gathering of many people",
+"a heavy fall of snow or rain",
+"a quiet stretch of open water"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0133",
+"lemma": "mari",
+"rank": 1305,
+"pos": "noun",
+"options": [
+"a woman's male spouse",
+"a person who teaches others",
+"a young boy not yet grown",
+"a neighbor living close by"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0134",
+"lemma": "organiser",
+"rank": 1317,
+"pos": "verb",
+"options": [
+"to put in order, to arrange something",
+"to speak ill of someone",
+"to pull apart, to break into pieces",
+"to go past, to move beyond"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0135",
+"lemma": "fier",
+"rank": 1324,
+"pos": "adj",
+"options": [
+"feeling pleased about one's own worth",
+"weighed down with sadness",
+"quick to move and nimble",
+"damp and cold to the touch"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0136",
+"lemma": "traverser",
+"rank": 1339,
+"pos": "verb",
+"options": [
+"to go across, pass through",
+"to lift up, raise high",
+"to wrap around, bind tight",
+"to break apart, split open"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0137",
+"lemma": "intention",
+"rank": 1365,
+"pos": "noun",
+"options": [
+"a goal one plans to carry out",
+"a strong feeling of displeasure",
+"a spoken agreement between two people",
+"the outer edge of a flat surface"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0138",
+"lemma": "voisin",
+"rank": 1368,
+"pos": "noun",
+"options": [
+"a person who lives nearby",
+"a written promise to pay money",
+"the youngest child in a family",
+"a worker hired for the day"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0139",
+"lemma": "sexe",
+"rank": 1388,
+"pos": "noun",
+"options": [
+"the biological category of male or female",
+"the total number of years lived",
+"a single step in a longer process",
+"the color of a person's skin"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0140",
+"lemma": "fermé",
+"rank": 1404,
+"pos": "adj",
+"options": [
+"not open, shut",
+"very wide, spacious",
+"soft and bendable",
+"broken into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0141",
+"lemma": "engager",
+"rank": 1417,
+"pos": "verb",
+"options": [
+"to hire, to bring on board",
+"to rest, to lie down",
+"to pour out, to shed",
+"to pull away, to withdraw"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0142",
+"lemma": "réussir",
+"rank": 1427,
+"pos": "verb",
+"options": [
+"to manage to do what one attempted",
+"to hand something back to someone",
+"to move from one place to another",
+"to break away from a group"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0143",
+"lemma": "évoquer",
+"rank": 1453,
+"pos": "verb",
+"options": [
+"to bring a memory to mind",
+"to hand over to someone else",
+"to push down with force",
+"to set off on a long journey"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0144",
+"lemma": "gentil",
+"rank": 1461,
+"pos": "adj",
+"options": [
+"kind, friendly, and pleasant in manner",
+"very tired after hard effort",
+"afraid of new or unknown things",
+"richly decorated and costly-looking"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0145",
+"lemma": "avancer",
+"rank": 1467,
+"pos": "verb",
+"options": [
+"to move forward, to go ahead",
+"to warn someone of danger",
+"to fall down suddenly",
+"to wrap something tightly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0146",
+"lemma": "terrer",
+"rank": 1481,
+"pos": "verb",
+"options": [
+"to go to ground, hide away",
+"to cut down trees",
+"to pour out liquid",
+"to pull or drag along"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0147",
+"lemma": "pote",
+"rank": 1491,
+"pos": "noun",
+"options": [
+"a close friend, a buddy",
+"a wooden post or pillar",
+"a small cooking pot",
+"a thumb or big toe"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0148",
+"lemma": "incroyable",
+"rank": 1498,
+"pos": "adj",
+"options": [
+"so remarkable as to be astounding",
+"slightly warmer than usual",
+"very difficult to carry or lift",
+"neatly arranged in proper order"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0149",
+"lemma": "découvert",
+"rank": 1501,
+"pos": "adj",
+"options": [
+"not hidden, bare, out in the open",
+"tightly sealed and locked away",
+"worn out from long use",
+"soaked through with water"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0150",
+"lemma": "outil",
+"rank": 1505,
+"pos": "noun",
+"options": [
+"a hand-held device used for work",
+"a written record of daily events",
+"a narrow path through the woods",
+"a bed covering made of stitched cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0151",
+"lemma": "mets",
+"rank": 1517,
+"pos": "noun",
+"options": [
+"a dish of prepared food",
+"a piece of cloth or fabric",
+"a unit of weight or measure",
+"a short written note or letter"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0152",
+"lemma": "mi",
+"rank": 1518,
+"pos": "noun",
+"options": [
+"the third note of the musical scale",
+"a bend in a path",
+"the outer edge of a flat surface",
+"a small unit of liquid measure"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0153",
+"lemma": "rencontré",
+"rank": 1523,
+"pos": "verb",
+"options": [
+"to come across, to run into someone",
+"to lend something out temporarily",
+"to bring objects together in a pile",
+"to step back from a prior decision"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0154",
+"lemma": "établi",
+"rank": 1542,
+"pos": "adj",
+"options": [
+"firmly set up and recognized over time",
+"still waiting to be answered",
+"recently arrived from elsewhere",
+"torn apart and left in disorder"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0155",
+"lemma": "intervenir",
+"rank": 1548,
+"pos": "verb",
+"options": [
+"to step in, to take part",
+"to pull back, to withdraw",
+"to hand over, to submit",
+"to lay down, to rest"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0156",
+"lemma": "engagé",
+"rank": 1566,
+"pos": "adj",
+"options": [
+"committed, pledged to a cause",
+"worn out, thoroughly tired",
+"shut away, locked up",
+"broadly known, widely spread"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0157",
+"lemma": "millier",
+"rank": 1569,
+"pos": "noun",
+"options": [
+"a group of roughly a thousand",
+"a small handful of items",
+"a flat open stretch of land",
+"a unit of liquid measure"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0158",
+"lemma": "feuille",
+"rank": 1571,
+"pos": "noun",
+"options": [
+"a thin flat part of a plant",
+"a stone used to build walls",
+"a small freshwater creature",
+"a narrow path through a forest"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0159",
+"lemma": "habiter",
+"rank": 1574,
+"pos": "verb",
+"options": [
+"to live in a place, to dwell",
+"to carry something from one spot",
+"to cut or trim with a blade",
+"to give money in return for goods"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0160",
+"lemma": "noire",
+"rank": 1579,
+"pos": "adj",
+"options": [
+"of the darkest color, without light",
+"soft to the touch, not rough",
+"wide open and unenclosed",
+"having a sharp, bitter taste"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0161",
+"lemma": "vécu",
+"rank": 1598,
+"pos": "adj",
+"options": [
+"actually lived through, drawn from real life",
+"kept safe, held in reserve",
+"left behind, cast aside",
+"worn out, threadbare"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0162",
+"lemma": "déclaré",
+"rank": 1642,
+"pos": "adj",
+"options": [
+"openly stated or announced",
+"carefully hidden from others",
+"firmly attached to a surface",
+"gradually worn down over time"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0163",
+"lemma": "obligation",
+"rank": 1652,
+"pos": "noun",
+"options": [
+"a duty one must carry out",
+"a formal written agreement",
+"a fee charged for a service",
+"a strong personal wish"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0164",
+"lemma": "canal",
+"rank": 1663,
+"pos": "noun",
+"options": [
+"a man-made waterway for boats",
+"a narrow strip of woodland",
+"a raised path over wet ground",
+"a metal rail for trains"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0165",
+"lemma": "voiturer",
+"rank": 1673,
+"pos": "verb",
+"options": [
+"to carry or haul goods by vehicle",
+"to give one's word on something",
+"to look after a sick person",
+"to write down in a book"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0166",
+"lemma": "pointe",
+"rank": 1685,
+"pos": "noun",
+"options": [
+"a sharp, narrow end or tip",
+"a wide open field",
+"a heavy wooden beam",
+"a flat smooth surface"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0167",
+"lemma": "annuel",
+"rank": 1691,
+"pos": "adj",
+"options": [
+"happening once every year",
+"lasting only a brief moment",
+"shared among many people",
+"happening twice per month"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0168",
+"lemma": "web",
+"rank": 1710,
+"pos": "noun",
+"options": [
+"a spider's woven silk trap",
+"a small rounded pebble",
+"a folded cloth cover",
+"a deep narrow valley"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0169",
+"lemma": "rapporter",
+"rank": 1731,
+"pos": "verb",
+"options": [
+"to give an account of events",
+"to cry out in pain",
+"to cut into smaller portions",
+"to dig deep into the ground"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0170",
+"lemma": "réflexion",
+"rank": 1740,
+"pos": "noun",
+"options": [
+"careful thought, mental pondering",
+"a burst of strong feeling",
+"a written law or rule",
+"a steady forward movement"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0171",
+"lemma": "soeur",
+"rank": 1748,
+"pos": "noun",
+"options": [
+"a female sibling",
+"a cold hard floor underfoot",
+"a small body of still water",
+"a formal written agreement"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0172",
+"lemma": "dizaine",
+"rank": 1749,
+"pos": "noun",
+"options": [
+"a group of about ten things",
+"a stretch of flat, open land",
+"a very short span of time",
+"the last part of a longer piece"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0173",
+"lemma": "patrimoine",
+"rank": 1757,
+"pos": "noun",
+"options": [
+"things passed down from earlier generations",
+"body of laws governing a state",
+"main road through a settlement",
+"sum owed to a creditor"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0174",
+"lemma": "attente",
+"rank": 1765,
+"pos": "noun",
+"options": [
+"the time spent waiting",
+"a sharp pointed tool",
+"a written demand for payment",
+"a narrow strip of land"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0175",
+"lemma": "utilisateur",
+"rank": 1769,
+"pos": "noun",
+"options": [
+"a person who makes use of something",
+"a person who builds or repairs things",
+"a person who buys and sells goods",
+"a person who teaches others a skill"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0176",
+"lemma": "oublie",
+"rank": 1776,
+"pos": "verb",
+"options": [
+"to let slip from one's mind",
+"to clean or tidy up a space",
+"to greet someone warmly upon arrival",
+"to send a written message to someone"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0177",
+"lemma": "couper",
+"rank": 1778,
+"pos": "verb",
+"options": [
+"to slice through with a blade",
+"to bend one's body down low",
+"to send a written message to someone",
+"to shift goods from place to place"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0178",
+"lemma": "plat",
+"rank": 1783,
+"pos": "adj",
+"options": [
+"smooth and level, without bumps",
+"very crowded with people",
+"slightly bitter to the taste",
+"torn or cut into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0179",
+"lemma": "supplémentaire",
+"rank": 1790,
+"pos": "adj",
+"options": [
+"added on top, beyond what was set",
+"dealing with money and wealth",
+"belonging to a prior time or age",
+"tied to one single place or spot"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0180",
+"lemma": "autrement",
+"rank": 1807,
+"pos": "adv",
+"options": [
+"in a different way, differently",
+"very much, to a great degree",
+"right away, without delay",
+"up until now, so far"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0181",
+"lemma": "extrait",
+"rank": 1836,
+"pos": "noun",
+"options": [
+"a short passage taken from a text",
+"a large outdoor gathering",
+"a folded paper document",
+"a wooden storage shelf"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0182",
+"lemma": "souligner",
+"rank": 1851,
+"pos": "verb",
+"options": [
+"to stress, to draw attention to",
+"to soften, to make less harsh",
+"to lift up, to raise overhead",
+"to follow, to go behind"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0183",
+"lemma": "intéressé",
+"rank": 1854,
+"pos": "adj",
+"options": [
+"motivated by personal gain, self-seeking",
+"feeling deep sorrow, mournful",
+"worn out, thoroughly tired",
+"held back, kept from moving"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0184",
+"lemma": "vélo",
+"rank": 1903,
+"pos": "noun",
+"options": [
+"a two-wheeled pedal-powered ride",
+"a small motorized boat",
+"a soft woolen garment",
+"a tall wooden fence or barrier"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0185",
+"lemma": "bilan",
+"rank": 1935,
+"pos": "noun",
+"options": [
+"an overall assessment of a situation",
+"a long journey by sea or air",
+"a sharp tool used for cutting",
+"a hint or clue left behind"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0186",
+"lemma": "fidèle",
+"rank": 1940,
+"pos": "adj",
+"options": [
+"loyal, steadfast, true to someone",
+"easily bent, not rigid",
+"full of liveliness, spirited",
+"sharp-edged, cutting well"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0187",
+"lemma": "indiquer",
+"rank": 1957,
+"pos": "verb",
+"options": [
+"to point out or show something",
+"to put something away for later",
+"to make louder, to raise the volume",
+"to hold firmly in one's hands"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0188",
+"lemma": "neige",
+"rank": 1972,
+"pos": "noun",
+"options": [
+"white frozen water falling from the sky",
+"a stretch of open grassy land",
+"a thick mass of trees",
+"the soft light of early morning"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0189",
+"lemma": "central",
+"rank": 1980,
+"pos": "adj",
+"options": [
+"at the middle point, not peripheral",
+"worn down over time, aged",
+"spread out over a wide area",
+"done in secret, hidden from view"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0190",
+"lemma": "militant",
+"rank": 1989,
+"pos": "noun",
+"options": [
+"a devoted, outspoken campaigner for a cause",
+"a government official overseeing public order",
+"a skilled craftsman working with tools",
+"a written record kept for legal purposes"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0191",
+"lemma": "assumer",
+"rank": 2033,
+"pos": "verb",
+"options": [
+"to take on a duty or responsibility",
+"to push something away with force",
+"to write down in a list",
+"to break something into smaller pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0192",
+"lemma": "rassembler",
+"rank": 2049,
+"pos": "verb",
+"options": [
+"to bring together, to gather",
+"to pull apart, to divide",
+"to write down, to record",
+"to hand over, to give up"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0193",
+"lemma": "interroger",
+"rank": 2061,
+"pos": "verb",
+"options": [
+"to ask someone questions formally",
+"to bring together in one place",
+"to write down official records",
+"to break apart into smaller pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0194",
+"lemma": "réellement",
+"rank": 2089,
+"pos": "adv",
+"options": [
+"in truth, as a matter of fact",
+"without delay, straight away",
+"in a gentle, soft manner",
+"up to this point in time"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0195",
+"lemma": "jurer",
+"rank": 2110,
+"pos": "verb",
+"options": [
+"to swear, to take an oath",
+"to borrow, to take on loan",
+"to wander, to roam about",
+"to weigh, to measure heaviness"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0196",
+"lemma": "stage",
+"rank": 2121,
+"pos": "noun",
+"options": [
+"a short work placement at a company",
+"a formal written agreement between parties",
+"a rulebook governing a club or group",
+"a fixed monthly fee paid for housing"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0197",
+"lemma": "trente",
+"rank": 2131,
+"pos": "other",
+"options": [
+"the number thirty",
+"without any other person",
+"at that moment in time",
+"in a short while"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0198",
+"lemma": "sacrer",
+"rank": 2134,
+"pos": "verb",
+"options": [
+"to crown or anoint as ruler",
+"to wrap up tightly",
+"to pull out by force",
+"to greet someone warmly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0199",
+"lemma": "combattre",
+"rank": 2146,
+"pos": "verb",
+"options": [
+"to wage war or struggle against",
+"to hide oneself from view",
+"to gather or collect items",
+"to express sorrow or grief"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0200",
+"lemma": "copiner",
+"rank": 2197,
+"pos": "verb",
+"options": [
+"to hang out, be pally with",
+"to argue, quarrel with",
+"to work, toil at something",
+"to borrow, take on loan"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0201",
+"lemma": "relatif",
+"rank": 2198,
+"pos": "adj",
+"options": [
+"linked to or depending on something else",
+"sharply clear and easy to see",
+"causing great surprise or wonder",
+"done in a careful, thorough way"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0202",
+"lemma": "effectif",
+"rank": 2207,
+"pos": "adj",
+"options": [
+"actual and truly in force",
+"frightening and hard to look at",
+"stretched thin over a wide area",
+"handed down from one's ancestors"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0203",
+"lemma": "bel",
+"rank": 2212,
+"pos": "adj",
+"options": [
+"pleasing to the eye, attractive",
+"of great weight, significant",
+"making a loud, sharp noise",
+"having a dark, shadowy hue"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0204",
+"lemma": "indice",
+"rank": 2233,
+"pos": "noun",
+"options": [
+"a sign or clue pointing to something",
+"a formal written request",
+"a stretch of open farmland",
+"a feeling of deep sadness"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0205",
+"lemma": "emmener",
+"rank": 2252,
+"pos": "verb",
+"options": [
+"to take someone along, to lead away",
+"to put something down, to set aside",
+"to hand over, to give freely",
+"to call out loudly, to shout at"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0206",
+"lemma": "mériter",
+"rank": 2272,
+"pos": "verb",
+"options": [
+"to be worthy of, to earn",
+"to hand over, to give up",
+"to keep back, to hold in",
+"to wear out, to use up"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0207",
+"lemma": "indiqué",
+"rank": 2275,
+"pos": "adj",
+"options": [
+"advised, fitting, appropriate",
+"forbidden, not allowed",
+"hidden, out of sight",
+"worn out, exhausted"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0208",
+"lemma": "séjour",
+"rank": 2313,
+"pos": "noun",
+"options": [
+"a stay or visit in a place",
+"a formal written agreement between parties",
+"a look at something from far away",
+"a sharp curve in a road"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0209",
+"lemma": "retourne",
+"rank": 2319,
+"pos": "verb",
+"options": [
+"to go back, to come back",
+"to laugh out loud",
+"to carry something heavy",
+"to fall asleep"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0210",
+"lemma": "obliger",
+"rank": 2323,
+"pos": "verb",
+"options": [
+"to require someone to do something",
+"to hand over to another person",
+"to move from one place to another",
+"to speak in a formal setting"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0211",
+"lemma": "distinguer",
+"rank": 2364,
+"pos": "verb",
+"options": [
+"to tell apart, to see the difference",
+"to wrap tightly with cloth or rope",
+"to heat food slowly over a flame",
+"to gather fallen leaves into a pile"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0212",
+"lemma": "repris",
+"rank": 2433,
+"pos": "adj",
+"options": [
+"taken up again, resumed after a pause",
+"kept hidden from others, secret",
+"worn down by long use, tattered",
+"given freely as a gift, donated"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0213",
+"lemma": "pomme",
+"rank": 2449,
+"pos": "noun",
+"options": [
+"a round fruit grown on trees",
+"a soft fabric used for bedding",
+"a narrow path through a forest",
+"a hinged cover on a box"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0214",
+"lemma": "gouverneur",
+"rank": 2479,
+"pos": "noun",
+"options": [
+"an appointed ruler of a region",
+"a written law or decree",
+"a skilled military commander",
+"a wealthy landowner or lord"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0215",
+"lemma": "mensonge",
+"rank": 2493,
+"pos": "noun",
+"options": [
+"a false statement meant to mislead",
+"a sudden threat of danger",
+"a polite word of greeting",
+"a sharp remark meant to wound"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0216",
+"lemma": "déranger",
+"rank": 2508,
+"pos": "verb",
+"options": [
+"to bother, to disturb someone",
+"to hand over, to give away",
+"to follow closely, to pursue",
+"to grow stronger, to build up"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0217",
+"lemma": "taxe",
+"rank": 2558,
+"pos": "noun",
+"options": [
+"a fee charged by the government",
+"a sharp cutting blade",
+"a written legal agreement",
+"a narrow road or pathway"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0218",
+"lemma": "voile",
+"rank": 2561,
+"pos": "noun",
+"options": [
+"a cloth sheet catching wind on boats",
+"a glass drinking vessel, a cup",
+"a wooden handle, a grip",
+"a short sharp sound, a click"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0219",
+"lemma": "chevalier",
+"rank": 2571,
+"pos": "noun",
+"options": [
+"a knight or noble horseman",
+"a heavy curved blade for cutting",
+"a wooden frame for holding things",
+"a soft cloth worn around the neck"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0220",
+"lemma": "lèvre",
+"rank": 2573,
+"pos": "noun",
+"options": [
+"fleshy edge of the mouth",
+"soft rounded part of the outer ear",
+"bony ridge above the eye",
+"tip of the nose"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0221",
+"lemma": "vainqueur",
+"rank": 2575,
+"pos": "noun",
+"options": [
+"one who beats all others, a winner",
+"a hired fighter, a soldier",
+"one who rules a territory, a lord",
+"a skilled hunter, a tracker"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0222",
+"lemma": "tissu",
+"rank": 2577,
+"pos": "noun",
+"options": [
+"woven cloth, fabric",
+"a hard outer covering or shell",
+"a fine powdery dry substance",
+"a smooth flat writing surface"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0223",
+"lemma": "exécution",
+"rank": 2604,
+"pos": "noun",
+"options": [
+"carrying out a plan or task",
+"a written record of events",
+"a feeling of deep sorrow",
+"the outer edge of a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0224",
+"lemma": "apparition",
+"rank": 2609,
+"pos": "noun",
+"options": [
+"a ghost or phantom figure",
+"a sharp remark or reply",
+"a sudden loud noise",
+"a written legal agreement"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0225",
+"lemma": "couronne",
+"rank": 2616,
+"pos": "noun",
+"options": [
+"ring worn on a ruler's head",
+"a sharp blade for cutting food",
+"a soft cloth worn around the neck",
+"a small bag carried by hand"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0226",
+"lemma": "forcer",
+"rank": 2665,
+"pos": "verb",
+"options": [
+"to make someone do something",
+"to pull something apart",
+"to put something away",
+"to turn something off"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0227",
+"lemma": "conservé",
+"rank": 2666,
+"pos": "adj",
+"options": [
+"kept in good condition, well-maintained",
+"deeply upset, troubled in mind",
+"spread out across a wide area",
+"tightly bound or fastened together"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0228",
+"lemma": "debout",
+"rank": 2688,
+"pos": "adv",
+"options": [
+"standing upright, on one's feet",
+"fast asleep, fully resting",
+"bent low, crouching down",
+"moving quickly, in a hurry"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0229",
+"lemma": "contrainte",
+"rank": 2711,
+"pos": "noun",
+"options": [
+"a limitation on what one can do",
+"a written agreement between two parties",
+"a feeling of deep sadness or grief",
+"a spoken refusal to obey orders"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0230",
+"lemma": "plait",
+"rank": 2748,
+"pos": "verb",
+"options": [
+"to be pleasing, to be liked",
+"to bend or fold something",
+"to weep or shed tears",
+"to settle a dispute, to rule"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0231",
+"lemma": "transition",
+"rank": 2755,
+"pos": "noun",
+"options": [
+"a shift from one state to another",
+"a formal written agreement",
+"the upper edge of a building's wall",
+"a spoken greeting between two people"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0232",
+"lemma": "incapable",
+"rank": 2771,
+"pos": "adj",
+"options": [
+"unable to do something, lacking the skill",
+"feeling deep sorrow or regret",
+"without any fixed home or shelter",
+"too proud or self-important in manner"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0233",
+"lemma": "envoi",
+"rank": 2774,
+"pos": "noun",
+"options": [
+"a parcel or letter sent off",
+"a short rest or pause",
+"a wooden beam or plank",
+"a wish or strong desire"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0234",
+"lemma": "susceptible",
+"rank": 2781,
+"pos": "adj",
+"options": [
+"likely to be affected, prone to harm",
+"deeply sorry, full of regret",
+"done with great care, thorough",
+"held back, kept in check"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0235",
+"lemma": "rural",
+"rank": 2810,
+"pos": "adj",
+"options": [
+"of the countryside, not urban",
+"relating to the sea or coast",
+"of high rank or noble birth",
+"belonging to a later time period"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0236",
+"lemma": "courrier",
+"rank": 2859,
+"pos": "noun",
+"options": [
+"letters and packages delivered by post",
+"a long narrow hallway in a building",
+"steps leading up to a door",
+"a thick heavy curtain on a window"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0237",
+"lemma": "disparition",
+"rank": 2862,
+"pos": "noun",
+"options": [
+"the act of vanishing, going away",
+"a spoken remark or comment",
+"a legal right or entitlement",
+"the splitting of a whole into parts"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0238",
+"lemma": "taire",
+"rank": 2885,
+"pos": "verb",
+"options": [
+"to keep quiet about, say nothing of",
+"to walk away from, leave behind",
+"to reach out and grab hold",
+"to sort through and put away"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0239",
+"lemma": "destruction",
+"rank": 2893,
+"pos": "noun",
+"options": [
+"the act of tearing something down",
+"a long journey by sea",
+"a written set of rules",
+"the gathering of ripe crops"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0240",
+"lemma": "vider",
+"rank": 2911,
+"pos": "verb",
+"options": [
+"to empty out, make hollow",
+"to grab, to seize firmly",
+"to push away, to repel",
+"to tear apart, to rip open"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0241",
+"lemma": "fréquenter",
+"rank": 2914,
+"pos": "verb",
+"options": [
+"to spend time with, to hang around",
+"to lend money to someone",
+"to write down, to record",
+"to haul goods elsewhere"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0242",
+"lemma": "file",
+"rank": 2916,
+"pos": "noun",
+"options": [
+"a line of people or things waiting",
+"a set of written rules or laws",
+"a sharp blade for cutting food",
+"a thick outer layer of material"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0243",
+"lemma": "horaire",
+"rank": 2923,
+"pos": "noun",
+"options": [
+"a timetable listing when things will happen",
+"a spoken greeting given at a doorway",
+"a person who grows food on land",
+"a soft cloth under a sleeping head"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0244",
+"lemma": "suspect",
+"rank": 2954,
+"pos": "adj",
+"options": [
+"doubtful, not to be trusted",
+"worn out, no longer working",
+"far away, hard to reach",
+"carefully arranged, neat"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0245",
+"lemma": "observé",
+"rank": 2983,
+"pos": "adj",
+"options": [
+"watched, noted, looked at closely",
+"broadly spread, widely shared",
+"deeply hidden, kept secret",
+"harshly judged, found guilty"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0246",
+"lemma": "chaise",
+"rank": 3018,
+"pos": "noun",
+"options": [
+"a four-legged seat for one person",
+"a wooden storage chest",
+"a short flight of steps indoors",
+"a low table beside a bed"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0247",
+"lemma": "croissant",
+"rank": 3033,
+"pos": "adj",
+"options": [
+"growing, becoming larger",
+"broken, in pieces",
+"twisted, bent out of shape",
+"fading, losing color"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0248",
+"lemma": "suprême",
+"rank": 3038,
+"pos": "adj",
+"options": [
+"of the highest rank or degree",
+"causing deep sadness or grief",
+"happening at an early stage",
+"stretching over a wide area"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0249",
+"lemma": "réception",
+"rank": 3062,
+"pos": "noun",
+"options": [
+"the act of receiving guests or goods",
+"a sharp bend in a road",
+"a set of rules for behavior",
+"a tool for lifting heavy loads"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0250",
+"lemma": "récompense",
+"rank": 3075,
+"pos": "noun",
+"options": [
+"a prize or payment given for merit",
+"a written promise to pay a debt",
+"a short journey to a nearby place",
+"rules that govern a group"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0251",
+"lemma": "oriental",
+"rank": 3077,
+"pos": "adj",
+"options": [
+"from the eastern part of the world",
+"relating to cold, icy climates",
+"having to do with sea travel",
+"belonging to mountain regions"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0252",
+"lemma": "nier",
+"rank": 3078,
+"pos": "verb",
+"options": [
+"to say something is not true",
+"to seek help from someone",
+"to hand over goods or money",
+"to move toward a place"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0253",
+"lemma": "vue",
+"rank": 3106,
+"pos": "noun",
+"options": [
+"what can be seen from a place",
+"a long journey across the sea",
+"a loud and joyful sound",
+"a heavy fall of rain or snow"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0254",
+"lemma": "corde",
+"rank": 3117,
+"pos": "noun",
+"options": [
+"a thick twisted fiber for tying",
+"a flat piece of baked dough",
+"a narrow path through the woods",
+"a soft covering placed on a bed"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0255",
+"lemma": "figurer",
+"rank": 3146,
+"pos": "verb",
+"options": [
+"to appear, to be listed or shown",
+"to dig a hole in soft ground",
+"to sew two pieces of cloth together",
+"to pour liquid into a narrow vessel"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0256",
+"lemma": "casque",
+"rank": 3176,
+"pos": "noun",
+"options": [
+"a hard head covering for safety",
+"a belt worn around the waist",
+"a heavy boot reaching the knee",
+"a glove worn for protection"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0257",
+"lemma": "dépenser",
+"rank": 3177,
+"pos": "verb",
+"options": [
+"to pay out money on something",
+"to lift something up off the ground",
+"to tie two things tightly together",
+"to grow larger over time"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0258",
+"lemma": "rouler",
+"rank": 3180,
+"pos": "verb",
+"options": [
+"to move on wheels, to drive",
+"to cut into small pieces",
+"to say words out loud",
+"to pull something toward you"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0259",
+"lemma": "commerciale",
+"rank": 3238,
+"pos": "adj",
+"options": [
+"related to buying and selling, trade-based",
+"of or belonging to the armed forces",
+"relating to farming and crops",
+"having to do with legal matters"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0260",
+"lemma": "roger",
+"rank": 3246,
+"pos": "verb",
+"options": [
+"to scold or rebuke sharply",
+"to borrow money from",
+"to fold or crease fabric",
+"to wander without purpose"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0261",
+"lemma": "tribune",
+"rank": 3278,
+"pos": "noun",
+"options": [
+"a raised stand for speakers or spectators",
+"a narrow path through the woods",
+"a written promise to pay a debt",
+"a small decorative wall hanging"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0262",
+"lemma": "commandé",
+"rank": 3279,
+"pos": "adj",
+"options": [
+"ordered or requested in advance",
+"left behind or forgotten",
+"broken apart into pieces",
+"written down in a ledger"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0263",
+"lemma": "video",
+"rank": 3304,
+"pos": "noun",
+"options": [
+"a moving-picture recording",
+"a written news report",
+"a spoken radio broadcast",
+"a printed story booklet"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0264",
+"lemma": "forfait",
+"rank": 3308,
+"pos": "noun",
+"options": [
+"a flat-rate package deal",
+"a heavy burden, a load",
+"a sharp cutting tool",
+"a public gathering, a crowd"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0265",
+"lemma": "prononcer",
+"rank": 3317,
+"pos": "verb",
+"options": [
+"to say aloud, to utter words",
+"to write down, to put on paper",
+"to listen carefully, to pay attention",
+"to walk steadily, to move forward"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0266",
+"lemma": "échantillon",
+"rank": 3325,
+"pos": "noun",
+"options": [
+"a small portion representing the whole",
+"a folded sheet of printed news",
+"a legal paper granting ownership",
+"a wooden frame around a doorway"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0267",
+"lemma": "paysan",
+"rank": 3328,
+"pos": "noun",
+"options": [
+"a person who farms the land",
+"a person who buys and sells goods",
+"a person who works in a mine",
+"someone who catches fish"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0268",
+"lemma": "pourri",
+"rank": 3342,
+"pos": "adj",
+"options": [
+"decayed and no longer fit for use",
+"soaked through with water",
+"torn into many small pieces",
+"heated to an extremely high degree"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0269",
+"lemma": "significatif",
+"rank": 3348,
+"pos": "adj",
+"options": [
+"of great weight or consequence",
+"easy to carry or move",
+"fond of others, warm-hearted",
+"having a sharp, bitter taste"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0270",
+"lemma": "consultation",
+"rank": 3351,
+"pos": "noun",
+"options": [
+"a meeting with an expert for advice",
+"a formal written agreement between parties",
+"a gathering of elected lawmakers",
+"a period of rest following illness"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0271",
+"lemma": "fraude",
+"rank": 3372,
+"pos": "noun",
+"options": [
+"deliberate cheating to get money or advantage",
+"a spoken promise made before witnesses",
+"the process of moving goods across borders",
+"a sudden outburst of strong feeling"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0272",
+"lemma": "éthique",
+"rank": 3374,
+"pos": "noun",
+"options": [
+"guiding principles about right and wrong behaviour",
+"a feeling of deep gratitude toward someone",
+"a form of physical grace in movement",
+"a system of penalties for breaking rules"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0273",
+"lemma": "débarrasser",
+"rank": 3384,
+"pos": "verb",
+"options": [
+"to rid of, to clear away",
+"to tie up, to fasten tightly",
+"to greet someone warmly",
+"to break apart, to smash open"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0274",
+"lemma": "quelconque",
+"rank": 3398,
+"pos": "adj",
+"options": [
+"of no particular kind, whatever",
+"boldly daring and hard to frighten",
+"very narrow and hard to pass through",
+"deeply moved by another's suffering"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0275",
+"lemma": "semblable",
+"rank": 3401,
+"pos": "adj",
+"options": [
+"alike in appearance or nature",
+"rough and uneven to the touch",
+"deeply devoted to a cause",
+"hidden behind a cover or veil"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0276",
+"lemma": "doucement",
+"rank": 3415,
+"pos": "adv",
+"options": [
+"in a soft, quiet manner",
+"in a sudden, sharp way",
+"right away, without delay",
+"one more time, again"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0277",
+"lemma": "asseoir",
+"rank": 3426,
+"pos": "verb",
+"options": [
+"to place oneself on a seat",
+"to lift something overhead",
+"to run toward a goal",
+"to wrap something tightly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0278",
+"lemma": "poulet",
+"rank": 3448,
+"pos": "noun",
+"options": [
+"a young domestic bird raised for meat",
+"a round loaf of bread",
+"a thick woolen blanket",
+"a small wooden barrel"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0279",
+"lemma": "semblant",
+"rank": 3457,
+"pos": "noun",
+"options": [
+"a false show, a pretense",
+"a sharp cutting edge",
+"a written message sent by hand",
+"a sudden loud noise"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0280",
+"lemma": "combinaison",
+"rank": 3460,
+"pos": "noun",
+"options": [
+"a mixing or joining of several things",
+"a sharp disagreement between two people",
+"a nightly period of rest and sleep",
+"a formal request made in writing"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0281",
+"lemma": "pompier",
+"rank": 3493,
+"pos": "noun",
+"options": [
+"a worker who battles blazes for safety",
+"a worker who carries letters to homes",
+"a worker who heals the sick daily",
+"a worker who raises crops on land"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0282",
+"lemma": "universel",
+"rank": 3504,
+"pos": "adj",
+"options": [
+"applying to all, shared by everyone",
+"relating to the sea or ocean",
+"done by hand, requiring physical effort",
+"belonging to a single person only"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0283",
+"lemma": "nan",
+"rank": 3520,
+"pos": "other",
+"options": [
+"no, not at all (informal refusal)",
+"yes, of course, certainly",
+"maybe, perhaps, possibly",
+"again, once more, over again"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0284",
+"lemma": "gêne",
+"rank": 3528,
+"pos": "noun",
+"options": [
+"a feeling of awkwardness or unease",
+"a sudden sharp pain in the body",
+"a heavy burden of debt",
+"a loud uproar or commotion"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0285",
+"lemma": "partant",
+"rank": 3549,
+"pos": "adv",
+"options": [
+"as a result, therefore, consequently",
+"all the same, nevertheless",
+"on the contrary, rather",
+"up until now, so far"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0286",
+"lemma": "constante",
+"rank": 3587,
+"pos": "noun",
+"options": [
+"a fixed unchanging quantity or feature",
+"a sudden burst of loud noise",
+"a brief written note to a friend",
+"a slow bending of a solid material"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0287",
+"lemma": "mystérieux",
+"rank": 3615,
+"pos": "adj",
+"options": [
+"strange, puzzling, and hard to explain",
+"widely known and celebrated by many",
+"relating to the period before written history",
+"bold and showing no fear of danger"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0288",
+"lemma": "appartenant",
+"rank": 3623,
+"pos": "adj",
+"options": [
+"held as the property of someone",
+"suited to the current moment, timely",
+"located far away, distant",
+"clearly visible, easy to notice"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0289",
+"lemma": "réglé",
+"rank": 3666,
+"pos": "adj",
+"options": [
+"orderly, well-organized, steady",
+"broken, out of order",
+"soft, gentle, mild",
+"hidden, kept secret"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0290",
+"lemma": "pourvoir",
+"rank": 3669,
+"pos": "verb",
+"options": [
+"to supply or furnish what is needed",
+"to fall down suddenly and hard",
+"to speak harsh words at someone",
+"to change the shape of something"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0291",
+"lemma": "poitrine",
+"rank": 3697,
+"pos": "noun",
+"options": [
+"the front of the upper body, chest",
+"the back of the lower leg",
+"the top of the head, crown",
+"the hollow of the hand, palm"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0292",
+"lemma": "interrompre",
+"rank": 3705,
+"pos": "verb",
+"options": [
+"to cut short what someone is doing",
+"to move quietly without being seen",
+"to gather people into one place",
+"to make something larger or wider"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0293",
+"lemma": "tueur",
+"rank": 3706,
+"pos": "noun",
+"options": [
+"a person who takes another's life",
+"a craftsman who shapes raw metal",
+"a man who oversees farm animals",
+"a young child just learning to walk"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0294",
+"lemma": "interprète",
+"rank": 3722,
+"pos": "noun",
+"options": [
+"person who conveys speech between languages",
+"tool for measuring heat or temperature",
+"written record of a court proceeding",
+"barrier separating two areas of land"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0295",
+"lemma": "entraîné",
+"rank": 3737,
+"pos": "adj",
+"options": [
+"drilled and practiced in a skill",
+"worn out from too much effort",
+"kept apart from other people",
+"given a reward for good work"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0296",
+"lemma": "chiant",
+"rank": 3740,
+"pos": "adj",
+"options": [
+"very tedious, mind-numbingly dull",
+"quick-tempered, easily angered",
+"deeply shy, withdrawn",
+"overly generous, lavish"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0297",
+"lemma": "habiller",
+"rank": 3767,
+"pos": "verb",
+"options": [
+"to put clothes on",
+"to wash the dishes",
+"to cut the hair",
+"to open a window"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0298",
+"lemma": "veiller",
+"rank": 3769,
+"pos": "verb",
+"options": [
+"to stay awake, keep watch",
+"to dig up, unearth",
+"to kneel down, bow low",
+"to melt away, dissolve"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0299",
+"lemma": "démissionner",
+"rank": 3790,
+"pos": "verb",
+"options": [
+"to quit one's job voluntarily",
+"to move to a new dwelling",
+"to put forward a formal request",
+"to speak harshly to someone"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0300",
+"lemma": "marcel",
+"rank": 3824,
+"pos": "noun",
+"options": [
+"a sleeveless undershirt worn next to skin",
+"a thick woolen coat for cold weather",
+"a soft cloth tied around the neck",
+"a wide belt worn around the waist"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0301",
+"lemma": "respectivement",
+"rank": 3828,
+"pos": "adv",
+"options": [
+"each in the order already mentioned",
+"once more, a second time",
+"by chance, without any planning",
+"straight away, without any delay"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0302",
+"lemma": "district",
+"rank": 3844,
+"pos": "noun",
+"options": [
+"a defined area within a region",
+"a written law passed by lawmakers",
+"a sudden sharp drop in price",
+"a group of soldiers on guard duty"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0303",
+"lemma": "aube",
+"rank": 3872,
+"pos": "noun",
+"options": [
+"the time just before sunrise",
+"a narrow strip of water",
+"a thick woolen blanket",
+"a type of wooden cart"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0304",
+"lemma": "baron",
+"rank": 3873,
+"pos": "noun",
+"options": [
+"a low-ranking male nobleman",
+"a type of heavy fabric",
+"a tool for measuring weight",
+"a wide coastal inlet"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0305",
+"lemma": "survie",
+"rank": 3886,
+"pos": "noun",
+"options": [
+"continued living after danger or death",
+"a solemn sworn promise",
+"sudden strong feeling of joy",
+"legal right to own property"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0306",
+"lemma": "fabrique",
+"rank": 3887,
+"pos": "noun",
+"options": [
+"a place where goods are made",
+"a thick cloth with woven patterns",
+"a small shop selling bread",
+"a stone wall around a garden"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0307",
+"lemma": "sœurs",
+"rank": 3905,
+"pos": "noun",
+"options": [
+"female siblings",
+"small climbing plants with tendrils",
+"bright flames giving off heat and light",
+"sharp tools used to cut cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0308",
+"lemma": "compromis",
+"rank": 3919,
+"pos": "noun",
+"options": [
+"deal where both sides give way",
+"a written order to pay money",
+"a formal charge brought in court",
+"a shared boundary between two lands"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0309",
+"lemma": "barbe",
+"rank": 3976,
+"pos": "noun",
+"options": [
+"hair growing on a man's face",
+"a sharp pointed stick or spike",
+"the outer covering of a tree trunk",
+"a narrow strip of woven fabric"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0310",
+"lemma": "descendant",
+"rank": 3991,
+"pos": "noun",
+"options": [
+"a person born of one's lineage, offspring",
+"a close friend or trusted ally",
+"a written legal paper or deed",
+"a skilled tradesperson"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0311",
+"lemma": "sécher",
+"rank": 4043,
+"pos": "verb",
+"options": [
+"to make or become free of moisture",
+"to cut or slice into pieces",
+"to fasten or tie something firmly",
+"to move quickly toward a place"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0312",
+"lemma": "infini",
+"rank": 4057,
+"pos": "adj",
+"options": [
+"without end, boundless",
+"hard to grasp, tricky",
+"deeply felt, heartfelt",
+"split into two, forked"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0313",
+"lemma": "tarder",
+"rank": 4059,
+"pos": "verb",
+"options": [
+"to take too long, to delay",
+"to gather or pick up",
+"to cut into smaller pieces",
+"to wrap or cover tightly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0314",
+"lemma": "trancher",
+"rank": 4087,
+"pos": "verb",
+"options": [
+"to cut or slice through",
+"to throw or toss aside",
+"to walk or move forward",
+"to wrap or tie around"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0315",
+"lemma": "filiale",
+"rank": 4121,
+"pos": "noun",
+"options": [
+"a branch of a larger company",
+"a narrow strip of woven ribbon",
+"a written record of court proceedings",
+"a row of soldiers marching in line"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0316",
+"lemma": "pair",
+"rank": 4179,
+"pos": "noun",
+"options": [
+"two matching things together",
+"a single sharp blade",
+"soft fabric covering for a bed",
+"the outer edge of a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0317",
+"lemma": "asile",
+"rank": 4209,
+"pos": "noun",
+"options": [
+"a protected haven for the needy",
+"a sharp cutting blade",
+"a formal written request",
+"a wooden storage chest"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0318",
+"lemma": "purement",
+"rank": 4219,
+"pos": "adv",
+"options": [
+"in a wholly clean or untainted way",
+"in a loud and striking way",
+"in a slow and careful way",
+"in a sudden and unexpected way"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0319",
+"lemma": "bâti",
+"rank": 4315,
+"pos": "adj",
+"options": [
+"having a sturdy, well-built frame or body",
+"deeply troubled, upset",
+"smooth and glossy in appearance",
+"worn out, exhausted"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0320",
+"lemma": "distribué",
+"rank": 4335,
+"pos": "adj",
+"options": [
+"given out to many",
+"tightly bound or fastened",
+"buried for safekeeping",
+"heated to boiling point"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0321",
+"lemma": "métallique",
+"rank": 4430,
+"pos": "adj",
+"options": [
+"made of or like hard shiny ore",
+"relating to heat or warmth",
+"having a rough, coarse texture",
+"producing a loud, echoing sound"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0322",
+"lemma": "traîner",
+"rank": 4449,
+"pos": "verb",
+"options": [
+"to drag or pull along",
+"to wrap up tightly",
+"to push away sharply",
+"to leap over quickly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0323",
+"lemma": "faillite",
+"rank": 4472,
+"pos": "noun",
+"options": [
+"financial ruin, going broke",
+"a sharp drop in temperature",
+"a weak or frail bodily state",
+"a sworn oath before a court"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0324",
+"lemma": "chauffer",
+"rank": 4475,
+"pos": "verb",
+"options": [
+"to make something warm or hot",
+"to cut something into smaller pieces",
+"to hold something firmly in one's hand",
+"to write something down on paper"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0325",
+"lemma": "parier",
+"rank": 4478,
+"pos": "verb",
+"options": [
+"to wager money on an outcome",
+"to wrap tightly in cloth or bandage",
+"to greet warmly upon someone's arrival",
+"to sort items into separate groups"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0326",
+"lemma": "hurler",
+"rank": 4527,
+"pos": "verb",
+"options": [
+"to scream, to yell loudly",
+"to weep, to sob quietly",
+"to run, to dash forward",
+"to knock, to strike a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0327",
+"lemma": "strictement",
+"rank": 4562,
+"pos": "adv",
+"options": [
+"in a tight, firm manner; rigidly",
+"in a gentle, soft way",
+"right away, without delay",
+"up to a certain point, partly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0328",
+"lemma": "sombrer",
+"rank": 4579,
+"pos": "verb",
+"options": [
+"to sink below the waves",
+"to leap a barrier",
+"to send a message",
+"to cut in pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0329",
+"lemma": "disputé",
+"rank": 4602,
+"pos": "adj",
+"options": [
+"fiercely contested, hard-fought",
+"widely known, celebrated",
+"firmly held, well-grounded",
+"carefully chosen, hand-picked"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0330",
+"lemma": "toxique",
+"rank": 4648,
+"pos": "adj",
+"options": [
+"harmful to the body, deadly",
+"rough to the touch, uneven",
+"lacking in brightness, dull",
+"very old, dating far back"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0331",
+"lemma": "choir",
+"rank": 4651,
+"pos": "verb",
+"options": [
+"to tumble or drop down",
+"to make a loud ringing sound",
+"to move forward very quickly",
+"to shut or seal something tightly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0332",
+"lemma": "angoisse",
+"rank": 4674,
+"pos": "noun",
+"options": [
+"intense dread, deep inner fear",
+"sharp resentment, bitter grudge",
+"sudden burst of laughter",
+"profound weariness, bone-deep fatigue"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0333",
+"lemma": "saisi",
+"rank": 4700,
+"pos": "adj",
+"options": [
+"grabbed, taken hold of",
+"spread out over a wide area",
+"worn down by long use",
+"kept apart from others"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0334",
+"lemma": "osé",
+"rank": 4755,
+"pos": "adj",
+"options": [
+"daring, pushing the boundaries of propriety",
+"deeply rooted, firmly planted",
+"warmly welcomed, well-received",
+"neatly folded, carefully arranged"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0335",
+"lemma": "cochon",
+"rank": 4797,
+"pos": "noun",
+"options": [
+"a farm animal that gives pork",
+"a tool used for digging soil",
+"a sweet treat made from sugar",
+"a small boat used near shore"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0336",
+"lemma": "particularité",
+"rank": 4813,
+"pos": "noun",
+"options": [
+"a distinctive or unusual trait",
+"a sudden strong feeling of joy",
+"a formal written agreement",
+"the upper floor of a building"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0337",
+"lemma": "bague",
+"rank": 4816,
+"pos": "noun",
+"options": [
+"a band worn on a finger",
+"a small cloth pouch or carry sack",
+"a long wooden rod or staff",
+"a thin leather strap or belt"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0338",
+"lemma": "inquiétant",
+"rank": 4912,
+"pos": "adj",
+"options": [
+"causing worry or unease",
+"feeling very tired or worn out",
+"bright and full of color",
+"widely known and celebrated"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0339",
+"lemma": "initialement",
+"rank": 4927,
+"pos": "adv",
+"options": [
+"at the very beginning, at first",
+"in a careful, thorough way",
+"on every single occasion",
+"without any doubt, surely"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0340",
+"lemma": "productif",
+"rank": 4996,
+"pos": "adj",
+"options": [
+"yielding much output, fruitful",
+"causing great harm, damaging",
+"easily bent, not rigid",
+"occurring at regular intervals, steady"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0341",
+"lemma": "empreint",
+"rank": 5004,
+"pos": "adj",
+"options": [
+"filled with, marked by a feeling",
+"worn out, physically exhausted",
+"tightly bound, firmly fastened",
+"freshly painted, newly coated"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0342",
+"lemma": "rêvé",
+"rank": 5029,
+"pos": "adj",
+"options": [
+"perfectly suited, ideal",
+"fully awake, alert",
+"long-awaited, overdue",
+"firmly believed, deeply held"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0343",
+"lemma": "régir",
+"rank": 5056,
+"pos": "verb",
+"options": [
+"to set the rules that control something",
+"to fill a space with sweet fragrance",
+"to fold cloth into neat, even layers",
+"to write down spoken words on paper"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0344",
+"lemma": "déception",
+"rank": 5070,
+"pos": "noun",
+"options": [
+"the feeling of being let down",
+"a sudden burst of loud noise",
+"a legal claim over property",
+"a thorough search of a building"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0345",
+"lemma": "gravé",
+"rank": 5071,
+"pos": "adj",
+"options": [
+"bearing a design cut into a surface",
+"stretched out to full length",
+"wrapped tightly in layers of cloth",
+"split into two equal halves"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0346",
+"lemma": "mentalité",
+"rank": 5120,
+"pos": "noun",
+"options": [
+"way of thinking shared by a group",
+"feeling of deep sadness or grief",
+"daily habit or personal routine",
+"set of rules governing behavior"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0347",
+"lemma": "lâché",
+"rank": 5124,
+"pos": "adj",
+"options": [
+"set free, let go, loose",
+"firmly tied, bound tight",
+"worn out, deeply tired",
+"well known, widely praised"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0348",
+"lemma": "sucer",
+"rank": 5131,
+"pos": "verb",
+"options": [
+"to draw liquid through the mouth",
+"to cut into small pieces",
+"to fasten two things together",
+"to move quietly without being heard"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0349",
+"lemma": "chèvre",
+"rank": 5168,
+"pos": "noun",
+"options": [
+"a horned farm animal that gives milk",
+"a flat-bottomed rowing boat",
+"a thick woolen winter garment",
+"a narrow footpath through a field"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0350",
+"lemma": "douzaine",
+"rank": 5207,
+"pos": "noun",
+"options": [
+"a group of twelve things",
+"a sharp cutting blade",
+"a soft woven fabric",
+"a written legal paper"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0351",
+"lemma": "priver",
+"rank": 5242,
+"pos": "verb",
+"options": [
+"to strip someone of something, to deny",
+"to lift up, to raise",
+"to warn or give notice",
+"to mix together, to blend"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0352",
+"lemma": "soucier",
+"rank": 5244,
+"pos": "verb",
+"options": [
+"to worry, to be concerned about",
+"to laugh, to find something funny",
+"to carry, to lift a heavy load",
+"to agree, to give one's approval"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0353",
+"lemma": "module",
+"rank": 5256,
+"pos": "noun",
+"options": [
+"a self-contained unit or section",
+"a sharp cutting blade",
+"a written legal agreement",
+"a woven floor covering"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0354",
+"lemma": "parallèlement",
+"rank": 5282,
+"pos": "adv",
+"options": [
+"at the same time, alongside",
+"in a sudden, abrupt way",
+"to a lesser degree, somewhat",
+"in the end, ultimately"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0355",
+"lemma": "honoré",
+"rank": 5410,
+"pos": "adj",
+"options": [
+"given a mark of distinction by others",
+"deeply worried or fearful",
+"set apart, kept at a distance",
+"worn out from too much effort"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0356",
+"lemma": "heu",
+"rank": 5428,
+"pos": "other",
+"options": [
+"um, er (a spoken pause filler)",
+"wow, gosh (an expression of surprise)",
+"ouch (an expression of sudden pain)",
+"shh (an appeal for quiet)"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0357",
+"lemma": "emmerde",
+"rank": 5480,
+"pos": "verb",
+"options": [
+"to bother, to annoy greatly",
+"to wander off, to stray away",
+"to wrap up, to pack tightly",
+"to grow weary, to tire out"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0358",
+"lemma": "ukrainien",
+"rank": 5491,
+"pos": "adj",
+"options": [
+"relating to the country bordering Russia",
+"of or from the Scandinavian peninsula",
+"of or from the Iberian peninsula",
+"relating to the large central Asian steppe"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0359",
+"lemma": "pervers",
+"rank": 5495,
+"pos": "adj",
+"options": [
+"morally twisted, deviant in conduct",
+"thin and light, easy to lift",
+"well known throughout a region",
+"done at regular set times"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0360",
+"lemma": "arnaque",
+"rank": 5520,
+"pos": "noun",
+"options": [
+"a trick to steal money, a swindle",
+"a loud, rowdy gathering",
+"a written notice or warning",
+"a narrow path through a forest"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0361",
+"lemma": "dorer",
+"rank": 5525,
+"pos": "verb",
+"options": [
+"to cover with a golden color",
+"to wrap up tightly, to bundle",
+"to weep, to shed tears",
+"to soften, to make gentle"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0362",
+"lemma": "sucrer",
+"rank": 5566,
+"pos": "verb",
+"options": [
+"to sweeten something by adding sugar",
+"to fold cloth along a straight line",
+"to carve a shape out of wood",
+"to tighten a lid or cap firmly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0363",
+"lemma": "quarantaine",
+"rank": 5569,
+"pos": "noun",
+"options": [
+"a period of enforced isolation",
+"a large wooden chest or trunk",
+"a printed notice or warning",
+"a religious feast or holiday"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0364",
+"lemma": "quatorze",
+"rank": 5613,
+"pos": "other",
+"options": [
+"the number fourteen",
+"the number seven",
+"belonging to us, shared",
+"already, by this time"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0365",
+"lemma": "tweet",
+"rank": 5615,
+"pos": "noun",
+"options": [
+"short message posted on a social platform",
+"a brief handwritten letter",
+"a small chirping bird",
+"a live radio broadcast segment"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0366",
+"lemma": "incertitude",
+"rank": 5642,
+"pos": "noun",
+"options": [
+"state of not knowing, doubt",
+"a formal written ruling",
+"a sharp rise in price",
+"a strongly held personal view"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0367",
+"lemma": "parasite",
+"rank": 5658,
+"pos": "noun",
+"options": [
+"creature living off another organism",
+"a flat, hinged door panel",
+"a short, pointed writing tool",
+"a woven floor covering"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0368",
+"lemma": "valoriser",
+"rank": 5670,
+"pos": "verb",
+"options": [
+"to increase the worth of something",
+"to break down into pieces",
+"to go beyond a set limit",
+"to bring together in a group"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0369",
+"lemma": "rate",
+"rank": 5673,
+"pos": "noun",
+"options": [
+"the spleen, an abdominal organ",
+"a thin flat cooking pan",
+"the outer edge of a wheel",
+"a narrow back alley"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0370",
+"lemma": "vaisselle",
+"rank": 5720,
+"pos": "noun",
+"options": [
+"plates, bowls, and cups used for eating",
+"cloth used to cover a table",
+"tools kept in a kitchen drawer",
+"food cooked and ready to be served"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0371",
+"lemma": "gramme",
+"rank": 5797,
+"pos": "noun",
+"options": [
+"a small unit of weight",
+"a wooden surface for writing",
+"a type of sharp cutting tool",
+"a folded sheet of printed pages"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0372",
+"lemma": "loger",
+"rank": 5846,
+"pos": "verb",
+"options": [
+"to give someone a place to sleep",
+"to praise someone warmly and openly",
+"to lift and move a heavy object",
+"to wear out from long hard work"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0373",
+"lemma": "aléatoire",
+"rank": 5852,
+"pos": "adj",
+"options": [
+"left to chance, unpredictable",
+"kept apart from all others",
+"written down in official records",
+"very brief, lasting only a moment"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0374",
+"lemma": "multitude",
+"rank": 5857,
+"pos": "noun",
+"options": [
+"a very large crowd or mass",
+"a short journey taken for pleasure",
+"a written agreement between two parties",
+"the quality of being warm and friendly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0375",
+"lemma": "orphelin",
+"rank": 5866,
+"pos": "noun",
+"options": [
+"a child with no living parents",
+"a sworn enemy, a rival",
+"a piece of land left uncultivated",
+"a feeling of deep sadness or grief"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0376",
+"lemma": "poupée",
+"rank": 5876,
+"pos": "noun",
+"options": [
+"a child's toy figure",
+"a soft woollen blanket",
+"a small cooking pot",
+"a narrow wooden shelf"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0377",
+"lemma": "encadrement",
+"rank": 5917,
+"pos": "noun",
+"options": [
+"a bordering frame; supervisory oversight",
+"a formal written complaint",
+"a gradual buildup of pressure",
+"a system of debt repayment"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0378",
+"lemma": "égaler",
+"rank": 5933,
+"pos": "verb",
+"options": [
+"to match another's score or level",
+"to pass something on to another person",
+"to put something back in its place",
+"to speak poorly of someone's character"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0379",
+"lemma": "bug",
+"rank": 6002,
+"pos": "noun",
+"options": [
+"a small crawling creature",
+"a heavy wooden beam",
+"a wide stretch of water",
+"a soft woolen cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0380",
+"lemma": "clic",
+"rank": 6004,
+"pos": "noun",
+"options": [
+"a press of a mouse button",
+"a sharp bend in a road",
+"a loud burst of thunder",
+"a frozen glaze on a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0381",
+"lemma": "glisse",
+"rank": 6018,
+"pos": "noun",
+"options": [
+"the act of sliding or skimming",
+"a sharp cutting blade",
+"a type of woven fabric",
+"a brief written note"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0382",
+"lemma": "clou",
+"rank": 6039,
+"pos": "noun",
+"options": [
+"a small metal spike hammered into wood",
+"a thin flat piece of glass",
+"a loop of rope or cord",
+"a smooth rounded pebble"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0383",
+"lemma": "précoce",
+"rank": 6040,
+"pos": "adj",
+"options": [
+"maturing or developing early",
+"lasting for a very long time",
+"happening by pure luck",
+"too loud or harsh in sound"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0384",
+"lemma": "relater",
+"rank": 6044,
+"pos": "verb",
+"options": [
+"to recount, to tell of an event",
+"to hold back, to keep in check",
+"to link two things together",
+"to send back, to return"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0385",
+"lemma": "gaulois",
+"rank": 6102,
+"pos": "adj",
+"options": [
+"of the ancient people of old France",
+"coming from a cold northern sea region",
+"belonging to a powerful ruling family",
+"having to do with mountain-dwelling herders"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0386",
+"lemma": "côtoyer",
+"rank": 6105,
+"pos": "verb",
+"options": [
+"to spend time alongside or near someone",
+"to speak harshly to someone",
+"to hand something over to another person",
+"to look carefully at something"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0387",
+"lemma": "cuire",
+"rank": 6133,
+"pos": "verb",
+"options": [
+"to prepare food with heat",
+"to cut into small pieces",
+"to mix and stir a liquid",
+"to wrap something tightly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0388",
+"lemma": "gravement",
+"rank": 6146,
+"pos": "adv",
+"options": [
+"in a serious or severe way",
+"in a sudden or quick way",
+"in a loud or noisy way",
+"in a gentle or soft way"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0389",
+"lemma": "certifié",
+"rank": 6177,
+"pos": "adj",
+"options": [
+"formally checked and declared sound",
+"roughly sketched, loosely drawn",
+"left behind, set aside",
+"deeply felt, heartfelt"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0390",
+"lemma": "marteau",
+"rank": 6191,
+"pos": "noun",
+"options": [
+"a tool for striking nails",
+"a large cooking pot",
+"a long wooden bench",
+"a heavy wheeled cart"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0391",
+"lemma": "minuscule",
+"rank": 6197,
+"pos": "adj",
+"options": [
+"tiny, very small in size",
+"bright and shining clearly",
+"soft and quiet in sound",
+"rough and uneven in texture"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0392",
+"lemma": "carotte",
+"rank": 6257,
+"pos": "noun",
+"options": [
+"an orange root vegetable",
+"a small round stone used in games",
+"a long green garden vegetable",
+"a sweet syrupy spread for bread"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0393",
+"lemma": "surgir",
+"rank": 6266,
+"pos": "verb",
+"options": [
+"to spring up suddenly, to appear",
+"to fall apart, to break down",
+"to wander off, to stray away",
+"to wrap up, to fold over"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0394",
+"lemma": "débutant",
+"rank": 6273,
+"pos": "noun",
+"options": [
+"someone just starting to learn a skill",
+"a person who checks others' written work",
+"a small-shop owner",
+"a person who settles a legal dispute"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0395",
+"lemma": "bouquin",
+"rank": 6291,
+"pos": "noun",
+"options": [
+"a book",
+"a wallet",
+"a ladder",
+"a drawer"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0396",
+"lemma": "taureau",
+"rank": 6337,
+"pos": "noun",
+"options": [
+"an adult male bovine animal",
+"a young male pig raised for meat",
+"a bird of prey with broad wings",
+"a large fish found in deep water"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0397",
+"lemma": "buter",
+"rank": 6338,
+"pos": "verb",
+"options": [
+"to stumble against, to hit an obstacle",
+"to murmur softly, to whisper",
+"to lean sideways, to tilt over",
+"to gather together, to collect"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0398",
+"lemma": "désactiver",
+"rank": 6358,
+"pos": "verb",
+"options": [
+"to make a device stop working",
+"to make something bigger or wider",
+"to put something in writing",
+"to bring two things together"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0399",
+"lemma": "neuvième",
+"rank": 6363,
+"pos": "adj",
+"options": [
+"coming after the eighth",
+"belonging to a far-off land",
+"shaped like a half-circle",
+"divided into two equal parts"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0400",
+"lemma": "mercure",
+"rank": 6412,
+"pos": "noun",
+"options": [
+"a shiny liquid metal, quicksilver",
+"a type of woven cloth",
+"a flowering garden shrub",
+"a hard black writing stone"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0401",
+"lemma": "massage",
+"rank": 6437,
+"pos": "noun",
+"options": [
+"rubbing of the body to ease tension",
+"a firm grip or tight hold",
+"a steady beat or rhythm",
+"a light meal before bed"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0402",
+"lemma": "précipitation",
+"rank": 6440,
+"pos": "noun",
+"options": [
+"undue haste, rushed hurry",
+"a sharp rebuke or scolding",
+"careful forward planning",
+"a legal ruling or judgment"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0403",
+"lemma": "lin",
+"rank": 6476,
+"pos": "noun",
+"options": [
+"a plant whose fibers make cloth",
+"a freshwater fish with smooth skin",
+"a narrow strip of bare ground",
+"a sweet syrup made from fruit"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0404",
+"lemma": "xvi",
+"rank": 6519,
+"pos": "other",
+"options": [
+"the number equal to ten plus six",
+"one short of twenty",
+"two more than a dozen plus three",
+"halfway between thirty and thirty-four"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0405",
+"lemma": "laïque",
+"rank": 6550,
+"pos": "adj",
+"options": [
+"not tied to any church or religion",
+"belonging to a faraway land",
+"done in a very quiet, gentle way",
+"relating to the ruling government body"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0406",
+"lemma": "échelon",
+"rank": 6554,
+"pos": "noun",
+"options": [
+"a step or rung on a ladder",
+"a type of narrow waterway",
+"a sharp bend in a road",
+"a thick outer covering"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0407",
+"lemma": "barré",
+"rank": 6557,
+"pos": "adj",
+"options": [
+"blocked, shut off from entry",
+"torn, ripped along an edge",
+"deeply curved or rounded",
+"soaked through with liquid"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0408",
+"lemma": "abondant",
+"rank": 6559,
+"pos": "adj",
+"options": [
+"present in large amounts, plentiful",
+"worn out, no longer useful",
+"kept apart from others, solitary",
+"done with great care, thorough"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0409",
+"lemma": "adéquat",
+"rank": 6578,
+"pos": "adj",
+"options": [
+"good enough for the purpose",
+"spread over a wide area",
+"hidden from view",
+"happening at set intervals"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0410",
+"lemma": "tombé",
+"rank": 6607,
+"pos": "adj",
+"options": [
+"having dropped to the ground, knocked down",
+"neatly folded and put away",
+"deeply rooted and firmly planted",
+"carefully wrapped and sealed up"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0411",
+"lemma": "lasser",
+"rank": 6639,
+"pos": "verb",
+"options": [
+"to make weary, to tire out",
+"to wrap up, to bundle tightly",
+"to let go, to release a hold",
+"to wash or rinse thoroughly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0412",
+"lemma": "trembler",
+"rank": 6646,
+"pos": "verb",
+"options": [
+"to shake, to quiver",
+"to boast, to brag loudly",
+"to grieve, to mourn a loss",
+"to kneel, to bow down"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0413",
+"lemma": "litige",
+"rank": 6712,
+"pos": "noun",
+"options": [
+"a legal quarrel, a dispute",
+"a low, marshy stretch of land",
+"a binding oral promise",
+"the outer edge of a road"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0414",
+"lemma": "fonctionnalité",
+"rank": 6761,
+"pos": "noun",
+"options": [
+"a built-in feature of a tool",
+"a written record of past events",
+"a debt owed to another party",
+"a formal gathering of invited guests"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0415",
+"lemma": "chirurgical",
+"rank": 6765,
+"pos": "adj",
+"options": [
+"relating to cutting-based medical treatment",
+"having to do with vocal performance",
+"relating to the study of the mind",
+"dealing with matters of law and courts"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0416",
+"lemma": "chauffe",
+"rank": 6897,
+"pos": "noun",
+"options": [
+"warming, the act of making hot",
+"a long walk, a hike",
+"a type of soil, ground layer",
+"a brief rest, a pause"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0417",
+"lemma": "square",
+"rank": 6943,
+"pos": "noun",
+"options": [
+"an open public plaza in a town",
+"a heavy wooden beam or plank",
+"a narrow winding alleyway",
+"a raised outdoor market stall"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0418",
+"lemma": "décevant",
+"rank": 6955,
+"pos": "adj",
+"options": [
+"failing to meet what was hoped for",
+"too loud or harsh to the ears",
+"worn out from too much effort",
+"too heavy to lift or carry easily"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0419",
+"lemma": "téléspectateur",
+"rank": 6957,
+"pos": "noun",
+"options": [
+"a person who watches broadcast programmes",
+"a person who writes news stories",
+"a person who runs a business",
+"a person who gives public speeches"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0420",
+"lemma": "choquant",
+"rank": 7023,
+"pos": "adj",
+"options": [
+"offensive, morally jarring",
+"brightly lit, full of light",
+"very old, dating far back",
+"loosely tied, not pulled tight"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0421",
+"lemma": "supériorité",
+"rank": 7128,
+"pos": "noun",
+"options": [
+"an edge over others in rank",
+"a strong feeling of worry",
+"the right to own something",
+"a gap between two things"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0422",
+"lemma": "griffe",
+"rank": 7145,
+"pos": "noun",
+"options": [
+"sharp curved nail on an animal",
+"a flat woven strip of fabric",
+"a small rounded door handle",
+"a narrow beam of sunlight"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0423",
+"lemma": "commençant",
+"rank": 7172,
+"pos": "noun",
+"options": [
+"a person just learning something new",
+"a worker hired for short tasks",
+"a merchant who sells at market",
+"a person who gives orders to others"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0424",
+"lemma": "complication",
+"rank": 7192,
+"pos": "noun",
+"options": [
+"a difficulty that makes things harder",
+"a formal written agreement",
+"a brief summary of events",
+"a sudden burst of laughter"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0425",
+"lemma": "pointu",
+"rank": 7246,
+"pos": "adj",
+"options": [
+"having a sharp, narrow tip",
+"covered with a rough, grainy surface",
+"bent over toward the ground",
+"stretched out to great length"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0426",
+"lemma": "chan",
+"rank": 7302,
+"pos": "noun",
+"options": [
+"a Buddhist or Hindu holy man",
+"a small rural village",
+"a type of woven basket",
+"a wooden bench or stool"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0427",
+"lemma": "justesse",
+"rank": 7313,
+"pos": "noun",
+"options": [
+"being exactly right, without error",
+"a feeling of deep tiredness",
+"openness toward others' beliefs",
+"the softness of a surface or texture"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0428",
+"lemma": "enchaîné",
+"rank": 7341,
+"pos": "adj",
+"options": [
+"bound together, linked in a series",
+"worn down, exhausted from effort",
+"left out, set apart from others",
+"turned upside down, reversed in order"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0429",
+"lemma": "encadré",
+"rank": 7344,
+"pos": "adj",
+"options": [
+"placed within a border or frame",
+"held back, kept in check",
+"spread out over a wide area",
+"worn down, made smooth by rubbing"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0430",
+"lemma": "perse",
+"rank": 7345,
+"pos": "adj",
+"options": [
+"deep blue-grey in color",
+"rough and uneven in texture",
+"faded or washed out",
+"made of woven silk cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0431",
+"lemma": "chaleureux",
+"rank": 7355,
+"pos": "adj",
+"options": [
+"full of kindness and goodwill",
+"neat and tidy in every detail",
+"slightly bent, not fully straight",
+"done by hand, without machines"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0432",
+"lemma": "renvoi",
+"rank": 7376,
+"pos": "noun",
+"options": [
+"a dismissal or sending away",
+"a formal gathering of elected members",
+"a slow fading of evening light",
+"a sudden burst of loud noise"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0433",
+"lemma": "gentiment",
+"rank": 7408,
+"pos": "adv",
+"options": [
+"in a warm, friendly way",
+"with great speed",
+"in a loud, forceful way",
+"with careful attention"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0434",
+"lemma": "monstrueux",
+"rank": 7431,
+"pos": "adj",
+"options": [
+"shockingly large, ugly, and frightening",
+"finely woven and pleasing to the touch",
+"quiet and keeping to oneself",
+"growing quickly in warm wet conditions"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0435",
+"lemma": "pourrir",
+"rank": 7497,
+"pos": "verb",
+"options": [
+"to decay, to go bad",
+"to grind, to crush finely",
+"to wander, to roam about",
+"to scatter, to spread out"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0436",
+"lemma": "ralenti",
+"rank": 7577,
+"pos": "adj",
+"options": [
+"slowed down, reduced in speed",
+"stirred up, made louder",
+"worn out, broken apart",
+"stretched wide, pulled open"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0437",
+"lemma": "assurément",
+"rank": 7622,
+"pos": "adv",
+"options": [
+"without any doubt, certainly",
+"in a quick manner, swiftly",
+"by chance, perhaps",
+"to a lesser degree, barely"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0438",
+"lemma": "aurore",
+"rank": 7676,
+"pos": "noun",
+"options": [
+"the first light of day, dawn",
+"a soft evening glow at dusk",
+"a patch of thick morning fog",
+"a thin layer of high cloud"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0439",
+"lemma": "land",
+"rank": 7709,
+"pos": "noun",
+"options": [
+"a German federal state or region",
+"a type of flat-bottomed boat",
+"a short handled cutting tool",
+"a strip of cloth or ribbon"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0440",
+"lemma": "ressortissant",
+"rank": 7719,
+"pos": "noun",
+"options": [
+"a person holding citizenship of a country",
+"a shop owner, a merchant",
+"a person who holds public office",
+"a newly arrived traveler, a visitor"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0441",
+"lemma": "finesse",
+"rank": 7784,
+"pos": "noun",
+"options": [
+"delicate skill, subtle cleverness",
+"a brief rest or short nap",
+"a loud burst of laughter",
+"a narrow strip of cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0442",
+"lemma": "nappe",
+"rank": 7794,
+"pos": "noun",
+"options": [
+"a cloth spread over a table",
+"a flat, open stretch of water",
+"a small bag carried by hand",
+"a thin slice of cooked meat"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0443",
+"lemma": "désireux",
+"rank": 7841,
+"pos": "adj",
+"options": [
+"eager, keen to have or do something",
+"feeling deep sadness or grief",
+"free from worry or burden",
+"showing great skill and care"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0444",
+"lemma": "attirant",
+"rank": 7886,
+"pos": "adj",
+"options": [
+"pleasing to the eye, alluring",
+"causing great worry or unease",
+"worn out from hard work",
+"having a sharp, bitter taste"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0445",
+"lemma": "accueillant",
+"rank": 7891,
+"pos": "adj",
+"options": [
+"warm and friendly to guests",
+"deeply sorry, full of regret",
+"keen, eager to learn",
+"broad, stretching far and wide"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0446",
+"lemma": "essuyer",
+"rank": 7892,
+"pos": "verb",
+"options": [
+"to wipe dry, to dry off",
+"to dig up, to unearth",
+"to wrap up, to bundle",
+"to pour out, to empty"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0447",
+"lemma": "pochette",
+"rank": 7912,
+"pos": "noun",
+"options": [
+"small bag or flat carrying case",
+"a short wooden bench or stool",
+"a thin slice of cooked meat",
+"a narrow strip of woven cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0448",
+"lemma": "dépassant",
+"rank": 7959,
+"pos": "adj",
+"options": [
+"going beyond, exceeding a limit",
+"moving at a slow, steady pace",
+"wrapped around a fixed point",
+"held back, kept within bounds"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0449",
+"lemma": "emblée",
+"rank": 7960,
+"pos": "adv",
+"options": [
+"right away, from the very start",
+"in a quiet, hushed manner",
+"by turns, one after another",
+"in a scattered, random way"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0450",
+"lemma": "metteur",
+"rank": 7995,
+"pos": "noun",
+"options": [
+"one who stages or directs a show",
+"a skilled carpenter or woodworker",
+"a person who sells goods at market",
+"one who carries heavy loads for pay"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0451",
+"lemma": "recteur",
+"rank": 8012,
+"pos": "noun",
+"options": [
+"head of a university",
+"member of a jury",
+"owner of a business",
+"leader of a military unit"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0452",
+"lemma": "java",
+"rank": 8052,
+"pos": "noun",
+"options": [
+"a lively French popular dance",
+"a long hooded winter cloak",
+"a folded cloth worn on the head",
+"a slow solemn procession"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0453",
+"lemma": "lacune",
+"rank": 8055,
+"pos": "noun",
+"options": [
+"a gap or missing part",
+"a sharp bend in a road",
+"a thin outer covering",
+"a loud burst of sound"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0454",
+"lemma": "abordable",
+"rank": 8082,
+"pos": "adj",
+"options": [
+"within reach, not too costly",
+"easily broken, fragile",
+"strictly forbidden, off-limits",
+"widely known, well-regarded"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0455",
+"lemma": "poutre",
+"rank": 8086,
+"pos": "noun",
+"options": [
+"a long heavy beam supporting a structure",
+"a low wall surrounding a garden",
+"a metal hook fixed to a wall",
+"a narrow staircase between two floors"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0456",
+"lemma": "biblique",
+"rank": 8105,
+"pos": "adj",
+"options": [
+"relating to the holy scriptures",
+"of or belonging to the sea",
+"having to do with warfare",
+"concerning ancient Rome"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0457",
+"lemma": "épique",
+"rank": 8131,
+"pos": "adj",
+"options": [
+"of grand, heroic storytelling",
+"relating to daily household tasks",
+"having a soft, delicate quality",
+"marked by careful, precise detail"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0458",
+"lemma": "frotter",
+"rank": 8206,
+"pos": "verb",
+"options": [
+"to rub, to scrub a surface",
+"to tie, to fasten with rope",
+"to pour liquid into a cup",
+"to break apart into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0459",
+"lemma": "accroissement",
+"rank": 8219,
+"pos": "noun",
+"options": [
+"a rise in size or amount",
+"a sharp drop or falling off",
+"a back-and-forth swinging motion",
+"a formal gathering or meeting"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0460",
+"lemma": "perquisition",
+"rank": 8309,
+"pos": "noun",
+"options": [
+"a search carried out by police",
+"a written ruling from a judge",
+"a formal hearing in court",
+"a financial penalty imposed by law"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0461",
+"lemma": "ted",
+"rank": 8316,
+"pos": "verb",
+"options": [
+"to spread cut grass for drying",
+"to strike a nail firmly",
+"to pull apart wool fibers",
+"to stitch fabric with thread"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0462",
+"lemma": "funéraire",
+"rank": 8331,
+"pos": "adj",
+"options": [
+"relating to burial or a death rite",
+"relating to a wedding or marriage",
+"relating to a grand public feast",
+"relating to the founding of a town"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0463",
+"lemma": "signalé",
+"rank": 8332,
+"pos": "adj",
+"options": [
+"remarkable, outstanding, noteworthy",
+"faded, washed out, pale",
+"tightly bound, firmly knotted",
+"freshly gathered, newly picked"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0464",
+"lemma": "insulté",
+"rank": 8343,
+"pos": "adj",
+"options": [
+"treated with scorn, verbally abused",
+"left alone, without company",
+"deeply moved by grief",
+"worn out from hard work"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0465",
+"lemma": "effrayé",
+"rank": 8427,
+"pos": "adj",
+"options": [
+"filled with fear, frightened",
+"deeply saddened, grief-stricken",
+"worn down, weary",
+"taken aback, bewildered"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0466",
+"lemma": "raffiné",
+"rank": 8539,
+"pos": "adj",
+"options": [
+"having polished, cultured taste",
+"deeply troubled, uneasy",
+"worn out, utterly tired",
+"held back, not yet due"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0467",
+"lemma": "traquer",
+"rank": 8560,
+"pos": "verb",
+"options": [
+"to hunt down or pursue relentlessly",
+"to fold cloth into neat pleats",
+"to mix two substances together",
+"to hand over something to another person"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0468",
+"lemma": "immortel",
+"rank": 8580,
+"pos": "adj",
+"options": [
+"living on forever, never dying",
+"causing great harm, deeply hurtful",
+"too small to be seen or felt",
+"lacking any firm shape or outline"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0469",
+"lemma": "démolition",
+"rank": 8661,
+"pos": "noun",
+"options": [
+"the tearing down of a building",
+"a sharp bend in a road",
+"the sorting of mail by hand",
+"a gathering of skilled workers"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0470",
+"lemma": "intestin",
+"rank": 8686,
+"pos": "noun",
+"options": [
+"the gut, the bowel",
+"the shin, the lower leg bone",
+"a woven cloth, a piece of fabric",
+"the upper jaw, the palate"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0471",
+"lemma": "figurine",
+"rank": 8698,
+"pos": "noun",
+"options": [
+"a small decorative statuette",
+"cloth worn around the neck",
+"a written record of past events",
+"a shallow dish for eating"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0472",
+"lemma": "concorde",
+"rank": 8713,
+"pos": "noun",
+"options": [
+"peaceful agreement, harmony between people",
+"sharp bend or curve in a road",
+"the outer edge of a spinning wheel",
+"a small wooden chest for storing goods"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0473",
+"lemma": "douloureuse",
+"rank": 8747,
+"pos": "adj",
+"options": [
+"causing much hurt or aching",
+"producing a strong, sharp taste",
+"making a loud, unpleasant sound",
+"giving off a heavy, thick smell"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0474",
+"lemma": "haleine",
+"rank": 8806,
+"pos": "noun",
+"options": [
+"the air breathed out through the mouth",
+"thin ice layer on a surface",
+"a long wooden handle of a tool",
+"the soft inner lining of a garment"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0475",
+"lemma": "corbeau",
+"rank": 8993,
+"pos": "noun",
+"options": [
+"large black crow-like bird",
+"a small burrowing rodent",
+"a thin woven floor covering",
+"a curved blade on a long handle"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0476",
+"lemma": "évader",
+"rank": 9132,
+"pos": "verb",
+"options": [
+"to break free, to flee captivity",
+"to lend money to someone",
+"to place items in a row",
+"to turn away in disgust"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0477",
+"lemma": "illégalement",
+"rank": 9168,
+"pos": "adv",
+"options": [
+"in a way that breaks the law",
+"in a very quiet manner",
+"with great speed or haste",
+"in a distant or remote way"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0478",
+"lemma": "injecter",
+"rank": 9217,
+"pos": "verb",
+"options": [
+"to push a fluid into something",
+"to fold or bend sharply",
+"to sweep or brush away",
+"to fasten two things together"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0479",
+"lemma": "péri",
+"rank": 9389,
+"pos": "verb",
+"options": [
+"died, met one's end",
+"grew, became taller",
+"slept, took rest",
+"left, went away"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0480",
+"lemma": "décorer",
+"rank": 9523,
+"pos": "verb",
+"options": [
+"to adorn or beautify a space",
+"to shrink or make smaller",
+"to forbid or prohibit something",
+"to sort or arrange by type"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0481",
+"lemma": "atypique",
+"rank": 9536,
+"pos": "adj",
+"options": [
+"departing noticeably from what is usual",
+"showing great warmth or friendliness",
+"done with great care and effort",
+"belonging to a very distant past"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0482",
+"lemma": "délimiter",
+"rank": 9560,
+"pos": "verb",
+"options": [
+"to mark out the edges of something",
+"to carry something from one place",
+"to mix two things together",
+"to break something into pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0483",
+"lemma": "îlot",
+"rank": 9622,
+"pos": "noun",
+"options": [
+"a tiny piece of land in water",
+"a long narrow rocky coastal inlet",
+"a raised ridge of earth between fields",
+"a dense cluster of tall trees"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0484",
+"lemma": "médaillé",
+"rank": 9769,
+"pos": "noun",
+"options": [
+"a person who has won a medal",
+"a worker who builds or repairs roads",
+"a person who writes down court proceedings",
+"a trader who buys and sells goods"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0485",
+"lemma": "amorcer",
+"rank": 9791,
+"pos": "verb",
+"options": [
+"to set off, to get something going",
+"to slow down or hold back",
+"to bend or fold in two",
+"to climb up or scale"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0486",
+"lemma": "rica",
+"rank": 9880,
+"pos": "noun",
+"options": [
+"absolutely nothing, zilch",
+"a sharp pointed metal tool",
+"a flat open stretch of land",
+"a small clay cooking vessel"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0487",
+"lemma": "éclaire",
+"rank": 9928,
+"pos": "verb",
+"options": [
+"to light up, to shed light on",
+"to carry or bear along",
+"to cut into pieces",
+"to push forward firmly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0488",
+"lemma": "cable",
+"rank": 9987,
+"pos": "noun",
+"options": [
+"a thick rope or wire bundle",
+"a small flat board or plank",
+"a narrow opening or gap",
+"a pointed tool for digging"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0489",
+"lemma": "pomper",
+"rank": 10060,
+"pos": "verb",
+"options": [
+"to draw fluid up from below",
+"to bend down toward the ground",
+"to spread out over a wide area",
+"to write down carefully word by word"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0490",
+"lemma": "voirie",
+"rank": 10114,
+"pos": "noun",
+"options": [
+"road maintenance and public ways",
+"a set of strict rules or laws",
+"the renting out of land or buildings",
+"a group of elected town councillors"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0491",
+"lemma": "amasser",
+"rank": 10124,
+"pos": "verb",
+"options": [
+"to pile up, to heap together",
+"to hand over, to give away",
+"to move forward, to advance",
+"to tear apart, to break up"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0492",
+"lemma": "onéreux",
+"rank": 10182,
+"pos": "adj",
+"options": [
+"costly, requiring much money",
+"causing great physical pain",
+"too heavy to lift or carry",
+"difficult to understand, complex"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0493",
+"lemma": "convoiter",
+"rank": 10212,
+"pos": "verb",
+"options": [
+"to crave or greedily desire something",
+"to call out or shout loudly",
+"to gather or bring things together",
+"to warn someone of a danger"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0494",
+"lemma": "différentiel",
+"rank": 10330,
+"pos": "adj",
+"options": [
+"relating to unequal gaps between things",
+"happening at fixed, repeated time spans",
+"suited to work in multiple settings",
+"joined or linked at a shared boundary"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0495",
+"lemma": "crevé",
+"rank": 10346,
+"pos": "adj",
+"options": [
+"worn out, dead tired",
+"soaking wet, drenched",
+"swollen, badly inflamed",
+"tightly wound, on edge"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0496",
+"lemma": "conjuguer",
+"rank": 10354,
+"pos": "verb",
+"options": [
+"to inflect a verb for tense",
+"to fold or bend something double",
+"to join two pipes or tubes together",
+"to sort items into separate groups"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0497",
+"lemma": "mouiller",
+"rank": 10358,
+"pos": "verb",
+"options": [
+"to make wet, to dampen",
+"to lift up, to raise",
+"to cut into pieces",
+"to shake or tremble"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0498",
+"lemma": "gibier",
+"rank": 10386,
+"pos": "noun",
+"options": [
+"wild animals hunted for food",
+"a branch cut from a tree",
+"coarse cloth woven from hemp",
+"a deep crack in the earth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0499",
+"lemma": "subjectif",
+"rank": 10541,
+"pos": "adj",
+"options": [
+"colored by one's own views and feelings",
+"relating to the study of living things",
+"able to be clearly seen or noticed",
+"coming before all others in order"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0500",
+"lemma": "acceptant",
+"rank": 10549,
+"pos": "adj",
+"options": [
+"willing to receive or agree",
+"moving quickly, hurrying along",
+"showing deep sorrow or grief",
+"standing tall and upright"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0501",
+"lemma": "mama",
+"rank": 10590,
+"pos": "noun",
+"options": [
+"a child's word for one's mother",
+"a soft cloth for wiping one's face",
+"a deep wound on the skin",
+"a sweet bread roll eaten at breakfast"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0502",
+"lemma": "ardoise",
+"rank": 10688,
+"pos": "noun",
+"options": [
+"a dark grey flat stone for roofing",
+"a short curved blade for cutting grain",
+"a clay pot used for storing oil",
+"a woven mat placed on a floor"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0503",
+"lemma": "alma",
+"rank": 10704,
+"pos": "noun",
+"options": [
+"a woman's soul or inner spirit",
+"a bitter flowering plant",
+"a woven bed covering",
+"a flat sandy riverbank"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0504",
+"lemma": "perplexe",
+"rank": 10814,
+"pos": "adj",
+"options": [
+"puzzled and unable to think clearly",
+"worn out from too much hard work",
+"cheerful and full of good humour",
+"unwilling to trust or believe others"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0505",
+"lemma": "saoul",
+"rank": 10825,
+"pos": "adj",
+"options": [
+"drunk, intoxicated by drink",
+"very tired, worn out",
+"full of anger, furious",
+"deeply in love, smitten"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0506",
+"lemma": "bélier",
+"rank": 10836,
+"pos": "noun",
+"options": [
+"a male sheep",
+"a wooden cart",
+"a river bend",
+"a young deer"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0507",
+"lemma": "paupière",
+"rank": 10837,
+"pos": "noun",
+"options": [
+"the skin flap that covers the eye",
+"the soft roof of the mouth",
+"the thin wall between two nostrils",
+"the outer edge of the ear"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0508",
+"lemma": "canyon",
+"rank": 10850,
+"pos": "noun",
+"options": [
+"a deep, narrow river-cut gorge",
+"a flat, open stretch of farmland",
+"a slow-moving body of still water",
+"a low ridge of sandy coastal ground"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0509",
+"lemma": "billard",
+"rank": 10851,
+"pos": "noun",
+"options": [
+"a table game played with cue sticks",
+"a small rolling wheel on furniture",
+"a wooden board used for cutting food",
+"a lightweight folding seat"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0510",
+"lemma": "sourde",
+"rank": 10904,
+"pos": "adj",
+"options": [
+"unable to hear, without hearing",
+"feeling very tired, worn out",
+"shy, withdrawn from others",
+"covered in thick fur or hair"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0511",
+"lemma": "tourné",
+"rank": 10905,
+"pos": "adj",
+"options": [
+"rotated, pointing in a given direction",
+"torn or ripped apart",
+"kept safe, put away",
+"softly lit, dimly glowing"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0512",
+"lemma": "aspirant",
+"rank": 10912,
+"pos": "noun",
+"options": [
+"a person seeking a post or rank",
+"a type of breathing tube",
+"a low-ranking foot soldier",
+"a written request for goods"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0513",
+"lemma": "impitoyable",
+"rank": 10914,
+"pos": "adj",
+"options": [
+"showing no mercy or kindness whatsoever",
+"unable to be seen or noticed",
+"full of joy and good cheer",
+"very slow and hard to move"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0514",
+"lemma": "taule",
+"rank": 10929,
+"pos": "noun",
+"options": [
+"a place where prisoners are kept",
+"a flat piece of wood or metal",
+"a loud, deep ringing sound",
+"a small heap of earth or sand"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0515",
+"lemma": "médiatiser",
+"rank": 10930,
+"pos": "verb",
+"options": [
+"to broadcast through the press or TV",
+"to go back to a prior state",
+"to cut into equal portions",
+"to put in writing for records"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0516",
+"lemma": "démantèlement",
+"rank": 10963,
+"pos": "noun",
+"options": [
+"the breaking apart of a structure",
+"a formal written agreement",
+"the spreading of false rumors",
+"a sudden rise in prices"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0517",
+"lemma": "spam",
+"rank": 11057,
+"pos": "noun",
+"options": [
+"unwanted bulk electronic messages",
+"a short written notice",
+"a private chat thread",
+"a saved list of contacts"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0518",
+"lemma": "louper",
+"rank": 11078,
+"pos": "verb",
+"options": [
+"to miss, to fail to catch",
+"to tie up, to fasten",
+"to whisper, to murmur softly",
+"to scatter, to spread out widely"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0519",
+"lemma": "jouissance",
+"rank": 11105,
+"pos": "noun",
+"options": [
+"intense delight or bodily pleasure",
+"a strong feeling of grief or loss",
+"a bout of uncontrollable laughter",
+"a moment of sudden panic or dread"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0520",
+"lemma": "remaniement",
+"rank": 11230,
+"pos": "noun",
+"options": [
+"overhaul or reshuffling of personnel",
+"a public gathering or rally",
+"a written agreement between two parties",
+"a gradual rise in prices or wages"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0521",
+"lemma": "amorce",
+"rank": 11235,
+"pos": "noun",
+"options": [
+"a lure or bait for catching fish",
+"a loop of thread or string",
+"a pointed tip of a blade",
+"a soft inner layer of bread"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0522",
+"lemma": "quid",
+"rank": 11342,
+"pos": "noun",
+"options": [
+"what something is worth, the core matter",
+"a short written remark or note",
+"a sudden loud burst of laughter",
+"a narrow strip of woven cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0523",
+"lemma": "coupant",
+"rank": 11370,
+"pos": "adj",
+"options": [
+"having a sharp blade or edge",
+"very heavy and hard to lift",
+"bright and full of light",
+"rough and uneven to the touch"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0524",
+"lemma": "correcteur",
+"rank": 11375,
+"pos": "noun",
+"options": [
+"a person who marks or grades work",
+"a tool used for measuring length",
+"a device that controls room temperature",
+"someone who sells goods at market"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0525",
+"lemma": "spéculatif",
+"rank": 11393,
+"pos": "adj",
+"options": [
+"based on guesswork, not proven facts",
+"relating to everyday practical tasks",
+"showing great kindness or warmth",
+"tied to physical labor or craft work"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0526",
+"lemma": "déportation",
+"rank": 11443,
+"pos": "noun",
+"options": [
+"forced removal to a distant place",
+"a formal written agreement",
+"the act of gathering crops",
+"a sudden shift in weather"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0527",
+"lemma": "vintage",
+"rank": 11673,
+"pos": "noun",
+"options": [
+"a year's grape harvest and its wine",
+"a small wheeled suitcase for travel",
+"a strip of land beside a road",
+"a type of heavy woolen fabric"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0528",
+"lemma": "pâturage",
+"rank": 11711,
+"pos": "noun",
+"options": [
+"a field where animals graze",
+"a covered walkway or arcade",
+"a shallow pool or pond",
+"a pile of cut wood"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0529",
+"lemma": "lièvre",
+"rank": 11841,
+"pos": "noun",
+"options": [
+"a wild running animal with long ears",
+"a small edible river creature with claws",
+"a thick thorny bush or shrub",
+"a flat-bottomed boat used on rivers"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0530",
+"lemma": "corvée",
+"rank": 11852,
+"pos": "noun",
+"options": [
+"a tiresome, dreaded task",
+"a narrow country path",
+"a long evening meal",
+"a thick woolen blanket"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0531",
+"lemma": "carcasse",
+"rank": 11891,
+"pos": "noun",
+"options": [
+"the bones or shell of a body",
+"a bundle of dry straw",
+"a large clay pot",
+"a strip of woven cloth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0532",
+"lemma": "normalisation",
+"rank": 11971,
+"pos": "noun",
+"options": [
+"the act of making something standard",
+"a sudden break in a sequence",
+"the gathering of crops at harvest time",
+"a formal written request to authorities"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0533",
+"lemma": "allonge",
+"rank": 12048,
+"pos": "noun",
+"options": [
+"an extension piece, a lengthening attachment",
+"a narrow side street or passage",
+"a written note or reminder",
+"a leather strap or belt loop"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0534",
+"lemma": "croustillant",
+"rank": 12086,
+"pos": "adj",
+"options": [
+"crisp and snappy when bitten",
+"packed tightly with many things",
+"faded to a pale, washed-out shade",
+"left to dry in open air"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0535",
+"lemma": "zèle",
+"rank": 12343,
+"pos": "noun",
+"options": [
+"great eagerness and devoted effort",
+"a feeling of deep unease or worry",
+"an outburst of strong displeasure",
+"a tendency to avoid others and withdraw"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0536",
+"lemma": "rebaptiser",
+"rank": 12358,
+"pos": "verb",
+"options": [
+"to give a new name to something",
+"to break apart into pieces",
+"to take back what was given",
+"to wash thoroughly with soap"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0537",
+"lemma": "rattrapage",
+"rank": 12375,
+"pos": "noun",
+"options": [
+"catching up, making up for lost ground",
+"a sharp rebuke or scolding",
+"a formal written complaint",
+"a sudden drop in value"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0538",
+"lemma": "moisson",
+"rank": 12542,
+"pos": "noun",
+"options": [
+"the gathering of ripened crops",
+"a stretch of flat, open land",
+"the planting of seeds in spring",
+"a long period of dry weather"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0539",
+"lemma": "relecture",
+"rank": 12556,
+"pos": "noun",
+"options": [
+"a second reading of a text",
+"a brief pause in speech",
+"a handwritten note or message",
+"a public gathering of people"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0540",
+"lemma": "égoïsme",
+"rank": 12751,
+"pos": "noun",
+"options": [
+"the habit of caring only for oneself",
+"deep feeling of shame or regret",
+"strong wish to know or learn things",
+"the quality of being easily frightened"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0541",
+"lemma": "renverse",
+"rank": 12873,
+"pos": "noun",
+"options": [
+"a backward or overturned position",
+"a slow circular turning of the wrist",
+"a sharp upward movement of the head",
+"a sudden leap forward from a crouch"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0542",
+"lemma": "shoot",
+"rank": 12978,
+"pos": "noun",
+"options": [
+"a strike aimed at a goal",
+"a long walk taken for leisure",
+"a flat area used for running races",
+"a formal handshake between two players"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0543",
+"lemma": "déclencheur",
+"rank": 13067,
+"pos": "noun",
+"options": [
+"a device that activates a mechanism",
+"a small notch cut into a surface",
+"a written record of past events",
+"a curved handle fitted to a door"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0544",
+"lemma": "disparaitre",
+"rank": 13167,
+"pos": "verb",
+"options": [
+"to vanish, to no longer be seen",
+"to stumble and fall to the ground",
+"to grow rapidly in size or number",
+"to speak in a loud, angry voice"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0545",
+"lemma": "elections",
+"rank": 13170,
+"pos": "noun",
+"options": [
+"votes held to choose leaders",
+"formal rules set by a court",
+"money paid to join a group",
+"written records of past events"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0546",
+"lemma": "théoricien",
+"rank": 13247,
+"pos": "noun",
+"options": [
+"one who builds abstract frameworks of thought",
+"one who records historical events",
+"a skilled worker shaping raw materials",
+"a leader directing a large group"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0547",
+"lemma": "grignoter",
+"rank": 13254,
+"pos": "verb",
+"options": [
+"to nibble, to eat small bites",
+"to sweep, to brush away",
+"to wrap, to bundle up",
+"to whistle, to make a shrill sound"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0548",
+"lemma": "soudé",
+"rank": 13284,
+"pos": "adj",
+"options": [
+"firmly joined together, bonded",
+"softly spoken, murmured",
+"deeply worried, anxious",
+"freshly picked, gathered"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0549",
+"lemma": "abattement",
+"rank": 13286,
+"pos": "noun",
+"options": [
+"deep sadness, low spirits",
+"a minor disagreement between friends",
+"a sudden burst of loud noise",
+"a brief pause in a conversation"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0550",
+"lemma": "panoramique",
+"rank": 13458,
+"pos": "adj",
+"options": [
+"offering a wide, sweeping view",
+"relating to a narrow, enclosed space",
+"having a brightly colored surface",
+"suited for carrying heavy loads"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0551",
+"lemma": "maudit",
+"rank": 13561,
+"pos": "adj",
+"options": [
+"wretched, accursed, damned",
+"worn out, deeply tired",
+"bold and daring",
+"hidden away, kept secret"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0552",
+"lemma": "faste",
+"rank": 13600,
+"pos": "noun",
+"options": [
+"lavish display of wealth",
+"a burst of sudden anger",
+"a written record of events",
+"a long journey on foot"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0553",
+"lemma": "halo",
+"rank": 13625,
+"pos": "noun",
+"options": [
+"luminous ring around a celestial body",
+"sharp edge of a blade or tool",
+"soft fabric woven from sheep's wool",
+"hollow space beneath the ground"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0554",
+"lemma": "plongeant",
+"rank": 13667,
+"pos": "adj",
+"options": [
+"angled steeply downward, diving",
+"stretched out flat and wide",
+"finely decorated with small patterns",
+"drawn tightly around the body"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0555",
+"lemma": "frondeur",
+"rank": 13675,
+"pos": "adj",
+"options": [
+"mocking authority, rebellious",
+"deeply shy, withdrawn",
+"showing great kindness, generous",
+"overly careful, cautious"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0556",
+"lemma": "combinant",
+"rank": 13705,
+"pos": "adj",
+"options": [
+"joining or merging several things together",
+"breaking down into smaller pieces",
+"moving at a steady, even pace",
+"keeping things apart and separate"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0557",
+"lemma": "tartiner",
+"rank": 13830,
+"pos": "verb",
+"options": [
+"to spread butter or paste on bread",
+"to fold and wrap tightly",
+"to boil in a large pot",
+"to tear into small bits"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0558",
+"lemma": "lacrymogène",
+"rank": 13849,
+"pos": "adj",
+"options": [
+"causing the eyes to water and weep",
+"relating to the skin's outer layer",
+"producing a loud, sharp noise",
+"giving off a foul, rotting smell"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0559",
+"lemma": "entrailles",
+"rank": 13891,
+"pos": "noun",
+"options": [
+"the inner organs of the belly",
+"the outer walls of a stone fort",
+"the carved pillars of a grand hall",
+"the steps leading into a building"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0560",
+"lemma": "bistrot",
+"rank": 13970,
+"pos": "noun",
+"options": [
+"a small, casual neighbourhood drinking place",
+"a covered outdoor market stall",
+"a small boat used for river travel",
+"a narrow alleyway between buildings"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0561",
+"lemma": "déroger",
+"rank": 13989,
+"pos": "verb",
+"options": [
+"to break from a rule",
+"to set out on a journey",
+"to hand over goods, to deliver",
+"to burst out laughing, to mock"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0562",
+"lemma": "congelé",
+"rank": 13992,
+"pos": "adj",
+"options": [
+"kept at freezing cold, icy solid",
+"cooked in boiling water",
+"dried out and hardened",
+"soaked through with liquid"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0563",
+"lemma": "immatériel",
+"rank": 14045,
+"pos": "adj",
+"options": [
+"not made of any touchable stuff",
+"done without careful thought",
+"too large to be measured",
+"kept away from public view"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0564",
+"lemma": "joug",
+"rank": 14153,
+"pos": "noun",
+"options": [
+"a wooden bar linking draft animals",
+"a narrow strip of sandy shore",
+"a rounded hilltop or ridge",
+"a wooden peg closing a gate"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0565",
+"lemma": "torcher",
+"rank": 14313,
+"pos": "verb",
+"options": [
+"to wipe or clean hastily",
+"to pull apart with force",
+"to call out loudly to someone",
+"to tie or bind tightly together"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0566",
+"lemma": "gale",
+"rank": 14369,
+"pos": "noun",
+"options": [
+"a skin disease caused by tiny mites",
+"a deep hollow in a tree trunk",
+"a sweet thick spread for bread",
+"a narrow path through a forest"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0567",
+"lemma": "hurlement",
+"rank": 14506,
+"pos": "noun",
+"options": [
+"a loud cry or shriek",
+"a brief tap or knock",
+"a soft whisper or murmur",
+"a sudden burst of laughter"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0568",
+"lemma": "sigle",
+"rank": 14528,
+"pos": "noun",
+"options": [
+"a set of initials, an abbreviation",
+"a small stamp or seal",
+"a short whistle or signal",
+"a curved roof tile"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0569",
+"lemma": "esquisser",
+"rank": 14575,
+"pos": "verb",
+"options": [
+"to draw a rough outline of",
+"to wrap up tightly",
+"to wipe away moisture",
+"to break into small pieces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0570",
+"lemma": "trèfle",
+"rank": 14589,
+"pos": "noun",
+"options": [
+"a small three-leafed meadow plant",
+"a hard smooth precious stone",
+"a long narrow boat on water",
+"a type of thick woolen fabric"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0571",
+"lemma": "marmite",
+"rank": 14608,
+"pos": "noun",
+"options": [
+"a large pot for boiling food",
+"a narrow strip of fabric or ribbon",
+"a small furry woodland creature",
+"a flat wooden board for cutting"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0572",
+"lemma": "biennale",
+"rank": 14617,
+"pos": "noun",
+"options": [
+"an arts show held every two years",
+"a long journey taken by foot",
+"a written record of daily events",
+"a gathering of merchants for trade"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0573",
+"lemma": "cuisiné",
+"rank": 14798,
+"pos": "adj",
+"options": [
+"prepared and made ready to eat",
+"firmly attached to a surface",
+"carefully folded and put away",
+"grown in a private garden"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0574",
+"lemma": "dentifrice",
+"rank": 14909,
+"pos": "noun",
+"options": [
+"paste used to clean teeth",
+"sharp blade for cutting food",
+"soft cloth for washing the body",
+"sweet treat eaten after meals"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0575",
+"lemma": "culminer",
+"rank": 14980,
+"pos": "verb",
+"options": [
+"to top out at a maximum level",
+"to spread outward in all directions",
+"to break apart into smaller pieces",
+"to sink slowly beneath a surface"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0576",
+"lemma": "infant",
+"rank": 15145,
+"pos": "adj",
+"options": [
+"wicked, vile, despicable",
+"too young to speak",
+"deeply tired, worn out",
+"overly proud, boastful"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0577",
+"lemma": "enveloppé",
+"rank": 15176,
+"pos": "adj",
+"options": [
+"wrapped up or covered all around",
+"broken into many small fragments",
+"held in high regard or admired",
+"stretched out over a wide area"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0578",
+"lemma": "pommier",
+"rank": 15199,
+"pos": "noun",
+"options": [
+"a tree bearing apples",
+"a flowering garden shrub",
+"a tall evergreen timber tree",
+"a thorny hedge plant"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0579",
+"lemma": "sociétaire",
+"rank": 15329,
+"pos": "noun",
+"options": [
+"a dues-paying club or group member",
+"a person who draws up legal papers",
+"a worker hired on a short-term basis",
+"an elected town council official"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0580",
+"lemma": "flan",
+"rank": 15332,
+"pos": "noun",
+"options": [
+"a sweet baked custard tart",
+"a long, thin bread roll",
+"a small round hat brim",
+"a woven floor covering"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0581",
+"lemma": "peigner",
+"rank": 15339,
+"pos": "verb",
+"options": [
+"to run a comb through hair",
+"to fold a piece of cloth",
+"to boil water for a drink",
+"to wrap a gift with ribbon"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0582",
+"lemma": "utopique",
+"rank": 15514,
+"pos": "adj",
+"options": [
+"dreamily unrealistic, too good to be real",
+"deeply rooted in old customs",
+"causing great bodily harm",
+"relating to a single ruling power"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0583",
+"lemma": "sournois",
+"rank": 15605,
+"pos": "adj",
+"options": [
+"sneaky, underhanded, crafty",
+"cheerful and easy-going",
+"clumsy and awkward",
+"pale and sickly-looking"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0584",
+"lemma": "billetterie",
+"rank": 15610,
+"pos": "noun",
+"options": [
+"a place where tickets are sold",
+"a large hall for public gatherings",
+"a printed sheet listing weekly news",
+"a storage room for heavy goods"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0585",
+"lemma": "insurger",
+"rank": 15770,
+"pos": "verb",
+"options": [
+"to rise up in rebellion, to revolt",
+"to wear out, to tire completely",
+"to hold back, to keep from going",
+"to come together, to assemble"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0586",
+"lemma": "délicatement",
+"rank": 15832,
+"pos": "adv",
+"options": [
+"in a gentle, careful manner",
+"in a loud, boisterous way",
+"at a slow, unhurried pace",
+"with great sadness or grief"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0587",
+"lemma": "effraie",
+"rank": 15903,
+"pos": "noun",
+"options": [
+"a barn owl",
+"a type of freshwater crayfish",
+"a thorny flowering shrub",
+"a small flat-bottomed boat"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0588",
+"lemma": "topographique",
+"rank": 15916,
+"pos": "adj",
+"options": [
+"relating to the lay of the land",
+"having to do with tidal movements",
+"relating to religious worship",
+"having to do with ancient written records"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0589",
+"lemma": "collation",
+"rank": 15955,
+"pos": "noun",
+"options": [
+"a light meal or snack",
+"a formal written agreement",
+"a yearly payment of money",
+"a shared living space"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0590",
+"lemma": "fleuriste",
+"rank": 15993,
+"pos": "noun",
+"options": [
+"a person who sells cut flowers",
+"a craftsman who shapes raw metal",
+"a trader who deals in fine cloth",
+"a keeper of bees for honey"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0591",
+"lemma": "menotte",
+"rank": 16132,
+"pos": "noun",
+"options": [
+"a metal ring locking the wrist",
+"a long wooden walking stick",
+"cloth worn over the head",
+"a heavy iron door bolt"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0592",
+"lemma": "bulbe",
+"rank": 16178,
+"pos": "noun",
+"options": [
+"a swollen underground stem that stores nutrients",
+"a large branch from a tree trunk",
+"the flat leaf of a water plant",
+"a woody knot found in timber"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0593",
+"lemma": "crisper",
+"rank": 16189,
+"pos": "verb",
+"options": [
+"to curl up, to tense, to clench",
+"to pour out, to flow freely",
+"to mend, to stitch back together",
+"to wobble, to sway back and forth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0594",
+"lemma": "cadette",
+"rank": 16217,
+"pos": "noun",
+"options": [
+"the younger or youngest daughter or sister",
+"a woman who runs a household",
+"a girl training to be a nurse",
+"a woman who owns a small shop"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0595",
+"lemma": "toro",
+"rank": 16288,
+"pos": "noun",
+"options": [
+"a male bovine animal, a bull",
+"a flat piece of bread",
+"a flight of steps",
+"a woven floor covering"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0596",
+"lemma": "faïence",
+"rank": 16530,
+"pos": "noun",
+"options": [
+"glazed earthenware pottery",
+"a heavy wool blanket",
+"a wrought-iron garden gate",
+"a woven silk ribbon"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0597",
+"lemma": "tocard",
+"rank": 17262,
+"pos": "noun",
+"options": [
+"worthless fool, hopeless loser",
+"a noisy street brawl",
+"a thick wooden post",
+"a small folding knife"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0598",
+"lemma": "stein",
+"rank": 17685,
+"pos": "noun",
+"options": [
+"a large beer mug with a handle",
+"a wooden writing desk",
+"a thin woolen blanket",
+"a curved garden pathway"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0599",
+"lemma": "hypermarché",
+"rank": 17741,
+"pos": "noun",
+"options": [
+"a very large retail store",
+"a busy town square",
+"an outdoor farmers' stall",
+"a small local workshop"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0600",
+"lemma": "courge",
+"rank": 17760,
+"pos": "noun",
+"options": [
+"a large round or oblong garden vegetable",
+"a leafy herb used in cooking",
+"a thorny woodland shrub",
+"a small sweet stone fruit"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0601",
+"lemma": "modique",
+"rank": 17895,
+"pos": "adj",
+"options": [
+"small in amount; not costly at all",
+"well-organized and tidy",
+"soft to the touch; gentle",
+"having a bitter or sharp flavor"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0602",
+"lemma": "écume",
+"rank": 18201,
+"pos": "noun",
+"options": [
+"white froth on liquid surface",
+"dry powdery residue from burning",
+"thin outer layer of bark",
+"hollow carved-out channel"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0603",
+"lemma": "primeur",
+"rank": 18563,
+"pos": "noun",
+"options": [
+"first early-season fresh produce",
+"a thick woolen blanket or wrap",
+"a small decorative ceramic bowl",
+"a narrow alleyway between buildings"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0604",
+"lemma": "coccinelle",
+"rank": 18576,
+"pos": "noun",
+"options": [
+"a small red beetle with black spots",
+"a large moth with brightly colored wings",
+"a thin stick-shaped insect resembling a twig",
+"a tiny jumping bug found on grass"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0605",
+"lemma": "aqua",
+"rank": 18645,
+"pos": "noun",
+"options": [
+"a blue-green color",
+"a type of gemstone",
+"a loud ringing sound",
+"a sharp cutting blade"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0606",
+"lemma": "mégot",
+"rank": 18811,
+"pos": "noun",
+"options": [
+"the leftover stub of a smoked cigarette",
+"a small metal clasp for holding papers",
+"a thick wax used for sealing bottles",
+"a short wooden handle on a tool"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0607",
+"lemma": "fumigène",
+"rank": 19050,
+"pos": "adj",
+"options": [
+"releasing dense clouds when burned",
+"giving off bright light",
+"relating to underground tunnels",
+"capable of withstanding heat"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0608",
+"lemma": "annihiler",
+"rank": 19246,
+"pos": "verb",
+"options": [
+"to wipe out, to reduce to nothing",
+"to borrow money from someone",
+"to tie a knot firmly",
+"to soften or make gentle"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0609",
+"lemma": "intentionné",
+"rank": 19346,
+"pos": "adj",
+"options": [
+"having a certain aim in mind",
+"deeply moved by feeling",
+"held back, not yet released",
+"worn out from hard effort"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0610",
+"lemma": "ahurissant",
+"rank": 19515,
+"pos": "adj",
+"options": [
+"utterly bewildering, leaving one speechless",
+"deeply sorrowful, full of grief",
+"pleasantly warm and welcoming",
+"very slow and drawn out"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0611",
+"lemma": "essoufflé",
+"rank": 19573,
+"pos": "adj",
+"options": [
+"out of breath, winded",
+"soaking wet, drenched",
+"deeply upset, heartbroken",
+"worn out, threadbare"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0612",
+"lemma": "argileux",
+"rank": 19578,
+"pos": "adj",
+"options": [
+"made of or containing sticky earth",
+"covered with dense leafy growth",
+"having a rough, jagged surface",
+"lacking moisture, bone-dry"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0613",
+"lemma": "récipiendaire",
+"rank": 19766,
+"pos": "noun",
+"options": [
+"someone given a prize or formal distinction",
+"someone who drafts binding agreements",
+"someone who manages public finances",
+"someone who teaches at a university"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0614",
+"lemma": "couv",
+"rank": 19863,
+"pos": "noun",
+"options": [
+"front cover of a magazine",
+"a short midday rest",
+"a small drinking glass",
+"a folded paper note"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0615",
+"lemma": "truie",
+"rank": 20044,
+"pos": "noun",
+"options": [
+"a female pig",
+"a young hen",
+"a hollow tree trunk",
+"a type of fishing net"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0616",
+"lemma": "marécageux",
+"rank": 20060,
+"pos": "adj",
+"options": [
+"boggy, waterlogged, full of swamp",
+"bitterly cold and frost-covered",
+"heavily wooded and hard to cross",
+"barren, dry, and without plants"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0617",
+"lemma": "réglement",
+"rank": 20083,
+"pos": "noun",
+"options": [
+"binding code of conduct",
+"a written request or plea",
+"a yearly fee or due",
+"a formal gathering or council"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0618",
+"lemma": "brader",
+"rank": 20095,
+"pos": "verb",
+"options": [
+"to sell off at a steep discount",
+"to mend, to patch up carefully",
+"to mix together, to blend",
+"to carry away, to haul off"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0619",
+"lemma": "revision",
+"rank": 20219,
+"pos": "noun",
+"options": [
+"a going-over of studied material",
+"a formal written complaint",
+"a sum of money owed",
+"a spoken public announcement"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0620",
+"lemma": "savannah",
+"rank": 20460,
+"pos": "noun",
+"options": [
+"a broad grassy plain with few trees",
+"a steep rocky mountain ridge",
+"a deep freshwater lake in a valley",
+"a stretch of thick tropical forest"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0621",
+"lemma": "téléchargements",
+"rank": 20482,
+"pos": "noun",
+"options": [
+"files fetched from the internet",
+"monthly fee for a service",
+"printed pages from a machine",
+"wireless signals sent to a tower"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0622",
+"lemma": "contusion",
+"rank": 20524,
+"pos": "noun",
+"options": [
+"a bruise on the body",
+"a sharp cutting blade",
+"a written legal claim",
+"a sudden loud noise"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0623",
+"lemma": "complaire",
+"rank": 20527,
+"pos": "verb",
+"options": [
+"to go along with someone's wishes",
+"to tidy up a messy room",
+"to set out goods on a table",
+"to speak ill of an absent person"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0624",
+"lemma": "répugner",
+"rank": 20572,
+"pos": "verb",
+"options": [
+"to fill someone with strong disgust",
+"to make a solemn public pledge",
+"to wrap something tightly in cloth",
+"to move quietly without being noticed"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0625",
+"lemma": "pourvoyeur",
+"rank": 20990,
+"pos": "noun",
+"options": [
+"one who supplies or furnishes goods",
+"a person who borrows money",
+"one who guards a building",
+"a person who teaches a craft"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0626",
+"lemma": "loyaliste",
+"rank": 21033,
+"pos": "adj",
+"options": [
+"steadfastly supporting the ruling power against challengers",
+"holding no strong political views",
+"widely known and openly celebrated",
+"sharing power across several groups"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0627",
+"lemma": "enivrer",
+"rank": 21050,
+"pos": "verb",
+"options": [
+"to make someone drunk or giddy",
+"to lay out a body for burial",
+"to fold cloth into neat layers",
+"to tie a knot around something firmly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0628",
+"lemma": "latence",
+"rank": 21081,
+"pos": "noun",
+"options": [
+"a hidden or dormant state",
+"a burst of bright flame",
+"a written legal agreement",
+"a gradual loss of strength"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0629",
+"lemma": "vautrer",
+"rank": 21124,
+"pos": "verb",
+"options": [
+"to sprawl, to loll about lazily",
+"to wrap tightly around something",
+"to leap over a barrier",
+"to dig a hole in the ground"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0630",
+"lemma": "aïd",
+"rank": 21139,
+"pos": "noun",
+"options": [
+"a Muslim feast day or festival",
+"a weekly day of rest",
+"a solemn mourning period",
+"a harvest gathering ceremony"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0631",
+"lemma": "analphabète",
+"rank": 21286,
+"pos": "adj",
+"options": [
+"unable to read or write",
+"deeply held, firmly believed",
+"lacking good manners, rude",
+"out of work, without a job"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0632",
+"lemma": "capoter",
+"rank": 21353,
+"pos": "verb",
+"options": [
+"to tip over, to overturn",
+"to sweep the floor clean",
+"to whisper softly to someone",
+"to tie a knot firmly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0633",
+"lemma": "multijoueur",
+"rank": 21456,
+"pos": "adj",
+"options": [
+"involving several people at once",
+"lasting a very short time",
+"carried out in complete silence",
+"requiring no outside help"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0635",
+"lemma": "saccage",
+"rank": 21483,
+"pos": "noun",
+"options": [
+"wanton destruction, act of ransacking",
+"a long journey by sea",
+"an evening gathering of friends",
+"a sudden burst of laughter"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0636",
+"lemma": "clodo",
+"rank": 21533,
+"pos": "noun",
+"options": [
+"a homeless person, a tramp",
+"a loud and rowdy drinker",
+"a low-ranking street dealer",
+"a lazy and careless worker"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0637",
+"lemma": "attique",
+"rank": 21579,
+"pos": "noun",
+"options": [
+"the topmost story of a building",
+"a wide front entrance hall",
+"a curved underground passageway",
+"a decorative carved wooden ceiling panel"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0638",
+"lemma": "douma",
+"rank": 21674,
+"pos": "noun",
+"options": [
+"Russian legislative assembly",
+"a type of dome-shaped roof",
+"a formal court judgment",
+"a written trade agreement"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0639",
+"lemma": "sociabilité",
+"rank": 21784,
+"pos": "noun",
+"options": [
+"the quality of enjoying others' company",
+"the skill of managing money wisely",
+"a strong tendency to take risks",
+"the habit of waking up very early"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0640",
+"lemma": "adroit",
+"rank": 21812,
+"pos": "adj",
+"options": [
+"clever and nimble, highly skilled",
+"deeply sad, full of grief",
+"straight, not curved or bent",
+"strict and demanding, harsh in manner"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0641",
+"lemma": "feutré",
+"rank": 22078,
+"pos": "adj",
+"options": [
+"muffled and hushed in sound",
+"stretched tight and ready to snap",
+"rough and scratchy to the touch",
+"brightly lit and easy to see clearly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0642",
+"lemma": "chardon",
+"rank": 22382,
+"pos": "noun",
+"options": [
+"a prickly wild plant with purple flowers",
+"a soft moss growing on wet rocks",
+"a tall reed found near rivers",
+"a climbing plant with small white blooms"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0643",
+"lemma": "parachuter",
+"rank": 22571,
+"pos": "verb",
+"options": [
+"to drop from a plane by canopy",
+"to sail across open water",
+"to drive at high speed",
+"to dig a tunnel underground"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0644",
+"lemma": "catin",
+"rank": 22609,
+"pos": "noun",
+"options": [
+"a woman who sells her body",
+"a small wicker basket for bread",
+"a young female duck",
+"a thick woolen blanket or wrap"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0645",
+"lemma": "tirelire",
+"rank": 22637,
+"pos": "noun",
+"options": [
+"a small box for saving coins",
+"a long piece of woven cloth",
+"a sharp tool for boring holes",
+"a light meal eaten at midday"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0646",
+"lemma": "metier",
+"rank": 22792,
+"pos": "noun",
+"options": [
+"a trade or skilled craft one does",
+"a flat woven floor covering",
+"a piece of furniture for sleeping",
+"a thin rope or twisted cord"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0647",
+"lemma": "salubrité",
+"rank": 22823,
+"pos": "noun",
+"options": [
+"healthfulness of an environment",
+"the right to own land",
+"a formal gathering of officials",
+"study of ancient written records"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0648",
+"lemma": "saignée",
+"rank": 22867,
+"pos": "noun",
+"options": [
+"drawing blood from the body as treatment",
+"a deep cut made in tree bark",
+"a sharp bend in a mountain road",
+"a crack running through stone"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0649",
+"lemma": "épandage",
+"rank": 22935,
+"pos": "noun",
+"options": [
+"spreading of material over land",
+"sudden breaking apart of rock",
+"gathering of ripe crops",
+"fencing off of a field"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0650",
+"lemma": "boucan",
+"rank": 22982,
+"pos": "noun",
+"options": [
+"a loud, disruptive noise or uproar",
+"a wide-brimmed hat worn outdoors",
+"a narrow alleyway between buildings",
+"a trough used to water livestock"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0651",
+"lemma": "précipice",
+"rank": 23175,
+"pos": "noun",
+"options": [
+"a steep drop, sheer cliff edge",
+"a narrow winding footpath",
+"a stretch of open farmland",
+"a shallow rocky stream bed"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0652",
+"lemma": "hydratation",
+"rank": 23326,
+"pos": "noun",
+"options": [
+"the body's intake and retention of water",
+"a sharp drop in body temperature",
+"breakdown of food in the gut",
+"removal of waste from the blood"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0653",
+"lemma": "épater",
+"rank": 23507,
+"pos": "verb",
+"options": [
+"to astonish, to leave someone speechless",
+"to slice or cut into thin strips",
+"to hide something beneath the ground",
+"to greet someone warmly upon arrival"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0654",
+"lemma": "warning",
+"rank": 23533,
+"pos": "noun",
+"options": [
+"a car's flashing hazard lights",
+"a vehicle's rear-view mirror",
+"a road sign marking a speed limit",
+"a device that measures fuel levels"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0655",
+"lemma": "courtisane",
+"rank": 23568,
+"pos": "noun",
+"options": [
+"a high-class woman paid for her company",
+"a female ruler of a small territory",
+"a woman who tends to the sick",
+"a girl who delivers messages for nobles"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0656",
+"lemma": "dégel",
+"rank": 23585,
+"pos": "noun",
+"options": [
+"the melting of ice and frost",
+"a sudden drop in air pressure",
+"a heavy overnight rainfall",
+"packed snow crust on a roof"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0657",
+"lemma": "décousu",
+"rank": 23774,
+"pos": "adj",
+"options": [
+"lacking order, rambling, incoherent",
+"overly bright, garish in color",
+"worn down, shabby with age",
+"too tight, close-fitting on the body"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0658",
+"lemma": "prélevée",
+"rank": 23945,
+"pos": "adj",
+"options": [
+"taken out, drawn from a source",
+"scattered across a wide area",
+"joined firmly to another part",
+"wrapped up and set aside"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0659",
+"lemma": "bailler",
+"rank": 24019,
+"pos": "verb",
+"options": [
+"to open the mouth wide from tiredness",
+"to wrap a wound with cloth strips",
+"to shake or stir a liquid briskly",
+"to lower one's head as a greeting"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0660",
+"lemma": "insoupçonné",
+"rank": 24308,
+"pos": "adj",
+"options": [
+"not previously guessed or anticipated",
+"extremely well known to the public",
+"deeply rooted and long established",
+"clearly shown and easy to prove"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0661",
+"lemma": "sablon",
+"rank": 24324,
+"pos": "noun",
+"options": [
+"fine sand or gritty powder",
+"a thick cloak or outer wrap",
+"a wooden bucket or pail",
+"a low marshy meadow or fen"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0662",
+"lemma": "rotonde",
+"rank": 24382,
+"pos": "noun",
+"options": [
+"a round, domed building or hall",
+"a narrow strip of flat land",
+"a thick woolen blanket or wrap",
+"a wooden beam used in framing"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0663",
+"lemma": "vendange",
+"rank": 24578,
+"pos": "noun",
+"options": [
+"grape harvest, wine-making season",
+"a woodworking tool with a curved blade",
+"the outer wall of a fortified town",
+"a freshwater fish caught in rivers"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0664",
+"lemma": "bizutage",
+"rank": 24594,
+"pos": "noun",
+"options": [
+"rough initiation pranks played on newcomers",
+"a heated debate among students",
+"an underground street market",
+"a neighborhood street party or gathering"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0665",
+"lemma": "affaissement",
+"rank": 24657,
+"pos": "noun",
+"options": [
+"a sinking or caving-in of ground",
+"a rapid rise in water levels",
+"a gradual weakening of the voice",
+"a tight curve in a road"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0666",
+"lemma": "menstruel",
+"rank": 24882,
+"pos": "adj",
+"options": [
+"relating to a woman's monthly flow",
+"of or belonging to a written record",
+"relating to the outer edge of something",
+"having to do with a yearly harvest"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0667",
+"lemma": "opprobre",
+"rank": 24883,
+"pos": "noun",
+"options": [
+"deep public shame or disgrace",
+"a written legal order or command",
+"a dark room for developing photos",
+"a small woven floor covering"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0668",
+"lemma": "temporal",
+"rank": 25157,
+"pos": "adj",
+"options": [
+"relating to time, not eternal",
+"shaped like a dome or arch",
+"having a bitter or sharp taste",
+"belonging to a distant or remote place"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0669",
+"lemma": "suturer",
+"rank": 25252,
+"pos": "verb",
+"options": [
+"to stitch a wound closed",
+"to press down on a bruise",
+"to wrap a broken limb in plaster",
+"to give a drug by needle"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0670",
+"lemma": "pédant",
+"rank": 25266,
+"pos": "adj",
+"options": [
+"overly fussy about rules and book learning",
+"quick to anger over small matters",
+"unwilling to spend any money",
+"prone to forgetting names and faces"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0671",
+"lemma": "corso",
+"rank": 25602,
+"pos": "noun",
+"options": [
+"a festive street parade of decorated floats",
+"a formal dinner held after a ceremony",
+"an open-air stall selling fresh produce",
+"a gathering of merchants at a fair"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0672",
+"lemma": "bourrin",
+"rank": 25782,
+"pos": "noun",
+"options": [
+"a horse, nag, or old work animal",
+"a round clay pot or jug",
+"a thick wool scarf or wrap",
+"a noisy street brawl or row"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0673",
+"lemma": "tsigane",
+"rank": 25797,
+"pos": "adj",
+"options": [
+"of the Romani traveling people",
+"relating to mountain dwelling folk",
+"of seafaring, nautical heritage",
+"belonging to northern forest tribes"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0674",
+"lemma": "raviser",
+"rank": 26053,
+"pos": "verb",
+"options": [
+"to change one's mind, think again",
+"to wrap up tightly, bundle",
+"to scrub a surface clean",
+"to fall down suddenly, tumble"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0675",
+"lemma": "agréger",
+"rank": 26113,
+"pos": "verb",
+"options": [
+"to gather or bind into a whole",
+"to split apart into pieces",
+"to mark with a sign or symbol",
+"to hand over to another party"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0676",
+"lemma": "rédhibitoire",
+"rank": 26129,
+"pos": "adj",
+"options": [
+"so serious as to make something unacceptable",
+"difficult to grasp or understand clearly",
+"prone to shifting between opposing states",
+"causing mild discomfort or unease"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0677",
+"lemma": "gynécologie",
+"rank": 26221,
+"pos": "noun",
+"options": [
+"branch of medicine dealing with women's health",
+"study of the body's skeletal framework",
+"field concerned with skin and its disorders",
+"area of medicine focused on children's growth"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0678",
+"lemma": "interdépendance",
+"rank": 26383,
+"pos": "noun",
+"options": [
+"mutual reliance between parties",
+"a strong feeling of dislike or hostility",
+"the right to vote in public elections",
+"a written agreement between two parties"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0679",
+"lemma": "débouchant",
+"rank": 26519,
+"pos": "adj",
+"options": [
+"opening out, leading into a wider space",
+"twisting back on itself, winding",
+"lying flat against a surface, flush",
+"branching off into separate parts, forking"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0680",
+"lemma": "blotti",
+"rank": 26980,
+"pos": "adj",
+"options": [
+"huddled up, curled snugly together",
+"stretched out flat and still",
+"standing upright and rigid",
+"bent forward under a heavy load"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0681",
+"lemma": "peuplade",
+"rank": 27031,
+"pos": "noun",
+"options": [
+"a small tribal group of people",
+"a stretch of open, flat land",
+"a written set of laws or rules",
+"a yearly gathering or celebration"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0682",
+"lemma": "miteux",
+"rank": 27035,
+"pos": "adj",
+"options": [
+"shabby, run-down, dingy",
+"overly bold, daring",
+"tight-fitting, snug",
+"cheerful, lively, upbeat"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0683",
+"lemma": "individualisation",
+"rank": 27171,
+"pos": "noun",
+"options": [
+"tailoring something to one person's needs",
+"splitting a group into rival factions",
+"a method of measuring crowd size",
+"the process of joining separate bodies together"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0684",
+"lemma": "transgénique",
+"rank": 27365,
+"pos": "adj",
+"options": [
+"having foreign DNA inserted into its cells",
+"relating to a slow, gradual decay",
+"describing a deeply buried rock layer",
+"involving a shift across political borders"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0685",
+"lemma": "constructible",
+"rank": 27640,
+"pos": "adj",
+"options": [
+"able to be built or put together",
+"worthy of close study or regard",
+"likely to cause harm or damage",
+"easy to understand or follow"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0686",
+"lemma": "gange",
+"rank": 28076,
+"pos": "noun",
+"options": [
+"worthless rock surrounding a mineral vein",
+"a coarse cloth used for wrapping goods",
+"a hinged wooden barrier across a path",
+"a clay pot used in outdoor cooking"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0687",
+"lemma": "surhomme",
+"rank": 28223,
+"pos": "noun",
+"options": [
+"being of supreme human power",
+"a person who studies the mind",
+"a leader chosen by the people",
+"a being from another world"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0688",
+"lemma": "chara",
+"rank": 28339,
+"pos": "noun",
+"options": [
+"a freshwater green algae plant",
+"a small wading bird",
+"a type of clay soil",
+"a wild berry bush"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0689",
+"lemma": "honnete",
+"rank": 28380,
+"pos": "adj",
+"options": [
+"truthful, fair, and upright",
+"easily broken or damaged",
+"full of joy and cheer",
+"slow and hard to move"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0690",
+"lemma": "scaphandre",
+"rank": 28624,
+"pos": "noun",
+"options": [
+"a suit worn underwater for diving",
+"a lightweight frame used for climbing",
+"a padded garment worn in cold weather",
+"a wheeled cart for carrying heavy loads"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0691",
+"lemma": "sodome",
+"rank": 28840,
+"pos": "noun",
+"options": [
+"a city of ancient wickedness",
+"a type of thick woven cloth",
+"a heavy drinking vessel",
+"a narrow strip of land"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0692",
+"lemma": "seille",
+"rank": 29254,
+"pos": "noun",
+"options": [
+"a wooden bucket for carrying water",
+"a flat wicker tray for drying grain",
+"a long-handled ladle for serving soup",
+"a coarse sack used for storing flour"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0693",
+"lemma": "passivement",
+"rank": 29482,
+"pos": "adv",
+"options": [
+"without acting or resisting",
+"in a rushed, hurried way",
+"with great skill and care",
+"at a very early hour"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0694",
+"lemma": "loggia",
+"rank": 29561,
+"pos": "noun",
+"options": [
+"an open-sided roofed gallery or porch",
+"a narrow underground passage or tunnel",
+"a tall decorative tower on a building",
+"a small private reading room"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0695",
+"lemma": "marial",
+"rank": 29563,
+"pos": "adj",
+"options": [
+"relating to the Virgin Mary",
+"of or belonging to the sea",
+"tied to a royal wedding ceremony",
+"of or concerning a military march"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0696",
+"lemma": "raréfier",
+"rank": 29603,
+"pos": "verb",
+"options": [
+"to make something less plentiful over time",
+"to strengthen or reinforce a structure",
+"to gather or bring items together",
+"to clean or purify a liquid thoroughly"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0697",
+"lemma": "antifa",
+"rank": 29653,
+"pos": "noun",
+"options": [
+"a movement opposed to far-right groups",
+"a government body overseeing trade",
+"a legal rule protecting private land",
+"a group promoting local food growing"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0698",
+"lemma": "poissonnier",
+"rank": 29808,
+"pos": "noun",
+"options": [
+"a person who sells seafood",
+"a person who bakes bread",
+"a person who tends livestock",
+"a person who repairs shoes"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0699",
+"lemma": "crissement",
+"rank": 29970,
+"pos": "noun",
+"options": [
+"a harsh scraping or squeaking noise",
+"a sharp burst of laughter",
+"a low steady hum or drone",
+"a sudden loud bang or clap"
+],
+"correct": 0
+},
+{
+"id": "mc-fr-0700",
+"lemma": "kata",
+"rank": 29990,
+"pos": "noun",
+"options": [
+"a sequence of martial arts moves",
+"a narrow mountain path",
+"a type of woven cloth",
+"a small hand-held drum"
+],
+"correct": 0
+}
+],
+"pseudowords": [
+{
+"id": "pw-fr-0001",
+"form": "parqueton"
+},
+{
+"id": "pw-fr-0002",
+"form": "traquiser"
+},
+{
+"id": "pw-fr-0003",
+"form": "quelvaine"
+},
+{
+"id": "pw-fr-0004",
+"form": "bisqueron"
+},
+{
+"id": "pw-fr-0005",
+"form": "velquiste"
+},
+{
+"id": "pw-fr-0006",
+"form": "enquivure"
+},
+{
+"id": "pw-fr-0007",
+"form": "tarquider"
+},
+{
+"id": "pw-fr-0008",
+"form": "musquerie"
+},
+{
+"id": "pw-fr-0009",
+"form": "barquelin"
+},
+{
+"id": "pw-fr-0010",
+"form": "fouquerie"
+},
+{
+"id": "pw-fr-0011",
+"form": "quivelure"
+},
+{
+"id": "pw-fr-0012",
+"form": "telviture"
+},
+{
+"id": "pw-fr-0013",
+"form": "mordisant"
+},
+{
+"id": "pw-fr-0014",
+"form": "volpiture"
+},
+{
+"id": "pw-fr-0015",
+"form": "velpurant"
+},
+{
+"id": "pw-fr-0016",
+"form": "calmitude"
+},
+{
+"id": "pw-fr-0017",
+"form": "xelvorant"
+},
+{
+"id": "pw-fr-0018",
+"form": "expluvise"
+},
+{
+"id": "pw-fr-0019",
+"form": "xontarire"
+},
+{
+"id": "pw-fr-0020",
+"form": "rexouvant"
+},
+{
+"id": "pw-fr-0021",
+"form": "buxellier"
+},
+{
+"id": "pw-fr-0022",
+"form": "extorvure"
+},
+{
+"id": "pw-fr-0023",
+"form": "xilonante"
+},
+{
+"id": "pw-fr-0024",
+"form": "vexolieur"
+},
+{
+"id": "pw-fr-0025",
+"form": "expurvoir"
+},
+{
+"id": "pw-fr-0026",
+"form": "xendorime"
+},
+{
+"id": "pw-fr-0027",
+"form": "fluxonner"
+},
+{
+"id": "pw-fr-0028",
+"form": "proxiveur"
+},
+{
+"id": "pw-fr-0029",
+"form": "trevluire"
+},
+{
+"id": "pw-fr-0031",
+"form": "torbuyant"
+},
+{
+"id": "pw-fr-0032",
+"form": "ployurent"
+},
+{
+"id": "pw-fr-0033",
+"form": "gruyelier"
+},
+{
+"id": "pw-fr-0034",
+"form": "venyateur"
+},
+{
+"id": "pw-fr-0035",
+"form": "floyanter"
+},
+{
+"id": "pw-fr-0036",
+"form": "croyuline"
+},
+{
+"id": "pw-fr-0037",
+"form": "brayeteur"
+},
+{
+"id": "pw-fr-0038",
+"form": "moyurence"
+},
+{
+"id": "pw-fr-0039",
+"form": "treyoline"
+},
+{
+"id": "pw-fr-0040",
+"form": "fluyonner"
+},
+{
+"id": "pw-fr-0041",
+"form": "grayeture"
+},
+{
+"id": "pw-fr-0042",
+"form": "bèlforeur"
+},
+{
+"id": "pw-fr-0043",
+"form": "trèbusant"
+},
+{
+"id": "pw-fr-0044",
+"form": "molfèdre"
+},
+{
+"id": "pw-fr-0045",
+"form": "scrèviner"
+},
+{
+"id": "pw-fr-0046",
+"form": "velpèdeur"
+},
+{
+"id": "pw-fr-0047",
+"form": "crèsonier"
+},
+{
+"id": "pw-fr-0048",
+"form": "torflèche"
+},
+{
+"id": "pw-fr-0049",
+"form": "mèlvaison"
+},
+{
+"id": "pw-fr-0050",
+"form": "broquelir"
+},
+{
+"id": "pw-fr-0051",
+"form": "maquelier"
+},
+{
+"id": "pw-fr-0052",
+"form": "garniquer"
+},
+{
+"id": "pw-fr-0053",
+"form": "toltiveur"
+},
+{
+"id": "pw-fr-0054",
+"form": "brusonner"
+},
+{
+"id": "pw-fr-0055",
+"form": "paltivure"
+},
+{
+"id": "pw-fr-0056",
+"form": "corviteur"
+},
+{
+"id": "pw-fr-0057",
+"form": "flombiser"
+},
+{
+"id": "pw-fr-0058",
+"form": "dormiceur"
+},
+{
+"id": "pw-fr-0059",
+"form": "tarvonner"
+},
+{
+"id": "pw-fr-0060",
+"form": "mostiveur"
+},
+{
+"id": "pw-fr-0061",
+"form": "paltorner"
+},
+{
+"id": "pw-fr-0062",
+"form": "gromiveur"
+},
+{
+"id": "pw-fr-0063",
+"form": "trondiser"
+},
+{
+"id": "pw-fr-0064",
+"form": "valbiture"
+},
+{
+"id": "pw-fr-0065",
+"form": "parnivure"
+},
+{
+"id": "pw-fr-0066",
+"form": "dolvateur"
+},
+{
+"id": "pw-fr-0067",
+"form": "gaflicher"
+},
+{
+"id": "pw-fr-0068",
+"form": "blotivant"
+},
+{
+"id": "pw-fr-0069",
+"form": "trinsoler"
+},
+{
+"id": "pw-fr-0070",
+"form": "galbitude"
+},
+{
+"id": "pw-fr-0071",
+"form": "crempoire"
+},
+{
+"id": "pw-fr-0072",
+"form": "flonviser"
+},
+{
+"id": "pw-fr-0073",
+"form": "murgilant"
+},
+{
+"id": "pw-fr-0074",
+"form": "norfiveur"
+},
+{
+"id": "pw-fr-0075",
+"form": "garviteur"
+},
+{
+"id": "pw-fr-0076",
+"form": "trimpuler"
+},
+{
+"id": "pw-fr-0077",
+"form": "morbisant"
+},
+{
+"id": "pw-fr-0078",
+"form": "corvisant"
+},
+{
+"id": "pw-fr-0079",
+"form": "galtiveur"
+},
+{
+"id": "pw-fr-0080",
+"form": "bloniveur"
+},
+{
+"id": "pw-fr-0081",
+"form": "garfineur"
+},
+{
+"id": "pw-fr-0082",
+"form": "torfaner"
+},
+{
+"id": "pw-fr-0083",
+"form": "molpitude"
+},
+{
+"id": "pw-fr-0084",
+"form": "brisoteur"
+},
+{
+"id": "pw-fr-0085",
+"form": "crampuler"
+},
+{
+"id": "pw-fr-0086",
+"form": "dolfinant"
+},
+{
+"id": "pw-fr-0087",
+"form": "varbiseur"
+},
+{
+"id": "pw-fr-0088",
+"form": "grensoler"
+},
+{
+"id": "pw-fr-0089",
+"form": "tronvifur"
+},
+{
+"id": "pw-fr-0090",
+"form": "palmiseur"
+},
+{
+"id": "pw-fr-0091",
+"form": "bortivant"
+},
+{
+"id": "pw-fr-0092",
+"form": "calmiseur"
+},
+{
+"id": "pw-fr-0093",
+"form": "gorpitude"
+},
+{
+"id": "pw-fr-0094",
+"form": "trompiver"
+},
+{
+"id": "pw-fr-0095",
+"form": "norfisant"
+},
+{
+"id": "pw-fr-0096",
+"form": "galbiseur"
+},
+{
+"id": "pw-fr-0097",
+"form": "dorfinant"
+},
+{
+"id": "pw-fr-0098",
+"form": "cromplire"
+},
+{
+"id": "pw-fr-0099",
+"form": "valposeur"
+},
+{
+"id": "pw-fr-0100",
+"form": "trinvofur"
+},
+{
+"id": "pw-fr-0101",
+"form": "morbitude"
+},
+{
+"id": "pw-fr-0102",
+"form": "tormpiser"
+},
+{
+"id": "pw-fr-0103",
+"form": "calmiture"
+},
+{
+"id": "pw-fr-0104",
+"form": "groniveur"
+},
+{
+"id": "pw-fr-0105",
+"form": "trapuseur"
+},
+{
+"id": "pw-fr-0106",
+"form": "norpiseur"
+},
+{
+"id": "pw-fr-0107",
+"form": "calbitude"
+},
+{
+"id": "pw-fr-0108",
+"form": "dromsifer"
+},
+{
+"id": "pw-fr-0109",
+"form": "grantipul"
+},
+{
+"id": "pw-fr-0110",
+"form": "vorfisant"
+},
+{
+"id": "pw-fr-0111",
+"form": "brinsoler"
+},
+{
+"id": "pw-fr-0112",
+"form": "trampuler"
+},
+{
+"id": "pw-fr-0113",
+"form": "calmoteur"
+},
+{
+"id": "pw-fr-0114",
+"form": "nortivure"
+},
+{
+"id": "pw-fr-0115",
+"form": "dolpiseur"
+},
+{
+"id": "pw-fr-0116",
+"form": "garpitude"
+},
+{
+"id": "pw-fr-0117",
+"form": "palmitude"
+},
+{
+"id": "pw-fr-0118",
+"form": "vortisant"
+},
+{
+"id": "pw-fr-0119",
+"form": "trinpoler"
+},
+{
+"id": "pw-fr-0120",
+"form": "dromplire"
+},
+{
+"id": "pw-fr-0121",
+"form": "norfinant"
+},
+{
+"id": "pw-fr-0122",
+"form": "valciseur"
+},
+{
+"id": "pw-fr-0123",
+"form": "bortifeur"
+},
+{
+"id": "pw-fr-0124",
+"form": "dalmoseur"
+},
+{
+"id": "pw-fr-0125",
+"form": "torfinure"
+},
+{
+"id": "pw-fr-0126",
+"form": "frabouler"
+},
+{
+"id": "pw-fr-0127",
+"form": "porsimant"
+},
+{
+"id": "pw-fr-0128",
+"form": "grivouler"
+},
+{
+"id": "pw-fr-0129",
+"form": "strampeur"
+},
+{
+"id": "pw-fr-0130",
+"form": "bolupieur"
+},
+{
+"id": "pw-fr-0131",
+"form": "bolsimeur"
+},
+{
+"id": "pw-fr-0132",
+"form": "groluteur"
+},
+{
+"id": "pw-fr-0133",
+"form": "nabliseur"
+},
+{
+"id": "pw-fr-0134",
+"form": "croltimur"
+},
+{
+"id": "pw-fr-0135",
+"form": "polsivant"
+},
+{
+"id": "pw-fr-0136",
+"form": "calovieur"
+},
+{
+"id": "pw-fr-0137",
+"form": "soplimeur"
+},
+{
+"id": "pw-fr-0138",
+"form": "garpiseur"
+},
+{
+"id": "pw-fr-0139",
+"form": "sorvimant"
+},
+{
+"id": "pw-fr-0140",
+"form": "gonbiveur"
+},
+{
+"id": "pw-fr-0141",
+"form": "vompliser"
+},
+{
+"id": "pw-fr-0142",
+"form": "calpiteur"
+},
+{
+"id": "pw-fr-0143",
+"form": "morviseur"
+},
+{
+"id": "pw-fr-0144",
+"form": "dronfiler"
+},
+{
+"id": "pw-fr-0145",
+"form": "norbivant"
+},
+{
+"id": "pw-fr-0146",
+"form": "borficant"
+},
+{
+"id": "pw-fr-0147",
+"form": "gorviseur"
+},
+{
+"id": "pw-fr-0148",
+"form": "bolfiteur"
+},
+{
+"id": "pw-fr-0149",
+"form": "morfiveur"
+},
+{
+"id": "pw-fr-0150",
+"form": "calpibant"
+},
+{
+"id": "pw-fr-0151",
+"form": "greniveur"
+},
+{
+"id": "pw-fr-0152",
+"form": "vantipeur"
+},
+{
+"id": "pw-fr-0153",
+"form": "galviveur"
+},
+{
+"id": "pw-fr-0154",
+"form": "dorficeur"
+},
+{
+"id": "pw-fr-0155",
+"form": "molfiveur"
+},
+{
+"id": "pw-fr-0156",
+"form": "norfibant"
+},
+{
+"id": "pw-fr-0157",
+"form": "troquelas"
+},
+{
+"id": "pw-fr-0158",
+"form": "marquible"
+},
+{
+"id": "pw-fr-0159",
+"form": "frobiteur"
+},
+{
+"id": "pw-fr-0160",
+"form": "dalviteur"
+},
+{
+"id": "pw-fr-0161",
+"form": "tornivant"
+},
+{
+"id": "pw-fr-0162",
+"form": "breniveur"
+},
+{
+"id": "pw-fr-0163",
+"form": "vorbitant"
+},
+{
+"id": "pw-fr-0164",
+"form": "palbiseur"
+},
+{
+"id": "pw-fr-0165",
+"form": "groniseur"
+},
+{
+"id": "pw-fr-0166",
+"form": "dalmiteur"
+},
+{
+"id": "pw-fr-0167",
+"form": "porbinant"
+},
+{
+"id": "pw-fr-0168",
+"form": "gorbiteur"
+},
+{
+"id": "pw-fr-0169",
+"form": "bonvitant"
+},
+{
+"id": "pw-fr-0170",
+"form": "cormiteur"
+},
+{
+"id": "pw-fr-0171",
+"form": "bolvifant"
+},
+{
+"id": "pw-fr-0172",
+"form": "durtimeur"
+},
+{
+"id": "pw-fr-0173",
+"form": "norplicer"
+},
+{
+"id": "pw-fr-0174",
+"form": "galbonier"
+},
+{
+"id": "pw-fr-0175",
+"form": "sorbiment"
+},
+{
+"id": "pw-fr-0176",
+"form": "coltiveur"
+},
+{
+"id": "pw-fr-0177",
+"form": "grentimur"
+},
+{
+"id": "pw-fr-0178",
+"form": "sopliteur"
+},
+{
+"id": "pw-fr-0179",
+"form": "turfiment"
+},
+{
+"id": "pw-fr-0180",
+"form": "gonbileur"
+},
+{
+"id": "pw-fr-0181",
+"form": "borfisant"
+},
+{
+"id": "pw-fr-0182",
+"form": "calvoteur"
+},
+{
+"id": "pw-fr-0183",
+"form": "grensobir"
+},
+{
+"id": "pw-fr-0184",
+"form": "dolvirant"
+},
+{
+"id": "pw-fr-0185",
+"form": "bolfirant"
+},
+{
+"id": "pw-fr-0186",
+"form": "tralbieur"
+},
+{
+"id": "pw-fr-0187",
+"form": "gorlifant"
+},
+{
+"id": "pw-fr-0188",
+"form": "grantiver"
+},
+{
+"id": "pw-fr-0189",
+"form": "vordiment"
+},
+{
+"id": "pw-fr-0190",
+"form": "torfiguer"
+},
+{
+"id": "pw-fr-0191",
+"form": "dolpirant"
+},
+{
+"id": "pw-fr-0192",
+"form": "sombrieur"
+},
+{
+"id": "pw-fr-0193",
+"form": "talpiveur"
+},
+{
+"id": "pw-fr-0194",
+"form": "goltirant"
+},
+{
+"id": "pw-fr-0195",
+"form": "talponier"
+},
+{
+"id": "pw-fr-0196",
+"form": "vorpimant"
+},
+{
+"id": "pw-fr-0197",
+"form": "dortilant"
+},
+{
+"id": "pw-fr-0198",
+"form": "molsirant"
+},
+{
+"id": "pw-fr-0199",
+"form": "talbiveur"
+},
+{
+"id": "pw-fr-0200",
+"form": "dorfipant"
+},
+{
+"id": "pw-fr-0201",
+"form": "vondrelle"
+}
+]
+}

@@ -1,0 +1,51 @@
+/* THE ONE PALETTE + SCALE, loaded first by index.html. Status colours: the base name is the FILL,
+   -text the darker shade for coloured text, -soft the pale tint behind it. */
+:root {
+  --bg: #eef1f6; --bg-2: #e4e9f2;
+  --card: #fff; --card-2: #f5f7fb;
+  --border: #dde3ef; --border-soft: #e8ecf4;
+  --text: #1a2030; --muted: #6b7a99; --muted-2: #7a86a1;
+  --accent: #4f7ef8; --accent-soft: #e3ebff; --accent-text: #2f5fd6;
+  --accent-2: #e0574f;   /* the main app's older name for the danger fill */
+  --danger: #e0574f; --danger-text: #b8382e; --danger-soft: #fdeceb;
+  --good: #2fa86b; --good-text: #1e7d4f; --good-soft: #e5f5ec;
+  --warn: #d9a441; --warn-text: #8a6414; --warn-soft: #faf1dd;
+  --hours: #0e9aa7;   /* TEAL on purpose */
+  --on-fill: #fff; --on-fill-wash: rgba(255,255,255,.35);   /* text/wash on any solid fill */
+  --feature: #7c3aed; --feature-soft: #f5f3ff;   /* Read's Explain purple */
+  --muted-soft: #eaecf1;   /* tint behind a neutral badge */
+  --scrim: rgba(0,0,0,0.8);   /* dark badge over a photo/thumbnail */
+
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --font-mono: "SF Mono", "Menlo", "Consolas", monospace;
+  --mono: var(--font-mono);
+  --fs-xs: 11px; --fs-sm: 12px; --fs-md: 13px; --fs-base: 14px;
+  --fs-lg: 16px; --fs-xl: 20px; --fs-2xl: 24px;
+  --fs-article: 18.7px;   /* News/Comments/Reddit/BoM reading measure */
+
+  --radius-sm: 6px; --radius-md: 8px; --radius-btn: 9px;
+  --radius-card: 12px; --radius-panel: 16px; --radius-pill: 999px;
+
+  --shadow-card: 0 1px 6px rgba(20,30,60,.08);
+  --shadow-pop: 0 8px 24px rgba(20,30,60,.18);
+
+  /* Watch's dark video-overlay surfaces (look-sweep, 2026-09-25) -- the
+     overlay stays deliberately dark; fold its near-dup greys/whites-on-dark
+     onto one small set instead of a fresh rgba() each. */
+  --wp-scrim: rgba(10,14,24,.45); --wp-black: #000;
+  --wp-on-dark: #fff; --wp-dim: rgba(255,255,255,.82);
+  --wp-text-2: #dbe0ee; --wp-text-3: #aab2c5;
+  --wp-danger: #ffb4b0; --wp-warn: #ffb84d;
+  --wp-break: rgb(255,214,120);
+  --wp-chip-bg: rgba(10,11,15,.76); --wp-chip-border: rgba(255,255,255,.28);
+  --wp-pop-bg: rgba(20,24,36,.97); --wp-pop-border: rgba(255,255,255,.16);
+  --wp-card-bg: rgba(16,18,26,.92); --wp-card-bg-quiet: rgba(14,16,22,.88);
+  --wp-line-bg: rgba(8,9,12,.65);
+  --wp-border2: rgba(255,255,255,.55);
+  --wp-wash1: rgba(255,255,255,.12); --wp-wash2: rgba(255,255,255,.18);
+  --wp-wash3: rgba(255,255,255,.26);
+  --wp-track1: rgba(255,255,255,.2); --wp-track2: rgba(255,255,255,.32);
+  --wp-handle: rgba(255,255,255,.4); --wp-tick: rgba(255,255,255,.9);
+  --wp-bar-bg: rgba(8,10,16,.94); --wp-bar-bg2: rgba(8,10,16,.82);
+  --wp-shadow: rgba(0,0,0,.45); --wp-text-shadow: rgba(0,0,0,.88);
+}

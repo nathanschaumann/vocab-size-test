@@ -1,0 +1,2606 @@
+<!doctype html>
+<html lang="en" class="it-app">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vocab size</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/buttons.css">
+<style>
+  /* ============================================================================
+     Vocab size test — single-file app. No-scroll desktop shell, card styles,
+     
+     ============================================================================ */
+  /* Palette + scale: css/tokens.css, loaded above. Status
+     colours: --good/--danger/--warn are FILLS; coloured text uses their -text shade. */
+  :root { --start-bg: #f6c445; --start-text: #3a2600; }   /* Vocab's own yellow Start button */
+  * , *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    color: var(--text); background: var(--bg);
+    height: 100dvh; overflow: hidden;
+  }
+  .page-wrap { height: 100%; display: flex; flex-direction: column; padding: 16px; gap: 10px; min-height: 0; }
+  /* Small section heading, not a big page title (2026-09-25) -- matches
+     index.html's h2.section-title; the author removed the main app's own page
+     titles 25 August ("just get rid of the title"). */
+  h1 { font-size: var(--fs-lg); font-weight: 700; }
+  h2 { font-size: var(--fs-lg); font-weight: 700; margin-bottom: 6px; }
+  p { line-height: 1.4; }
+  .muted { color: var(--muted); }
+  .small { font-size: var(--fs-base); }
+  button { font: inherit; cursor: pointer; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-panel);
+    padding: 16px 18px; min-height: 0;
+  }
+
+  .screen { flex: 1 1 auto; min-height: 0; display: none; }
+  .screen.active { display: flex; flex-direction: column; min-height: 0; }
+
+  /* ---- quit confirm (flow-browser-dialogs, 2026-09-25) ---- */
+  .quit-confirm-backdrop {
+    position: fixed; inset: 0; z-index: 60;
+    display: flex; align-items: center; justify-content: center;
+    background: rgba(10,14,24,0.45);
+  }
+  .quit-confirm-backdrop[hidden] { display: none; }
+  .quit-confirm-box { padding: 18px 20px; max-width: 300px; text-align: center; }
+  .quit-confirm-box p { font-size: var(--fs-base); line-height: 1.4; margin-bottom: 14px; }
+  .quit-confirm-actions { display: flex; gap: 10px; justify-content: center; }
+
+  /* ---- buttons ----
+     Button look: css/buttons.css. Plain .btn is the solid main button and
+     `.btn.lg` the larger modifier; requires `<html class="it-app">` above.
+     .btn-start keeps its own yellow and sets its own geometry. */
+  /* `button.btn-start` (not `.btn-start`), so its specificity matches
+     buttons.css's `button.btn` and this always wins -- a bare class
+     selector lost that fight silently once the shared part became an
+     element+class selector. */
+  button.btn-start {
+    background: var(--start-bg); color: var(--start-text);
+    font-size: var(--fs-lg); padding: 14px 30px; border-radius: var(--radius-card);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.08);
+  }
+  button.btn-idk { background: var(--border-soft); color: var(--muted); border: 1px dashed var(--border); }
+
+  /* ---- Start screen ---- */
+  #screen-start .grid {
+    flex: 1 1 auto; min-height: 0; display: block;
+  }
+  @media (min-width: 900px) {
+    #screen-start .grid {
+      display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.15fr);
+      gap: 12px; min-height: 0; height: 100%;
+    }
+  }
+  #screen-start .grid .card { display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
+  .lang-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0 14px; }
+  .lang-pill {
+    -webkit-appearance: none; appearance: none;
+    border: 1px solid var(--border); border-radius: var(--radius-pill); padding: 6px 14px;
+    font-size: var(--fs-base); font-weight: 600; background: #fff; color: var(--text);
+  }
+  button.lang-pill:hover { filter: brightness(0.97); }
+  .lang-pill.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .lang-pill.disabled { color: var(--muted); background: var(--card-2); cursor: default; }
+  .fixture-warn {
+    background: var(--warn-soft); border: 1px solid var(--warn); color: var(--warn-text);
+    border-radius: var(--radius-btn); padding: 8px 12px; font-size: var(--fs-md); margin-bottom: 12px;
+  }
+
+  /* ---- Person picker ---- */
+  .person-picker-label { margin-bottom: 6px; }
+  .person-row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+  .person-pill {
+    -webkit-appearance: none; appearance: none;
+    border: 1px solid var(--border); border-radius: var(--radius-pill); padding: 6px 14px;
+    font-size: var(--fs-base); font-weight: 600; background: #fff; color: var(--text);
+  }
+  button.person-pill:hover { filter: brightness(0.97); }
+  .person-pill.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .person-add-pill { background: var(--card-2); border-style: dashed; color: var(--muted); }
+  .person-add-input {
+    border: 1px solid var(--accent); border-radius: var(--radius-pill); padding: 6px 14px;
+    font-size: var(--fs-base); font-weight: 600; color: var(--text); width: 140px;
+  }
+  .person-add-input:focus { outline: none; }
+  .error-card {
+    background: var(--danger-soft); border: 1px solid var(--danger); color: var(--danger-text);
+    border-radius: var(--radius-btn); padding: 8px 12px; font-size: var(--fs-md); margin-bottom: 12px;
+  }
+  .start-cta { margin-top: auto; padding-top: 12px; }
+  .hist-headline { font-size: 1.6rem; font-weight: 800; margin-bottom: 2px; }
+  /* Modest FIXED height (not flex:1) so the trend chart never crowds out the
+     sitting-detail view below it (Author: "show the whole graph... the table
+     of MC answers and the graph + curve etc"). #start-right itself scrolls
+     (see below) to hold headline + trend + curve + band table without the
+     PAGE ever scrolling. */
+  .hist-chart-wrap { flex: 0 0 170px; min-height: 0; }
+  .hist-chart-wrap svg { display: block; width: 100%; height: 100%; }
+  .trend-pt { cursor: pointer; }
+  /* #screen-start .grid .card sets overflow:hidden for both cards; this rule
+     (2 ids + 1 class > 1 id + 2 classes) wins specificity to let EACH card
+     scroll internally when its own content exceeds the grid row's height —
+     #start-right (headline + trend + selected-sitting detail) and, since the
+     "Compare languages" panel moved here 2026-08-24, #start-left too (its
+     content can now run past the Start button on a person with several
+     languages' history). No vertical PAGE scroll ever results — the scroll
+     is contained inside whichever card grew tall. */
+  #screen-start .grid #start-left, #screen-start .grid #start-right { overflow-y: auto; overflow-x: hidden; }
+  .hist-detail-sub { margin: 2px 0 6px; }
+  .hist-detail-curve { flex: 0 0 190px; min-height: 0; }
+  .hist-detail-curve svg { display: block; width: 100%; height: 100%; }
+  #hist-detail-band-slot { flex: 0 0 auto; }
+
+  /* ---- Compare languages panel (only rendered when >=2 languages have
+     history for the picked person) — lives inside #start-left, below the
+     Start button (moved there 2026-08-24, Author: "move the 'compare
+     languages' graph onto the left side of the screen, and have the right
+     side of the screen be only language-specific things that are activated
+     by the language toggle" — this panel is cross-language, so it doesn't
+     belong on the toggle-driven right side). #start-left scrolls with it
+     rather than growing the page (see the #screen-start .grid #start-left
+     rule above). Same plain, understated idiom as the rest of this history
+     area (small/muted text, the existing .band-table look for the table).
+     :not(:empty) keeps the divider/spacing OFF when renderComparePanel()
+     leaves the slot blank (fewer than 2 languages have history) — otherwise
+     a stray border line would sit under the Start button on every
+     single-language session, which is the common case. ---- */
+  #compare-panel-slot:not(:empty) { flex: 0 0 auto; margin-top: 10px; border-top: 1px solid var(--border); padding-top: 10px; }
+  #compare-panel-slot h2 { margin-bottom: 4px; }
+  .compare-swatch { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+  table.compare-table { width: 100%; border-collapse: collapse; font-size: var(--fs-md); margin: 8px 0; }
+  table.compare-table th, table.compare-table td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--border); }
+  table.compare-table th { color: var(--muted); font-weight: 600; }
+  .compare-curve-wrap { height: 190px; }
+  .compare-curve-wrap svg { display: block; width: 100%; height: 100%; }
+  .compare-legend { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; font-size: var(--fs-sm); color: var(--muted); }
+  .compare-legend-item { display: inline-flex; align-items: center; }
+
+  /* ---- Full answers (collapsed-by-default detail, author 2026-08-24: "see
+     exactly which fake words I claimed, which yes/no I got wrong, which
+     MCQ's I got wrong"). Static show/hide via <details> — no chart-style
+     animation needed. Lives inside #start-right, which already scrolls
+     internally (overflow-y:auto, overflow-x:hidden above); expanding this
+     only lengthens that internal scroll, never the page. */
+  #hist-detail-full-slot { flex: 0 0 auto; }
+  .full-answers { margin-top: 10px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .full-answers > summary { cursor: pointer; font-weight: 700; font-size: var(--fs-base); list-style: none; }
+  .full-answers > summary::-webkit-details-marker { display: none; }
+  .full-answers > summary::before { content: '\25b8\2002'; }
+  .full-answers[open] > summary::before { content: '\25be\2002'; }
+  .fa-body { margin-top: 8px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+  .fa-section h3 { font-size: var(--fs-md); margin-bottom: 4px; }
+  .fa-caption { margin-bottom: 6px; }
+  .fa-fake-list { display: flex; flex-wrap: wrap; gap: 6px; }
+  .fa-fake-chip { background: var(--danger-soft); border: 1px solid var(--danger); color: var(--danger-text); border-radius: var(--radius-pill); padding: 3px 10px; font-size: var(--fs-sm); word-break: break-word; }
+  .fa-yn-wrap { max-height: 240px; overflow-y: auto; overflow-x: hidden; border: 1px solid var(--border); border-radius: var(--radius-md); }
+  table.fa-yn-table { width: 100%; border-collapse: collapse; font-size: var(--fs-sm); table-layout: fixed; }
+  table.fa-yn-table th, table.fa-yn-table td { text-align: left; padding: 3px 6px; border-bottom: 1px solid var(--border); word-break: break-word; }
+  table.fa-yn-table th { position: sticky; top: 0; background: #fff; color: var(--muted); font-weight: 600; }
+  .fa-mc-item { border: 1px solid var(--border); border-radius: var(--radius-btn); padding: 8px 10px; margin-bottom: 8px; min-width: 0; }
+  .fa-mc-item.outcome-wrong { border-color: var(--danger); background: var(--danger-soft); }
+  .fa-mc-item.outcome-idk { border-color: #c9c2f0; background: #faf9ff; }
+  .fa-mc-word { font-weight: 700; font-size: var(--fs-base); margin-bottom: 4px; }
+  .fa-mc-badge { font-weight: 600; font-size: var(--fs-xs); color: var(--muted); }
+  .outcome-wrong .fa-mc-badge { color: var(--accent-2); }
+  .outcome-idk .fa-mc-badge { color: #574a9c; }
+  .fa-mc-opts { display: flex; flex-direction: column; gap: 2px; }
+  .fa-mc-opt { font-size: var(--fs-sm); padding: 3px 7px; border-radius: var(--radius-sm); word-break: break-word; }
+  .fa-mc-opt.is-correct { background: var(--good-soft); color: var(--good-text); font-weight: 700; }
+  .fa-mc-opt.is-picked-wrong { background: var(--danger-soft); color: var(--danger-text); font-weight: 700; }
+  .fa-mc-tag { font-weight: 600; font-size: var(--fs-base); }
+  .fa-mc-idk-picked { background: #f6f4ff; color: #574a9c; font-weight: 700; }
+
+  /* ---- Phase 1 (yes/no) ---- */
+  #screen-phase1, #screen-interstitial { align-items: center; justify-content: center; }
+  .p1-card { text-align: center; max-width: 560px; width: 100%; }
+  .p1-counter { color: var(--muted); font-size: var(--fs-base); margin-bottom: 10px; }
+  .p1-word { font-size: 3rem; font-weight: 800; margin: 18px 0 30px; word-break: break-word; }
+  .p1-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+  .p1-actions .btn { min-width: 190px; }
+  /* `button.btn-know`/`button.btn-dontknow`, not a bare class -- see the
+     button.btn-start comment above for why. */
+  button.btn-know { background: var(--good); color: #fff; }
+  button.btn-dontknow { background: var(--card-2); color: var(--text); border: 1px solid var(--border); }
+  .key-hint { color: var(--muted); font-size: var(--fs-sm); margin-top: 14px; }
+
+  /* ---- Interstitial ---- */
+  .interstitial-card { max-width: 520px; text-align: center; }
+  .interstitial-card h2 { font-size: var(--fs-xl); margin-bottom: 10px; }
+  .interstitial-card p { margin-bottom: 18px; }
+
+  /* ---- Phase 2 (MC) ---- */
+  #screen-phase2 { align-items: center; justify-content: center; }
+  .p2-card { max-width: 640px; width: 100%; text-align: center; }
+  .p2-word { font-size: 2.6rem; font-weight: 800; margin: 14px 0 26px; }
+  .p2-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: left; }
+  @media (max-width: 560px) { .p2-options { grid-template-columns: 1fr; } }
+  .p2-opt {
+    border: 1px solid var(--border); background: #fff; border-radius: var(--radius-btn);
+    padding: 12px 14px; font-size: var(--fs-lg); display: flex; gap: 10px; align-items: flex-start;
+  }
+  .p2-opt .num { font-weight: 800; color: var(--accent); min-width: 1.3em; }
+  .p2-idk {
+    grid-column: 1 / -1; margin-top: 4px; background: #f6f4ff; border: 1px dashed #c9c2f0;
+    border-radius: var(--radius-btn); padding: 10px 14px; text-align: center; font-weight: 700; color: #574a9c;
+  }
+  .p2-idk .num { color: #574a9c; }
+
+  /* ---- Results ---- */
+  #screen-results { min-height: 0; }
+  .results-top { flex: 0 0 auto; margin-bottom: 8px; }
+  .results-headline { font-size: 2rem; font-weight: 800; }
+  .results-sub { color: var(--muted); font-size: var(--fs-base); }
+  /* "Saved to your history" confirmation (flow-log-message, 2026-09-25) --
+     the app never said anything about whether a sitting landed. */
+  .history-save-note { display: none; color: var(--muted); font-size: var(--fs-md); margin-top: 4px; }
+  .history-save-note.ok { color: var(--good-text); }
+  .history-save-note.err { color: var(--danger-text); font-weight: 600; }
+  .results-grid { flex: 1 1 auto; min-height: 0; display: grid; grid-template-columns: 1.2fr 1fr; gap: 12px; }
+  @media (max-width: 900px) { .results-grid { grid-template-columns: 1fr; overflow-y: auto; } }
+  /* Each results card scrolls INTERNALLY (never the page) so the "Comparable
+     score" line + expanded-by-default Full answers block stacked below the
+     curve/band table (2026-09-06, Author: "when you complete a vocab test,
+     it should show you the complete detail of your results right there")
+     can run long without growing the grid. Same idiom as #start-right. */
+  .results-grid .card { min-height: 0; display: flex; flex-direction: column; overflow-y: auto; overflow-x: hidden; }
+  .curve-chart-wrap { flex: 1 1 auto; min-height: 0; }
+  /* The history detail's curve must NOT be the flex item that gives way: this
+     generic rule used to override .hist-detail-curve's fixed 190px (same
+     specificity, later in the file), so opening "Full answers" inside the
+     scrolling #start-right card shrank the curve to 0 (author, 2026-09-06:
+     "when you click Full answers ... that second graph disappears"). */
+  #start-right .hist-detail-curve { flex: 0 0 190px; min-height: 190px; }
+  /* Same fix, same day, same shape of bug: the RESULTS screen's own curve
+     (id=curve-chart-slot) now shares its card with the comparable-score line
+     + Full answers block (open by default here — see #results-full-slot
+     below), so it needs the identical fixed-height guard or it would shrink
+     to zero the instant that block renders any content. Scoped to the
+     results screen only — the Vocab-vs-language "Compare languages" panel's
+     own curve (.compare-curve-wrap) is untouched. */
+  #screen-results .curve-chart-wrap { flex: 0 0 260px; min-height: 260px; }
+  #results-compare-slot { flex: 0 0 auto; margin-top: 8px; }
+  #results-full-slot { flex: 0 0 auto; }
+  .curve-chart-wrap svg { display: block; width: 100%; height: 100%; }
+  .band-table-wrap { flex: 1 1 auto; min-height: 0; overflow-y: auto; }
+  table.band-table { width: 100%; border-collapse: collapse; font-size: var(--fs-md); }
+  table.band-table th, table.band-table td { text-align: left; padding: 5px 6px; border-bottom: 1px solid var(--border); }
+  table.band-table th { color: var(--muted); font-weight: 600; position: sticky; top: 0; background: #fff; }
+  table.band-table tr.fake-row td { color: var(--muted); border-top: 2px solid var(--border); }
+  .results-foot { flex: 0 0 auto; display: flex; align-items: center; justify-content: space-between; margin-top: 10px; gap: 10px; flex-wrap: wrap; }
+  .reused-note { font-size: var(--fs-sm); color: var(--muted); }
+
+  /* ---- Phone: no horizontal scroll; single column ---- */
+  @media (max-width: 600px) {
+    .page-wrap { padding: 12px; }
+    .p1-word { font-size: 2.2rem; }
+    .p2-word { font-size: 2rem; }
+    .results-headline { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+<!-- The pKnow/comparableEstimate/COMPARE_DEPTH formula lives in
+     js/vocab_comparable.js (a small pure formula, also loaded by the tests). Must load before the main inline <script>
+     below, whose estimator block aliases these off window.IT. -->
+<script src="js/vocab_comparable.js"></script>
+<div class="page-wrap">
+
+  <!-- ============ START SCREEN ============ -->
+  <div id="screen-start" class="screen active">
+    <div class="grid">
+      <div class="card" id="start-left">
+        <h1>Vocab size</h1>
+        <p class="muted small" id="app-tagline">How many Spanish words do you understand? A 10-minute test, retested monthly.</p>
+        <div class="lang-row" id="lang-row"></div>
+        <div id="fixture-warn-slot"></div>
+        <p class="small muted" id="app-desc">Of the 30,000 most common dictionary words in Spanish, how many do you understand? Two short parts: a quick yes/no pass, then a multiple-choice pass.</p>
+        <div class="small muted person-picker-label">Who's taking it?</div>
+        <div class="person-row" id="person-row"></div>
+        <div class="start-cta">
+          <button class="btn btn-start" id="btn-start">Start test</button>
+        </div>
+        <!-- Cross-language "Compare languages" panel (moved here 2026-08-24
+             from the right/history card — see the design notes' comparable-score
+             section). This is the only cross-language content on the start
+             screen; everything in #start-right below is per-language,
+             driven by the language pills above. -->
+        <div id="compare-panel-slot"></div>
+      </div>
+      <div class="card" id="start-right">
+        <h2>Your history</h2>
+        <div id="hist-headline-slot"></div>
+        <div class="hist-chart-wrap" id="hist-chart-slot"></div>
+        <div class="hist-detail-sub small muted" id="hist-detail-sub"></div>
+        <div class="small muted" id="hist-detail-compare-slot"></div>
+        <div class="curve-chart-wrap hist-detail-curve" id="hist-detail-curve-slot"></div>
+        <div id="hist-detail-band-slot"></div>
+        <div id="hist-detail-full-slot"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ PHASE 1 (yes/no) ============ -->
+  <div id="screen-phase1" class="screen">
+    <div class="p1-card">
+      <div class="p1-counter" id="p1-counter">word 1 of 1</div>
+      <div class="p1-word" id="p1-word">—</div>
+      <!-- SPATIAL MAPPING IS LOAD-BEARING (the author's broken pt sitting, 2026-08-23):
+           the don't-know button must sit LEFT and know RIGHT so the buttons agree
+           with the arrow keys. His first pt sitting inverted every answer because
+           "I know" sat on the left while the know-key was the RIGHT arrow — users
+           map arrows to button positions, not to a hint line. The arrow glyph is
+           printed ON each button. A source-scan test pins this order. -->
+      <div class="p1-actions">
+        <button class="btn lg btn-dontknow" id="p1-dontknow">←&ensp;I don't know it</button>
+        <button class="btn lg btn-know" id="p1-know">I know what this means&ensp;→</button>
+      </div>
+      <div class="key-hint">← = I don't know &nbsp;·&nbsp; → = I know it &nbsp;·&nbsp; Esc to quit</div>
+    </div>
+  </div>
+
+  <!-- ============ INTERSTITIAL ============ -->
+  <div id="screen-interstitial" class="screen">
+    <div class="card interstitial-card">
+      <h2>Now pick the meaning</h2>
+      <p>Now pick the meaning. If you don't know, say so — guessing wrong is worse than admitting it.</p>
+      <button class="btn lg" id="btn-continue">Continue</button>
+      <div class="key-hint">Enter or Space to continue</div>
+    </div>
+  </div>
+
+  <!-- ============ PHASE 2 (multiple choice) ============ -->
+  <div id="screen-phase2" class="screen">
+    <div class="p2-card">
+      <div class="p1-counter" id="p2-counter">item 1 of 1</div>
+      <div class="p2-word" id="p2-word">—</div>
+      <div class="p2-options" id="p2-options"></div>
+      <div class="key-hint">Keys 1–4 pick an option &nbsp;·&nbsp; 0 = I don't know &nbsp;·&nbsp; Esc to quit</div>
+    </div>
+  </div>
+
+  <!-- ============ RESULTS ============ -->
+  <div id="screen-results" class="screen">
+    <div class="results-top">
+      <div class="results-headline" id="results-headline">≈ 0 words (± 0)</div>
+      <div class="results-sub" id="results-sub"></div>
+      <div class="history-save-note" id="history-save-note"></div>
+    </div>
+    <div class="results-grid">
+      <div class="card">
+        <h2>Your curve</h2>
+        <div class="curve-chart-wrap" id="curve-chart-slot"></div>
+        <!-- Full result detail, right here, right after finishing (2026-09-06,
+             Author: "when you complete a vocab test, it should show you the
+             complete detail of your results right there") — same two pieces
+             the history detail view shows for a past sitting, reusing the
+             same builders (comparableEstimate, buildFullAnswersHtml) rather
+             than a second implementation. Full answers is OPEN by default
+             here (history's stays collapsed by default — this is the one
+             sitting he just took). -->
+        <div class="small muted" id="results-compare-slot"></div>
+        <div id="results-full-slot"></div>
+      </div>
+      <div class="card">
+        <h2>Band breakdown</h2>
+        <div class="band-table-wrap" id="band-table-slot"></div>
+      </div>
+    </div>
+    <div class="results-foot">
+      <div class="small muted" id="results-duration"></div>
+      <div class="reused-note" id="results-reused"></div>
+      <button class="btn" id="btn-done">Done</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- QUIT CONFIRM (flow-browser-dialogs, 2026-09-25). Was window.confirm() --
+     replaced with the app's own in-page confirm, same as everywhere else in
+     the app shows a problem or a confirm inline rather than a native dialog. -->
+<div class="quit-confirm-backdrop" id="quit-confirm-backdrop" hidden>
+  <div class="it-popup quit-confirm-box" role="alertdialog" aria-modal="true" aria-label="Quit this test?">
+    <p>Quit this test? Nothing will be saved.</p>
+    <div class="quit-confirm-actions">
+      <button type="button" class="btn sm secondary" id="quit-confirm-cancel">Cancel</button>
+      <button type="button" class="btn sm danger" id="quit-confirm-yes">Quit</button>
+    </div>
+  </div>
+</div>
+
+<script>
+'use strict';
+
+/* Pure, unit-tested estimator core. No DOM access here — this whole block is
+   sliced out verbatim and eval'd by tests/test-estimator.js. See that
+   file's own header for the extraction convention (TEST-EXTRACT:name:BEGIN / :END markers). */
+// TEST-EXTRACT:estimator:BEGIN
+
+var MAX_RANK = 30000;
+var F_CLAMP_MAX = 0.98;
+// a: overall level (logit of p_know at rank 1, roughly). b: steepness (>=0).
+// g: prob. of answering "I don't know" on a genuinely-unknown MC item.
+var PARAM_BOUNDS = { a: [-20, 20], b: [0, 6], g: [0.001, 0.999] };
+// A mild ridge penalty on b's steepness. With only ~165 responses spread
+// over 7 bands, an unregularized MLE readily "chases" sampling noise into
+// an implausibly steep (near-step-function) curve — classic small-sample
+// logistic-regression quasi-separation. This keeps the fit anchored to
+// plausible slopes without meaningfully perturbing a well-informed fit.
+var B_RIDGE_LAMBDA = 0.35;
+
+function sigmoid(z) {
+  if (z > 40) return 1;
+  if (z < -40) return 0;
+  return 1 / (1 + Math.exp(-z));
+}
+
+function clampNum(v, lo, hi) { return v < lo ? lo : (v > hi ? hi : v); }
+
+function clampProb(p) {
+  var EPS = 1e-9;
+  if (!(p > EPS)) return EPS;
+  if (!(p < 1 - EPS)) return 1 - EPS;
+  return p;
+}
+
+// p_know(x) = 1/(1+exp(-(a - b*x))), x = log10(rank). defined in
+// js/vocab_comparable.js so the formula is not duplicated — this
+// page's own <script src="js/vocab_comparable.js"> tag (in <body>,
+// above) has already run by the time this inline block executes, so
+// window.IT.pKnow exists. Aliased to a local `pKnow` so every call site
+// below (negLogLikDirect, computeSize, computeSizeEligible, bootstrapCI,
+// ...) is unchanged — they just call `pKnow(...)` as always.
+var pKnow = window.IT.pKnow;
+
+function projectParams(p) {
+  return [
+    clampNum(p[0], PARAM_BOUNDS.a[0], PARAM_BOUNDS.a[1]),
+    clampNum(p[1], PARAM_BOUNDS.b[0], PARAM_BOUNDS.b[1]),
+    clampNum(p[2], PARAM_BOUNDS.g[0], PARAM_BOUNDS.g[1]),
+  ];
+}
+
+// yesnoReal: [{x, claimed}]   mc: [{x, outcome}]  outcome in 'correct'|'wrong'|'idk'
+// f = this session's measured pseudoword false-alarm rate (a constant, not fit).
+function negLogLikDirect(a, b, g, yesnoReal, mc, f) {
+  var ll = 0;
+  var fC = Math.min(Math.max(f, 0), F_CLAMP_MAX);
+  var i, it, p, q;
+  for (i = 0; i < yesnoReal.length; i++) {
+    it = yesnoReal[i];
+    p = pKnow(a, b, it.x);
+    q = clampProb(p + (1 - p) * fC);
+    ll += it.claimed ? Math.log(q) : Math.log(clampProb(1 - q));
+  }
+  for (i = 0; i < mc.length; i++) {
+    it = mc[i];
+    p = pKnow(a, b, it.x);
+    var prob;
+    if (it.outcome === 'correct') prob = p + (1 - p) * (1 - g) * 0.25;
+    else if (it.outcome === 'idk') prob = (1 - p) * g;
+    else prob = (1 - p) * (1 - g) * 0.75;
+    ll += Math.log(clampProb(prob));
+  }
+  return -ll;
+}
+
+function negLogLikBounded(params, yesnoReal, mc, f) {
+  var pp = projectParams(params);
+  return negLogLikDirect(pp[0], pp[1], pp[2], yesnoReal, mc, f)
+    + B_RIDGE_LAMBDA * pp[1] * pp[1];
+}
+
+/* ---- generic Nelder-Mead simplex minimizer (box-constrained via clamping
+   inside the objective, not a hard simplex-edge constraint) ---- */
+function nelderMead(f, x0, opts) {
+  opts = opts || {};
+  var n = x0.length;
+  var alpha = 1, gamma = 2, rho = 0.5, sigma = 0.5;
+  var maxIter = opts.maxIter || 200;
+  var simplex = [x0.slice()];
+  var i, j;
+  for (i = 0; i < n; i++) {
+    var xi = x0.slice();
+    xi[i] += (xi[i] !== 0 ? Math.abs(xi[i]) * 0.15 : 0.5);
+    simplex.push(xi);
+  }
+  var fvals = simplex.map(f);
+  for (var iter = 0; iter < maxIter; iter++) {
+    var order = fvals.map(function (v, idx) { return idx; }).sort(function (p, q) { return fvals[p] - fvals[q]; });
+    simplex = order.map(function (idx) { return simplex[idx]; });
+    fvals = order.map(function (idx) { return fvals[idx]; });
+    if (Math.abs(fvals[n] - fvals[0]) < 1e-9) break;
+    var centroid = new Array(n).fill(0);
+    for (i = 0; i < n; i++) for (j = 0; j < n; j++) centroid[j] += simplex[i][j];
+    for (j = 0; j < n; j++) centroid[j] /= n;
+    var worst = simplex[n], fworst = fvals[n];
+    var xr = centroid.map(function (c, jj) { return c + alpha * (c - worst[jj]); });
+    var fr = f(xr);
+    if (fr < fvals[0]) {
+      var xe = centroid.map(function (c, jj) { return c + gamma * (xr[jj] - c); });
+      var fe = f(xe);
+      if (fe < fr) { simplex[n] = xe; fvals[n] = fe; }
+      else { simplex[n] = xr; fvals[n] = fr; }
+    } else if (fr < fvals[n - 1]) {
+      simplex[n] = xr; fvals[n] = fr;
+    } else {
+      var xc = centroid.map(function (c, jj) { return c + rho * (worst[jj] - c); });
+      var fc = f(xc);
+      if (fc < fworst) { simplex[n] = xc; fvals[n] = fc; }
+      else {
+        for (i = 1; i <= n; i++) {
+          simplex[i] = simplex[i].map(function (v, jj) { return simplex[0][jj] + sigma * (v - simplex[0][jj]); });
+          fvals[i] = f(simplex[i]);
+        }
+      }
+    }
+  }
+  var order2 = fvals.map(function (v, idx) { return idx; }).sort(function (p, q) { return fvals[p] - fvals[q]; });
+  return { x: simplex[order2[0]], f: fvals[order2[0]] };
+}
+
+function computeFalseAlarmRate(pseudo) {
+  if (!pseudo || !pseudo.length) return 0;
+  var claimed = 0;
+  for (var i = 0; i < pseudo.length; i++) if (pseudo[i].claimed) claimed++;
+  return claimed / pseudo.length;
+}
+
+// yesnoReal: [{x, claimed}]  mc: [{x, outcome}]  pseudo: [{claimed}]
+function fitModel(yesnoReal, pseudo, mc, opts) {
+  opts = opts || {};
+  var f = computeFalseAlarmRate(pseudo);
+  var best = null;
+  if (opts.seed) {
+    best = { a: opts.seed[0], b: opts.seed[1], g: opts.seed[2] };
+  } else {
+    var aGrid = []; for (var a = -6; a <= 16; a += 2) aGrid.push(a);
+    var bGrid = []; for (var b = 0; b <= 6; b += 1) bGrid.push(b);
+    var gGrid = [0.05, 0.25, 0.5, 0.75, 0.95];
+    var bestNll = Infinity;
+    for (var ai = 0; ai < aGrid.length; ai++) {
+      for (var bi = 0; bi < bGrid.length; bi++) {
+        for (var gi = 0; gi < gGrid.length; gi++) {
+          var nll = negLogLikDirect(aGrid[ai], bGrid[bi], gGrid[gi], yesnoReal, mc, f);
+          if (nll < bestNll) { bestNll = nll; best = { a: aGrid[ai], b: bGrid[bi], g: gGrid[gi] }; }
+        }
+      }
+    }
+  }
+  var seed = [best.a, best.b, best.g];
+  var res = nelderMead(function (p) { return negLogLikBounded(p, yesnoReal, mc, f); }, seed, { maxIter: opts.maxIter || 300 });
+  var pp = projectParams(res.x);
+  return { a: pp[0], b: pp[1], g: pp[2], f: f };
+}
+
+// Size = sum over ranks 1..maxRank of p_know(log10(rank)). Straight 30k-iteration
+// loop per the design notes ("30k iterations is fine") — no closed form needed.
+function computeSize(a, b, maxRank) {
+  maxRank = maxRank || MAX_RANK;
+  var sum = 0;
+  for (var r = 1; r <= maxRank; r++) {
+    sum += pKnow(a, b, Math.log10(r));
+  }
+  return sum;
+}
+
+// Blocklist-aware size: sum p_know over ONLY the eligible ranks' x values
+// (x = log10(rank), precomputed by the caller from the lemma list minus the
+// blocklist). Rationale (2026-08-22): the built es list turned out ~31%
+// proper-noun/junk past rank ~8k, and summing the curve over ALL 30k ranks
+// would count those junk ranks as words he might "know", inflating the
+// headline. The blocklisted ranks stay ON the x-axis (ranks never renumber —
+// items/yesno words are still positioned by raw rank); they are simply not
+// COUNTED in the size.
+function computeSizeEligible(a, b, eligibleXs) {
+  var sum = 0;
+  for (var i = 0; i < eligibleXs.length; i++) {
+    sum += pKnow(a, b, eligibleXs[i]);
+  }
+  return sum;
+}
+
+// Maps a raw rank to its ELIGIBLE-WORD INDEX: how many entries of the sorted
+// `eligibleXs` array (ascending log10(rank) values for a language's
+// non-blocklisted words, in rank order — same array computeSizeEligible
+// sums over) have a value <= log10(rank). Binary search (upper bound) since
+// eligibleXs is always sorted by construction. Monotone non-decreasing in
+// rank; a rank below the very first eligible rank returns 0, a rank at or
+// past the last eligible rank returns eligibleXs.length (the full eligible
+// count) — never throws on an out-of-range rank.
+//
+// 2026-08-24 (Author: "could the graph itself just go up to the true number
+// of words in the pool?"): this is the mapping the per-sitting curve chart
+// (buildCurveSvg) re-indexes its x-axis through, so the axis ends at a
+// language's TRUE eligible pool size instead of the padded raw-rank ceiling.
+// Deliberately NOT used by buildCompareCurveSvg (the cross-language panel),
+// which stays on raw ranks 1..COMPARE_DEPTH — see the design notes' comparable-
+// score section for why that one is kept simpler on purpose.
+function eligibleIndexForRank(eligibleXs, rank) {
+  var target = Math.log10(rank);
+  var lo = 0, hi = eligibleXs.length;
+  while (lo < hi) {
+    var mid = (lo + hi) >>> 1;
+    if (eligibleXs[mid] <= target) lo = mid + 1; else hi = mid;
+  }
+  return lo;
+}
+
+// Cross-language "comparable score" (2026-08-24, Author: add a metric that
+// can be compared ACROSS languages). The headline above (computeSizeEligible)
+// sums p_know over each language's own ELIGIBLE-rank pool, and those pools
+// are different sizes per language (es ~20,550 eligible of 30,000; hy
+// ~16,174 of 17,752 as of this writing) — so two languages' headline numbers
+// are answers to two different questions and are NOT comparable. This is a
+// separate, deliberately SIMPLER metric: sum p_know over the first
+// COMPARE_DEPTH raw ranks, 1..depth, with NO blocklist/eligibility filtering
+// at all. That omission is intentional, not a shortcut:
+//   - it is computable from a saved history record's stored `curve` {a,b}
+//     alone, so every past sitting gets this metric retroactively, without
+//     ever needing that language's content docs (blocklist included);
+//   - the cross-language compare view therefore never has to fetch every
+//     OTHER language's content just to plot one curve;
+//   - it will read slightly ABOVE the blocklist-filtered headline at the same
+//     depth (the junk ranks the headline excludes still count here).
+// It is a cross-language INDEX — never a substitute for, or a corrected
+// version of, the per-language headline eligible-word count.
+// MOVED to js/vocab_comparable.js (2026-09-06), same reasoning as
+// pKnow above — aliased so recordBuild/renderComparePanel/renderHistDetail
+// below keep calling `comparableEstimate(...)`/`COMPARE_DEPTH` unchanged.
+var COMPARE_DEPTH = window.IT.COMPARE_DEPTH;
+var comparableEstimate = window.IT.comparableEstimate;
+
+// Deterministic PRNG (mulberry32) so tests can seed reproducible randomness;
+// the app itself always calls with the default Math.random.
+function mulberry32(seed) {
+  var t = seed >>> 0;
+  return function () {
+    t |= 0; t = (t + 0x6D2B79F5) | 0;
+    var r = Math.imul(t ^ (t >>> 15), 1 | t);
+    r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r;
+    return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+// Parametric bootstrap: resimulate responses from the fitted model, refit
+// (seeded at the real fit, so no grid search needed — fast), repeat >=200
+// times, take the 16th/84th percentile of the resulting sizes as a 68% CI.
+function bootstrapCI(fit, yesnoReal, pseudo, mc, reps, rng, eligibleXs) {
+  reps = reps || 200;
+  rng = rng || Math.random;
+  var sizes = [];
+  for (var k = 0; k < reps; k++) {
+    var simPseudo = (pseudo || []).map(function () { return { claimed: rng() < fit.f }; });
+    var fBoot = computeFalseAlarmRate(simPseudo);
+    var simYesNo = yesnoReal.map(function (it) {
+      var p = pKnow(fit.a, fit.b, it.x);
+      var q = clampProb(p + (1 - p) * Math.min(fit.f, F_CLAMP_MAX));
+      return { x: it.x, claimed: rng() < q };
+    });
+    var simMc = mc.map(function (it) {
+      var p = pKnow(fit.a, fit.b, it.x);
+      var g = fit.g;
+      var pCorrect = p + (1 - p) * (1 - g) * 0.25;
+      var pIdk = (1 - p) * g;
+      var u = rng();
+      var outcome;
+      if (u < pCorrect) outcome = 'correct';
+      else if (u < pCorrect + pIdk) outcome = 'idk';
+      else outcome = 'wrong';
+      return { x: it.x, outcome: outcome };
+    });
+    var seed = [fit.a, fit.b, fit.g];
+    var res = nelderMead(function (p) { return negLogLikBounded(p, simYesNo, simMc, fBoot); }, seed, { maxIter: 120 });
+    var pp = projectParams(res.x);
+    sizes.push(eligibleXs ? computeSizeEligible(pp[0], pp[1], eligibleXs)
+                          : computeSize(pp[0], pp[1]));
+  }
+  sizes.sort(function (x, y) { return x - y; });
+  var loIdx = Math.max(0, Math.floor(0.16 * reps));
+  var hiIdx = Math.min(reps - 1, Math.ceil(0.84 * reps) - 1);
+  return { lo: sizes[loIdx], hi: sizes[hiIdx], sizes: sizes };
+}
+
+// Entry point. responses = {
+//   yesnoReal: [{rank, claimed}], pseudo: [{claimed}], mc: [{rank, outcome}]
+// }
+function fitEstimator(responses, opts) {
+  opts = opts || {};
+  var yesnoReal = (responses.yesnoReal || []).map(function (r) { return { x: Math.log10(r.rank), claimed: !!r.claimed }; });
+  var mc = (responses.mc || []).map(function (r) { return { x: Math.log10(r.rank), outcome: r.outcome }; });
+  var pseudo = responses.pseudo || [];
+  var fit = fitModel(yesnoReal, pseudo, mc, opts.fitOpts);
+  var size = opts.eligibleXs ? computeSizeEligible(fit.a, fit.b, opts.eligibleXs)
+                             : computeSize(fit.a, fit.b);
+  var reps = opts.bootstrapReps != null ? opts.bootstrapReps : 200;
+  var ci = bootstrapCI(fit, yesnoReal, pseudo, mc, reps, opts.rng, opts.eligibleXs);
+  return { a: fit.a, b: fit.b, g: fit.g, f: fit.f, size: size, ciLo: ci.lo, ciHi: ci.hi,
+           eligibleCount: opts.eligibleXs ? opts.eligibleXs.length : MAX_RANK };
+}
+
+// A sitting whose pseudoword answers say "I know" for most of the FAKES is
+// unscoreable: either the keys/buttons got mixed up (the author's inverted pt
+// sitting, 2026-08-23) or overclaim is beyond what the f-correction can
+// salvage. Requires a minimum pool so a tiny fixture can't trip it.
+var INVALID_F_THRESHOLD = 0.6;
+function sittingLooksInvalid(pseudoN, pseudoClaimed) {
+  if (!pseudoN || pseudoN < 10) return false;
+  return (pseudoClaimed / pseudoN) >= INVALID_F_THRESHOLD;
+}
+
+/* TEST-EXTRACT:estimator:END */
+
+/* Phase-2 item allocation: fit a provisional curve from phase 1, then spend
+   the 60 MC items where the curve's frontier is (p*(1-p) at each band's
+   midpoint), min 2 per band so every band still gets checked at all. */
+// TEST-EXTRACT:bandAlloc:BEGIN
+
+// The DEFAULT band structure. Since 2026-08-23 each language's lemmas file can
+// carry its OWN "bandEdges" (always SEVEN bands, same early structure, but the
+// ceiling may be lower — Armenian's corpora honestly support fewer than 30k
+// lemmas). Every band-aware call site threads the CURRENT language's edges in;
+// the bare-call form defaults to this constant so es/pt/ru/fr and every
+// existing test are unchanged.
+var BAND_EDGES = [500, 1000, 2000, 4000, 8000, 16000, 30000];
+
+function bandLoHi(bandIdx, edges) {
+  edges = edges || BAND_EDGES;
+  var lo = bandIdx === 0 ? 1 : edges[bandIdx - 1] + 1;
+  var hi = edges[bandIdx];
+  return [lo, hi];
+}
+
+// Geometric (log-space) midpoint, since the model operates on log10(rank).
+function bandMidpointX(loRank, hiRank) {
+  return (Math.log10(loRank) + Math.log10(hiRank)) / 2;
+}
+
+// weights: one non-negative number per band. Returns an integer array of the
+// same length summing to EXACTLY `total`, each entry >= minPerBand (when
+// total allows it). Largest-remainder method keeps the sum exact regardless
+// of rounding; falls back to an even split when every weight is ~0.
+// Per-band item cap for phase 2. Information-optimal allocation wants to pile
+// items onto the frontier band, but with a misspecified (or corrupted) phase-1
+// fit that concentrates the whole test in one band and starves coverage —
+// the author's inverted pt sitting got 40 items in band 1 and 2 everywhere else.
+// 20 of 60 in one band is as concentrated as a sitting is allowed to get.
+var MAX_MC_PER_BAND = 20;
+
+// weights: one non-negative number per band. avail (optional): per-band count
+// of actually-available items — the 2026-08-23 fix: the old allocator ignored
+// availability, so a band could be ASKED for more items than the bank holds
+// and the shortfall silently vanished (a 52-item sitting instead of 60).
+// capPerBand (optional): hard per-band ceiling. Returns integer counts summing
+// to min(total, total capacity); minPerBand seeded where capacity allows.
+function allocateBandCounts(weights, total, minPerBand, avail, capPerBand) {
+  var n = weights.length;
+  total = total | 0; minPerBand = minPerBand | 0;
+  var cap = [], i;
+  for (i = 0; i < n; i++) {
+    var c = (capPerBand != null) ? capPerBand : Infinity;
+    if (avail && avail[i] != null) c = Math.min(c, avail[i]);
+    cap.push(Math.max(0, c));
+  }
+  var capSum = 0;
+  for (i = 0; i < n; i++) capSum += (isFinite(cap[i]) ? cap[i] : total);
+  if (total > capSum) total = capSum;
+
+  var out = new Array(n).fill(0);
+  for (i = 0; i < n; i++) out[i] = Math.min(minPerBand, cap[i]);
+  var left = total - out.reduce(function (s, x) { return s + x; }, 0);
+  if (left < 0) {
+    // total smaller than the seeded minimums — trim round-robin (defensive).
+    var idx = 0;
+    while (left < 0) { var j = idx % n; if (out[j] > 0) { out[j]--; left++; } idx++; }
+    return out;
+  }
+  // Waterfill the remainder by weight among bands with room; clip at each
+  // band's cap and re-spread what clipping freed, until nothing is left or
+  // nothing has room.
+  var guard = 0;
+  while (left > 0 && guard++ < 1000) {
+    var room = [], wsum = 0;
+    for (i = 0; i < n; i++) if (out[i] < cap[i]) { room.push(i); wsum += Math.max(weights[i], 0); }
+    if (!room.length) break;
+    var gave = false;
+    for (var k = 0; k < room.length && left > 0; k++) {
+      i = room[k];
+      var share = wsum > 0 ? Math.max(weights[i], 0) / wsum * left : left / room.length;
+      var g = Math.min(Math.floor(share), cap[i] - out[i], left);
+      if (g > 0) { out[i] += g; left -= g; gave = true; }
+    }
+    if (!gave) {
+      // fractional tail: single units by descending weight (stable on ties)
+      room.sort(function (a, b) { return (Math.max(weights[b], 0) - Math.max(weights[a], 0)) || (a - b); });
+      for (k = 0; k < room.length && left > 0; k++) {
+        i = room[k];
+        if (out[i] < cap[i]) { out[i]++; left--; gave = true; }
+      }
+      if (!gave) break;
+    }
+  }
+  return out;
+}
+
+/* TEST-EXTRACT:bandAlloc:END */
+
+/* 180-day no-reuse exclusion + item/lemma sampling. Degrades gracefully when
+   a pool is too small to honor the exclusion (relax rather than crash) —
+   see the design notes' "If the bank has too few items..." rule. */
+// TEST-EXTRACT:sampling:BEGIN
+
+var NO_REUSE_DAYS = 180;
+
+function historyWithinDays(history, days, nowMs) {
+  nowMs = nowMs || Date.now();
+  var cutoff = nowMs - days * 86400000;
+  return (history || []).filter(function (rec) {
+    var t = Date.parse(rec && rec.at);
+    return isFinite(t) && t >= cutoff;
+  });
+}
+
+// Per-language exclusion (load-bearing — see the design notes' "Multi-language"
+// section): es and pt share thousands of identical lemma strings ("casa"),
+// so a history record only counts toward the exclusion when its own
+// `.language` matches the language being sampled for. A record with no
+// `language` field (shouldn't happen post-launch, but be defensive) matches
+// NOTHING — `rec.language !== language` is true for every real language
+// code when `rec.language` is undefined, so such a record contributes to no
+// language's exclusion set rather than (wrongly) contributing to all of them.
+function excludedYesNoLemmas(history, language, days, nowMs) {
+  var set = new Set();
+  historyWithinDays(history, days, nowMs).forEach(function (rec) {
+    if (rec.language !== language) return;
+    (rec.usedYesNoLemmas || []).forEach(function (l) { set.add(l); });
+  });
+  return set;
+}
+
+function excludedPseudoIds(history, language, days, nowMs) {
+  var set = new Set();
+  historyWithinDays(history, days, nowMs).forEach(function (rec) {
+    if (rec.language !== language) return;
+    (rec.usedPseudoIds || []).forEach(function (id) { set.add(id); });
+  });
+  return set;
+}
+
+function excludedItemIds(history, language, days, nowMs) {
+  var set = new Set();
+  historyWithinDays(history, days, nowMs).forEach(function (rec) {
+    if (rec.language !== language) return;
+    (rec.usedItemIds || []).forEach(function (id) { set.add(id); });
+  });
+  return set;
+}
+
+function sampleWithoutReplacement(arr, n, rng) {
+  rng = rng || Math.random;
+  var a = arr.slice();
+  var out = [];
+  n = Math.min(n, a.length);
+  for (var i = 0; i < n; i++) {
+    var idx = Math.floor(rng() * a.length);
+    out.push(a[idx]);
+    a.splice(idx, 1);
+  }
+  return out;
+}
+
+// lemmasByBand: array of 7 arrays of {lemma, rank}, already blocklist-filtered.
+// Returns {items, reusedItems} — 15/band real lemmas minus the 180-day
+// exclusion; relaxes (allows reuse) per-band if the excluded pool is too
+// thin, rather than shorting the test.
+function selectYesNoRealLemmas(lemmasByBand, excludedLemmaSet, perBand, rng) {
+  var result = [];
+  var reused = false;
+  for (var bi = 0; bi < lemmasByBand.length; bi++) {
+    var bandList = lemmasByBand[bi];
+    var pool = bandList.filter(function (x) { return !excludedLemmaSet.has(x.lemma); });
+    if (pool.length < perBand) {
+      pool = bandList;
+      if (bandList.length > 0) reused = true;
+    }
+    result.push.apply(result, sampleWithoutReplacement(pool, perBand, rng));
+  }
+  return { items: result, reusedItems: reused };
+}
+
+// pool: [{id, form}]. count = how many pseudowords the design wants (35).
+function selectPseudowords(pool, excludedIdSet, count, rng) {
+  var avail = pool.filter(function (p) { return !excludedIdSet.has(p.id); });
+  var reused = false;
+  if (avail.length < count) {
+    if (pool.length > avail.length) reused = true;
+    avail = pool;
+  }
+  var n = Math.min(count, avail.length);
+  return { items: sampleWithoutReplacement(avail, n, rng), reusedItems: reused };
+}
+
+// bankItemsByBand: array of 7 arrays of MC bank items. bandCounts: from
+// allocateBandCounts. Relaxes the exclusion per-band, same as above.
+function selectMcItems(bankItemsByBand, excludedIdSet, bandCounts, rng) {
+  var result = []; var reused = false;
+  for (var bi = 0; bi < bankItemsByBand.length; bi++) {
+    var pool = bankItemsByBand[bi].filter(function (it) { return !excludedIdSet.has(it.id); });
+    var want = bandCounts[bi] || 0;
+    if (pool.length < want) {
+      if (bankItemsByBand[bi].length > pool.length) reused = true;
+      pool = bankItemsByBand[bi];
+    }
+    var n = Math.min(want, pool.length);
+    result.push.apply(result, sampleWithoutReplacement(pool, n, rng));
+  }
+  return { items: result, reusedItems: reused };
+}
+
+/* TEST-EXTRACT:sampling:END */
+
+/* Pure per-language plumbing: content-path construction and the
+   localStorage-fallback rule for the picked language. No localStorage
+   access here — the DOM-facing wrapper (loadPickedLanguage) reads
+   localStorage and hands the raw stored value to resolvePickedLanguage. */
+// TEST-EXTRACT:language:BEGIN
+
+function contentPathsFor(lang) {
+  return {
+    lemmas: 'content/lemmas-' + lang + '.json',
+    bank: 'content/bank-' + lang + '.json',
+    blocklist: 'content/blocklist-' + lang + '.json',
+  };
+}
+
+// storedCode: whatever localStorage had (or null/undefined). enabledCodes:
+// array of currently-live language codes. A stored language that isn't (or
+// is no longer) enabled falls back to defaultCode — e.g. localStorage has
+// 'pt' from a previous visit but pt hasn't shipped on this build yet.
+function resolvePickedLanguage(storedCode, enabledCodes, defaultCode) {
+  if (storedCode && enabledCodes.indexOf(storedCode) !== -1) return storedCode;
+  return defaultCode;
+}
+
+/* TEST-EXTRACT:language:END */
+
+/* Per-person record filtering + local person-list bookkeeping (the author,
+   2026-08-24: "indicate which person is taking the test"). Pure helpers —
+   no DOM/localStorage access here; the DOM-facing wrappers
+   (loadPickedPerson/savePickedPerson/loadPersonList/savePersonList) wrap
+   these. See the design notes' "Per-person records" section. */
+// TEST-EXTRACT:person:BEGIN
+
+var DEFAULT_PERSON = 'Me';
+var PERSON_NAME_MAX_LEN = 40;
+
+// NORMALIZATION RULE (load-bearing): a MISSING person field (or empty/
+// non-string) reads as "Me" everywhere the app reads a record's person —
+// this is the ONE place that rule lives. Covers any sitting saved between
+// the 2026-08-23 back-notation of the 4 pre-feature records and this
+// feature merging.
+function normalizePerson(person) {
+  var s = (person == null) ? '' : String(person).trim();
+  return s === '' ? DEFAULT_PERSON : s;
+}
+
+// Filters `history` down to just the records belonging to `person`
+// (normalized, case-insensitive match — "me" and "Me" are the same
+// person). This is the ONLY place person-scoping happens: call sites filter
+// history with this BEFORE handing it to the existing language-aware
+// exclusion/trend helpers, rather than threading a `person` param through
+// every one of them (per the design notes' instruction to filter at the call
+// site, not change those helpers' signatures again).
+function historyForPerson(history, person) {
+  var target = normalizePerson(person).toLowerCase();
+  return (history || []).filter(function (rec) {
+    return normalizePerson(rec && rec.person).toLowerCase() === target;
+  });
+}
+
+// Master known-person list: "Me" (always present, even with empty
+// history/customList) + every distinct (normalized) person seen in history
+// + any locally-added custom names. Deduped case-insensitively; first-seen
+// casing wins (history is checked before customList, so a name that exists
+// in a saved sitting keeps that sitting's casing even if later re-typed
+// differently into the add-name box).
+function knownPersons(history, customList) {
+  var seenLower = {};
+  var out = [];
+  function add(name) {
+    var norm = normalizePerson(name);
+    var key = norm.toLowerCase();
+    if (!seenLower[key]) { seenLower[key] = true; out.push(norm); }
+  }
+  add(DEFAULT_PERSON);
+  (history || []).forEach(function (rec) { add(rec && rec.person); });
+  (customList || []).forEach(function (name) { add(name); });
+  return out;
+}
+
+// storedPerson: raw localStorage value (or null/undefined/''). known: the
+// current knownPersons() list. A stored pick no longer in the known list
+// (e.g. a stale name after personList was cleared) falls back to
+// defaultPerson — same shape as resolvePickedLanguage above.
+function resolvePickedPerson(storedPerson, known, defaultPerson) {
+  if (!storedPerson) return defaultPerson;
+  var target = String(storedPerson).toLowerCase();
+  var found = (known || []).filter(function (p) { return p.toLowerCase() === target; })[0];
+  return found || defaultPerson;
+}
+
+// Validates a candidate name typed into the "+ add name" inline input: trim,
+// cap at PERSON_NAME_MAX_LEN, reject empty, reject a case-insensitive
+// duplicate of an already-known name (returns the EXISTING name's casing so
+// the caller can just select it instead of adding a near-duplicate pill).
+function validateNewPersonName(raw, known) {
+  var trimmed = String(raw == null ? '' : raw).trim();
+  if (trimmed.length > PERSON_NAME_MAX_LEN) trimmed = trimmed.slice(0, PERSON_NAME_MAX_LEN).trim();
+  if (!trimmed) return { ok: false, reason: 'empty' };
+  var lower = trimmed.toLowerCase();
+  var dupe = (known || []).filter(function (p) { return p.toLowerCase() === lower; })[0];
+  if (dupe) return { ok: false, reason: 'duplicate', name: dupe };
+  return { ok: true, name: trimmed };
+}
+
+function addToPersonList(list, name) {
+  var out = (list || []).slice();
+  out.push(name);
+  return out;
+}
+
+/* TEST-EXTRACT:person:END */
+
+/* Fake-word ("pseudoword") summary row for the results Band-breakdown table.
+   Pure text/derivation helpers — no DOM. */
+// TEST-EXTRACT:pseudoRow:BEGIN
+
+// Reads record.pseudo when present (every record from 2026-08-23 onward,
+// {n, claimed}). For an OLDER record that predates the field (the author's real
+// first sitting), derives it from the fitted false-alarm rate:
+// claimed = round(curve.f * usedPseudoIds.length), n = usedPseudoIds.length.
+function pseudoStatsForRecord(record) {
+  if (record && record.pseudo && typeof record.pseudo.n === 'number' && typeof record.pseudo.claimed === 'number') {
+    return { n: record.pseudo.n, claimed: record.pseudo.claimed };
+  }
+  var n = (record && record.usedPseudoIds && record.usedPseudoIds.length) || 0;
+  var f = (record && record.curve && typeof record.curve.f === 'number') ? record.curve.f : 0;
+  return { n: n, claimed: Math.round(f * n) };
+}
+
+// Text for the "Fake words" row's Yes/no column, e.g. "2/35 claimed (6%)".
+function fakeWordsRowText(stats) {
+  var pct = stats.n > 0 ? Math.round((stats.claimed / stats.n) * 100) : 0;
+  return stats.claimed + '/' + stats.n + ' claimed (' + pct + '%)';
+}
+
+/* TEST-EXTRACT:pseudoRow:END */
+
+/* Full-results detail (author, 2026-08-24: "a way to view the full results of
+   each test... exactly which fake words I claimed, which yes/no questions I
+   got wrong, which MCQ's I got wrong"). Pure record-building + derivation
+   helpers — no DOM. The HTML-string renderer that USES these
+   (buildFullAnswersHtml, below the App-shell line) is not extracted, same as
+   buildCurveSvg/buildBandTableHtml, since it calls esc(). */
+// TEST-EXTRACT:recordBuild:BEGIN
+
+// Builds ONE persisted multiple-choice response record from the shown item
+// and the raw choice. Pure (no DOM/STATE) so it's directly unit-testable.
+// The outcome computation is UNCHANGED from the original inline logic in
+// recordPhase2 (kept verbatim): 'idk' when choiceIdxOrIdk === 'idk', else
+// compare item.shuffled[choiceIdxOrIdk].isCorrect. Adds lemma/options/
+// correctIdx/picked alongside the pre-existing id/rank/outcome fields —
+// additive only, nothing removed or recomputed differently.
+function buildMcRecord(item, choiceIdxOrIdk) {
+  var outcome;
+  if (choiceIdxOrIdk === 'idk') {
+    outcome = 'idk';
+  } else {
+    outcome = item.shuffled[choiceIdxOrIdk].isCorrect ? 'correct' : 'wrong';
+  }
+  var correctIdx = -1;
+  for (var i = 0; i < item.shuffled.length; i++) {
+    if (item.shuffled[i].isCorrect) { correctIdx = i; break; }
+  }
+  return {
+    id: item.id,
+    lemma: item.lemma,
+    rank: item.rank,
+    options: item.shuffled.map(function (o) { return o.text; }),
+    correctIdx: correctIdx,
+    picked: choiceIdxOrIdk,
+    outcome: outcome,
+  };
+}
+
+// Whether `record` carries the full-answer-detail fields added 2026-08-24.
+// The 5 pre-feature sittings (es/pt/fr/ru/hy) predate this and must degrade
+// gracefully rather than crash or render an empty/broken section.
+function recordHasFullDetail(record) {
+  return !!record && Array.isArray(record.yesnoReal) && Array.isArray(record.pseudoDetail) && Array.isArray(record.mc);
+}
+
+var FULL_ANSWERS_UNAVAILABLE_NOTE = "Full answer detail isn't available for this sitting — it was taken before this feature. Sittings from now on will have it.";
+
+// Forms of the pseudowords he claimed as known, in original order — the
+// direct answer to "which fake words I claimed".
+function claimedFakeWords(pseudoDetail) {
+  return (pseudoDetail || []).filter(function (p) { return p && p.claimed; }).map(function (p) { return p.form; });
+}
+
+// mc entries ordered wrong-first, then idk, then correct ("lead with the
+// wrong ones — most useful for review"). Stable within each group (Array#sort
+// is stable in every engine this app targets).
+var MC_REVIEW_ORDER = { wrong: 0, idk: 1, correct: 2 };
+function sortMcForReview(mc) {
+  return (mc || []).slice().sort(function (a, b) {
+    var oa = MC_REVIEW_ORDER[a.outcome] != null ? MC_REVIEW_ORDER[a.outcome] : 3;
+    var ob = MC_REVIEW_ORDER[b.outcome] != null ? MC_REVIEW_ORDER[b.outcome] : 3;
+    return oa - ob;
+  });
+}
+
+/* TEST-EXTRACT:recordBuild:END */
+
+/* ============================================================================
+   App shell — screens, state, item selection wiring, SVG charts, history POST.
+   Everything below reads/writes the DOM; none of it is TEST-EXTRACT'd.
+   ============================================================================ */
+
+// Sittings are stored only in this browser (localStorage); there is no server.
+var HISTORY_STORAGE_KEY = 'vocab.history';
+// Set by finishTest() to the current sitting's save-status promise (true/
+// false), read by renderResults()'s "Saved to your history" note.
+var HISTORY_SAVE_PROMISE = null;
+
+// Master registry: every language the app knows about, live or not.
+var ALL_LANGUAGES = [
+  { code: 'es', label: 'Spanish' },
+  { code: 'pt', label: 'Portuguese' },
+  { code: 'ru', label: 'Russian' },
+  { code: 'fr', label: 'French' },
+];
+
+// SHIP-CONTROL — the single flip-switch for which Start-screen pills are
+// live. Add a language's {code, label} here ONLY once its three content
+// files (content/{lemmas,bank,blocklist}-<code>.json) are merged in — that
+// is the entire flip, one line added to this array. Everything else in
+// ALL_LANGUAGES renders as "coming later" (LANGUAGES_COMING, derived below).
+// lang-order-ok: standalone mirror, same reason as ALL_LANGUAGES above.
+var ENABLED_LANGUAGES = [
+  { code: 'es', label: 'Spanish' },
+  { code: 'pt', label: 'Portuguese' },
+  { code: 'ru', label: 'Russian' },
+  { code: 'fr', label: 'French' },
+];
+
+var LANGUAGES_COMING = ALL_LANGUAGES.filter(function (l) {
+  return !ENABLED_LANGUAGES.some(function (e) { return e.code === l.code; });
+});
+
+var DEFAULT_LANGUAGE = 'es';
+
+function isLanguageEnabled(code) {
+  return ENABLED_LANGUAGES.some(function (l) { return l.code === code; });
+}
+
+function languageLabel(code) {
+  var found = ALL_LANGUAGES.filter(function (l) { return l.code === code; })[0];
+  return found ? found.label : code;
+}
+
+function loadPickedLanguage() {
+  var stored = null;
+  try { stored = localStorage.getItem('vocab.lang'); } catch (e) { /* ignore (private mode etc.) */ }
+  var enabledCodes = ENABLED_LANGUAGES.map(function (l) { return l.code; });
+  return resolvePickedLanguage(stored, enabledCodes, DEFAULT_LANGUAGE);
+}
+
+function savePickedLanguage(code) {
+  try { localStorage.setItem('vocab.lang', code); } catch (e) { /* ignore */ }
+}
+
+// Raw localStorage 'vocab.person' value, or null (missing/private mode).
+function readStoredPersonRaw() {
+  try { return localStorage.getItem('vocab.person'); } catch (e) { return null; }
+}
+
+// Raw localStorage 'vocab.personList' JSON (or garbage/missing) -> a clean
+// array of non-empty strings. Never throws.
+function loadPersonList() {
+  try {
+    var raw = localStorage.getItem('vocab.personList');
+    var arr = raw ? JSON.parse(raw) : [];
+    return Array.isArray(arr) ? arr.filter(function (x) { return typeof x === 'string' && x; }) : [];
+  } catch (e) { return []; }
+}
+
+function savePersonList(list) {
+  try { localStorage.setItem('vocab.personList', JSON.stringify(list || [])); } catch (e) { /* ignore */ }
+}
+
+// known: knownPersons(STATE.history, STATE.personList), computed by the
+// caller (boot() calls this both before and after history loads, since the
+// known list — and therefore the fallback outcome — can change once history
+// arrives).
+function loadPickedPerson(known) {
+  return resolvePickedPerson(readStoredPersonRaw(), known, DEFAULT_PERSON);
+}
+
+function savePickedPerson(name) {
+  try { localStorage.setItem('vocab.person', name); } catch (e) { /* ignore */ }
+}
+
+var STATE = {
+  screen: 'start',
+  language: DEFAULT_LANGUAGE, // overwritten by loadPickedLanguage() at boot
+  person: DEFAULT_PERSON, // overwritten by loadPickedPerson() at boot
+  personList: [], // locally-added custom names, overwritten at boot
+  personAdding: false, // is the "+ add name" inline input open?
+  selectedHistoryAt: null, // `.at` of the trend-chart point selected for the detail view below it
+  contentByLang: {}, // lang code -> {loaded, error, lemmasDoc, bankDoc, blocklist}
+  history: [],
+  phase1Stream: [],
+  phase1Idx: 0,
+  phase1Responses: [], // {kind:'real'|'pseudo', lemma?, id?, rank?, claimed}
+  provisionalFit: null,
+  phase2Items: [], // {id, lemma, rank, shuffled:[{text,isCorrect}], }
+  phase2Idx: 0,
+  phase2Responses: [], // {id, lemma, rank, options, correctIdx, picked, outcome} — see buildMcRecord
+  reusedItems: false,
+  startedAt: null,
+  finalResult: null,
+};
+
+function esc(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function showScreen(name) {
+  STATE.screen = name;
+  ['start', 'phase1', 'interstitial', 'phase2', 'results'].forEach(function (n) {
+    var el = document.getElementById('screen-' + n);
+    if (el) el.classList.toggle('active', n === name);
+  });
+}
+
+function fmtDuration(sec) {
+  sec = Math.max(0, Math.round(sec));
+  var m = Math.floor(sec / 60), s = sec % 60;
+  return m + ':' + String(s).padStart(2, '0');
+}
+
+/* ---------------------------------------------------------------------------
+   Loading content + history
+   ------------------------------------------------------------------------ */
+
+function fetchJsonOptional(url) {
+  return fetch(url).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+}
+
+// currentContent() is the single read path every test-flow/render function
+// uses — it always reflects STATE.language, so switching languages on the
+// Start screen switches the WHOLE app's content context.
+function currentContent() {
+  return STATE.contentByLang[STATE.language] || { loaded: false, error: null, lemmasDoc: null, bankDoc: null, blocklist: { lemmas: [] } };
+}
+
+// Lazy-loads + caches one language's three content files in STATE, keyed by
+// language code, so switching back to an already-visited language is
+// instant (no refetch). Never rejects: a failed fetch is recorded as
+// {error: ...} in the cache so callers can render an honest error card
+// instead of crashing into a broken test.
+function loadContentForLanguage(lang) {
+  var cached = STATE.contentByLang[lang];
+  if (cached && (cached.loaded || cached.error)) return Promise.resolve(cached);
+  var paths = contentPathsFor(lang);
+  return Promise.all([
+    fetch(paths.lemmas).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status + ' loading ' + paths.lemmas); return r.json(); }),
+    fetch(paths.bank).then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status + ' loading ' + paths.bank); return r.json(); }),
+    fetchJsonOptional(paths.blocklist),
+  ]).then(function (results) {
+    var entry = {
+      loaded: true, error: null,
+      lemmasDoc: results[0],
+      bankDoc: results[1],
+      blocklist: results[2] && Array.isArray(results[2].lemmas) ? results[2] : { lemmas: [] },
+    };
+    STATE.contentByLang[lang] = entry;
+    return entry;
+  }).catch(function (e) {
+    console.error('failed to load content for language ' + lang, e);
+    var entry = { loaded: false, error: (e && e.message) || 'failed to load', lemmasDoc: null, bankDoc: null, blocklist: { lemmas: [] } };
+    STATE.contentByLang[lang] = entry;
+    return entry;
+  });
+}
+
+function readStoredHistory() {
+  try {
+    var raw = localStorage.getItem(HISTORY_STORAGE_KEY);
+    var list = raw ? JSON.parse(raw) : [];
+    return Array.isArray(list) ? list : [];
+  } catch (e) { return []; }
+}
+
+function fetchHistory() {
+  return Promise.resolve(readStoredHistory());
+}
+
+/** Resolves true once the record is saved to localStorage (upsert by `at`,
+    newest 500 kept), false if storage is unavailable (private mode etc.). */
+function postHistory(record) {
+  try {
+    var list = readStoredHistory().filter(function (r) { return r && r.at !== record.at; });
+    list.push(record);
+    list.sort(function (x, y) { return String(x.at) < String(y.at) ? -1 : (String(x.at) > String(y.at) ? 1 : 0); });
+    if (list.length > 500) list = list.slice(list.length - 500);
+    localStorage.setItem(HISTORY_STORAGE_KEY, JSON.stringify(list));
+    return Promise.resolve(true);
+  } catch (e) {
+    console.error('history save failed', e);
+    return Promise.resolve(false);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Start screen render
+   ------------------------------------------------------------------------ */
+
+// The current language's band edges: its lemmas file's own "bandEdges" when
+// well-formed (always seven bands; the ceiling may be below 30k — Armenian),
+// else the default constant. Single derivation point for every band consumer.
+function docBandEdges(lemmasDoc) {
+  return (lemmasDoc && Array.isArray(lemmasDoc.bandEdges) && lemmasDoc.bandEdges.length === 7)
+    ? lemmasDoc.bandEdges : BAND_EDGES;
+}
+
+// Sorted-ascending array of log10(rank) x-values for a language's ELIGIBLE
+// (non-blocklisted) words, in rank order — the exact pool computeSizeEligible
+// sums the headline over, and (2026-08-24) what the per-sitting curve
+// chart's x-axis (buildCurveSvg) re-indexes through via eligibleIndexForRank.
+// Single shared builder: finishTest calls this on the content it's fitting
+// against; renderHistDetail calls it (on the CURRENT content) to chart a
+// past sitting — never two separate loops over lemmasDoc.lemmas.
+function buildEligibleXs(lemmasDoc, blocklistLemmas) {
+  var blSet = new Set(blocklistLemmas || []);
+  var lemmas = (lemmasDoc && lemmasDoc.lemmas) || [];
+  var xs = [];
+  for (var i = 0; i < lemmas.length; i++) {
+    if (!blSet.has(lemmas[i])) xs.push(Math.log10(i + 1));
+  }
+  return xs;
+}
+
+function lemmasByBandFor(lemmasDoc, blocklistSet) {
+  var edges = docBandEdges(lemmasDoc);
+  var byBand = [[], [], [], [], [], [], []];
+  var lemmas = lemmasDoc.lemmas;
+  for (var i = 0; i < lemmas.length && i < edges[edges.length - 1]; i++) {
+    var rank = i + 1;
+    var lemma = lemmas[i];
+    if (blocklistSet.has(lemma)) continue;
+    var bi = bandIndexForRank(rank, edges);
+    if (bi < 0) continue;
+    byBand[bi].push({ lemma: lemma, rank: rank });
+  }
+  return byBand;
+}
+
+function bandIndexForRank(rank, edges) {
+  edges = edges || BAND_EDGES;
+  for (var i = 0; i < edges.length; i++) {
+    var lo = i === 0 ? 1 : edges[i - 1] + 1;
+    if (rank >= lo && rank <= edges[i]) return i;
+  }
+  return -1;
+}
+
+function bankItemsByBandFor(bankDoc, edges) {
+  var byBand = [[], [], [], [], [], [], []];
+  (bankDoc.items || []).forEach(function (it) {
+    var bi = bandIndexForRank(it.rank, edges);
+    if (bi >= 0) byBand[bi].push(it);
+  });
+  return byBand;
+}
+
+function renderStartScreen() {
+  var content = currentContent();
+
+  // ONE toggle point for language-scoped classes — renderStartScreen already runs after
+  // every STATE.language mutation (pickLanguage, boot), so this can't drift
+  // out of sync with a second call site. Never conditionally add/remove other
+  // classes here.
+
+  var langRow = document.getElementById('lang-row');
+  var html = '';
+  ENABLED_LANGUAGES.forEach(function (l) {
+    var isActive = l.code === STATE.language;
+    html += '<button type="button" class="lang-pill' + (isActive ? ' active' : '') + '" data-lang="' + esc(l.code) + '">' + esc(l.label) + '</button>';
+  });
+  LANGUAGES_COMING.forEach(function (l) {
+    html += '<span class="lang-pill disabled" title="Coming later">' + esc(l.label) + ' (coming later)</span>';
+  });
+  langRow.innerHTML = html;
+
+  renderPersonRow();
+
+  var langLabel = languageLabel(STATE.language);
+  var taglineEl = document.getElementById('app-tagline');
+  if (taglineEl) taglineEl.textContent = 'How many ' + langLabel + ' words do you understand? A 10-minute test, retested monthly.';
+  var descEl = document.getElementById('app-desc');
+  if (descEl) {
+    var descEdges = docBandEdges(currentContent().lemmasDoc);
+    descEl.textContent = 'Of the ' + descEdges[6].toLocaleString() + ' most common dictionary words in ' + langLabel + ', how many do you understand? Two short parts: a quick yes/no pass, then a multiple-choice pass.';
+  }
+
+  var warnSlot = document.getElementById('fixture-warn-slot');
+  var startBtn = document.getElementById('btn-start');
+  if (!content.loaded && !content.error) {
+    warnSlot.innerHTML = '<div class="fixture-warn">Loading ' + esc(langLabel) + ' word list…</div>';
+    startBtn.disabled = true;
+  } else if (content.error) {
+    warnSlot.innerHTML = '<div class="error-card">Could not load the ' + esc(langLabel) + ' word list or item bank. Check your connection and try again, or pick another language.</div>';
+    startBtn.disabled = true;
+  } else {
+    startBtn.disabled = false;
+    if (content.bankDoc && String(content.bankDoc.bankVersion || '').indexOf('FIXTURE') !== -1) {
+      warnSlot.innerHTML = '<div class="fixture-warn">The item bank is a dev fixture — results are not meaningful yet.</div>';
+    } else {
+      warnSlot.innerHTML = '';
+    }
+  }
+
+  // Person-scoped AND language-scoped (author, 2026-08-24): another person's
+  // sittings must never bleed into this trend/headline/detail — see
+  // the design notes' "Per-person records" section. historyForPerson normalizes a
+  // missing `person` field to "Me" before comparing.
+  //
+  // NO LONGER FILTERED BY listVersion (author, 2026-08-24, after a word-list
+  // correction made two sittings vanish from view). Every sitting for this language+person shows, whatever list
+  // version it was scored against — see the design notes' reversal note. Each
+  // record renders itself using its OWN stored `bandEdges` (added the same
+  // day) rather than borrowing the currently-loaded content's edges, so an
+  // older sitting's curve/band table stay accurate even after the live list's
+  // depth has since changed.
+  var personHistory = historyForPerson(STATE.history, STATE.person);
+  var langHistory = personHistory.filter(function (h) { return h.language === STATE.language; })
+    .sort(function (a, b) { return Date.parse(a.at) - Date.parse(b.at); });
+
+  // Default selection = the latest sitting for the picked language+person;
+  // clicking a trend point (onTrendChartClick) sets STATE.selectedHistoryAt,
+  // which this re-derives on every render.
+  var selected = null;
+  if (STATE.selectedHistoryAt) {
+    selected = langHistory.filter(function (h) { return h.at === STATE.selectedHistoryAt; })[0] || null;
+  }
+  if (!selected && langHistory.length) selected = langHistory[langHistory.length - 1];
+
+  // Headline = the SELECTED sitting's comparable@16k score (2026-09-06,
+  // Author: "the headline number at the top here should be the top 16,000
+  // ranks number. Also ... that headline number doesn't change regardless of
+  // which of the points on the graph I click on"). Computed live off
+  // record.curve via the same shared comparableEstimate/COMPARE_DEPTH the
+  // trend chart below now plots and the history-detail "Comparable score"
+  // line already showed — one number, three surfaces, never a fork. The
+  // per-language headline estimate (± margin) is NOT lost: it's demoted to
+  // the detail sub-line renderHistDetail already builds just below
+  // ("Sep 6, 2026 — ≈ N words (± M) · m:ss").
+  var headlineSlot = document.getElementById('hist-headline-slot');
+  if (selected) {
+    var latest = langHistory[langHistory.length - 1];
+    var isLatestSelected = selected.at === latest.at;
+    var hasCurve = selected.curve && typeof selected.curve.a === 'number' && typeof selected.curve.b === 'number';
+    var compScore = hasCurve ? comparableEstimate(selected.curve, COMPARE_DEPTH) : null;
+    headlineSlot.innerHTML = '<div class="hist-headline">' + (compScore != null ? '≈ ' + compScore.toLocaleString() + ' words' : '—')
+      + ' <span class="muted" style="font-weight:600;font-size: var(--fs-lg);">comparable, top ' + COMPARE_DEPTH.toLocaleString() + ' ranks</span></div>'
+      + '<div class="small muted">' + (isLatestSelected ? 'Last tested ' : 'Tested ') + esc(fmtDateShort(selected.at)) + '</div>';
+  } else {
+    headlineSlot.innerHTML = '<div class="small muted">No tests yet — take the first one to start your trend.</div>';
+  }
+
+  // Trend chart is back (author, 2026-08-24: "you got rid of the first
+  // graph, I still want to see that" — reversing the 2026-08-23 removal).
+  // Per-language (and per-person): shows only the picked language+person's
+  // line + CI band. The language/person pickers are the toggle — never a
+  // multi-line chart. Clicking a point sets STATE.selectedHistoryAt via
+  // onTrendChartClick (same data-at delegation the old date pills used).
+  document.getElementById('hist-chart-slot').innerHTML =
+    buildTrendSvg(langHistory, 480, 170, selected ? selected.at : null);
+
+  // Prefer the SELECTED record's own stored bandEdges (added 2026-08-24,
+  // same day the listVersion history filter was dropped) so a sitting scored
+  // under an earlier/later list depth still plots correctly; only a record
+  // saved before this field existed falls back to the current content's
+  // edges (a reasonable approximation for those, and the only option since
+  // they never captured their own).
+  renderHistDetail(selected, (selected && selected.bandEdges) || docBandEdges(content.lemmasDoc));
+  renderComparePanel();
+}
+
+// Renders the SELECTED sitting's full detail below the trend chart, using
+// the SAME builders the results screen uses (buildCurveSvg/buildBandTableHtml)
+// — never a second implementation. `edges` = the record's own bandEdges when
+// present, else docBandEdges(currentContent().lemmasDoc): history can now mix
+// list versions (2026-08-24), so the current language's LIVE edges are only a
+// fallback, not the default; a legacy record (pre-per-language band edges)
+// still renders fine against
+// them since ranks never renumber.
+function renderHistDetail(record, edges) {
+  var subEl = document.getElementById('hist-detail-sub');
+  var compareEl = document.getElementById('hist-detail-compare-slot');
+  var curveEl = document.getElementById('hist-detail-curve-slot');
+  var bandEl = document.getElementById('hist-detail-band-slot');
+  var fullEl = document.getElementById('hist-detail-full-slot');
+  if (!record) {
+    if (subEl) subEl.textContent = '';
+    if (compareEl) compareEl.textContent = '';
+    if (curveEl) curveEl.innerHTML = '';
+    if (bandEl) bandEl.innerHTML = '';
+    if (fullEl) fullEl.innerHTML = '';
+    return;
+  }
+  var margin = Math.round((record.ciHi - record.ciLo) / 2);
+  if (subEl) {
+    // Duration shown here too (author, 2026-08-24: "I want the time taken to
+    // be a data point stored and showed on the dashboard for each test") —
+    // durationSec has been stored on every record since day one, this was
+    // purely a display gap (only the just-finished results screen showed
+    // it). fmtDuration is the same m:ss formatter that screen already uses.
+    var durBit = record.durationSec != null ? ' · ' + fmtDuration(record.durationSec) : '';
+    subEl.textContent = fmtDateShort(record.at) + ' — ≈ ' + Math.round(record.estimate).toLocaleString()
+      + ' words (± ' + margin.toLocaleString() + ')' + durBit;
+  }
+
+  // Comparable-score line (2026-08-24, see the design notes' design-decisions entry
+  // for the full rationale): computed LIVE from the record's own stored
+  // curve via comparableEstimate — no server round-trip, no other language's
+  // content needed. Plain/understated, same idiom as subEl just above.
+  if (compareEl) {
+    compareEl.textContent = (record.curve && typeof record.curve.a === 'number' && typeof record.curve.b === 'number')
+      ? 'Comparable score (top ' + COMPARE_DEPTH.toLocaleString() + ' ranks): ≈ ' + comparableEstimate(record.curve, COMPARE_DEPTH).toLocaleString()
+      : '';
+  }
+
+  // Fit-shaped object from the record's own stored curve — exactly what
+  // renderResults() builds at the end of a live sitting, just read back from
+  // history instead of freshly fit.
+  var fit = { a: record.curve.a, b: record.curve.b, g: record.curve.g, f: record.curve.f };
+  // Per-band observed points derived from record.perBand + curve.f exactly
+  // as renderResults() derives them (same bandLoHi/bandMidpointX/
+  // correctedYnRate helpers, not a fork).
+  var perBandObs = (record.perBand || []).map(function (b, bi) {
+    var loHi = bandLoHi(bi, edges);
+    var midX = bandMidpointX(loHi[0], loHi[1]);
+    var ynRate = b.yn.real > 0 ? correctedYnRate(b.yn.claimed, b.yn.real, fit.f) : null;
+    var mcRate = b.mc.n > 0 ? b.mc.correct / b.mc.n : null;
+    return { midX: midX, loRank: loHi[0], hiRank: loHi[1], ynRate: ynRate, mcRate: mcRate };
+  });
+  // Eligible-index x-axis (2026-08-24 — see buildCurveSvg's own comment for
+  // the full rationale). Built from the CURRENT content for this record's
+  // language, since a past sitting's own eligibleXs array was never stored
+  // (only its eligibleCount NUMBER was) — that current-content array is the
+  // only mapping available for re-charting an old sitting. record.eligibleCount
+  // itself still comes straight from the RECORD (authoritative for that
+  // sitting), so the axis ends exactly where that sitting's headline said it
+  // would even after the content underneath has since drifted slightly.
+  var eligibleXs = buildEligibleXs(currentContent().lemmasDoc, currentContent().blocklist.lemmas);
+  if (curveEl) curveEl.innerHTML = buildCurveSvg(fit, perBandObs, 480, 190, edges, eligibleXs, record.eligibleCount);
+  if (bandEl) bandEl.innerHTML = buildBandTableHtml(record.perBand || [], fit, pseudoStatsForRecord(record), edges);
+  // Collapsed-by-default "Full answers" detail — same record, gracefully
+  // degrading for the 5 pre-feature sittings (es/pt/fr/ru/hy) that lack the
+  // new yesnoReal/pseudoDetail/mc fields. innerHTML is reset each render
+  // (rather than preserved) — a rebuilt <details> always starts collapsed,
+  // matching every other slot on this screen, which is an acceptable
+  // trade-off since re-render here only happens on an explicit user action
+  // (switching language/person/date), not a timer or poll.
+  if (fullEl) fullEl.innerHTML = buildFullAnswersHtml(record);
+}
+
+function onTrendChartClick(e) {
+  var pt = e.target.closest('[data-at]');
+  if (!pt) return;
+  var at = pt.getAttribute('data-at');
+  if (at === STATE.selectedHistoryAt) return;
+  STATE.selectedHistoryAt = at;
+  renderStartScreen();
+}
+
+function onLangRowClick(e) {
+  var pill = e.target.closest('[data-lang]');
+  if (!pill) return;
+  pickLanguage(pill.getAttribute('data-lang'));
+}
+
+function pickLanguage(code) {
+  if (!isLanguageEnabled(code) || code === STATE.language) return;
+  STATE.language = code;
+  STATE.selectedHistoryAt = null; // new language: default the detail view to ITS latest sitting
+  savePickedLanguage(code);
+  renderStartScreen(); // instant: pill state + history/trend switch right away
+  loadContentForLanguage(code).then(function () {
+    if (STATE.language === code) renderStartScreen(); // content (or its error) now cached
+  });
+}
+
+/* ---------------------------------------------------------------------------
+   Person picker (Start screen) — "Who's taking it?" pills + "+ add name".
+   ------------------------------------------------------------------------ */
+
+function renderPersonRow() {
+  var row = document.getElementById('person-row');
+  if (!row) return;
+  var known = knownPersons(STATE.history, STATE.personList);
+  var currentLower = normalizePerson(STATE.person).toLowerCase();
+  var html = '';
+  known.forEach(function (name) {
+    var isActive = name.toLowerCase() === currentLower;
+    html += '<button type="button" class="person-pill' + (isActive ? ' active' : '') + '" data-person="' + esc(name) + '">' + esc(name) + '</button>';
+  });
+  if (STATE.personAdding) {
+    html += '<input type="text" class="person-add-input" id="person-add-input" maxlength="' + PERSON_NAME_MAX_LEN + '" placeholder="Name">';
+  } else {
+    html += '<button type="button" class="person-pill person-add-pill" id="person-add-btn">+ add name</button>';
+  }
+  row.innerHTML = html;
+  if (STATE.personAdding) {
+    var inp = document.getElementById('person-add-input');
+    if (inp) inp.focus();
+  }
+}
+
+function pickPerson(name) {
+  var norm = normalizePerson(name);
+  if (norm.toLowerCase() === normalizePerson(STATE.person).toLowerCase()) return;
+  STATE.person = norm;
+  STATE.selectedHistoryAt = null; // new person: default the detail view to THEIR latest sitting
+  savePickedPerson(norm);
+  renderStartScreen();
+}
+
+// Called on Enter in the add-name input. Validates/trims/caps/dedupes via
+// validateNewPersonName; a case-insensitive duplicate just selects the
+// existing person (never adds a near-duplicate pill) rather than erroring.
+function confirmAddPerson(raw) {
+  var known = knownPersons(STATE.history, STATE.personList);
+  var v = validateNewPersonName(raw, known);
+  STATE.personAdding = false;
+  if (!v.ok) {
+    if (v.reason === 'duplicate') { pickPerson(v.name); return; }
+    renderStartScreen(); // empty input: just close, no-op
+    return;
+  }
+  STATE.personList = addToPersonList(STATE.personList, v.name);
+  savePersonList(STATE.personList);
+  pickPerson(v.name); // pickPerson() re-renders
+}
+
+function cancelAddPerson() {
+  STATE.personAdding = false;
+  renderStartScreen();
+}
+
+function onPersonRowClick(e) {
+  var pill = e.target.closest('[data-person]');
+  if (pill) { pickPerson(pill.getAttribute('data-person')); return; }
+  if (e.target.closest('#person-add-btn')) {
+    STATE.personAdding = true;
+    renderPersonRow();
+  }
+}
+
+function onPersonRowKeydown(e) {
+  if (!e.target.closest('#person-add-input')) return;
+  if (e.key === 'Enter') { e.preventDefault(); confirmAddPerson(e.target.value); }
+  else if (e.key === 'Escape') { e.preventDefault(); cancelAddPerson(); }
+}
+
+function fmtDateShort(iso) {
+  var d = new Date(iso);
+  if (isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+/* ---------------------------------------------------------------------------
+   SVG charts (hand-rolled, no libs, never animated)
+   ------------------------------------------------------------------------ */
+
+// selectedAt (optional): the `.at` of the point to render as selected — a
+// slightly larger, differently-colored dot with a hover cursor on every
+// point (wired to onTrendChartClick). No transitions/animations, ever: this
+// is a static innerHTML replacement on every render, same as the rest of
+// this chart.
+// Plots comparableEstimate(h.curve, COMPARE_DEPTH) for every point, not the
+// per-language `estimate` so this trend chart and the headline above it (which now also reads the
+// SELECTED point's comparable score, see renderStartScreen) always agree —
+// clicking a point used to leave the headline showing the latest sitting's
+// unrelated per-language number regardless of what was clicked. A record
+// with no usable curve is dropped rather than plotted on some other scale
+// (there is no comparable score to compute for it). There is no CI whisker
+// here any more: comparableEstimate has no bootstrap CI of its own — it is a
+// deterministic re-summation of the stored curve, not a refit — so the old
+// ciLo/ciHi whisker (drawn on the per-language estimate's scale) would be
+// meaningless plotted against this different metric.
+function buildTrendSvg(history, width, height, selectedAt) {
+  history = history.filter(function (h) {
+    return h && h.curve && typeof h.curve.a === 'number' && typeof h.curve.b === 'number'
+      && !isNaN(h.curve.a) && !isNaN(h.curve.b);
+  });
+  if (!history.length) {
+    return '<div class="muted small" style="display:flex;align-items:center;justify-content:center;height:100%;">No history yet.</div>';
+  }
+  var padL = 46, padR = 14, padT = 14, padB = 26;
+  var plotW = width - padL - padR, plotH = height - padT - padB;
+  var times = history.map(function (h) { return Date.parse(h.at); });
+  var minT = Math.min.apply(null, times), maxT = Math.max.apply(null, times);
+  var spanT = Math.max(1, maxT - minT);
+  var scores = history.map(function (h) { return comparableEstimate(h.curve, COMPARE_DEPTH); });
+  var maxVal = Math.max.apply(null, scores);
+  maxVal = Math.max(maxVal * 1.08, 10);
+
+  function X(t) { return history.length === 1 ? padL + plotW / 2 : padL + ((t - minT) / spanT) * plotW; }
+  function Y(v) { return padT + (1 - (v / maxVal)) * plotH; }
+
+  var yGrid = '';
+  [0, 0.25, 0.5, 0.75, 1].forEach(function (frac) {
+    var v = maxVal * frac, gy = Y(v);
+    yGrid += '<line x1="' + padL + '" y1="' + gy + '" x2="' + (padL + plotW) + '" y2="' + gy + '" stroke="var(--border)"/>';
+    yGrid += '<text x="' + (padL - 6) + '" y="' + (gy + 3) + '" font-size="9" text-anchor="end" fill="var(--muted)">' + Math.round(v).toLocaleString() + '</text>';
+  });
+
+  var dots = '', line = '', xLabels = '';
+  history.forEach(function (h, i) {
+    var x = X(Date.parse(h.at));
+    var score = scores[i];
+    var isSel = !!(selectedAt && h.at === selectedAt);
+    dots += '<circle class="trend-pt' + (isSel ? ' selected' : '') + '" data-at="' + esc(h.at) + '" cx="' + x + '" cy="' + Y(score)
+      + '" r="' + (isSel ? 7 : 4.5) + '" fill="' + (isSel ? 'var(--accent-2)' : 'var(--accent)') + '" stroke="#fff" stroke-width="' + (isSel ? 2 : 1.5) + '">'
+      + '<title>' + esc(fmtDateShort(h.at)) + ': ≈ ' + score.toLocaleString() + ' words (comparable, top ' + COMPARE_DEPTH.toLocaleString() + ' ranks)</title></circle>';
+    line += (i === 0 ? 'M' : 'L') + x.toFixed(1) + ',' + Y(score).toFixed(1) + ' ';
+    xLabels += '<text x="' + x + '" y="' + (padT + plotH + 16) + '" font-size="9" text-anchor="middle" fill="var(--muted)">' + esc(fmtDateAxis(h.at)) + '</text>';
+  });
+
+  return '<svg viewBox="0 0 ' + width + ' ' + height + '" preserveAspectRatio="xMidYMid meet">'
+    + yGrid
+    + (history.length > 1 ? '<path d="' + line + '" fill="none" stroke="var(--accent)" stroke-width="2"/>' : '')
+    + dots + xLabels
+    + '</svg>';
+}
+
+function fmtDateAxis(iso) {
+  var d = new Date(iso);
+  if (isNaN(d.getTime())) return '';
+  return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+}
+
+// eligibleXs (optional): sorted-ascending array of log10(rank) x-values for
+// a language's ELIGIBLE (non-blocklisted) words, built by buildEligibleXs.
+// eligibleCount (optional, defaults to eligibleXs.length): the AUTHORITATIVE
+// eligible-pool size for the sitting being charted — fit.eligibleCount for a
+// freshly-fit live result (renderResults) or record.eligibleCount for a
+// saved history record (renderHistDetail). For a live sitting these are
+// always the same number (eligibleXs is built from the exact content that
+// was just fit against), so the rescale below is always exactly 1 there.
+//
+// 2026-08-24 (Author: "could the graph itself just go up to the true number
+// of words in the pool?"): the x-axis plots against ELIGIBLE-WORD INDEX
+// rather than raw frequency rank, so it ends at the language's TRUE eligible
+// pool size (e.g. 20,550 for es) instead of the padded raw-rank ceiling
+// (30,000, ~31% of which was blocklisted junk for es) — the area under the
+// curve then visually corresponds to the headline number (computeSizeEligible
+// sums this same curve over this same eligible pool). eligibleIndexForRank
+// (estimator TEST-EXTRACT block) maps a raw rank to "how many eligible words
+// have rank <= this one"; every position on this chart (path, band
+// gridlines, tick labels, observed points) goes through it, then gets
+// rescaled by eligibleCount/eligibleXs.length so the axis always ends
+// EXACTLY at eligibleCount even when the two disagree slightly (below).
+//
+// For a HISTORY record, the caller passes the CURRENT content's eligibleXs —
+// the only mapping available for an older sitting (only the eligibleCount
+// NUMBER was ever stored on a record, never the array). The blocklist can
+// grow or shrink between a sitting and now without a listVersion bump (e.g.
+// es: 20,550 stored on the author's 8/23 sitting vs a slightly smaller live
+// count today, after a later supplemental blocklist pass — see the design notes'
+// decisions log), so eligibleCount and eligibleXs.length can drift apart by
+// roughly that amount. The rescale keeps the axis honestly ending at the
+// STORED, authoritative eligibleCount (what that sitting's headline was
+// actually a fraction of) while still using today's content to approximate
+// the relative ORDER of which raw ranks are eligible — a drift on the order
+// of ~1% of the pool, far below this chart's visual resolution. Falls back
+// to the OLD raw-rank axis entirely when no eligibleXs is available at all
+// (content still loading, or failed to load).
+function buildCurveSvg(fit, perBandObs, width, height, edges, eligibleXs, eligibleCount) {
+  edges = edges || BAND_EDGES;
+  var padL = 40, padR = 12, padT = 12, padB = 26;
+  var plotW = width - padL - padR, plotH = height - padT - padB;
+
+  var useEligible = !!(eligibleXs && eligibleXs.length > 0);
+  var elCount = useEligible ? (eligibleCount || eligibleXs.length) : 0;
+  var rescale = useEligible ? (elCount / eligibleXs.length) : 1;
+  var xMax = useEligible ? Math.log10(elCount) : Math.log10(edges[edges.length - 1]);
+
+  function X(x) { return padL + (x / xMax) * plotW; }
+  function Y(p) { return padT + (1 - p) * plotH; }
+
+  // Raw rank -> plotted x, in (rescaled) eligible-index log space when
+  // available, else the rank's own log10 (old behavior). Clamped away from
+  // 0 (log10(0) is -Infinity) with a small epsilon floor — only matters if a
+  // band edge itself has zero eligible words under it, which doesn't happen
+  // with a real word list.
+  function plottedXForRank(rank) {
+    if (!useEligible) return Math.log10(rank);
+    var idx = clampNum(eligibleIndexForRank(eligibleXs, rank) * rescale, 0.5, elCount);
+    return Math.log10(idx);
+  }
+
+  var path = '';
+  var N = 120;
+  for (var i = 0; i <= N; i++) {
+    var plotX, yAtX;
+    if (useEligible) {
+      var targetIdx = Math.pow(10, xMax * i / N); // log-spaced target eligible index, 1..elCount
+      plotX = Math.log10(targetIdx);
+      var srcIdx = clampNum(Math.round(targetIdx / rescale), 1, eligibleXs.length);
+      yAtX = eligibleXs[srcIdx - 1];
+    } else {
+      plotX = xMax * i / N;
+      yAtX = plotX;
+    }
+    var p = pKnow(fit.a, fit.b, yAtX);
+    path += (i === 0 ? 'M' : 'L') + X(plotX).toFixed(1) + ',' + Y(p).toFixed(1) + ' ';
+  }
+
+  var bandGrid = '';
+  edges.forEach(function (edge) {
+    var gx = X(plottedXForRank(edge));
+    bandGrid += '<line x1="' + gx + '" y1="' + padT + '" x2="' + gx + '" y2="' + (padT + plotH) + '" stroke="var(--border)" stroke-dasharray="2,3"/>';
+  });
+
+  var yGrid = '';
+  [0, 0.25, 0.5, 0.75, 1].forEach(function (p) {
+    var gy = Y(p);
+    yGrid += '<line x1="' + padL + '" y1="' + gy + '" x2="' + (padL + plotW) + '" y2="' + gy + '" stroke="var(--border)"/>';
+    yGrid += '<text x="' + (padL - 6) + '" y="' + (gy + 3) + '" font-size="9" text-anchor="end" fill="var(--muted)">' + Math.round(p * 100) + '%</text>';
+  });
+
+  var xLabels = '';
+  [1, edges[0], edges[2], edges[4], edges[6]].forEach(function (r) {
+    var gx = X(plottedXForRank(r));
+    var label = useEligible
+      ? Math.round(clampNum(eligibleIndexForRank(eligibleXs, r) * rescale, 0, elCount)).toLocaleString()
+      : r.toLocaleString();
+    xLabels += '<text x="' + gx + '" y="' + (padT + plotH + 16) + '" font-size="9" text-anchor="middle" fill="var(--muted)">' + label + '</text>';
+  });
+
+  var obsSvg = '';
+  (perBandObs || []).forEach(function (o) {
+    var gx;
+    if (useEligible && o.loRank != null && o.hiRank != null) {
+      // Geometric mean of the band's ELIGIBLE index range (not its raw-rank
+      // midpoint) — the eligible words with rank in [o.loRank, o.hiRank].
+      var loIdx = eligibleIndexForRank(eligibleXs, o.loRank - 1) * rescale;
+      var hiIdx = eligibleIndexForRank(eligibleXs, o.hiRank) * rescale;
+      if (hiIdx <= loIdx) return; // band has no eligible words under the current mapping — nothing to plot
+      var geoMidIdx = clampNum(Math.sqrt(Math.max(loIdx, 0.5) * hiIdx), 0.5, elCount);
+      gx = X(Math.log10(geoMidIdx));
+    } else {
+      gx = X(o.midX);
+    }
+    if (o.ynRate != null) obsSvg += '<circle cx="' + gx + '" cy="' + Y(o.ynRate) + '" r="4" fill="var(--accent-2)" stroke="#fff" stroke-width="1"><title>Yes/no (corrected): ' + Math.round(o.ynRate * 100) + '%</title></circle>';
+    if (o.mcRate != null) obsSvg += '<rect x="' + (gx - 4) + '" y="' + (Y(o.mcRate) - 4) + '" width="8" height="8" fill="var(--accent)" stroke="#fff" stroke-width="1"><title>MC correct: ' + Math.round(o.mcRate * 100) + '%</title></rect>';
+  });
+
+  return '<svg viewBox="0 0 ' + width + ' ' + height + '" preserveAspectRatio="xMidYMid meet">'
+    + yGrid + bandGrid
+    + '<path d="' + path + '" fill="none" stroke="var(--accent)" stroke-width="2.5"/>'
+    + obsSvg + xLabels
+    + '</svg>';
+}
+
+/* ---------------------------------------------------------------------------
+   "Compare languages" panel (2026-08-24, Author: a cross-language comparable
+   score). Only useful once a person has sat >=2 different languages — a
+   single-language user has nothing to compare, so the panel renders nothing
+   in that case. Reuses historyForPerson (no forked person-filtering logic)
+   and comparableEstimate (no forked curve-summing logic); pulls curve params
+   straight off each language's LATEST stored record, never fetching another
+   language's content docs — that's the whole point of the metric being
+   defined off the raw curve alone (see the comparableEstimate comment).
+   ------------------------------------------------------------------------ */
+
+// Fixed per-language colors so a language keeps the same color across
+// renders/refreshes regardless of score order. Falls back to a single muted
+// swatch for any future language code not yet in this map.
+var COMPARE_LANG_COLORS = { es: '#4f7ef8', pt: '#e0574f', ru: '#2a9d5c', fr: '#a855f7' };
+function colorForLang(code) {
+  return COMPARE_LANG_COLORS[code] || '#6b7a99';
+}
+
+// Reduces `personHistory` (already person-scoped by the caller, per the
+// same "filter at the call site" convention as startTest/buildPhase2Selection)
+// down to one record per language: the latest by `at`. Records with no
+// `language` field are skipped (nothing to key them by).
+function latestPerLanguage(personHistory) {
+  var byLang = {};
+  (personHistory || []).forEach(function (rec) {
+    var lang = rec && rec.language;
+    if (!lang) return;
+    var prev = byLang[lang];
+    if (!prev || Date.parse(rec.at) > Date.parse(prev.at)) byLang[lang] = rec;
+  });
+  return byLang;
+}
+
+// Overlaid p_know curves, one per language, x = log-scaled rank 1..COMPARE_DEPTH
+// (never beyond it — every enabled language's list covers at least that depth,
+// so nothing drawn here is extrapolated past what was actually measured),
+// y = 0-100%. Same hand-rolled-SVG idiom as buildCurveSvg above (grid, no
+// entry animation), just multiple <path>s instead of one.
+function buildCompareCurveSvg(entries, width, height) {
+  var padL = 40, padR = 12, padT = 12, padB = 26;
+  var plotW = width - padL - padR, plotH = height - padT - padB;
+  var xMax = Math.log10(COMPARE_DEPTH);
+
+  function X(x) { return padL + (x / xMax) * plotW; }
+  function Y(p) { return padT + (1 - p) * plotH; }
+
+  var yGrid = '';
+  [0, 0.25, 0.5, 0.75, 1].forEach(function (p) {
+    var gy = Y(p);
+    yGrid += '<line x1="' + padL + '" y1="' + gy + '" x2="' + (padL + plotW) + '" y2="' + gy + '" stroke="var(--border)"/>';
+    yGrid += '<text x="' + (padL - 6) + '" y="' + (gy + 3) + '" font-size="9" text-anchor="end" fill="var(--muted)">' + Math.round(p * 100) + '%</text>';
+  });
+
+  var bandGrid = '';
+  [500, 1000, 2000, 4000, 8000, 16000].forEach(function (edge) {
+    var gx = X(Math.log10(edge));
+    bandGrid += '<line x1="' + gx + '" y1="' + padT + '" x2="' + gx + '" y2="' + (padT + plotH) + '" stroke="var(--border)" stroke-dasharray="2,3"/>';
+  });
+
+  var xLabels = '';
+  [1, 1000, 4000, 16000].forEach(function (r) {
+    var gx = X(Math.log10(r));
+    xLabels += '<text x="' + gx + '" y="' + (padT + plotH + 16) + '" font-size="9" text-anchor="middle" fill="var(--muted)">' + r.toLocaleString() + '</text>';
+  });
+
+  var paths = entries.map(function (entry) {
+    var path = '';
+    var N = 120;
+    for (var i = 0; i <= N; i++) {
+      var x = xMax * i / N;
+      var p = pKnow(entry.curve.a, entry.curve.b, x);
+      path += (i === 0 ? 'M' : 'L') + X(x).toFixed(1) + ',' + Y(p).toFixed(1) + ' ';
+    }
+    return '<path d="' + path + '" fill="none" stroke="' + entry.color + '" stroke-width="2.5"><title>' + esc(entry.label) + '</title></path>';
+  }).join('');
+
+  return '<svg viewBox="0 0 ' + width + ' ' + height + '" preserveAspectRatio="xMidYMid meet">'
+    + yGrid + bandGrid + paths + xLabels
+    + '</svg>';
+}
+
+function renderComparePanel() {
+  var slot = document.getElementById('compare-panel-slot');
+  if (!slot) return;
+
+  var personHistory = historyForPerson(STATE.history, STATE.person);
+  var byLang = latestPerLanguage(personHistory);
+  var codes = Object.keys(byLang);
+  if (codes.length < 2) { slot.innerHTML = ''; return; }
+
+  var entries = codes.map(function (code) {
+    var rec = byLang[code];
+    var hasCi = typeof rec.ciLo === 'number' && typeof rec.ciHi === 'number';
+    var hasCurve = rec.curve && typeof rec.curve.a === 'number' && typeof rec.curve.b === 'number';
+    return {
+      code: code,
+      label: languageLabel(code),
+      color: colorForLang(code),
+      curve: rec.curve,
+      estimate: Math.round(rec.estimate),
+      margin: hasCi ? Math.round((rec.ciHi - rec.ciLo) / 2) : null,
+      eligibleCount: (typeof rec.eligibleCount === 'number') ? rec.eligibleCount : null,
+      compareScore: hasCurve ? comparableEstimate(rec.curve, COMPARE_DEPTH) : null,
+    };
+  }).filter(function (e) { return e.compareScore != null; })
+    .sort(function (a, b) { return b.compareScore - a.compareScore; });
+
+  // A malformed/pre-curve record (shouldn't happen with real data — every
+  // sitting has stored a curve since day one) could drop a language below
+  // the filter above; re-check the post-filter count so the panel never
+  // renders a "compare" view with only one usable language in it.
+  if (entries.length < 2) { slot.innerHTML = ''; return; }
+
+  var rows = entries.map(function (e) {
+    var eligStr = e.eligibleCount != null ? ' <span class="muted">of ' + e.eligibleCount.toLocaleString() + '</span>' : '';
+    var marginStr = e.margin != null ? ' <span class="muted">(± ' + e.margin.toLocaleString() + ')</span>' : '';
+    return '<tr><td><span class="compare-swatch" style="background:' + e.color + '"></span>' + esc(e.label) + '</td>'
+      + '<td>≈ ' + e.estimate.toLocaleString() + eligStr + marginStr + '</td>'
+      + '<td>' + e.compareScore.toLocaleString() + '</td></tr>';
+  }).join('');
+  var table = '<table class="compare-table"><thead><tr><th>Language</th><th>Headline estimate</th><th>Comparable @16k</th></tr></thead><tbody>' + rows + '</tbody></table>';
+
+  var chart = buildCompareCurveSvg(entries, 480, 190);
+  var legend = '<div class="compare-legend">' + entries.map(function (e) {
+    return '<span class="compare-legend-item"><span class="compare-swatch" style="background:' + e.color + '"></span>' + esc(e.label) + '</span>';
+  }).join('') + '</div>';
+
+  slot.innerHTML = '<h2>Compare languages</h2>'
+    + '<p class="small muted">Same fixed depth (top ' + COMPARE_DEPTH.toLocaleString() + ' ranks, no blocklist) for every language — comparable across languages, unlike the headline estimate above.</p>'
+    + table
+    + '<div class="curve-chart-wrap compare-curve-wrap">' + chart + '</div>'
+    + legend;
+}
+
+/* ---------------------------------------------------------------------------
+   Test flow: start -> phase 1 -> interstitial -> phase 2 -> results
+   ------------------------------------------------------------------------ */
+
+function startTest() {
+  var content = currentContent();
+  if (!content.loaded || content.error) return; // guarded by the disabled Start button; belt & suspenders
+
+  // Person-scoped exclusion (author, 2026-08-24): filter STATE.history down
+  // to the CURRENT person's own records before handing it to the existing
+  // language-aware exclusion helpers — another person's sittings must not
+  // consume this person's question pool. See the design notes' "Per-person
+  // records" section.
+  var personHistory = historyForPerson(STATE.history, STATE.person);
+  var excludedLemmas = excludedYesNoLemmas(personHistory, STATE.language, NO_REUSE_DAYS);
+  var excludedPseudo = excludedPseudoIds(personHistory, STATE.language, NO_REUSE_DAYS);
+  var blocklistSet = new Set((content.blocklist.lemmas || []));
+
+  var byBand = lemmasByBandFor(content.lemmasDoc, blocklistSet);
+  var ynSel = selectYesNoRealLemmas(byBand, excludedLemmas, 15);
+  var pwSel = selectPseudowords(content.bankDoc.pseudowords || [], excludedPseudo, 35);
+
+  STATE.reusedItems = ynSel.reusedItems || pwSel.reusedItems;
+
+  var stream = [];
+  ynSel.items.forEach(function (it) { stream.push({ kind: 'real', lemma: it.lemma, rank: it.rank }); });
+  pwSel.items.forEach(function (it) { stream.push({ kind: 'pseudo', id: it.id, form: it.form }); });
+  shuffleInPlace(stream);
+
+  STATE.phase1Stream = stream;
+  STATE.phase1Idx = 0;
+  STATE.phase1Responses = [];
+  STATE.phase2Items = [];
+  STATE.phase2Idx = 0;
+  STATE.phase2Responses = [];
+  STATE.startedAt = Date.now();
+
+  showScreen('phase1');
+  renderPhase1();
+}
+
+function shuffleInPlace(arr) {
+  for (var i = arr.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+  }
+  return arr;
+}
+
+function renderPhase1() {
+  var total = STATE.phase1Stream.length;
+  var idx = STATE.phase1Idx;
+  var item = STATE.phase1Stream[idx];
+  document.getElementById('p1-counter').textContent = 'word ' + (idx + 1) + ' of ' + total;
+  document.getElementById('p1-word').textContent = item.kind === 'real' ? item.lemma : item.form;
+}
+
+function recordPhase1(claimed) {
+  var item = STATE.phase1Stream[STATE.phase1Idx];
+  if (item.kind === 'real') {
+    STATE.phase1Responses.push({ kind: 'real', lemma: item.lemma, rank: item.rank, claimed: claimed });
+  } else {
+    STATE.phase1Responses.push({ kind: 'pseudo', id: item.id, form: item.form, claimed: claimed });
+  }
+  STATE.phase1Idx++;
+  if (STATE.phase1Idx >= STATE.phase1Stream.length) {
+    finishPhase1();
+  } else {
+    renderPhase1();
+  }
+}
+
+function finishPhase1() {
+  var yesnoReal = STATE.phase1Responses.filter(function (r) { return r.kind === 'real'; })
+    .map(function (r) { return { x: Math.log10(r.rank), claimed: r.claimed }; });
+  // No MC data yet: fit a,b only from phase-1 yes/no (g is irrelevant with
+  // an empty mc array, so any seed value for it is fine).
+  var pseudo = STATE.phase1Responses.filter(function (r) { return r.kind === 'pseudo'; })
+    .map(function (r) { return { claimed: r.claimed }; });
+  var f = computeFalseAlarmRate(pseudo);
+  var provisional = fitModel(yesnoReal, pseudo, []);
+  STATE.provisionalFit = provisional;
+
+  buildPhase2Selection(provisional);
+  showScreen('interstitial');
+}
+
+function buildPhase2Selection(provisionalFit) {
+  var content = currentContent();
+  // Same person-scoping as startTest() above — filter before the
+  // language-aware exclusion helper, never change its signature.
+  var personHistory = historyForPerson(STATE.history, STATE.person);
+  var excludedItems = excludedItemIds(personHistory, STATE.language, NO_REUSE_DAYS);
+  var edges = docBandEdges(content.lemmasDoc);
+  var byBand = bankItemsByBandFor(content.bankDoc, edges);
+
+  var weights = [];
+  for (var bi = 0; bi < 7; bi++) {
+    var loHi = bandLoHi(bi, edges);
+    var midX = bandMidpointX(loHi[0], loHi[1]);
+    var p = pKnow(provisionalFit.a, provisionalFit.b, midX);
+    weights.push(p * (1 - p));
+  }
+  // Availability = non-excluded items per band, so the allocator never asks a
+  // band for more than it can serve (shortfalls used to vanish silently);
+  // MAX_MC_PER_BAND keeps coverage even under a degenerate provisional fit.
+  var avail = [];
+  for (var ai = 0; ai < 7; ai++) {
+    avail.push((byBand[ai] || []).filter(function (it) { return !excludedItems.has(it.id); }).length);
+  }
+  var bandCounts = allocateBandCounts(weights, 60, 2, avail, MAX_MC_PER_BAND);
+  var mcSel = selectMcItems(byBand, excludedItems, bandCounts);
+  STATE.reusedItems = STATE.reusedItems || mcSel.reusedItems;
+
+  var items = mcSel.items.map(function (it) {
+    var opts = it.options.map(function (text, i) { return { text: text, isCorrect: i === it.correct }; });
+    shuffleInPlace(opts);
+    return { id: it.id, lemma: it.lemma, rank: it.rank, shuffled: opts };
+  });
+  shuffleInPlace(items);
+  STATE.phase2Items = items;
+}
+
+function renderInterstitial() {
+  // static markup, nothing to do besides show the screen
+}
+
+function beginPhase2() {
+  STATE.phase2Idx = 0;
+  showScreen('phase2');
+  renderPhase2();
+}
+
+function renderPhase2() {
+  var total = STATE.phase2Items.length;
+  var idx = STATE.phase2Idx;
+  var item = STATE.phase2Items[idx];
+  document.getElementById('p2-counter').textContent = 'item ' + (idx + 1) + ' of ' + total;
+  document.getElementById('p2-word').textContent = item.lemma;
+  var html = '';
+  item.shuffled.forEach(function (opt, i) {
+    html += '<div class="p2-opt" data-idx="' + i + '"><span class="num">' + (i + 1) + '</span><span>' + esc(opt.text) + '</span></div>';
+  });
+  html += '<div class="p2-idk" data-idx="idk"><span class="num">0</span> I don\'t know</div>';
+  document.getElementById('p2-options').innerHTML = html;
+}
+
+function recordPhase2(choiceIdxOrIdk) {
+  var item = STATE.phase2Items[STATE.phase2Idx];
+  STATE.phase2Responses.push(buildMcRecord(item, choiceIdxOrIdk));
+  STATE.phase2Idx++;
+  if (STATE.phase2Idx >= STATE.phase2Items.length) {
+    finishTest();
+  } else {
+    renderPhase2();
+  }
+}
+
+function finishTest() {
+  var content = currentContent();
+  var yesnoReal = STATE.phase1Responses.filter(function (r) { return r.kind === 'real'; });
+  var pseudo = STATE.phase1Responses.filter(function (r) { return r.kind === 'pseudo'; });
+  var mc = STATE.phase2Responses;
+
+  // INVALID-SITTING GUARD (2026-08-23, after the author's inverted pt sitting):
+  // claiming to know most of the FAKE words means the answers can't be trusted —
+  // either the keys got mixed up or the overclaim is beyond what the correction
+  // can salvage. Show an honest explanation and persist NOTHING (an invalid sitting never enters history).
+  var pseudoClaimed = pseudo.filter(function (r) { return r.claimed; }).length;
+  if (sittingLooksInvalid(pseudo.length, pseudoClaimed)) {
+    renderInvalidSitting(pseudoClaimed, pseudo.length);
+    showScreen('results');
+    return;
+  }
+
+  var responses = {
+    yesnoReal: yesnoReal.map(function (r) { return { rank: r.rank, claimed: r.claimed }; }),
+    pseudo: pseudo.map(function (r) { return { claimed: r.claimed }; }),
+    mc: mc.map(function (r) { return { rank: r.rank, outcome: r.outcome }; }),
+  };
+  // Size counts ONLY eligible (non-blocklisted) ranks — see computeSizeEligible's
+  // comment. Built here (a 30k loop, trivial) rather than cached at load so the
+  // estimate always reflects the exact list+blocklist pair being served. Same
+  // array also drives the results curve chart's re-indexed x-axis below.
+  var eligibleXs = buildEligibleXs(content.lemmasDoc, content.blocklist.lemmas);
+  var fit = fitEstimator(responses, { eligibleXs: eligibleXs });
+  STATE.finalResult = fit;
+
+  var durationSec = (Date.now() - STATE.startedAt) / 1000;
+  var perBand = buildPerBandStats(yesnoReal, pseudo, mc, fit, docBandEdges(content.lemmasDoc));
+  var pseudoClaimedCount = pseudo.filter(function (r) { return r.claimed; }).length;
+
+  var record = {
+    at: new Date().toISOString(),
+    language: STATE.language,
+    person: STATE.person,
+    listVersion: content.lemmasDoc.listVersion,
+    bankVersion: content.bankDoc.bankVersion,
+    // Own copy of the band edges in effect for THIS sitting (the author,
+    // 2026-08-24, added alongside dropping the listVersion history filter) —
+    // a record renders its own curve/band table from this, not from
+    // whatever the currently-loaded list's edges happen to be, so an older
+    // sitting stays accurate even after the live list's depth has changed.
+    bandEdges: docBandEdges(content.lemmasDoc),
+    estimate: Math.round(fit.size),
+    ciLo: Math.round(fit.ciLo),
+    ciHi: Math.round(fit.ciHi),
+    eligibleCount: fit.eligibleCount,
+    curve: { a: fit.a, b: fit.b, g: fit.g, f: fit.f },
+    pseudo: { n: pseudo.length, claimed: pseudoClaimedCount },
+    perBand: perBand,
+    usedItemIds: mc.map(function (r) { return r.id; }),
+    usedPseudoIds: pseudo.map(function (r) { return r.id; }),
+    usedYesNoLemmas: yesnoReal.map(function (r) { return r.lemma; }),
+    durationSec: Math.round(durationSec),
+    reusedItems: STATE.reusedItems,
+    // Full per-item answer detail (author, 2026-08-24: "view the full
+    // results... exactly which fake words I claimed, which yes/no questions
+    // I got wrong, which MCQ's I got wrong"). Additive fields only — every
+    // field above this comment is unchanged from before this feature, and
+    // history records saved before today simply lack these three.
+    yesnoReal: yesnoReal.map(function (r) { return { lemma: r.lemma, rank: r.rank, claimed: r.claimed }; }),
+    pseudoDetail: pseudo.map(function (r) { return { id: r.id, form: r.form, claimed: r.claimed }; }),
+    mc: mc,
+  };
+
+  // Update STATE.history synchronously (same upsert-by-`at` rule the server
+  // applies) so the trend chart is correct the INSTANT the user returns to
+  // Start, regardless of how quickly they click "Done" relative to the
+  // network round trip below. The POST itself still runs in the background
+  // for durable persistence; re-fetching afterward keeps STATE.history in
+  // sync with the server's own copy (e.g. its 500-record cap) without the
+  // UI ever depending on that round trip completing first.
+  STATE.history = STATE.history.filter(function (h) { return h.at !== record.at; }).concat([record]);
+
+  // HISTORY_SAVE_PROMISE resolves to true/false (not just undefined) so the
+  // results screen's save note can say which happened (flow-log-message).
+  HISTORY_SAVE_PROMISE = postHistory(record).then(function (ok) {
+    return fetchHistory().then(function (h) { STATE.history = h; return ok; });
+  });
+
+  // Don't block the results render on the POST landing — the estimate is
+  // already computed client-side; the POST is fire-and-forget persistence.
+  renderResults(fit, perBand, durationSec, record, eligibleXs);
+  showScreen('results');
+}
+
+function buildPerBandStats(yesnoReal, pseudo, mc, fit, edges) {
+  var f = fit.f;
+  var out = [];
+  for (var bi = 0; bi < 7; bi++) {
+    var loHi = bandLoHi(bi, edges);
+    var inYn = yesnoReal.filter(function (r) { return r.rank >= loHi[0] && r.rank <= loHi[1]; });
+    var claimed = inYn.filter(function (r) { return r.claimed; }).length;
+    var inMc = mc.filter(function (r) { return r.rank >= loHi[0] && r.rank <= loHi[1]; });
+    var correct = inMc.filter(function (r) { return r.outcome === 'correct'; }).length;
+    var idk = inMc.filter(function (r) { return r.outcome === 'idk'; }).length;
+    out.push({
+      band: loHi[0] + '-' + loHi[1],
+      yn: { real: inYn.length, claimed: claimed },
+      mc: { n: inMc.length, correct: correct, idk: idk },
+    });
+  }
+  return out;
+}
+
+// Corrected yes/no rate for a band: strips out the estimated guessing/
+// false-alarm floor f, clamping it the SAME way the estimator's own
+// likelihood does (F_CLAMP_MAX) so a session where f happened to land at
+// exactly 1.0 (every pseudoword claimed known) can't divide by zero here —
+// clampProb's own NaN handling already made this non-crashing, but clamping
+// f explicitly keeps the displayed percentage meaningful too.
+function correctedYnRate(claimed, real, f) {
+  var fC = Math.min(Math.max(f, 0), F_CLAMP_MAX);
+  return clampProb(Math.max(0, (claimed / real - fC) / (1 - fC)));
+}
+
+function renderInvalidSitting(pseudoClaimed, pseudoN) {
+  document.getElementById('results-headline').textContent = "This sitting couldn't be scored";
+  document.getElementById('results-sub').textContent =
+    'You marked ' + pseudoClaimed + ' of the ' + pseudoN + ' fake words as known. ' +
+    'That usually means the keys got mixed up (← = don’t know, → = know). ' +
+    'Nothing was saved — press Done and run it again.';
+  document.getElementById('curve-chart-slot').innerHTML =
+    '<div class="muted">No curve — the answers can’t be trusted, so no estimate was made.</div>';
+  document.getElementById('band-table-slot').innerHTML = '';
+  document.getElementById('results-duration').textContent = '';
+  document.getElementById('results-reused').textContent = '';
+  // Clear any stale detail left behind by a PRIOR valid sitting this session
+  // (nothing was saved for this one, so there is nothing to show).
+  document.getElementById('results-compare-slot').textContent = '';
+  document.getElementById('results-full-slot').innerHTML = '';
+  // Nothing was saved for an invalid sitting -- no save note either.
+  var note = document.getElementById('history-save-note');
+  note.className = 'history-save-note';
+  note.textContent = '';
+  note.style.display = 'none';
+}
+
+// Guards a stale sitting's async resolve from overwriting a LATER sitting's
+// save note (finish one sitting, start and finish a second before the
+// first's POST settles).
+var _historyNoteGen = 0;
+
+function renderResults(fit, perBand, durationSec, record, eligibleXs) {
+  var edges = docBandEdges(currentContent().lemmasDoc);
+  var margin = Math.round((fit.ciHi - fit.ciLo) / 2);
+
+  // "Saved to your history" (flow-log-message, 2026-09-25) -- only once the
+  // save actually succeeded; an error line if it failed.
+  _historyNoteGen++;
+  var historyNoteGen = _historyNoteGen;
+  var historyNote = document.getElementById('history-save-note');
+  historyNote.className = 'history-save-note';
+  historyNote.textContent = 'Saving to your history…';
+  historyNote.style.display = 'block';
+  Promise.resolve(HISTORY_SAVE_PROMISE).then(function (ok) {
+    if (historyNoteGen !== _historyNoteGen) return;
+    historyNote.textContent = ok
+      ? 'Saved to your history.'
+      : "Couldn't save to your history — check your connection and try again.";
+    historyNote.classList.toggle('ok', !!ok);
+    historyNote.classList.toggle('err', !ok);
+  });
+  // HEADLINE = the comparable score at 16,000 ranks (author, 2026-09-07:
+  // "I want the 7779 number to be the headline number") -- the same
+  // cross-language index the history headline shows; the per-language
+  // eligible-word estimate (± margin) moves down to the sub-line.
+  var comparable = (fit && typeof fit.a === 'number' && typeof fit.b === 'number')
+    ? comparableEstimate({ a: fit.a, b: fit.b }, COMPARE_DEPTH) : null;
+  document.getElementById('results-headline').textContent =
+    '≈ ' + Math.round(comparable != null ? comparable : fit.size).toLocaleString() + ' words';
+  document.getElementById('results-sub').textContent =
+    (comparable != null ? 'Comparable score, top ' + COMPARE_DEPTH.toLocaleString() + ' ranks. ' : '') +
+    'Per-language estimate: ≈ ' + Math.round(fit.size).toLocaleString() + ' words (± ' + margin.toLocaleString() +
+    ') of the ' + (fit.eligibleCount || edges[6]).toLocaleString() +
+    ' everyday dictionary words among the ' + edges[6].toLocaleString() +
+    ' most common in ' + languageLabel(record.language) + '.';
+
+  var perBandObs = perBand.map(function (b, bi) {
+    var loHi = bandLoHi(bi, edges);
+    var midX = bandMidpointX(loHi[0], loHi[1]);
+    var ynRate = b.yn.real > 0 ? correctedYnRate(b.yn.claimed, b.yn.real, fit.f) : null;
+    var mcRate = b.mc.n > 0 ? b.mc.correct / b.mc.n : null;
+    return { midX: midX, loRank: loHi[0], hiRank: loHi[1], ynRate: ynRate, mcRate: mcRate };
+  });
+  // eligibleXs (built in finishTest from the exact content this fit ran
+  // against) re-indexes the x-axis onto the eligible pool — see
+  // buildCurveSvg's own comment. fit.eligibleCount === eligibleXs.length
+  // here always (no drift on a live, freshly-fit result).
+  document.getElementById('curve-chart-slot').innerHTML = buildCurveSvg(fit, perBandObs, 520, 320, edges, eligibleXs, fit.eligibleCount);
+
+  document.getElementById('band-table-slot').innerHTML = buildBandTableHtml(perBand, fit, pseudoStatsForRecord(record), edges);
+
+  document.getElementById('results-duration').textContent = 'Test took ' + fmtDuration(durationSec);
+  document.getElementById('results-reused').textContent = record.reusedItems
+    ? 'Some items were reused because the item bank is small (dev fixture).' : '';
+
+  // Complete result detail, right here (2026-09-06, Author: "when you
+  // complete a vocab test, it should show you the complete detail of your
+  // results right there") — the comparable@16k line (same computation the
+  // history detail's own line and the trend-chart points now use) plus the
+  // full per-item answer breakdown, OPEN by default since this is the
+  // sitting he just took (history's own copy of this block stays collapsed).
+  // The separate comparable line is gone from the results screen (2026-09-07):
+  // the headline IS that number now. The slot stays in the markup, emptied.
+  var compareSlot = document.getElementById('results-compare-slot');
+  if (compareSlot) compareSlot.textContent = '';
+  var fullSlot = document.getElementById('results-full-slot');
+  if (fullSlot) fullSlot.innerHTML = buildFullAnswersHtml(record, true);
+}
+
+function buildBandTableHtml(perBand, fit, pseudoStats, edges) {
+  var rows = perBand.map(function (b, bi) {
+    var loHi = bandLoHi(bi, edges);
+    var midX = bandMidpointX(loHi[0], loHi[1]);
+    var p = pKnow(fit.a, fit.b, midX);
+    var ynPct = b.yn.real > 0
+      ? Math.round(correctedYnRate(b.yn.claimed, b.yn.real, fit.f) * 100) + '%'
+      : '—';
+    var mcStr = b.mc.n > 0 ? (b.mc.correct + '/' + b.mc.n) : '—';
+    return '<tr><td>' + esc(b.band) + '</td><td>' + ynPct + '</td><td>' + mcStr + '</td><td>' + Math.round(p * 100) + '%</td></tr>';
+  }).join('');
+  // Summary line, not an eighth band: invented words have no rank, so MC and
+  // Model p are "—". title = what this row means and why it matters.
+  var fakeRow = '<tr class="fake-row" title="Invented words mixed into the yes/no round — claiming these measures overclaim, and your real-word answers are corrected by this rate."><td>Fake words</td><td>' + fakeWordsRowText(pseudoStats) + '</td><td>—</td><td>—</td></tr>';
+  return '<table class="band-table"><thead><tr><th>Band</th><th>Yes/no (corr.)</th><th>MC right</th><th>Model p</th></tr></thead><tbody>' + rows + fakeRow + '</tbody></table>';
+}
+
+// The "Full answers" detail block, appended below the band table for
+// whichever sitting is selected — collapsed by default from the history view
+// (renderHistDetail), OPEN by default on the just-finished results screen
+// (renderResults, 2026-09-06: "when you complete a vocab test, it should
+// show you the complete detail of your results right there" — he shouldn't
+// have to click to see what he just did). `openByDefault` (falsy by default,
+// so every existing call keeps the old collapsed behavior) just adds the
+// `open` attribute to the <details> tag; nothing else about the markup
+// differs between the two call sites. Not TEST-EXTRACT'd (uses esc(), same
+// as buildBandTableHtml above); recordHasFullDetail/claimedFakeWords/
+// sortMcForReview ARE extracted and unit-tested — see the recordBuild block.
+function buildFullAnswersHtml(record, openByDefault) {
+  var openAttr = openByDefault ? ' open' : '';
+  if (!recordHasFullDetail(record)) {
+    return '<details class="full-answers"' + openAttr + '><summary>Full answers</summary>'
+      + '<div class="fa-body"><p class="small muted">' + esc(FULL_ANSWERS_UNAVAILABLE_NOTE) + '</p></div></details>';
+  }
+
+  var fakes = claimedFakeWords(record.pseudoDetail);
+  var fakeHtml = fakes.length
+    ? '<div class="fa-fake-list">' + fakes.map(function (f) { return '<span class="fa-fake-chip">' + esc(f) + '</span>'; }).join('') + '</div>'
+    : '<p class="small muted">None — you correctly said “I don’t know” to every fake word.</p>';
+
+  var ynRows = record.yesnoReal.map(function (r) {
+    return '<tr><td>' + esc(r.lemma) + '</td><td>' + esc(String(r.rank)) + '</td><td>' + (r.claimed ? 'Knew it' : "Didn't know") + '</td></tr>';
+  }).join('');
+  var ynHtml = '<p class="fa-caption small muted">No right or wrong here — just what you said.</p>'
+    + '<div class="fa-yn-wrap"><table class="fa-yn-table"><thead><tr><th>Word</th><th>Rank</th><th>You said</th></tr></thead><tbody>' + ynRows + '</tbody></table></div>';
+
+  var mcSorted = sortMcForReview(record.mc);
+  var mcHtml = mcSorted.map(function (item) {
+    var badge = item.outcome === 'correct' ? 'Correct' : (item.outcome === 'idk' ? 'Skipped' : 'Wrong');
+    var opts = (item.options || []).map(function (text, i) {
+      var cls = 'fa-mc-opt';
+      var tags = [];
+      if (i === item.correctIdx) { cls += ' is-correct'; tags.push('correct'); }
+      if (item.picked === i) {
+        tags.push('your pick');
+        if (i !== item.correctIdx) cls += ' is-picked-wrong';
+      }
+      var tagStr = tags.length ? ' <span class="fa-mc-tag">(' + esc(tags.join(', ')) + ')</span>' : '';
+      return '<div class="' + cls + '">' + esc(text) + tagStr + '</div>';
+    }).join('');
+    var idkNote = item.picked === 'idk' ? '<div class="fa-mc-opt fa-mc-idk-picked">You said: I don’t know (your pick)</div>' : '';
+    return '<div class="fa-mc-item outcome-' + esc(item.outcome) + '"><div class="fa-mc-word">' + esc(item.lemma)
+      + ' <span class="fa-mc-badge">' + badge + '</span></div><div class="fa-mc-opts">' + opts + idkNote + '</div></div>';
+  }).join('');
+
+  return '<details class="full-answers"' + openAttr + '><summary>Full answers</summary><div class="fa-body">'
+    + '<div class="fa-section"><h3>Fake words you claimed</h3>' + fakeHtml + '</div>'
+    + '<div class="fa-section"><h3>Real words, what you said</h3>' + ynHtml + '</div>'
+    + '<div class="fa-section"><h3>Multiple choice, item by item</h3>' + mcHtml + '</div>'
+    + '</div></details>';
+}
+
+function returnToStart() {
+  showScreen('start');
+  renderStartScreen();
+}
+
+/* ---------------------------------------------------------------------------
+   Keyboard + click wiring
+   ------------------------------------------------------------------------ */
+
+/* In-page confirm (flow-browser-dialogs, 2026-09-25) -- was window.confirm(),
+   which freezes the page with the browser's own grey box; every other
+   problem/confirm in the app is shown inline instead. Nothing here reads a
+   return value (the only caller is the Escape-key handler below, which never
+   used confirmQuit()'s old boolean either), so the async open/close is a
+   drop-in swap. */
+var _quitConfirmOpen = false;
+function confirmQuit() {
+  if (_quitConfirmOpen) return;
+  _quitConfirmOpen = true;
+  document.getElementById('quit-confirm-backdrop').hidden = false;
+}
+function hideQuitConfirm() {
+  _quitConfirmOpen = false;
+  document.getElementById('quit-confirm-backdrop').hidden = true;
+}
+document.getElementById('quit-confirm-cancel').addEventListener('click', hideQuitConfirm);
+document.getElementById('quit-confirm-yes').addEventListener('click', function () {
+  hideQuitConfirm();
+  returnToStart();
+});
+document.getElementById('quit-confirm-backdrop').addEventListener('click', function (e) {
+  if (e.target === e.currentTarget) hideQuitConfirm();
+});
+
+document.getElementById('lang-row').addEventListener('click', onLangRowClick);
+document.getElementById('person-row').addEventListener('click', onPersonRowClick);
+document.getElementById('person-row').addEventListener('keydown', onPersonRowKeydown);
+document.getElementById('hist-chart-slot').addEventListener('click', onTrendChartClick);
+document.getElementById('btn-start').addEventListener('click', startTest);
+document.getElementById('p1-know').addEventListener('click', function () { recordPhase1(true); });
+document.getElementById('p1-dontknow').addEventListener('click', function () { recordPhase1(false); });
+document.getElementById('btn-continue').addEventListener('click', beginPhase2);
+document.getElementById('btn-done').addEventListener('click', returnToStart);
+document.getElementById('p2-options').addEventListener('click', function (e) {
+  var opt = e.target.closest('[data-idx]');
+  if (!opt) return;
+  var idx = opt.getAttribute('data-idx');
+  recordPhase2(idx === 'idk' ? 'idk' : parseInt(idx, 10));
+});
+
+document.addEventListener('keydown', function (e) {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  var screen = STATE.screen;
+
+  if (e.key === 'Escape' && _quitConfirmOpen) {
+    e.preventDefault();
+    if (!e.repeat) hideQuitConfirm();
+    return;
+  }
+
+  if (e.key === 'Escape' && (screen === 'phase1' || screen === 'interstitial' || screen === 'phase2')) {
+    e.preventDefault();
+    if (!e.repeat) confirmQuit();
+    return;
+  }
+
+  // e.repeat GUARD (2026-08-23, Author: holding a key must not mark several
+  // answers) — the OS fires repeated keydown events while a key is held, each
+  // with e.repeat === true. Every matched key below still calls
+  // preventDefault() on a repeat (so nothing leaks through to the browser),
+  // but the actual answer/advance only fires on the FIRST (non-repeat) press
+  // — `if (!e.repeat) fn()`, never a bare `fn()`, on every action branch.
+  if (screen === 'phase1') {
+    // Un-hinted 1/2 mappings were REMOVED (2026-08-23): a silent extra key that
+    // records an answer nobody was told about is exactly how a sitting gets
+    // corrupted without the user noticing. Arrows (+ K/D) only, as hinted.
+    if (e.key === 'ArrowRight' || e.key === 'k' || e.key === 'K') { e.preventDefault(); if (!e.repeat) recordPhase1(true); }
+    else if (e.key === 'ArrowLeft' || e.key === 'd' || e.key === 'D') { e.preventDefault(); if (!e.repeat) recordPhase1(false); }
+  } else if (screen === 'interstitial') {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); if (!e.repeat) beginPhase2(); }
+  } else if (screen === 'phase2') {
+    if (['1', '2', '3', '4'].indexOf(e.key) !== -1) {
+      var idx = parseInt(e.key, 10) - 1;
+      if (idx < STATE.phase2Items[STATE.phase2Idx].shuffled.length) { e.preventDefault(); if (!e.repeat) recordPhase2(idx); }
+    } else if (e.key === '0') {
+      e.preventDefault(); if (!e.repeat) recordPhase2('idk');
+    }
+  }
+});
+
+/* ---------------------------------------------------------------------------
+   Boot
+   ------------------------------------------------------------------------ */
+
+function boot() {
+  STATE.language = loadPickedLanguage();
+  STATE.personList = loadPersonList();
+  STATE.person = loadPickedPerson(knownPersons(STATE.history, STATE.personList)); // history is still [] here; re-resolved below
+  renderStartScreen(); // paint immediately (pills + "loading" state) before any fetch lands
+  return fetchHistory().then(function (h) {
+    STATE.history = h;
+    // Re-resolve now that history is loaded: a stored person that only
+    // exists via a history record's `person` field (not in personList, e.g.
+    // added from another device) should be honored once we can see it here.
+    STATE.person = loadPickedPerson(knownPersons(STATE.history, STATE.personList));
+    return loadContentForLanguage(STATE.language);
+  }).then(function () {
+    renderStartScreen();
+  });
+}
+
+boot().catch(function (e) {
+  // loadContentForLanguage/fetchHistory both swallow their own errors into
+  // {error:...} state / an empty list, so this only fires on a genuine
+  // unexpected exception (e.g. a missing DOM node) — not a network failure,
+  // which renderStartScreen already surfaces as a per-language error card.
+  console.error('boot failed unexpectedly', e);
+});
+
+</script>
+</body>
+</html>

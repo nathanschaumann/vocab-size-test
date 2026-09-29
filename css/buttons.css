@@ -1,0 +1,14 @@
+/* Shared button look for the .btn family (main, secondary, danger, sm, lg).
+   Scoped to <html class="it-app"> with :where() so page rules can override. */
+:where(.it-app) button.btn {
+  border: none; border-radius: var(--radius-btn); padding: 8px 16px; font-weight: 700; font-size: 0.86rem;
+  cursor: pointer; background: var(--accent); color: #fff;
+}
+:where(.it-app) button.btn:hover { opacity: 0.92; }
+:where(.it-app) button.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+:where(.it-app) button.btn.secondary { background: #e4e8f1; color: var(--text); }
+/* FILL is --danger-text not --danger: white text on the plain fill fails contrast. */
+:where(.it-app) button.btn.danger { background: var(--danger-text); border-color: var(--danger-text); color: #fff; }
+:where(.it-app) button.btn.danger:hover:not(:disabled) { opacity: 0.88; }
+:where(.it-app) button.btn.sm { padding: 5px 12px; font-size: 0.78rem; }
+:where(.it-app) button.btn.lg { padding: 14px 20px; font-size: 1.05rem; }

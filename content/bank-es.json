@@ -1,0 +1,9896 @@
+{
+ "language": "es",
+ "bankVersion": "es-bank-v2",
+ "listVersion": "es-lemmas-v1",
+ "items": [
+  {
+   "id": "mc-es-0001",
+   "lemma": "ir",
+   "rank": 25,
+   "pos": "verb",
+   "options": [
+    "to go",
+    "to open",
+    "to ask",
+    "to live"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0002",
+   "lemma": "gracia",
+   "rank": 96,
+   "pos": "noun",
+   "options": [
+    "grace, charm, or humor",
+    "branch or bough",
+    "warning or notice",
+    "stain or spot"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0003",
+   "lemma": "lugar",
+   "rank": 98,
+   "pos": "noun",
+   "options": [
+    "place, location",
+    "morning light, dawn",
+    "iron tool, pressing device",
+    "grief, deep sorrow"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0004",
+   "lemma": "gran",
+   "rank": 108,
+   "pos": "adj",
+   "options": [
+    "great, large",
+    "first, primary",
+    "dark, obscure",
+    "free, open"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0005",
+   "lemma": "menos",
+   "rank": 109,
+   "pos": "adv",
+   "options": [
+    "less or fewer",
+    "often or frequently",
+    "almost or nearly",
+    "together or jointly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0006",
+   "lemma": "hombre",
+   "rank": 118,
+   "pos": "noun",
+   "options": [
+    "man",
+    "floor",
+    "wave",
+    "leaf"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0007",
+   "lemma": "momento",
+   "rank": 129,
+   "pos": "noun",
+   "options": [
+    "brief point in time, instant",
+    "behavior, personal conduct",
+    "flavor, taste sensation",
+    "harvest, crop gathering"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0008",
+   "lemma": "aquí",
+   "rank": 140,
+   "pos": "adv",
+   "options": [
+    "here",
+    "now",
+    "already",
+    "below"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0009",
+   "lemma": "hoy",
+   "rank": 143,
+   "pos": "adv",
+   "options": [
+    "today",
+    "outside",
+    "later",
+    "perhaps"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0010",
+   "lemma": "nombre",
+   "rank": 168,
+   "pos": "noun",
+   "options": [
+    "name",
+    "cloud",
+    "shoulder",
+    "number"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0011",
+   "lemma": "entonces",
+   "rank": 180,
+   "pos": "adv",
+   "options": [
+    "then, at that time",
+    "below, at a lower level",
+    "far away, at a distance",
+    "instead, in place of that"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0012",
+   "lemma": "mal",
+   "rank": 189,
+   "pos": "adv",
+   "options": [
+    "badly, poorly",
+    "soon, in a short time",
+    "fully, to the greatest degree",
+    "rarely, not often"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0013",
+   "lemma": "único",
+   "rank": 198,
+   "pos": "adj",
+   "options": [
+    "only or unique",
+    "narrow or tight",
+    "equal or same",
+    "clean or pure"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0014",
+   "lemma": "existir",
+   "rank": 211,
+   "pos": "verb",
+   "options": [
+    "to be, to have being",
+    "to remain",
+    "to travel",
+    "to succeed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0015",
+   "lemma": "terminar",
+   "rank": 215,
+   "pos": "verb",
+   "options": [
+    "to finish or end",
+    "to measure or gauge",
+    "to climb or ascend",
+    "to borrow or lend"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0016",
+   "lemma": "cierto",
+   "rank": 218,
+   "pos": "adj",
+   "options": [
+    "certain, true, sure",
+    "deaf, unable to hear",
+    "flat, without elevation",
+    "raw, uncooked"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0017",
+   "lemma": "pasado",
+   "rank": 220,
+   "pos": "noun",
+   "options": [
+    "the past",
+    "the attempt",
+    "the border",
+    "the deal"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0018",
+   "lemma": "vivir",
+   "rank": 221,
+   "pos": "verb",
+   "options": [
+    "to live",
+    "to travel",
+    "to follow",
+    "to suffer"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0019",
+   "lemma": "casi",
+   "rank": 231,
+   "pos": "adv",
+   "options": [
+    "almost, nearly",
+    "often, frequently",
+    "rather, somewhat",
+    "meanwhile, at the same time"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0020",
+   "lemma": "malo",
+   "rank": 255,
+   "pos": "adj",
+   "options": [
+    "bad or evil",
+    "wide or broad",
+    "early or premature",
+    "sharp or pointed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0021",
+   "lemma": "mañana",
+   "rank": 265,
+   "pos": "noun",
+   "options": [
+    "morning, early part of day",
+    "wedding, marriage ceremony",
+    "drawer, storage compartment",
+    "sleeve, arm of a garment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0022",
+   "lemma": "tratar",
+   "rank": 297,
+   "pos": "verb",
+   "options": [
+    "to treat or deal with",
+    "to cross or traverse",
+    "to swallow or ingest",
+    "to grind or crush"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0023",
+   "lemma": "zona",
+   "rank": 308,
+   "pos": "noun",
+   "options": [
+    "district, bounded stretch of land",
+    "wrinkle, skin fold",
+    "prayer, religious petition",
+    "stain, dirty mark"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0024",
+   "lemma": "ojo",
+   "rank": 340,
+   "pos": "noun",
+   "options": [
+    "eye",
+    "shoulder",
+    "bone",
+    "chest"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0025",
+   "lemma": "intentar",
+   "rank": 353,
+   "pos": "verb",
+   "options": [
+    "to try, to attempt",
+    "to invite",
+    "to listen",
+    "to change"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0026",
+   "lemma": "base",
+   "rank": 361,
+   "pos": "noun",
+   "options": [
+    "bottom support, foundation",
+    "flock, herd of animals",
+    "vein, blood vessel",
+    "oath, solemn promise"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0027",
+   "lemma": "comer",
+   "rank": 363,
+   "pos": "verb",
+   "options": [
+    "to eat",
+    "to sleep",
+    "to run",
+    "to laugh"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0028",
+   "lemma": "blanco",
+   "rank": 371,
+   "pos": "adj",
+   "options": [
+    "white in color",
+    "bitter, sharp in flavor",
+    "loose, not tight",
+    "damp, slightly wet"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0029",
+   "lemma": "preguntar",
+   "rank": 379,
+   "pos": "verb",
+   "options": [
+    "to ask, to inquire",
+    "to prepare",
+    "to warn",
+    "to promise"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0030",
+   "lemma": "aparecer",
+   "rank": 381,
+   "pos": "verb",
+   "options": [
+    "to appear, to show up",
+    "to belong, to own",
+    "to greet, to welcome",
+    "to argue, to dispute"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0031",
+   "lemma": "actividad",
+   "rank": 382,
+   "pos": "noun",
+   "options": [
+    "task, ongoing pursuit or doing",
+    "loyalty, faithful devotion",
+    "moisture, slight wetness",
+    "loneliness, lack of company"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0032",
+   "lemma": "comprar",
+   "rank": 387,
+   "pos": "verb",
+   "options": [
+    "to buy",
+    "to carry",
+    "to fold",
+    "to share"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0033",
+   "lemma": "ambos",
+   "rank": 392,
+   "pos": "other",
+   "options": [
+    "both",
+    "few",
+    "each",
+    "several"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0034",
+   "lemma": "libre",
+   "rank": 393,
+   "pos": "adj",
+   "options": [
+    "free, not restricted",
+    "narrow, of little width",
+    "sour, acidic in taste",
+    "bald, without hair"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0035",
+   "lemma": "página",
+   "rank": 415,
+   "pos": "noun",
+   "options": [
+    "page of a document",
+    "salary, earned wage",
+    "eyelid, eye covering",
+    "flock, group of birds"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0036",
+   "lemma": "habla",
+   "rank": 419,
+   "pos": "noun",
+   "options": [
+    "speech, spoken language",
+    "savings, stored funds",
+    "hunger, lack of food",
+    "thread, sewing fiber"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0037",
+   "lemma": "trata",
+   "rank": 444,
+   "pos": "verb",
+   "options": [
+    "treats, deals with",
+    "carries, brings",
+    "crosses, passes",
+    "watches, observes"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0038",
+   "lemma": "actual",
+   "rank": 447,
+   "pos": "adj",
+   "options": [
+    "current or present-day",
+    "sharp or keen",
+    "distant or remote",
+    "gentle or mild"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0039",
+   "lemma": "consejo",
+   "rank": 477,
+   "pos": "noun",
+   "options": [
+    "advice, recommendation",
+    "ceiling, upper room surface",
+    "makeup, cosmetic preparation",
+    "thread, thin cord"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0040",
+   "lemma": "espacio",
+   "rank": 499,
+   "pos": "noun",
+   "options": [
+    "space or room",
+    "mirror or reflection",
+    "shoulder or back",
+    "stage or platform"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0041",
+   "lemma": "relación",
+   "rank": 504,
+   "pos": "noun",
+   "options": [
+    "relationship, connection",
+    "complaint, grievance",
+    "improvement, progress",
+    "shortage, lack"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0042",
+   "lemma": "vuelta",
+   "rank": 520,
+   "pos": "noun",
+   "options": [
+    "return or turn",
+    "wound or injury",
+    "birth or origin",
+    "debt or fault"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0043",
+   "lemma": "vos",
+   "rank": 523,
+   "pos": "other",
+   "options": [
+    "you (singular)",
+    "ourselves (plural)",
+    "theirs (possessive)",
+    "whoever (relative)"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0044",
+   "lemma": "llamado",
+   "rank": 538,
+   "pos": "adj",
+   "options": [
+    "called, named, so-called",
+    "worn out, exhausted",
+    "wrapped, covered",
+    "broken, damaged"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0045",
+   "lemma": "sur",
+   "rank": 547,
+   "pos": "noun",
+   "options": [
+    "south",
+    "floor or ground",
+    "taste or flavor",
+    "luck or fate"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0046",
+   "lemma": "marzo",
+   "rank": 549,
+   "pos": "noun",
+   "options": [
+    "March",
+    "Tuesday",
+    "autumn",
+    "morning"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0047",
+   "lemma": "popular",
+   "rank": 550,
+   "pos": "adj",
+   "options": [
+    "well-liked, widely admired",
+    "boring, uninteresting",
+    "ashamed, embarrassed",
+    "narrow, tight-fitting"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0048",
+   "lemma": "apoyar",
+   "rank": 564,
+   "pos": "verb",
+   "options": [
+    "to support or back",
+    "to punish or penalize",
+    "to walk or stroll",
+    "to notice or observe"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0049",
+   "lemma": "área",
+   "rank": 569,
+   "pos": "noun",
+   "options": [
+    "bounded stretch of ground, patch",
+    "needle or pin",
+    "altar or shrine",
+    "weapon or arm"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0050",
+   "lemma": "dormir",
+   "rank": 577,
+   "pos": "verb",
+   "options": [
+    "to sleep",
+    "to marry or wed",
+    "to hear or listen",
+    "to charge or bill"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0051",
+   "lemma": "allá",
+   "rank": 580,
+   "pos": "adv",
+   "options": [
+    "over there, yonder",
+    "almost, nearly",
+    "therefore, thus",
+    "again, once more"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0052",
+   "lemma": "río",
+   "rank": 583,
+   "pos": "noun",
+   "options": [
+    "river",
+    "kingdom or reign",
+    "noise or sound",
+    "prayer or request"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0053",
+   "lemma": "verdadero",
+   "rank": 594,
+   "pos": "adj",
+   "options": [
+    "true, genuine, real",
+    "bitter, harsh",
+    "slender, thin",
+    "bold, daring"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0054",
+   "lemma": "estudiar",
+   "rank": 598,
+   "pos": "verb",
+   "options": [
+    "to study, to learn",
+    "to rest, to relax",
+    "to vote, to elect",
+    "to cook, to prepare food"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0055",
+   "lemma": "demostrar",
+   "rank": 600,
+   "pos": "verb",
+   "options": [
+    "to demonstrate or prove",
+    "to threaten or warn",
+    "to recover or get back",
+    "to hire or recruit"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0056",
+   "lemma": "república",
+   "rank": 605,
+   "pos": "noun",
+   "options": [
+    "state governed by chosen leaders",
+    "neighborhood",
+    "headquarters",
+    "workforce"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0057",
+   "lemma": "recuerdo",
+   "rank": 615,
+   "pos": "noun",
+   "options": [
+    "memory or souvenir",
+    "shelter or refuge",
+    "census or count",
+    "harvest or crop"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0058",
+   "lemma": "rápido",
+   "rank": 617,
+   "pos": "adj",
+   "options": [
+    "fast, quick",
+    "dense, thick",
+    "gentle, mild",
+    "hollow, empty"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0059",
+   "lemma": "nación",
+   "rank": 634,
+   "pos": "noun",
+   "options": [
+    "people sharing land and government",
+    "opinion, viewpoint",
+    "boundary, border",
+    "relation, connection"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0060",
+   "lemma": "perro",
+   "rank": 640,
+   "pos": "noun",
+   "options": [
+    "dog",
+    "lock, padlock",
+    "stick, club",
+    "chest, box"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0061",
+   "lemma": "construir",
+   "rank": 645,
+   "pos": "verb",
+   "options": [
+    "to put up, to make a building",
+    "to celebrate, to honor",
+    "to punish, to penalize",
+    "to marry, to wed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0062",
+   "lemma": "agosto",
+   "rank": 649,
+   "pos": "noun",
+   "options": [
+    "August (month)",
+    "sunrise",
+    "harvest season",
+    "weekly market"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0063",
+   "lemma": "aumentar",
+   "rank": 655,
+   "pos": "verb",
+   "options": [
+    "to increase, to raise",
+    "to travel, to journey",
+    "to hire, to employ",
+    "to threaten, to warn"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0064",
+   "lemma": "lucha",
+   "rank": 659,
+   "pos": "noun",
+   "options": [
+    "struggle or fight",
+    "address or location",
+    "harvest or crop yield",
+    "shade or shadow"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0065",
+   "lemma": "auto",
+   "rank": 666,
+   "pos": "noun",
+   "options": [
+    "car, automobile",
+    "sidewalk, pavement",
+    "drawer, cabinet",
+    "flight, airplane trip"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0066",
+   "lemma": "destacar",
+   "rank": 667,
+   "pos": "verb",
+   "options": [
+    "to stand out or emphasize",
+    "to slow down or stall",
+    "to rebuild or restore",
+    "to disagree or object"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0067",
+   "lemma": "valor",
+   "rank": 679,
+   "pos": "noun",
+   "options": [
+    "value or courage",
+    "flight or journey",
+    "lawsuit or trial",
+    "harvest or season"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0068",
+   "lemma": "dólar",
+   "rank": 687,
+   "pos": "noun",
+   "options": [
+    "main US unit of money",
+    "pain or grief",
+    "owner or landlord",
+    "gift or donation"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0069",
+   "lemma": "isla",
+   "rank": 703,
+   "pos": "noun",
+   "options": [
+    "island",
+    "wing or flank",
+    "thread or yarn",
+    "sunrise or dawn"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0070",
+   "lemma": "sufrir",
+   "rank": 719,
+   "pos": "verb",
+   "options": [
+    "to suffer, to endure",
+    "to whistle, to trill",
+    "to sweep, to clean",
+    "to wrap, to bundle"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0071",
+   "lemma": "sueño",
+   "rank": 727,
+   "pos": "noun",
+   "options": [
+    "dream, sleep",
+    "salary, wages",
+    "effort, attempt",
+    "ceiling, roof"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0072",
+   "lemma": "vía",
+   "rank": 728,
+   "pos": "noun",
+   "options": [
+    "route, track, road",
+    "envy, jealousy",
+    "fault, blame",
+    "lid, cover"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0073",
+   "lemma": "directo",
+   "rank": 733,
+   "pos": "adj",
+   "options": [
+    "going straight, without turning",
+    "narrow, tight",
+    "proud, arrogant",
+    "sharp, pointed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0074",
+   "lemma": "ah",
+   "rank": 745,
+   "pos": "other",
+   "options": [
+    "ah (exclamation of realization)",
+    "ouch (exclamation of pain)",
+    "shh (exclamation of silence)",
+    "ugh (exclamation of disgust)"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0075",
+   "lemma": "ministerio",
+   "rank": 750,
+   "pos": "noun",
+   "options": [
+    "government department, state office",
+    "trade union, labor guild",
+    "court ruling, verdict",
+    "public square, plaza"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0076",
+   "lemma": "perdido",
+   "rank": 755,
+   "pos": "adj",
+   "options": [
+    "lost, missing",
+    "damp, humid",
+    "blunt, dull",
+    "sharp, acute"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0077",
+   "lemma": "par",
+   "rank": 790,
+   "pos": "noun",
+   "options": [
+    "two of a kind, matched duo",
+    "flight of stairs",
+    "garden wall",
+    "wooden shelf"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0078",
+   "lemma": "determinar",
+   "rank": 792,
+   "pos": "verb",
+   "options": [
+    "to settle, to reach a decision",
+    "to defend, to protect",
+    "to borrow, to lend",
+    "to collapse, to fall apart"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0079",
+   "lemma": "hermoso",
+   "rank": 796,
+   "pos": "adj",
+   "options": [
+    "beautiful, lovely",
+    "narrow, tight",
+    "bitter, sour",
+    "remote, distant"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0080",
+   "lemma": "fútbol",
+   "rank": 799,
+   "pos": "noun",
+   "options": [
+    "soccer, football",
+    "board game",
+    "swimming pool",
+    "horse race"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0081",
+   "lemma": "joder",
+   "rank": 804,
+   "pos": "verb",
+   "options": [
+    "to annoy, to screw up",
+    "to play, to gamble",
+    "to sink, to submerge",
+    "to swear, to take an oath"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0082",
+   "lemma": "curso",
+   "rank": 808,
+   "pos": "noun",
+   "options": [
+    "course, academic term",
+    "floor, story of a building",
+    "shadow, shade from light",
+    "border, edge of a surface"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0083",
+   "lemma": "comercial",
+   "rank": 822,
+   "pos": "adj",
+   "options": [
+    "related to buying and selling",
+    "coastal, maritime",
+    "religious, spiritual",
+    "military, armed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0084",
+   "lemma": "planta",
+   "rank": 834,
+   "pos": "noun",
+   "options": [
+    "green growing thing with roots",
+    "silver or money",
+    "beach or shore",
+    "square or plaza"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0085",
+   "lemma": "gusto",
+   "rank": 847,
+   "pos": "noun",
+   "options": [
+    "pleasure, taste",
+    "effort, struggle",
+    "shortage, scarcity",
+    "silence, quiet"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0086",
+   "lemma": "particular",
+   "rank": 848,
+   "pos": "adj",
+   "options": [
+    "specific, belonging to one thing",
+    "cheerful, lively",
+    "ancient, old",
+    "shallow, superficial"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0087",
+   "lemma": "cuánto",
+   "rank": 849,
+   "pos": "other",
+   "options": [
+    "how much, how many",
+    "why, for what reason",
+    "whose, belonging to whom",
+    "whenever, at what time"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0088",
+   "lemma": "enfermedad",
+   "rank": 883,
+   "pos": "noun",
+   "options": [
+    "illness, disease",
+    "public election",
+    "written agreement",
+    "evening prayer"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0089",
+   "lemma": "juez",
+   "rank": 885,
+   "pos": "noun",
+   "options": [
+    "judge",
+    "game",
+    "oath",
+    "youth"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0090",
+   "lemma": "pago",
+   "rank": 886,
+   "pos": "noun",
+   "options": [
+    "payment",
+    "hallway, corridor",
+    "wooden floor",
+    "marriage ceremony"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0091",
+   "lemma": "asociación",
+   "rank": 910,
+   "pos": "noun",
+   "options": [
+    "group joined for a shared goal",
+    "afternoon nap",
+    "kitchen stove",
+    "hunting season"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0092",
+   "lemma": "probablemente",
+   "rank": 921,
+   "pos": "adv",
+   "options": [
+    "most likely, in all likelihood",
+    "slowly, unhurriedly",
+    "clearly, evidently",
+    "recently, lately"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0093",
+   "lemma": "solamente",
+   "rank": 922,
+   "pos": "adv",
+   "options": [
+    "only, just",
+    "slowly, gradually",
+    "often, frequently",
+    "nearly, almost"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0094",
+   "lemma": "género",
+   "rank": 932,
+   "pos": "noun",
+   "options": [
+    "gender; genre, type",
+    "tax collection",
+    "iron railing",
+    "wedding vow"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0095",
+   "lemma": "fiscal",
+   "rank": 954,
+   "pos": "adj",
+   "options": [
+    "relating to taxes and public funds",
+    "rural, countryside",
+    "foreign, overseas",
+    "criminal, penal"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0096",
+   "lemma": "constitución",
+   "rank": 957,
+   "pos": "noun",
+   "options": [
+    "founding law of a nation",
+    "harvest, crop yield",
+    "neighborhood, district",
+    "storage, warehouse space"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0097",
+   "lemma": "contrato",
+   "rank": 962,
+   "pos": "noun",
+   "options": [
+    "binding written agreement between parties",
+    "account balance, ledger",
+    "tax return, filing",
+    "building permit, license"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0098",
+   "lemma": "hermanar",
+   "rank": 967,
+   "pos": "verb",
+   "options": [
+    "to unite, to twin",
+    "to wound, to injure",
+    "to boil, to heat up",
+    "to envy, to covet"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0099",
+   "lemma": "atacar",
+   "rank": 968,
+   "pos": "verb",
+   "options": [
+    "to attack, to assault",
+    "to wrap, to bundle",
+    "to rent, to lease",
+    "to widen, to broaden"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0100",
+   "lemma": "suelo",
+   "rank": 973,
+   "pos": "noun",
+   "options": [
+    "floor, ground, soil",
+    "iron gate",
+    "fishing net",
+    "bed pillow"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0101",
+   "lemma": "estrella",
+   "rank": 1007,
+   "pos": "noun",
+   "options": [
+    "star, celestial body",
+    "thorn, sharp spike",
+    "wave, ocean swell",
+    "staircase, steps"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0102",
+   "lemma": "municipal",
+   "rank": 1008,
+   "pos": "adj",
+   "options": [
+    "belonging to a town or city",
+    "bare, without covering",
+    "deaf, unable to hear",
+    "oval, egg-shaped"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0103",
+   "lemma": "representante",
+   "rank": 1041,
+   "pos": "noun",
+   "options": [
+    "person who speaks for others",
+    "doorstep, entrance threshold",
+    "hinge, connecting joint",
+    "shepherd, livestock herder"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0104",
+   "lemma": "exigir",
+   "rank": 1047,
+   "pos": "verb",
+   "options": [
+    "to demand or require",
+    "to paint or decorate",
+    "to swim or float",
+    "to wrap or cover"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0105",
+   "lemma": "afectar",
+   "rank": 1051,
+   "pos": "verb",
+   "options": [
+    "to affect, to have an impact on",
+    "to rinse, to wash lightly",
+    "to brag, to boast openly",
+    "to trot, to move at pace"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0106",
+   "lemma": "pase",
+   "rank": 1057,
+   "pos": "noun",
+   "options": [
+    "ticket granting entry or access",
+    "harvest",
+    "wound",
+    "corner"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0107",
+   "lemma": "comentar",
+   "rank": 1059,
+   "pos": "verb",
+   "options": [
+    "to comment or remark on",
+    "to bury or inter",
+    "to hire or take on staff",
+    "to bend or curve"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0108",
+   "lemma": "declaración",
+   "rank": 1067,
+   "pos": "noun",
+   "options": [
+    "formal spoken or written statement",
+    "rural landscape, countryside",
+    "pilgrimage, religious journey",
+    "savings, financial reserve"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0109",
+   "lemma": "básico",
+   "rank": 1073,
+   "pos": "adj",
+   "options": [
+    "fundamental, at the lowest level",
+    "timid, easily frightened",
+    "hollow, empty inside",
+    "curved, bent in shape"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0110",
+   "lemma": "discurso",
+   "rank": 1107,
+   "pos": "noun",
+   "options": [
+    "speech, address",
+    "warehouse, storage facility",
+    "staircase, flight of stairs",
+    "wound, bodily injury"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0111",
+   "lemma": "finar",
+   "rank": 1113,
+   "pos": "verb",
+   "options": [
+    "to die, to pass away",
+    "to sweep, to clean the floor",
+    "to lock, to fasten shut",
+    "to sail, to navigate by sea"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0112",
+   "lemma": "soldado",
+   "rank": 1130,
+   "pos": "noun",
+   "options": [
+    "soldier",
+    "wooden floor plank",
+    "fishing net or trap",
+    "lock or latch"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0113",
+   "lemma": "resultar",
+   "rank": 1133,
+   "pos": "verb",
+   "options": [
+    "to turn out, to end up being",
+    "to rent, to lease",
+    "to greet, to welcome",
+    "to kneel, to bow down"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0114",
+   "lemma": "enorme",
+   "rank": 1146,
+   "pos": "adj",
+   "options": [
+    "very large, of great size",
+    "foreign or strange",
+    "calm or peaceful",
+    "bitter or harsh"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0115",
+   "lemma": "hambre",
+   "rank": 1154,
+   "pos": "noun",
+   "options": [
+    "hunger or starvation",
+    "noise or loud sound",
+    "shadow or darkness",
+    "skill or talent"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0116",
+   "lemma": "cubrir",
+   "rank": 1163,
+   "pos": "verb",
+   "options": [
+    "to cover",
+    "to lend",
+    "to follow",
+    "to greet"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0117",
+   "lemma": "norma",
+   "rank": 1196,
+   "pos": "noun",
+   "options": [
+    "rule or standard",
+    "signature or seal",
+    "care or upkeep",
+    "border or boundary line"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0118",
+   "lemma": "piso",
+   "rank": 1207,
+   "pos": "noun",
+   "options": [
+    "floor, apartment",
+    "bucket, pail",
+    "mirror, reflection",
+    "branch, twig"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0119",
+   "lemma": "árbol",
+   "rank": 1213,
+   "pos": "noun",
+   "options": [
+    "tree",
+    "ceiling, upper surface of room",
+    "thread, sewing material",
+    "shoulder, upper body joint"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0120",
+   "lemma": "crédito",
+   "rank": 1215,
+   "pos": "noun",
+   "options": [
+    "trust given to a borrower",
+    "harvest or crop",
+    "border or boundary",
+    "witness or testimony"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0121",
+   "lemma": "digital",
+   "rank": 1222,
+   "pos": "adj",
+   "options": [
+    "of or relating to fingers",
+    "military, armed-forces",
+    "rural, countryside",
+    "annual, yearly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0122",
+   "lemma": "permanecer",
+   "rank": 1223,
+   "pos": "verb",
+   "options": [
+    "to remain or stay",
+    "to borrow or lend",
+    "to climb or ascend",
+    "to hurt or harm"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0123",
+   "lemma": "elegir",
+   "rank": 1228,
+   "pos": "verb",
+   "options": [
+    "to choose, to elect",
+    "to lean, to tilt sideways",
+    "to sneeze, to expel air",
+    "to wrap, to bundle together"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0124",
+   "lemma": "funcionario",
+   "rank": 1232,
+   "pos": "noun",
+   "options": [
+    "government official or civil servant",
+    "business partner or associate",
+    "defense lawyer or attorney",
+    "army soldier or recruit"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0125",
+   "lemma": "capítulo",
+   "rank": 1253,
+   "pos": "noun",
+   "options": [
+    "chapter of a book",
+    "flavor, taste sensation",
+    "drawer, furniture compartment",
+    "shoreline, coastal strip"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0126",
+   "lemma": "tendencia",
+   "rank": 1258,
+   "pos": "noun",
+   "options": [
+    "drift or pull toward something",
+    "cinnamon, cooking spice",
+    "blizzard, heavy snowstorm",
+    "meadow, open grassy field"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0127",
+   "lemma": "prohibir",
+   "rank": 1259,
+   "pos": "verb",
+   "options": [
+    "to forbid or not allow",
+    "to suspect",
+    "to measure",
+    "to float"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0128",
+   "lemma": "matrimonio",
+   "rank": 1260,
+   "pos": "noun",
+   "options": [
+    "marriage",
+    "headquarters",
+    "harvest",
+    "punishment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0129",
+   "lemma": "técnico",
+   "rank": 1267,
+   "pos": "adj",
+   "options": [
+    "technical",
+    "physical",
+    "legal",
+    "military"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0130",
+   "lemma": "clara",
+   "rank": 1270,
+   "pos": "adj",
+   "options": [
+    "clear, light-colored",
+    "narrow, tight-fitting",
+    "bitter, sour-tasting",
+    "rough, uneven"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0131",
+   "lemma": "judicial",
+   "rank": 1278,
+   "pos": "adj",
+   "options": [
+    "of the law courts",
+    "neighboring or adjacent",
+    "weekly or periodic",
+    "coastal or maritime"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0132",
+   "lemma": "exponer",
+   "rank": 1282,
+   "pos": "verb",
+   "options": [
+    "to expose or present",
+    "to demand or require",
+    "to celebrate or honor",
+    "to hire or recruit"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0133",
+   "lemma": "añadir",
+   "rank": 1291,
+   "pos": "verb",
+   "options": [
+    "to add or append",
+    "to graze or pasture livestock",
+    "to wrap or bundle up",
+    "to melt or dissolve"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0134",
+   "lemma": "recoger",
+   "rank": 1297,
+   "pos": "verb",
+   "options": [
+    "to collect, to pick up",
+    "to scratch, to scrape a surface",
+    "to whistle, to make a sound",
+    "to freeze, to become solid"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0135",
+   "lemma": "carga",
+   "rank": 1299,
+   "pos": "noun",
+   "options": [
+    "heavy load or burden carried",
+    "shelf",
+    "sleeve",
+    "mirror"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0136",
+   "lemma": "mina",
+   "rank": 1305,
+   "pos": "noun",
+   "options": [
+    "underground tunnel for ore",
+    "narrow river or stream",
+    "stone arch or bridge",
+    "steep cliff or ravine"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0137",
+   "lemma": "estrategia",
+   "rank": 1313,
+   "pos": "noun",
+   "options": [
+    "strategy, plan",
+    "shipment, delivery",
+    "curtain, blind",
+    "harvest, crop"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0138",
+   "lemma": "alumno",
+   "rank": 1331,
+   "pos": "noun",
+   "options": [
+    "student, pupil",
+    "bricklayer, construction worker",
+    "godfather, religious sponsor",
+    "shopkeeper, retail merchant"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0139",
+   "lemma": "accidente",
+   "rank": 1332,
+   "pos": "noun",
+   "options": [
+    "sudden harmful mishap or crash",
+    "iron, clothes iron",
+    "lawsuit, legal case",
+    "harvest, crop yield"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0140",
+   "lemma": "complejo",
+   "rank": 1344,
+   "pos": "adj",
+   "options": [
+    "made of many tangled parts",
+    "ancient",
+    "narrow",
+    "generous"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0141",
+   "lemma": "bebé",
+   "rank": 1366,
+   "pos": "noun",
+   "options": [
+    "baby or infant",
+    "loose thread or hem",
+    "wooden beam or rafter",
+    "wax candle or taper"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0142",
+   "lemma": "contestar",
+   "rank": 1382,
+   "pos": "verb",
+   "options": [
+    "to answer or reply",
+    "to travel or journey",
+    "to rent or hire",
+    "to fall or drop"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0143",
+   "lemma": "propósito",
+   "rank": 1386,
+   "pos": "noun",
+   "options": [
+    "purpose or intention",
+    "glass or drinking cup",
+    "branch or bough",
+    "shadow or shade"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0144",
+   "lemma": "iniciativa",
+   "rank": 1390,
+   "pos": "noun",
+   "options": [
+    "first step or drive to act",
+    "jealousy, envious feeling",
+    "harvest, agricultural yield",
+    "neighborhood, urban district"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0145",
+   "lemma": "adquirir",
+   "rank": 1399,
+   "pos": "verb",
+   "options": [
+    "to acquire, to obtain",
+    "to warn, to advise",
+    "to greet, to welcome",
+    "to suffer, to endure"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0146",
+   "lemma": "poseer",
+   "rank": 1403,
+   "pos": "verb",
+   "options": [
+    "to own or possess",
+    "to shout or yell",
+    "to kneel or bow",
+    "to melt or dissolve"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0147",
+   "lemma": "despertar",
+   "rank": 1409,
+   "pos": "verb",
+   "options": [
+    "to wake up or awaken",
+    "to wrap or bundle",
+    "to spend or waste",
+    "to push or shove"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0148",
+   "lemma": "inteligente",
+   "rank": 1411,
+   "pos": "adj",
+   "options": [
+    "quick-minded, able to learn fast",
+    "narrow, of little width",
+    "raw, uncooked",
+    "bitter, having sharp taste"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0149",
+   "lemma": "aeropuerto",
+   "rank": 1415,
+   "pos": "noun",
+   "options": [
+    "airport",
+    "highway",
+    "harbor",
+    "train station"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0150",
+   "lemma": "tradición",
+   "rank": 1427,
+   "pos": "noun",
+   "options": [
+    "custom handed down through generations",
+    "municipal tax, local levy",
+    "upper floor, building story",
+    "athletic competition, sports event"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0151",
+   "lemma": "lenguaje",
+   "rank": 1463,
+   "pos": "noun",
+   "options": [
+    "speech or words used to communicate",
+    "bedroom or sleeping quarters",
+    "roof or ceiling",
+    "storage room or pantry"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0152",
+   "lemma": "garantizar",
+   "rank": 1506,
+   "pos": "verb",
+   "options": [
+    "to guarantee or ensure",
+    "to organize or arrange",
+    "to punish or sanction",
+    "to rehearse or practice"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0153",
+   "lemma": "notar",
+   "rank": 1519,
+   "pos": "verb",
+   "options": [
+    "to notice or observe",
+    "to trust or rely on",
+    "to sweep or clean",
+    "to rent or hire out"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0154",
+   "lemma": "concurso",
+   "rank": 1547,
+   "pos": "noun",
+   "options": [
+    "contest, competition",
+    "saddle, horse-riding seat",
+    "cheek, side of the face",
+    "chimney, smoke exhaust structure"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0155",
+   "lemma": "invitado",
+   "rank": 1606,
+   "pos": "noun",
+   "options": [
+    "person welcomed to an event",
+    "childhood friend or companion",
+    "business owner or employer",
+    "elected leader or representative"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0156",
+   "lemma": "sugerir",
+   "rank": 1609,
+   "pos": "verb",
+   "options": [
+    "to suggest",
+    "to patrol",
+    "to traverse",
+    "to borrow"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0157",
+   "lemma": "tuyo",
+   "rank": 1613,
+   "pos": "other",
+   "options": [
+    "yours (belonging to you)",
+    "ours (belonging to us)",
+    "theirs (belonging to them)",
+    "mine (belonging to me)"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0158",
+   "lemma": "ventana",
+   "rank": 1629,
+   "pos": "noun",
+   "options": [
+    "window",
+    "puddle, small pool of water",
+    "handshake, greeting gesture",
+    "mattress, sleeping surface"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0159",
+   "lemma": "prisión",
+   "rank": 1637,
+   "pos": "noun",
+   "options": [
+    "locked building where wrongdoers are held",
+    "election, voting process",
+    "harvested crop, yield",
+    "religious procession"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0160",
+   "lemma": "instalar",
+   "rank": 1646,
+   "pos": "verb",
+   "options": [
+    "to set up, to put in place",
+    "to breathe, to inhale",
+    "to punish, to penalize",
+    "to fold, to bend"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0161",
+   "lemma": "meta",
+   "rank": 1657,
+   "pos": "noun",
+   "options": [
+    "goal, finish line",
+    "harvest, seasonal crop",
+    "request, formal petition",
+    "dwelling, living quarters"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0162",
+   "lemma": "empresario",
+   "rank": 1688,
+   "pos": "noun",
+   "options": [
+    "business owner, entrepreneur",
+    "government official, minister",
+    "military officer, commander",
+    "religious leader, clergy member"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0163",
+   "lemma": "vestido",
+   "rank": 1694,
+   "pos": "noun",
+   "options": [
+    "dress or garment",
+    "wooden shelf or cabinet",
+    "painted ceiling or wall",
+    "sharp knife or blade"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0164",
+   "lemma": "implicar",
+   "rank": 1701,
+   "pos": "verb",
+   "options": [
+    "to imply or involve",
+    "to punish or penalize",
+    "to greet or welcome",
+    "to rent or lease"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0165",
+   "lemma": "escucha",
+   "rank": 1748,
+   "pos": "noun",
+   "options": [
+    "act of listening or monitoring",
+    "written complaint or protest",
+    "travel route or itinerary",
+    "wooden shelf or rack"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0166",
+   "lemma": "claramente",
+   "rank": 1754,
+   "pos": "adv",
+   "options": [
+    "clearly",
+    "recently",
+    "barely",
+    "jointly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0167",
+   "lemma": "jornada",
+   "rank": 1785,
+   "pos": "noun",
+   "options": [
+    "workday, day's journey",
+    "lock, door-fastening device",
+    "sleeve, part of a garment",
+    "shelf, horizontal storage board"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0168",
+   "lemma": "caliente",
+   "rank": 1787,
+   "pos": "adj",
+   "options": [
+    "hot, warm",
+    "clumsy",
+    "sharp",
+    "pale"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0169",
+   "lemma": "escala",
+   "rank": 1793,
+   "pos": "noun",
+   "options": [
+    "scale or ladder or stopover",
+    "frozen pond or puddle",
+    "carved stone or monument",
+    "painted mural or portrait"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0170",
+   "lemma": "probable",
+   "rank": 1816,
+   "pos": "adj",
+   "options": [
+    "likely or expected",
+    "stubborn or obstinate",
+    "ancient or very old",
+    "narrow or tight"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0171",
+   "lemma": "cola",
+   "rank": 1835,
+   "pos": "noun",
+   "options": [
+    "tail or queue or line",
+    "wooden floor or tile",
+    "street corner or intersection",
+    "iron gate or fence"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0172",
+   "lemma": "jurar",
+   "rank": 1871,
+   "pos": "verb",
+   "options": [
+    "to swear, to vow",
+    "to punish, to penalize",
+    "to borrow, to take on loan",
+    "to hide, to conceal"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0173",
+   "lemma": "sujeto",
+   "rank": 1876,
+   "pos": "noun",
+   "options": [
+    "subject, individual",
+    "attempt",
+    "burden",
+    "border"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0174",
+   "lemma": "inicial",
+   "rank": 1882,
+   "pos": "adj",
+   "options": [
+    "first, at the very beginning",
+    "distant",
+    "sudden",
+    "worthy"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0175",
+   "lemma": "insistir",
+   "rank": 1884,
+   "pos": "verb",
+   "options": [
+    "to keep pressing, to not give up",
+    "to sweep or clean up",
+    "to sow or plant seeds",
+    "to rent or lease out"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0176",
+   "lemma": "lector",
+   "rank": 1886,
+   "pos": "noun",
+   "options": [
+    "reader",
+    "witness",
+    "neighbor",
+    "merchant"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0177",
+   "lemma": "planear",
+   "rank": 1893,
+   "pos": "verb",
+   "options": [
+    "to plan, to make plans",
+    "to mend, to repair clothing",
+    "to shout, to cry out loudly",
+    "to scratch, to scrape a surface"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0178",
+   "lemma": "costumbre",
+   "rank": 1896,
+   "pos": "noun",
+   "options": [
+    "habit, custom",
+    "neckline, collar edge",
+    "crevice, narrow crack",
+    "workshop, craft studio"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0179",
+   "lemma": "dibujo",
+   "rank": 1918,
+   "pos": "noun",
+   "options": [
+    "drawing, sketch",
+    "harvest",
+    "speech",
+    "ladder"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0180",
+   "lemma": "entero",
+   "rank": 1920,
+   "pos": "adj",
+   "options": [
+    "whole, entire",
+    "bitter",
+    "hollow",
+    "brave"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0181",
+   "lemma": "manifestación",
+   "rank": 1925,
+   "pos": "noun",
+   "options": [
+    "public street rally or protest",
+    "seasoning, flavoring",
+    "chimney, exhaust shaft",
+    "curtain, window drape"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0182",
+   "lemma": "igualdad",
+   "rank": 1926,
+   "pos": "noun",
+   "options": [
+    "equality",
+    "homeland",
+    "shortage",
+    "boundary"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0183",
+   "lemma": "órgano",
+   "rank": 1929,
+   "pos": "noun",
+   "options": [
+    "body part with a set function",
+    "prayer or religious offering",
+    "rank or military grade",
+    "boundary or border zone"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0184",
+   "lemma": "atraer",
+   "rank": 1940,
+   "pos": "verb",
+   "options": [
+    "to attract or draw in",
+    "to kneel or bow down",
+    "to delay or postpone",
+    "to punish or discipline"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0185",
+   "lemma": "marido",
+   "rank": 1949,
+   "pos": "noun",
+   "options": [
+    "husband, male spouse",
+    "bricklayer, mason",
+    "fishing boat, vessel",
+    "town council, authority"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0186",
+   "lemma": "componer",
+   "rank": 1956,
+   "pos": "verb",
+   "options": [
+    "to put together, to make up",
+    "to demand, to require",
+    "to glance, to peek at",
+    "to wander, to roam freely"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0187",
+   "lemma": "alcance",
+   "rank": 1957,
+   "pos": "noun",
+   "options": [
+    "reach or range",
+    "rent or lease payment",
+    "mud or clay soil",
+    "drawer or storage compartment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0188",
+   "lemma": "físico",
+   "rank": 1977,
+   "pos": "adj",
+   "options": [
+    "physical, bodily",
+    "legal, lawful",
+    "wooden, made of wood",
+    "daily, everyday"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0189",
+   "lemma": "reclamar",
+   "rank": 1988,
+   "pos": "verb",
+   "options": [
+    "to claim, to demand",
+    "to witness",
+    "to travel",
+    "to breathe"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0190",
+   "lemma": "tropa",
+   "rank": 1995,
+   "pos": "noun",
+   "options": [
+    "troops, military force",
+    "drawer, storage compartment",
+    "harvest, seasonal crop",
+    "flock, group of birds"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0191",
+   "lemma": "verlo",
+   "rank": 2002,
+   "pos": "verb",
+   "options": [
+    "to see it, to look at it",
+    "to carry it, to bring it",
+    "to sell it, to offer it",
+    "to build it, to construct it"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0192",
+   "lemma": "significado",
+   "rank": 2032,
+   "pos": "noun",
+   "options": [
+    "meaning, sense",
+    "tax, levy, charge",
+    "shelter, refuge, haven",
+    "nickname, alias"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0193",
+   "lemma": "circular",
+   "rank": 2051,
+   "pos": "verb",
+   "options": [
+    "to move along, to flow through",
+    "to hire, recruit",
+    "to sink, submerge",
+    "to weave, intertwine"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0194",
+   "lemma": "acusar",
+   "rank": 2057,
+   "pos": "verb",
+   "options": [
+    "to accuse, to charge",
+    "to borrow money",
+    "to harvest crops",
+    "to wrap up tightly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0195",
+   "lemma": "cerveza",
+   "rank": 2086,
+   "pos": "noun",
+   "options": [
+    "beer",
+    "hunting ground or game reserve",
+    "wax candle",
+    "wicker basket"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0196",
+   "lemma": "sueldo",
+   "rank": 2103,
+   "pos": "noun",
+   "options": [
+    "salary, wage, pay",
+    "flock or herd of animals",
+    "drawer or storage compartment",
+    "portrait or painted image"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0197",
+   "lemma": "logro",
+   "rank": 2140,
+   "pos": "noun",
+   "options": [
+    "achievement or accomplishment",
+    "public square or plaza",
+    "rental price or lease",
+    "crack or narrow gap"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0198",
+   "lemma": "diente",
+   "rank": 2150,
+   "pos": "noun",
+   "options": [
+    "tooth",
+    "elbow joint",
+    "wooden shelf",
+    "iron nail"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0199",
+   "lemma": "maduro",
+   "rank": 2168,
+   "pos": "adj",
+   "options": [
+    "ripe or mature",
+    "narrow or tight",
+    "damp or humid",
+    "hollow or empty inside"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0200",
+   "lemma": "recorrer",
+   "rank": 2187,
+   "pos": "verb",
+   "options": [
+    "to travel across or through",
+    "to knit or weave",
+    "to melt or dissolve",
+    "to season or flavor"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0201",
+   "lemma": "terrorista",
+   "rank": 2224,
+   "pos": "noun",
+   "options": [
+    "person who uses violence to spread fear",
+    "police officer",
+    "military soldier",
+    "prison warden"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0202",
+   "lemma": "sindicato",
+   "rank": 2242,
+   "pos": "noun",
+   "options": [
+    "labor union",
+    "city council",
+    "parish church",
+    "royal court"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0203",
+   "lemma": "docente",
+   "rank": 2249,
+   "pos": "adj",
+   "options": [
+    "related to teaching",
+    "related to housing",
+    "related to farming",
+    "related to trading"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0204",
+   "lemma": "norteamericano",
+   "rank": 2263,
+   "pos": "adj",
+   "options": [
+    "North American, from the USA",
+    "underground, below the surface",
+    "left-handed, using left hand",
+    "barefoot, without shoes"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0205",
+   "lemma": "fallar",
+   "rank": 2278,
+   "pos": "verb",
+   "options": [
+    "to fail or malfunction",
+    "to borrow money",
+    "to wrap or bundle up",
+    "to scratch or itch"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0206",
+   "lemma": "emplear",
+   "rank": 2302,
+   "pos": "verb",
+   "options": [
+    "to use or employ",
+    "to rest or sleep",
+    "to hide or conceal",
+    "to fall or drop"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0207",
+   "lemma": "federación",
+   "rank": 2320,
+   "pos": "noun",
+   "options": [
+    "union of groups under one body",
+    "stage performance or showing",
+    "building foundation or base",
+    "legal claim or petition"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0208",
+   "lemma": "fresco",
+   "rank": 2329,
+   "pos": "adj",
+   "options": [
+    "cool, fresh, refreshing",
+    "blind, unable to see",
+    "curved, bent, arched",
+    "bald, without hair"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0209",
+   "lemma": "finalizar",
+   "rank": 2345,
+   "pos": "verb",
+   "options": [
+    "to finish, conclude",
+    "to forgive, pardon",
+    "to rent, lease",
+    "to paint, decorate"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0210",
+   "lemma": "situar",
+   "rank": 2353,
+   "pos": "verb",
+   "options": [
+    "to place, to locate",
+    "to sign, to endorse",
+    "to mourn, to grieve",
+    "to harvest, to reap"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0211",
+   "lemma": "progreso",
+   "rank": 2355,
+   "pos": "noun",
+   "options": [
+    "forward movement, steady betterment",
+    "drought, dry spell",
+    "shipwreck, wreck",
+    "ballot, vote"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0212",
+   "lemma": "prima",
+   "rank": 2373,
+   "pos": "noun",
+   "options": [
+    "female cousin, bonus",
+    "metal anchor chain",
+    "earthen floor tile",
+    "woven wool blanket"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0213",
+   "lemma": "protagonista",
+   "rank": 2383,
+   "pos": "noun",
+   "options": [
+    "leading character in a story",
+    "sworn legal witness",
+    "construction architect",
+    "elected representative"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0214",
+   "lemma": "sabor",
+   "rank": 2454,
+   "pos": "noun",
+   "options": [
+    "flavor or taste",
+    "ditch or irrigation channel",
+    "thorn or prickle",
+    "sheet or bed linen"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0215",
+   "lemma": "ligero",
+   "rank": 2457,
+   "pos": "adj",
+   "options": [
+    "light, not heavy",
+    "bitter or sour in taste",
+    "narrow and elongated in shape",
+    "ashamed or embarrassed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0216",
+   "lemma": "botella",
+   "rank": 2458,
+   "pos": "noun",
+   "options": [
+    "bottle, glass container",
+    "wallet, coin purse",
+    "chimney, smoke stack",
+    "knot, tied loop"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0217",
+   "lemma": "usarse",
+   "rank": 2484,
+   "pos": "verb",
+   "options": [
+    "to be used, be employed",
+    "to get married, wed",
+    "to grow dark, dim",
+    "to catch fire, ignite"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0218",
+   "lemma": "recorrido",
+   "rank": 2490,
+   "pos": "noun",
+   "options": [
+    "route, journey, tour",
+    "cargo shipment",
+    "personal diary",
+    "public announcement"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0219",
+   "lemma": "gráfico",
+   "rank": 2493,
+   "pos": "noun",
+   "options": [
+    "chart, graph",
+    "legal ruling",
+    "tax payment",
+    "cargo shipment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0220",
+   "lemma": "creador",
+   "rank": 2503,
+   "pos": "noun",
+   "options": [
+    "one who makes or invents things",
+    "legal guardian",
+    "military officer",
+    "tax collector"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0221",
+   "lemma": "aliado",
+   "rank": 2505,
+   "pos": "noun",
+   "options": [
+    "ally, partner",
+    "tenant, renter",
+    "shelf, ledge",
+    "witness, bystander"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0222",
+   "lemma": "gira",
+   "rank": 2526,
+   "pos": "noun",
+   "options": [
+    "tour (musical or artistic)",
+    "trade fair",
+    "harvest season",
+    "political debate"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0223",
+   "lemma": "prioridad",
+   "rank": 2534,
+   "pos": "noun",
+   "options": [
+    "what must be dealt with first",
+    "childhood, early years",
+    "harvest, crop yield",
+    "boundary, border line"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0224",
+   "lemma": "aburrir",
+   "rank": 2566,
+   "pos": "verb",
+   "options": [
+    "to bore, to tire",
+    "to wrap, to bundle",
+    "to promise, to pledge",
+    "to melt, to dissolve"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0225",
+   "lemma": "azúcar",
+   "rank": 2573,
+   "pos": "noun",
+   "options": [
+    "sugar",
+    "leather",
+    "thread",
+    "ash"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0226",
+   "lemma": "llave",
+   "rank": 2604,
+   "pos": "noun",
+   "options": [
+    "key",
+    "prayer or blessing",
+    "curtain or drape",
+    "pillow or cushion"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0227",
+   "lemma": "descanso",
+   "rank": 2608,
+   "pos": "noun",
+   "options": [
+    "rest, break from activity",
+    "debt, amount owed",
+    "sleeve, shirt cuff",
+    "flock, group of birds"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0228",
+   "lemma": "noble",
+   "rank": 2633,
+   "pos": "adj",
+   "options": [
+    "of high rank and honor",
+    "sour, bitter",
+    "slender, thin",
+    "blunt, dull"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0229",
+   "lemma": "mantenimiento",
+   "rank": 2651,
+   "pos": "noun",
+   "options": [
+    "maintenance, upkeep",
+    "birth certificate",
+    "harvest season",
+    "prison sentence"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0230",
+   "lemma": "juvenil",
+   "rank": 2662,
+   "pos": "adj",
+   "options": [
+    "relating to young people, youthful",
+    "narrow, tight",
+    "wicked, sinful",
+    "sandy, grainy"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0231",
+   "lemma": "latino",
+   "rank": 2702,
+   "pos": "adj",
+   "options": [
+    "relating to Spanish-speaking American culture",
+    "rough or coarse",
+    "left-handed or awkward",
+    "bitter or sharp-tasting"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0232",
+   "lemma": "reemplazar",
+   "rank": 2729,
+   "pos": "verb",
+   "options": [
+    "to replace, substitute",
+    "to shine, gleam",
+    "to wrap, bundle up",
+    "to rent, lease out"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0233",
+   "lemma": "aparición",
+   "rank": 2748,
+   "pos": "noun",
+   "options": [
+    "appearance, emergence",
+    "lawsuit, legal proceeding",
+    "famine, severe food shortage",
+    "slope, hillside terrain"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0234",
+   "lemma": "apropiar",
+   "rank": 2766,
+   "pos": "verb",
+   "options": [
+    "to appropriate, take for oneself",
+    "to fold, crease",
+    "to whistle, blow a whistle",
+    "to melt, liquefy"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0235",
+   "lemma": "espada",
+   "rank": 2794,
+   "pos": "noun",
+   "options": [
+    "sword",
+    "fishing net",
+    "leather belt",
+    "clay pot or vessel"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0236",
+   "lemma": "cerrada",
+   "rank": 2802,
+   "pos": "adj",
+   "options": [
+    "closed, shut",
+    "deeply rooted",
+    "softly spoken",
+    "freshly painted"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0237",
+   "lemma": "renuncia",
+   "rank": 2833,
+   "pos": "noun",
+   "options": [
+    "act of stepping down from a post",
+    "harvest or crop yield",
+    "dawn or early morning",
+    "penalty or fine imposed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0238",
+   "lemma": "gris",
+   "rank": 2836,
+   "pos": "adj",
+   "options": [
+    "gray, dull",
+    "bitter, sharp",
+    "hollow, empty",
+    "narrow, slim"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0239",
+   "lemma": "ocupación",
+   "rank": 2877,
+   "pos": "noun",
+   "options": [
+    "job, trade, or daily work",
+    "religious ceremony",
+    "legal accusation",
+    "monetary donation"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0240",
+   "lemma": "quita",
+   "rank": 2878,
+   "pos": "noun",
+   "options": [
+    "debt reduction, discount",
+    "neighborhood gathering",
+    "harvest festival",
+    "sworn testimony"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0241",
+   "lemma": "ácido",
+   "rank": 2920,
+   "pos": "adj",
+   "options": [
+    "sour, sharp to the tongue",
+    "barefoot or shoeless",
+    "blurry or out of focus",
+    "stiff or rigid"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0242",
+   "lemma": "motivar",
+   "rank": 2964,
+   "pos": "verb",
+   "options": [
+    "to drive or stir someone to act",
+    "to sweep, clean up",
+    "to bury, inter",
+    "to kneel, bow down"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0243",
+   "lemma": "extenso",
+   "rank": 2967,
+   "pos": "adj",
+   "options": [
+    "wide, broad, covering much ground",
+    "strict, rigorous, severe",
+    "hollow, empty, vacant",
+    "damp, humid, moist"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0244",
+   "lemma": "atribuir",
+   "rank": 2978,
+   "pos": "verb",
+   "options": [
+    "to attribute or ascribe",
+    "to carry or transport",
+    "to greet or welcome",
+    "to measure or calculate"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0245",
+   "lemma": "paciencia",
+   "rank": 3000,
+   "pos": "noun",
+   "options": [
+    "patience",
+    "staircase",
+    "harvest",
+    "debt"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0246",
+   "lemma": "guarda",
+   "rank": 3030,
+   "pos": "noun",
+   "options": [
+    "watchman, keeper, or security person",
+    "glove, mitten",
+    "drawer, cabinet",
+    "harvest, crop"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0247",
+   "lemma": "arroz",
+   "rank": 3034,
+   "pos": "noun",
+   "options": [
+    "rice",
+    "curtain",
+    "heel",
+    "bench"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0248",
+   "lemma": "nacionalidad",
+   "rank": 3035,
+   "pos": "noun",
+   "options": [
+    "nationality, citizenship",
+    "neighborhood, district",
+    "livestock, cattle",
+    "legal proceeding, trial"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0249",
+   "lemma": "suceso",
+   "rank": 3066,
+   "pos": "noun",
+   "options": [
+    "event, incident",
+    "upper floor",
+    "family surname",
+    "wooden plank"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0250",
+   "lemma": "combinar",
+   "rank": 3076,
+   "pos": "verb",
+   "options": [
+    "to mix or put together",
+    "to slide, to slip along",
+    "to shout, to yell loudly",
+    "to wrap, to cover up"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0251",
+   "lemma": "caído",
+   "rank": 3105,
+   "pos": "adj",
+   "options": [
+    "fallen, dropped",
+    "narrow, tight",
+    "raw, uncooked",
+    "hollow, empty"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0252",
+   "lemma": "convención",
+   "rank": 3106,
+   "pos": "noun",
+   "options": [
+    "large formal gathering or assembly",
+    "wound, bodily injury",
+    "harvest, seasonal crop",
+    "shortage, lack of supply"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0253",
+   "lemma": "descuento",
+   "rank": 3108,
+   "pos": "noun",
+   "options": [
+    "discount, price reduction",
+    "parking space",
+    "morning dew",
+    "wooden floor"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0254",
+   "lemma": "disparo",
+   "rank": 3115,
+   "pos": "noun",
+   "options": [
+    "gunshot, fired shot",
+    "census, population count",
+    "wedding ring, band",
+    "feather, quill"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0255",
+   "lemma": "contribución",
+   "rank": 3137,
+   "pos": "noun",
+   "options": [
+    "payment or gift to a shared cause",
+    "public celebration",
+    "military invasion",
+    "travel document"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0256",
+   "lemma": "impresionar",
+   "rank": 3138,
+   "pos": "verb",
+   "options": [
+    "to strike someone with awe or wonder",
+    "to wander, to roam around",
+    "to rent, to lease property",
+    "to fold, to bend in half"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0257",
+   "lemma": "supuestamente",
+   "rank": 3146,
+   "pos": "adv",
+   "options": [
+    "supposedly, allegedly",
+    "immediately, at once",
+    "deliberately, on purpose",
+    "barely, scarcely"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0258",
+   "lemma": "coalición",
+   "rank": 3151,
+   "pos": "noun",
+   "options": [
+    "allied group joining forces together",
+    "sentence, prison term",
+    "warehouse, storage depot",
+    "funeral, burial ceremony"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0259",
+   "lemma": "cuadrado",
+   "rank": 3162,
+   "pos": "noun",
+   "options": [
+    "square shape",
+    "wooden beam",
+    "iron bolt",
+    "floor tile"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0260",
+   "lemma": "enfocar",
+   "rank": 3190,
+   "pos": "verb",
+   "options": [
+    "to focus, aim at",
+    "to squeeze, press",
+    "to punish, penalize",
+    "to delay, postpone"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0261",
+   "lemma": "necesariamente",
+   "rank": 3200,
+   "pos": "adv",
+   "options": [
+    "in a way that cannot be avoided",
+    "recently or just now",
+    "barely or scarcely",
+    "otherwise or instead"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0262",
+   "lemma": "despacho",
+   "rank": 3223,
+   "pos": "noun",
+   "options": [
+    "office or study room",
+    "courtyard or patio",
+    "staircase or flight of stairs",
+    "storage room or pantry"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0263",
+   "lemma": "parado",
+   "rank": 3233,
+   "pos": "adj",
+   "options": [
+    "standing still, unemployed",
+    "deeply asleep",
+    "freshly painted",
+    "tightly bound"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0264",
+   "lemma": "expansión",
+   "rank": 3235,
+   "pos": "noun",
+   "options": [
+    "act of spreading out or growing larger",
+    "seasonal harvest or crop",
+    "prayer or religious petition",
+    "written complaint or grievance"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0265",
+   "lemma": "integral",
+   "rank": 3250,
+   "pos": "adj",
+   "options": [
+    "complete, whole, comprehensive",
+    "faint, barely visible",
+    "reckless, careless, rash",
+    "narrow, tight, confined"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0266",
+   "lemma": "monje",
+   "rank": 3259,
+   "pos": "noun",
+   "options": [
+    "monk, friar",
+    "lid, cover",
+    "porch, entrance hall",
+    "calf, young cow"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0267",
+   "lemma": "nacionalista",
+   "rank": 3262,
+   "pos": "adj",
+   "options": [
+    "devoted to one's own country above others",
+    "widowed, bereaved",
+    "capable, competent",
+    "suburban, outskirt"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0268",
+   "lemma": "manzana",
+   "rank": 3268,
+   "pos": "noun",
+   "options": [
+    "apple",
+    "wooden board or plank",
+    "glass jar or bottle",
+    "woven mat or rug"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0269",
+   "lemma": "acostar",
+   "rank": 3273,
+   "pos": "verb",
+   "options": [
+    "to put to bed; to lie down",
+    "to frighten or scare",
+    "to shorten or trim",
+    "to advise or counsel"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0270",
+   "lemma": "rodilla",
+   "rank": 3292,
+   "pos": "noun",
+   "options": [
+    "knee",
+    "lower back",
+    "left ear",
+    "right thumb"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0271",
+   "lemma": "tira",
+   "rank": 3295,
+   "pos": "noun",
+   "options": [
+    "strip or band",
+    "sudden blow",
+    "clay pot",
+    "wooden board"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0272",
+   "lemma": "cueva",
+   "rank": 3313,
+   "pos": "noun",
+   "options": [
+    "cave, cavern",
+    "fishing net",
+    "leather strap",
+    "clay pot"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0273",
+   "lemma": "conquista",
+   "rank": 3324,
+   "pos": "noun",
+   "options": [
+    "takeover of a land by force",
+    "wax seal or stamp",
+    "spark or flash of light",
+    "sleeve or cuff of a garment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0274",
+   "lemma": "uruguayo",
+   "rank": 3326,
+   "pos": "adj",
+   "options": [
+    "from the country between Argentina and Brazil",
+    "Chilean",
+    "Bolivian",
+    "Peruvian"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0275",
+   "lemma": "tasar",
+   "rank": 3337,
+   "pos": "verb",
+   "options": [
+    "to appraise or valuate",
+    "to stumble or trip over",
+    "to weave or knit together",
+    "to peel or strip bark"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0276",
+   "lemma": "razonable",
+   "rank": 3355,
+   "pos": "adj",
+   "options": [
+    "fair, sensible, sound in judgment",
+    "deeply religious",
+    "sharp and pointed",
+    "recently arrived"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0277",
+   "lemma": "cuenca",
+   "rank": 3356,
+   "pos": "noun",
+   "options": [
+    "river basin or watershed",
+    "rabbit hutch or small cage",
+    "hinge or door joint",
+    "yarn or thread spool"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0278",
+   "lemma": "electo",
+   "rank": 3380,
+   "pos": "adj",
+   "options": [
+    "chosen by vote, not yet in office",
+    "skilled, highly trained",
+    "foreign, from abroad",
+    "wounded, physically harmed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0279",
+   "lemma": "optar",
+   "rank": 3383,
+   "pos": "verb",
+   "options": [
+    "to choose, to opt for",
+    "to melt, to dissolve away",
+    "to yawn, to feel sleepy",
+    "to sweep, to clean floors"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0280",
+   "lemma": "soberanía",
+   "rank": 3408,
+   "pos": "noun",
+   "options": [
+    "sovereignty, supreme authority",
+    "seasonal rainfall",
+    "urban population",
+    "commercial partnership"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0281",
+   "lemma": "suicidio",
+   "rank": 3420,
+   "pos": "noun",
+   "options": [
+    "act of taking one's own life",
+    "drought",
+    "customs tax",
+    "prayer"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0282",
+   "lemma": "desaparición",
+   "rank": 3422,
+   "pos": "noun",
+   "options": [
+    "disappearance",
+    "public announcement",
+    "legal punishment",
+    "armed confrontation"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0283",
+   "lemma": "helado",
+   "rank": 3455,
+   "pos": "noun",
+   "options": [
+    "ice cream, frozen dessert",
+    "umbrella, rain shield",
+    "drawer, storage compartment",
+    "kite, flying toy"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0284",
+   "lemma": "inaugurar",
+   "rank": 3460,
+   "pos": "verb",
+   "options": [
+    "to open formally for the first time",
+    "to iron, press clothes",
+    "to drown, submerge",
+    "to cheat, deceive someone"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0285",
+   "lemma": "delicioso",
+   "rank": 3468,
+   "pos": "adj",
+   "options": [
+    "wonderfully enjoyable, deeply satisfying",
+    "dusty, grimy",
+    "steep, abrupt",
+    "faint, dim"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0286",
+   "lemma": "comerciante",
+   "rank": 3476,
+   "pos": "noun",
+   "options": [
+    "merchant, trader",
+    "military officer",
+    "parish priest",
+    "government lawyer"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0287",
+   "lemma": "inflación",
+   "rank": 3493,
+   "pos": "noun",
+   "options": [
+    "rising prices, money losing buying power",
+    "flooding, overflow",
+    "childhood, early years",
+    "legal complaint, lawsuit"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0288",
+   "lemma": "trámite",
+   "rank": 3547,
+   "pos": "noun",
+   "options": [
+    "administrative procedure, formality",
+    "public celebration",
+    "military rank",
+    "personal income"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0289",
+   "lemma": "caos",
+   "rank": 3562,
+   "pos": "noun",
+   "options": [
+    "complete disorder and confusion",
+    "fishing boat",
+    "tax burden",
+    "brick wall"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0290",
+   "lemma": "saludable",
+   "rank": 3578,
+   "pos": "adj",
+   "options": [
+    "healthy or wholesome",
+    "lonely or isolated",
+    "slippery or smooth",
+    "bold or daring"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0291",
+   "lemma": "debilidad",
+   "rank": 3598,
+   "pos": "noun",
+   "options": [
+    "weakness, frailty",
+    "voting procedure",
+    "border crossing",
+    "written complaint"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0292",
+   "lemma": "arrepentir",
+   "rank": 3601,
+   "pos": "verb",
+   "options": [
+    "to regret, feel remorse",
+    "to scratch, scrape",
+    "to float, drift",
+    "to kneel, bow down"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0293",
+   "lemma": "urgencia",
+   "rank": 3608,
+   "pos": "noun",
+   "options": [
+    "pressing need, situation requiring swift action",
+    "legal complaint",
+    "formal gathering",
+    "written document"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0294",
+   "lemma": "diagnóstico",
+   "rank": 3610,
+   "pos": "noun",
+   "options": [
+    "doctor's finding about a patient's illness",
+    "legal proceeding",
+    "written contract",
+    "public announcement"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0295",
+   "lemma": "importe",
+   "rank": 3647,
+   "pos": "noun",
+   "options": [
+    "amount, total cost",
+    "printed report",
+    "storage warehouse",
+    "formal complaint"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0296",
+   "lemma": "vegetal",
+   "rank": 3663,
+   "pos": "adj",
+   "options": [
+    "having to do with plants or greenery",
+    "relating to winter or cold",
+    "relating to debts or loans",
+    "relating to wool or fleece"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0297",
+   "lemma": "lazo",
+   "rank": 3689,
+   "pos": "noun",
+   "options": [
+    "bow, knot, or lasso",
+    "mud or thick clay",
+    "copper coin or penny",
+    "brick or roof tile"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0298",
+   "lemma": "intensidad",
+   "rank": 3696,
+   "pos": "noun",
+   "options": [
+    "degree of strength or force of something",
+    "harvest; crop yield",
+    "embassy; diplomatic mission",
+    "sidewalk; paved footpath"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0299",
+   "lemma": "consolidar",
+   "rank": 3698,
+   "pos": "verb",
+   "options": [
+    "to strengthen and bring together into one",
+    "to whistle or hiss",
+    "to scatter or spread out",
+    "to kidnap or abduct"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0300",
+   "lemma": "estima",
+   "rank": 3743,
+   "pos": "noun",
+   "options": [
+    "esteem, regard",
+    "tax return",
+    "harvest season",
+    "iron fence"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0301",
+   "lemma": "ansiedad",
+   "rank": 3753,
+   "pos": "noun",
+   "options": [
+    "intense nervous worry or dread",
+    "old age",
+    "daily routine",
+    "childhood memory"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0302",
+   "lemma": "variación",
+   "rank": 3791,
+   "pos": "noun",
+   "options": [
+    "a shift or difference from before",
+    "neighborhood or district",
+    "courage or boldness",
+    "widow's inheritance or dowry"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0303",
+   "lemma": "honesto",
+   "rank": 3793,
+   "pos": "adj",
+   "options": [
+    "upright, morally decent, trustworthy",
+    "clumsy, awkward, ungainly",
+    "shallow, not deep",
+    "pale, lacking color"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0304",
+   "lemma": "brutal",
+   "rank": 3807,
+   "pos": "adj",
+   "options": [
+    "savage, cruel, or extremely harsh",
+    "sharp or cutting",
+    "murky or cloudy",
+    "narrow or tight"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0305",
+   "lemma": "adquisición",
+   "rank": 3840,
+   "pos": "noun",
+   "options": [
+    "something newly bought or obtained",
+    "drought or dry spell",
+    "trade route or pathway",
+    "title or heading"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0306",
+   "lemma": "sombrero",
+   "rank": 3884,
+   "pos": "noun",
+   "options": [
+    "hat",
+    "leather sandal",
+    "woolen blanket",
+    "wooden walking stick"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0307",
+   "lemma": "tranquilidad",
+   "rank": 3902,
+   "pos": "noun",
+   "options": [
+    "calm or peacefulness",
+    "damp or morning dew",
+    "duty or obligation",
+    "envy or jealousy"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0308",
+   "lemma": "reputación",
+   "rank": 3929,
+   "pos": "noun",
+   "options": [
+    "how others regard or esteem someone",
+    "rental agreement, lease",
+    "harvest season, crop yield",
+    "household budget, expenses"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0309",
+   "lemma": "pesada",
+   "rank": 3975,
+   "pos": "adj",
+   "options": [
+    "heavy, burdensome",
+    "narrow, tight-fitting",
+    "pale, washed out",
+    "sharp, pointed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0310",
+   "lemma": "concebir",
+   "rank": 3980,
+   "pos": "verb",
+   "options": [
+    "to think up or picture mentally",
+    "to peel or strip off",
+    "to limp or stumble",
+    "to kneel or bow down"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0311",
+   "lemma": "jurisdicción",
+   "rank": 4017,
+   "pos": "noun",
+   "options": [
+    "area of legal authority or oversight",
+    "age group, generational cohort",
+    "livestock pen, animal enclosure",
+    "tax burden, fiscal levy"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0312",
+   "lemma": "marino",
+   "rank": 4021,
+   "pos": "adj",
+   "options": [
+    "relating to the sea",
+    "relating to mountains",
+    "relating to fire",
+    "relating to farming"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0313",
+   "lemma": "afiliado",
+   "rank": 4022,
+   "pos": "noun",
+   "options": [
+    "member, affiliate",
+    "legal guardian or trustee",
+    "skilled manual worker",
+    "elected government representative"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0314",
+   "lemma": "consentimiento",
+   "rank": 4053,
+   "pos": "noun",
+   "options": [
+    "voluntary permission granted by someone",
+    "formal written contract",
+    "sense of awareness or feeling",
+    "public acknowledgment or statement"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0315",
+   "lemma": "entretenimiento",
+   "rank": 4115,
+   "pos": "noun",
+   "options": [
+    "entertainment, amusement",
+    "trade agreement",
+    "public trial",
+    "military draft"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0316",
+   "lemma": "tierno",
+   "rank": 4151,
+   "pos": "adj",
+   "options": [
+    "tender; affectionate; soft",
+    "bitter; harsh in flavor",
+    "brave; courageous in spirit",
+    "guilty; deserving of blame"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0317",
+   "lemma": "atracción",
+   "rank": 4182,
+   "pos": "noun",
+   "options": [
+    "pull toward something; drawing force",
+    "sudden burst of applause",
+    "formal written complaint",
+    "legal ownership of property"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0318",
+   "lemma": "desfile",
+   "rank": 4189,
+   "pos": "noun",
+   "options": [
+    "parade; procession",
+    "toll; road payment",
+    "plot; piece of land",
+    "latch; door fastening"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0319",
+   "lemma": "maniobra",
+   "rank": 4218,
+   "pos": "noun",
+   "options": [
+    "maneuver or tactical move",
+    "border crossing checkpoint",
+    "written legal complaint",
+    "weekly supply shipment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0320",
+   "lemma": "ducha",
+   "rank": 4299,
+   "pos": "noun",
+   "options": [
+    "shower, bath shower",
+    "wooden storage chest",
+    "narrow window ledge",
+    "outdoor garden fence"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0321",
+   "lemma": "oculto",
+   "rank": 4340,
+   "pos": "adj",
+   "options": [
+    "hidden; concealed; secret",
+    "idle; not working or active",
+    "cloudy; overcast with clouds",
+    "narrow; not wide in space"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0322",
+   "lemma": "fatal",
+   "rank": 4467,
+   "pos": "adj",
+   "options": [
+    "causing death; deadly",
+    "proud, haughty",
+    "narrow, tight",
+    "raw, uncooked"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0323",
+   "lemma": "impunidad",
+   "rank": 4484,
+   "pos": "noun",
+   "options": [
+    "freedom from punishment or penalty",
+    "daily workload",
+    "urban expansion",
+    "formal complaint"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0324",
+   "lemma": "pibe",
+   "rank": 4567,
+   "pos": "noun",
+   "options": [
+    "kid, boy, young person",
+    "narrow cobblestone alleyway",
+    "homemade alcoholic drink",
+    "outdoor weekend market stall"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0325",
+   "lemma": "productividad",
+   "rank": 4568,
+   "pos": "noun",
+   "options": [
+    "rate of output per unit of effort",
+    "depth of personal commitment",
+    "degree of social equality",
+    "overall quality of life"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0326",
+   "lemma": "demostración",
+   "rank": 4585,
+   "pos": "noun",
+   "options": [
+    "public showing or display of something",
+    "harvest; gathered crop",
+    "lawsuit; legal complaint",
+    "shipment; cargo delivery"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0327",
+   "lemma": "veterano",
+   "rank": 4587,
+   "pos": "noun",
+   "options": [
+    "long-serving or seasoned former soldier",
+    "witness; eyewitness",
+    "delegate; representative",
+    "prisoner; captive person"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0328",
+   "lemma": "organizador",
+   "rank": 4600,
+   "pos": "noun",
+   "options": [
+    "person who arranges or sets things up",
+    "goalkeeper, goalie",
+    "landlord, property owner",
+    "announcer, broadcaster"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0329",
+   "lemma": "mochila",
+   "rank": 4605,
+   "pos": "noun",
+   "options": [
+    "backpack, rucksack",
+    "wooden chopping block",
+    "woven floor mat",
+    "iron door latch"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0330",
+   "lemma": "denominación",
+   "rank": 4606,
+   "pos": "noun",
+   "options": [
+    "name or label given to something",
+    "cargo shipment",
+    "voting district",
+    "travel distance"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0331",
+   "lemma": "leve",
+   "rank": 4607,
+   "pos": "adj",
+   "options": [
+    "slight; minor; mild",
+    "widely shared",
+    "deeply buried",
+    "freshly gathered"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0332",
+   "lemma": "psicólogo",
+   "rank": 4609,
+   "pos": "noun",
+   "options": [
+    "psychologist",
+    "tax collector",
+    "city planner",
+    "defense attorney"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0333",
+   "lemma": "rolar",
+   "rank": 4664,
+   "pos": "verb",
+   "options": [
+    "to veer (of wind)",
+    "to wrap tightly",
+    "to scratch or scrape",
+    "to wander or roam"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0334",
+   "lemma": "alternativo",
+   "rank": 4665,
+   "pos": "adj",
+   "options": [
+    "offering a different or substitute choice",
+    "deeply divided",
+    "brightly colored",
+    "loosely governed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0335",
+   "lemma": "contradicción",
+   "rank": 4695,
+   "pos": "noun",
+   "options": [
+    "clash of opposing statements or claims",
+    "punishment; disciplinary action",
+    "negotiation; bargaining process",
+    "ambition; strong desire for success"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0336",
+   "lemma": "burgo",
+   "rank": 4736,
+   "pos": "noun",
+   "options": [
+    "small town; borough",
+    "iron fortress",
+    "harbor crane",
+    "formal banquet"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0337",
+   "lemma": "dejarlo",
+   "rank": 4765,
+   "pos": "verb",
+   "options": [
+    "to leave it / let it go",
+    "to break it apart",
+    "to carry it forward",
+    "to find it again"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0338",
+   "lemma": "atlántico",
+   "rank": 4781,
+   "pos": "adj",
+   "options": [
+    "of the ocean between two continents",
+    "northern",
+    "volcanic",
+    "tropical"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0339",
+   "lemma": "monopolio",
+   "rank": 4789,
+   "pos": "noun",
+   "options": [
+    "exclusive control of a market",
+    "formal written agreement",
+    "elected governing council",
+    "public works department"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0340",
+   "lemma": "gala",
+   "rank": 4791,
+   "pos": "noun",
+   "options": [
+    "festive formal celebration or ceremony",
+    "bargain; discounted purchase deal",
+    "drought; prolonged dry period",
+    "ransom; payment for release"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0341",
+   "lemma": "variante",
+   "rank": 4793,
+   "pos": "noun",
+   "options": [
+    "differing form or version of something",
+    "public announcement or notice",
+    "monthly rent payment",
+    "military rank or grade"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0342",
+   "lemma": "competente",
+   "rank": 4802,
+   "pos": "adj",
+   "options": [
+    "skilled, capable, able to do a task",
+    "narrow, tight, confined",
+    "foreign, overseas, alien",
+    "bold, daring, fearless"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0343",
+   "lemma": "carbono",
+   "rank": 4812,
+   "pos": "noun",
+   "options": [
+    "nonmetallic element with atomic number six",
+    "leather hide or skin",
+    "iron ore deposit",
+    "fuel combustion engine"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0344",
+   "lemma": "vano",
+   "rank": 4817,
+   "pos": "adj",
+   "options": [
+    "vain; futile; empty",
+    "damp; slightly wet",
+    "bold; daring in action",
+    "tame; domesticated"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0345",
+   "lemma": "hamburguesa",
+   "rank": 4827,
+   "pos": "noun",
+   "options": [
+    "ground beef patty served in a bun",
+    "woolen blanket, throw",
+    "copper pot, cooking vessel",
+    "wicker basket, reed container"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0346",
+   "lemma": "dormitorio",
+   "rank": 4867,
+   "pos": "noun",
+   "options": [
+    "bedroom",
+    "basement storage room",
+    "garden path",
+    "town square"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0347",
+   "lemma": "periodístico",
+   "rank": 4878,
+   "pos": "adj",
+   "options": [
+    "journalistic; press-related",
+    "deeply rooted",
+    "publicly funded",
+    "narrowly defined"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0348",
+   "lemma": "enfadar",
+   "rank": 4946,
+   "pos": "verb",
+   "options": [
+    "to anger, to annoy",
+    "to wrap or bundle up",
+    "to borrow money from someone",
+    "to climb or scale a wall"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0349",
+   "lemma": "ciclista",
+   "rank": 4951,
+   "pos": "noun",
+   "options": [
+    "person who rides a two-wheeled pedal vehicle",
+    "traveling salesperson or vendor",
+    "licensed building architect",
+    "registered land surveyor"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0350",
+   "lemma": "aislamiento",
+   "rank": 5003,
+   "pos": "noun",
+   "options": [
+    "isolation; insulation",
+    "legal proceeding",
+    "property ownership",
+    "public gathering"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0351",
+   "lemma": "abarca",
+   "rank": 5028,
+   "pos": "verb",
+   "options": [
+    "to cover, to encompass",
+    "to bite repeatedly",
+    "to drift away slowly",
+    "to whistle loudly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0352",
+   "lemma": "complejidad",
+   "rank": 5046,
+   "pos": "noun",
+   "options": [
+    "state of being intricate or tangled",
+    "voting ballot or election result",
+    "household furniture or furnishings",
+    "river bank or shoreline"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0353",
+   "lemma": "desorden",
+   "rank": 5116,
+   "pos": "noun",
+   "options": [
+    "messy, chaotic, or jumbled state of things",
+    "toll; road fee",
+    "flock; group of birds",
+    "slope; hillside incline"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0354",
+   "lemma": "cuerno",
+   "rank": 5149,
+   "pos": "noun",
+   "options": [
+    "horn of an animal",
+    "narrow alley, lane",
+    "leather belt, strap",
+    "wooden beam, rafter"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0355",
+   "lemma": "conversión",
+   "rank": 5196,
+   "pos": "noun",
+   "options": [
+    "shift from one belief or form",
+    "fishing catch, haul",
+    "fuel shortage, rationing",
+    "prison warden, jailer"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0356",
+   "lemma": "loma",
+   "rank": 5208,
+   "pos": "noun",
+   "options": [
+    "low hill, gentle slope",
+    "type of freshwater fish",
+    "clay roof tile",
+    "wooden fence post"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0357",
+   "lemma": "refuerzo",
+   "rank": 5214,
+   "pos": "noun",
+   "options": [
+    "reinforcement; support",
+    "tax; financial levy",
+    "border; outer edge",
+    "council; governing body"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0358",
+   "lemma": "manuscrito",
+   "rank": 5216,
+   "pos": "noun",
+   "options": [
+    "text written out by hand",
+    "public square, plaza",
+    "merchant ship, cargo vessel",
+    "military rank, grade"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0359",
+   "lemma": "hipócrita",
+   "rank": 5279,
+   "pos": "adj",
+   "options": [
+    "hypocritical; two-faced",
+    "stingy; reluctant to spend",
+    "clumsy; lacking coordination",
+    "pale; lacking color"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0360",
+   "lemma": "maestría",
+   "rank": 5284,
+   "pos": "noun",
+   "options": [
+    "mastery or expertise",
+    "rural farming community",
+    "formal written declaration",
+    "religious pilgrimage route"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0361",
+   "lemma": "bicho",
+   "rank": 5331,
+   "pos": "noun",
+   "options": [
+    "bug; small creature",
+    "cape; short cloak",
+    "shelf; wall bracket",
+    "grain; cereal crop"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0362",
+   "lemma": "metodología",
+   "rank": 5354,
+   "pos": "noun",
+   "options": [
+    "methodology",
+    "legal ruling or judgment",
+    "branch of medical science",
+    "historical account of events"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0363",
+   "lemma": "anécdota",
+   "rank": 5363,
+   "pos": "noun",
+   "options": [
+    "short amusing story or account",
+    "formal written complaint",
+    "public official announcement",
+    "detailed historical record"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0364",
+   "lemma": "económicamente",
+   "rank": 5369,
+   "pos": "adv",
+   "options": [
+    "in terms of money or spending",
+    "physically; in bodily terms",
+    "legally; in lawful terms",
+    "politically; in governmental terms"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0365",
+   "lemma": "plenamente",
+   "rank": 5375,
+   "pos": "adv",
+   "options": [
+    "fully or completely",
+    "nearby or in the vicinity",
+    "formerly or in the past",
+    "randomly or by chance"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0366",
+   "lemma": "cúpula",
+   "rank": 5393,
+   "pos": "noun",
+   "options": [
+    "dome-shaped structure crowning a building",
+    "courtyard; open interior space",
+    "staircase; flight of steps",
+    "threshold; entrance of a building"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0367",
+   "lemma": "mediana",
+   "rank": 5417,
+   "pos": "noun",
+   "options": [
+    "highway divider, or statistical middle value",
+    "afternoon snack",
+    "monthly payment",
+    "coastal boundary"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0368",
+   "lemma": "cortado",
+   "rank": 5444,
+   "pos": "adj",
+   "options": [
+    "cut, sliced, chopped",
+    "swollen, inflamed, puffy",
+    "greasy, oily, fatty",
+    "deaf, hard of hearing"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0369",
+   "lemma": "incidencia",
+   "rank": 5481,
+   "pos": "noun",
+   "options": [
+    "rate of occurrence or impact",
+    "slope or embankment",
+    "harvest or crop yield",
+    "lawsuit or legal claim"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0370",
+   "lemma": "retirarse",
+   "rank": 5483,
+   "pos": "verb",
+   "options": [
+    "to withdraw, or to quit working",
+    "to kneel before someone",
+    "to whisper very softly",
+    "to collapse or fall down"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0371",
+   "lemma": "aplastar",
+   "rank": 5505,
+   "pos": "verb",
+   "options": [
+    "to crush, to squash, to flatten",
+    "to whistle or hum a tune",
+    "to inherit land or wealth",
+    "to delay or postpone a meeting"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0372",
+   "lemma": "hervir",
+   "rank": 5568,
+   "pos": "verb",
+   "options": [
+    "to boil",
+    "to sweep",
+    "to borrow",
+    "to kneel"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0373",
+   "lemma": "guerrillero",
+   "rank": 5569,
+   "pos": "noun",
+   "options": [
+    "armed rebel fighter",
+    "harbor pilot",
+    "traveling merchant",
+    "court interpreter"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0374",
+   "lemma": "especulación",
+   "rank": 5577,
+   "pos": "noun",
+   "options": [
+    "risky guessing for financial gain",
+    "public road or highway",
+    "religious pilgrimage journey",
+    "harvest season or crop yield"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0375",
+   "lemma": "artillería",
+   "rank": 5595,
+   "pos": "noun",
+   "options": [
+    "heavy battlefield guns and cannons",
+    "trade guild or craftsmen union",
+    "royal palace courtyard",
+    "farming tools and equipment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0376",
+   "lemma": "escriba",
+   "rank": 5621,
+   "pos": "noun",
+   "options": [
+    "scribe, copyist",
+    "leather shield",
+    "stone altar",
+    "iron plow"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0377",
+   "lemma": "sentimental",
+   "rank": 5637,
+   "pos": "adj",
+   "options": [
+    "driven by tender feelings or emotion",
+    "rectangular, squared off",
+    "profitable, money-making",
+    "noisy, loud, clamorous"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0378",
+   "lemma": "recurrente",
+   "rank": 5642,
+   "pos": "adj",
+   "options": [
+    "happening again and again, repeated",
+    "firmly attached",
+    "boldly spoken",
+    "narrowly escaped"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0379",
+   "lemma": "residencial",
+   "rank": 5651,
+   "pos": "adj",
+   "options": [
+    "relating to housing or dwellings",
+    "loud and noisy",
+    "frozen and icy",
+    "ancient and ruined"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0380",
+   "lemma": "glorioso",
+   "rank": 5720,
+   "pos": "adj",
+   "options": [
+    "worthy of great praise and honor",
+    "envious of others",
+    "dimly lit",
+    "densely populated"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0381",
+   "lemma": "irlandés",
+   "rank": 5721,
+   "pos": "adj",
+   "options": [
+    "Irish, relating to Ireland",
+    "relating to the Dutch lowlands",
+    "pertaining to ancient Greek culture",
+    "of or from the Danish people"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0382",
+   "lemma": "fracasado",
+   "rank": 5757,
+   "pos": "adj",
+   "options": [
+    "failed, unsuccessful",
+    "torn, ripped apart",
+    "crowded, packed with people",
+    "frozen, extremely cold"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0383",
+   "lemma": "bautizar",
+   "rank": 5978,
+   "pos": "verb",
+   "options": [
+    "to baptize; to christen",
+    "to bury; to inter",
+    "to forgive; to pardon",
+    "to recruit; to enlist"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0384",
+   "lemma": "echado",
+   "rank": 5987,
+   "pos": "adj",
+   "options": [
+    "lying down or sprawled",
+    "tightly bound or fastened",
+    "deeply ashamed or embarrassed",
+    "heavily loaded or burdened"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0385",
+   "lemma": "derramar",
+   "rank": 6008,
+   "pos": "verb",
+   "options": [
+    "to spill, to shed liquid",
+    "to rent out, to lease",
+    "to whistle, to hiss",
+    "to kneel, to bow down"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0386",
+   "lemma": "moler",
+   "rank": 6070,
+   "pos": "verb",
+   "options": [
+    "to grind, to mill",
+    "to wrap tightly",
+    "to whistle softly",
+    "to borrow money"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0387",
+   "lemma": "montado",
+   "rank": 6106,
+   "pos": "adj",
+   "options": [
+    "mounted; on horseback",
+    "torn; ripped apart",
+    "frozen; covered in ice",
+    "barefoot; without shoes"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0388",
+   "lemma": "equipamiento",
+   "rank": 6109,
+   "pos": "noun",
+   "options": [
+    "tools and gear for a task",
+    "legal proceeding, trial",
+    "tax payment, levy",
+    "neighborhood council"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0389",
+   "lemma": "meme",
+   "rank": 6125,
+   "pos": "noun",
+   "options": [
+    "funny image or idea spread online",
+    "twin; identical sibling",
+    "guild; trade association",
+    "ridge; mountain crest"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0390",
+   "lemma": "puntuación",
+   "rank": 6137,
+   "pos": "noun",
+   "options": [
+    "score or number of points earned",
+    "parking space",
+    "harvest season",
+    "legal complaint"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0391",
+   "lemma": "deficiencia",
+   "rank": 6202,
+   "pos": "noun",
+   "options": [
+    "shortcoming or lack of something needed",
+    "formal written declaration",
+    "range of available options",
+    "state of mutual dependence"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0392",
+   "lemma": "preocupante",
+   "rank": 6279,
+   "pos": "adj",
+   "options": [
+    "worrying, alarming",
+    "slippery and wet",
+    "bitter and sour",
+    "densely populated"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0393",
+   "lemma": "reclutar",
+   "rank": 6288,
+   "pos": "verb",
+   "options": [
+    "to recruit or enlist members",
+    "to lock up or imprison",
+    "to recover or regain strength",
+    "to demand or claim payment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0394",
+   "lemma": "bromear",
+   "rank": 6338,
+   "pos": "verb",
+   "options": [
+    "to joke, to kid around",
+    "to iron clothes",
+    "to sail offshore",
+    "to chop firewood"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0395",
+   "lemma": "colapso",
+   "rank": 6375,
+   "pos": "noun",
+   "options": [
+    "sudden breakdown or total failure",
+    "harvest; crop yield",
+    "belt; leather strap",
+    "drawer; storage compartment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0396",
+   "lemma": "ostentar",
+   "rank": 6376,
+   "pos": "verb",
+   "options": [
+    "to display or flaunt proudly",
+    "to grind or crush grain",
+    "to shrink or contract inward",
+    "to lend or borrow money"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0397",
+   "lemma": "sureste",
+   "rank": 6419,
+   "pos": "noun",
+   "options": [
+    "southeast",
+    "twilight; dusk",
+    "highland; elevated plateau",
+    "harbor; coastal port"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0398",
+   "lemma": "desactivar",
+   "rank": 6421,
+   "pos": "verb",
+   "options": [
+    "to deactivate or disable",
+    "to share equally among partners",
+    "to wrap or bundle tightly",
+    "to recruit new members"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0399",
+   "lemma": "moro",
+   "rank": 6450,
+   "pos": "adj",
+   "options": [
+    "Moorish, of North African origin",
+    "relating to northern mountain regions",
+    "belonging to a seafaring culture",
+    "pertaining to ancient Roman tradition"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0400",
+   "lemma": "telefono",
+   "rank": 6510,
+   "pos": "noun",
+   "options": [
+    "telephone",
+    "drawer",
+    "curtain",
+    "staircase"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0401",
+   "lemma": "persa",
+   "rank": 6629,
+   "pos": "adj",
+   "options": [
+    "Persian or relating to Iran",
+    "flat or level in surface",
+    "bitter or harsh in flavor",
+    "distant or far removed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0402",
+   "lemma": "desbordar",
+   "rank": 6632,
+   "pos": "verb",
+   "options": [
+    "to overflow; to spill over",
+    "to scratch; to scrape a surface",
+    "to borrow; to take temporarily",
+    "to melt; to become liquid"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0403",
+   "lemma": "paradigma",
+   "rank": 6658,
+   "pos": "noun",
+   "options": [
+    "standard framework or prevailing worldview",
+    "nickname; informal personal name",
+    "shortage; lack of resources",
+    "verdict; official legal judgment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0404",
+   "lemma": "flamenco",
+   "rank": 6660,
+   "pos": "noun",
+   "options": [
+    "traditional Andalusian music and dance",
+    "city hall, municipal building",
+    "seasonal harvest festival",
+    "small fishing vessel, trawler"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0405",
+   "lemma": "ilimitado",
+   "rank": 6711,
+   "pos": "adj",
+   "options": [
+    "unlimited, boundless",
+    "damp and musty",
+    "swift and agile",
+    "narrow and cramped"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0406",
+   "lemma": "siembra",
+   "rank": 6735,
+   "pos": "noun",
+   "options": [
+    "sowing, planting of crops",
+    "harvest of grain",
+    "rural cattle ranch",
+    "irrigation canal system"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0407",
+   "lemma": "desencadenar",
+   "rank": 6748,
+   "pos": "verb",
+   "options": [
+    "to trigger, to unleash",
+    "to peel, to strip bark",
+    "to stutter, to stammer",
+    "to mop, to scrub floors"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0408",
+   "lemma": "auditoría",
+   "rank": 6763,
+   "pos": "noun",
+   "options": [
+    "official review of financial records",
+    "surgical procedure",
+    "outdoor marketplace",
+    "diplomatic summit"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0409",
+   "lemma": "debutar",
+   "rank": 6766,
+   "pos": "verb",
+   "options": [
+    "to perform for the first time",
+    "to carve wood",
+    "to pour liquid",
+    "to kneel down"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0410",
+   "lemma": "elogio",
+   "rank": 6767,
+   "pos": "noun",
+   "options": [
+    "praise, commendation",
+    "household chore",
+    "legal dispute",
+    "burial ceremony"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0411",
+   "lemma": "sinceridad",
+   "rank": 6798,
+   "pos": "noun",
+   "options": [
+    "quality of being truthful and open",
+    "physical strength",
+    "sudden change of mind",
+    "legal ownership"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0412",
+   "lemma": "desperdicio",
+   "rank": 6856,
+   "pos": "noun",
+   "options": [
+    "waste, squandering",
+    "sudden awakening",
+    "wooden staircase",
+    "clay storage jar"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0413",
+   "lemma": "heroico",
+   "rank": 6863,
+   "pos": "adj",
+   "options": [
+    "brave and bold in facing danger",
+    "gloomy or depressing",
+    "slender or narrow",
+    "rented or leased"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0414",
+   "lemma": "escolta",
+   "rank": 6903,
+   "pos": "noun",
+   "options": [
+    "protective guard, security detail",
+    "ticket booth",
+    "training ground",
+    "wool blanket"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0415",
+   "lemma": "similitud",
+   "rank": 6937,
+   "pos": "noun",
+   "options": [
+    "quality of being alike or matching",
+    "shortage; insufficient supply",
+    "motive; reason behind an action",
+    "loyalty; faithful devotion"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0416",
+   "lemma": "impotencia",
+   "rank": 6975,
+   "pos": "noun",
+   "options": [
+    "powerlessness, helplessness",
+    "extreme physical fatigue",
+    "religious devotion or piety",
+    "sudden outburst of laughter"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0417",
+   "lemma": "banquero",
+   "rank": 7008,
+   "pos": "noun",
+   "options": [
+    "banker, bank owner",
+    "shepherd, cattle herder",
+    "bricklayer, stone mason",
+    "lighthouse keeper, watchman"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0418",
+   "lemma": "yacer",
+   "rank": 7017,
+   "pos": "verb",
+   "options": [
+    "to lie (at rest, buried)",
+    "to wander aimlessly",
+    "to sink gradually",
+    "to gather together"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0419",
+   "lemma": "hormona",
+   "rank": 7019,
+   "pos": "noun",
+   "options": [
+    "body chemical that controls bodily processes",
+    "roof beam",
+    "tidal current",
+    "clay pot"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0420",
+   "lemma": "riñón",
+   "rank": 7059,
+   "pos": "noun",
+   "options": [
+    "kidney",
+    "shinbone or leg bone",
+    "upper arm muscle",
+    "roof of the mouth"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0421",
+   "lemma": "consolidación",
+   "rank": 7086,
+   "pos": "noun",
+   "options": [
+    "merging into one stronger whole",
+    "rehearsal; practice session",
+    "eviction; forced removal",
+    "irrigation; water supply system"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0422",
+   "lemma": "verguenza",
+   "rank": 7122,
+   "pos": "noun",
+   "options": [
+    "shame; embarrassment",
+    "harvest; seasonal crop",
+    "lawsuit; legal dispute",
+    "tile; floor covering"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0423",
+   "lemma": "expedir",
+   "rank": 7124,
+   "pos": "verb",
+   "options": [
+    "to issue or dispatch officially",
+    "to pull out or extract by force",
+    "to run out of or exhaust supply",
+    "to spread or scatter widely"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0424",
+   "lemma": "filo",
+   "rank": 7305,
+   "pos": "noun",
+   "options": [
+    "cutting edge or blade",
+    "clay roof tile",
+    "wooden fence post",
+    "glass window pane"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0425",
+   "lemma": "enfriar",
+   "rank": 7387,
+   "pos": "verb",
+   "options": [
+    "to cool down, to chill",
+    "to wrap in cloth",
+    "to borrow money",
+    "to sharpen a blade"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0426",
+   "lemma": "regidor",
+   "rank": 7391,
+   "pos": "noun",
+   "options": [
+    "alderman, town councillor",
+    "court bailiff",
+    "parish priest",
+    "tax collector"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0427",
+   "lemma": "escuadra",
+   "rank": 7485,
+   "pos": "noun",
+   "options": [
+    "squad or small military unit",
+    "wooden storage chest or trunk",
+    "narrow strip of open land",
+    "ceremonial bell or chime"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0428",
+   "lemma": "sintético",
+   "rank": 7511,
+   "pos": "adj",
+   "options": [
+    "synthetic, artificial, man-made",
+    "deeply rooted or ingrained",
+    "relating to bodily health",
+    "loud and attention-grabbing"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0429",
+   "lemma": "próspero",
+   "rank": 7574,
+   "pos": "adj",
+   "options": [
+    "wealthy and doing well",
+    "deeply rooted or entrenched",
+    "bold or daring in manner",
+    "densely populated or crowded"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0430",
+   "lemma": "polémico",
+   "rank": 7585,
+   "pos": "adj",
+   "options": [
+    "controversial or contentious",
+    "damp or saturated with moisture",
+    "worn out or exhausted from use",
+    "loosely arranged or unstructured"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0431",
+   "lemma": "conducto",
+   "rank": 7596,
+   "pos": "noun",
+   "options": [
+    "duct; pipe; channel",
+    "flock; group of birds",
+    "drawer; storage compartment",
+    "lantern; portable light source"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0432",
+   "lemma": "vinculación",
+   "rank": 7604,
+   "pos": "noun",
+   "options": [
+    "link, connection, bond",
+    "seasonal harvest",
+    "formal accusation",
+    "budget shortfall"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0433",
+   "lemma": "panda",
+   "rank": 7621,
+   "pos": "noun",
+   "options": [
+    "covered walkway or gallery in a cloister",
+    "wooden platform or stage",
+    "large open storage room",
+    "curved architectural archway"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0434",
+   "lemma": "estrato",
+   "rank": 7763,
+   "pos": "noun",
+   "options": [
+    "stratum or social layer",
+    "type of wild berry shrub",
+    "central courtyard of a building",
+    "written passage or excerpt"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0435",
+   "lemma": "incidir",
+   "rank": 7769,
+   "pos": "verb",
+   "options": [
+    "to have an impact on",
+    "to begin a journey",
+    "to wrap or cover tightly",
+    "to greet someone warmly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0436",
+   "lemma": "dentista",
+   "rank": 7780,
+   "pos": "noun",
+   "options": [
+    "doctor who treats teeth",
+    "livestock farmer",
+    "bridge engineer",
+    "court reporter"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0437",
+   "lemma": "infame",
+   "rank": 7783,
+   "pos": "adj",
+   "options": [
+    "wicked and widely condemned",
+    "restless, unable to sleep",
+    "slender, very thin",
+    "dizzy, feeling faint"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0438",
+   "lemma": "amparar",
+   "rank": 7784,
+   "pos": "verb",
+   "options": [
+    "to protect, to shelter, to shield",
+    "to harvest crops from a field",
+    "to translate a written document",
+    "to resign from a position"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0439",
+   "lemma": "marginar",
+   "rank": 7824,
+   "pos": "verb",
+   "options": [
+    "to exclude someone from society",
+    "to borrow money",
+    "to celebrate loudly",
+    "to freeze solid"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0440",
+   "lemma": "lapso",
+   "rank": 7828,
+   "pos": "noun",
+   "options": [
+    "brief stretch of time passing",
+    "shovel; digging tool",
+    "tenant; renting occupant",
+    "sermon; religious speech"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0441",
+   "lemma": "saturar",
+   "rank": 7831,
+   "pos": "verb",
+   "options": [
+    "to fill completely beyond capacity",
+    "to grind grain finely",
+    "to plant seed crops",
+    "to fold paper sheets"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0442",
+   "lemma": "diciéndole",
+   "rank": 7838,
+   "pos": "verb",
+   "options": [
+    "telling him/her",
+    "showing him/her",
+    "sending him/her",
+    "giving him/her"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0443",
+   "lemma": "rienda",
+   "rank": 7857,
+   "pos": "noun",
+   "options": [
+    "rein for controlling a horse",
+    "sharp stone or pebble",
+    "metal hook or fastening clip",
+    "narrow riverbank or shore"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0444",
+   "lemma": "corromper",
+   "rank": 7880,
+   "pos": "verb",
+   "options": [
+    "to corrupt, to bribe, to spoil",
+    "to iron, to press clothes",
+    "to harvest, to reap crops",
+    "to sneeze, to cough sharply"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0445",
+   "lemma": "manada",
+   "rank": 7922,
+   "pos": "noun",
+   "options": [
+    "herd, pack of animals",
+    "wooden handle",
+    "morning prayer",
+    "embroidered border"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0446",
+   "lemma": "dorar",
+   "rank": 7926,
+   "pos": "verb",
+   "options": [
+    "to brown or gild",
+    "to scrub or scour clean",
+    "to knock down or demolish",
+    "to kneel or bow down"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0447",
+   "lemma": "cacique",
+   "rank": 7936,
+   "pos": "noun",
+   "options": [
+    "local political boss",
+    "traveling merchant",
+    "religious ceremony",
+    "boundary marker"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0448",
+   "lemma": "piba",
+   "rank": 7971,
+   "pos": "noun",
+   "options": [
+    "girl or young woman",
+    "small rural dwelling or hut",
+    "local festival or celebration",
+    "narrow dirt path or trail"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0449",
+   "lemma": "sucesivamente",
+   "rank": 7977,
+   "pos": "adv",
+   "options": [
+    "one after another",
+    "suddenly without warning",
+    "secretly in hiding",
+    "deeply and profoundly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0450",
+   "lemma": "arbitraje",
+   "rank": 7986,
+   "pos": "noun",
+   "options": [
+    "settling of disputes by a neutral party",
+    "portrait or painted likeness",
+    "coastal fishing territory",
+    "public tax collection system"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0451",
+   "lemma": "hospitalario",
+   "rank": 8018,
+   "pos": "adj",
+   "options": [
+    "warm and welcoming to guests",
+    "densely wooded",
+    "sharply worded",
+    "finely woven"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0452",
+   "lemma": "panza",
+   "rank": 8125,
+   "pos": "noun",
+   "options": [
+    "belly, paunch",
+    "ankle, lower leg joint",
+    "eyelid, eye covering",
+    "thumb, first finger"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0453",
+   "lemma": "repugnante",
+   "rank": 8133,
+   "pos": "adj",
+   "options": [
+    "disgusting, repulsive",
+    "steep, abrupt",
+    "stubborn, obstinate",
+    "reckless, rash"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0454",
+   "lemma": "cordobés",
+   "rank": 8237,
+   "pos": "adj",
+   "options": [
+    "from Córdoba",
+    "related to the coast",
+    "of the highlands",
+    "native to the north"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0455",
+   "lemma": "diminuto",
+   "rank": 8335,
+   "pos": "adj",
+   "options": [
+    "tiny, very small",
+    "worn out, exhausted",
+    "blurry, out of focus",
+    "brittle, easily broken"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0456",
+   "lemma": "petro",
+   "rank": 8419,
+   "pos": "noun",
+   "options": [
+    "Venezuelan oil-backed cryptocurrency",
+    "river delta",
+    "military rank",
+    "voting ballot"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0457",
+   "lemma": "especia",
+   "rank": 8630,
+   "pos": "noun",
+   "options": [
+    "spice or seasoning",
+    "type of mirror",
+    "narrow alleyway",
+    "woven basket"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0458",
+   "lemma": "jara",
+   "rank": 8816,
+   "pos": "noun",
+   "options": [
+    "rockrose shrub",
+    "wooden oar",
+    "clay water jug",
+    "woven reed basket"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0459",
+   "lemma": "reiniciar",
+   "rank": 8838,
+   "pos": "verb",
+   "options": [
+    "to restart, reboot",
+    "to reinforce, strengthen",
+    "to negotiate, bargain",
+    "to paint, decorate"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0460",
+   "lemma": "hoguera",
+   "rank": 8854,
+   "pos": "noun",
+   "options": [
+    "bonfire or blaze",
+    "tin cup",
+    "stone arch",
+    "clay pot"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0461",
+   "lemma": "soberbia",
+   "rank": 8868,
+   "pos": "noun",
+   "options": [
+    "pride, arrogance",
+    "deep sorrow, grief",
+    "sudden outburst of anger",
+    "excessive shyness"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0462",
+   "lemma": "ciervo",
+   "rank": 9139,
+   "pos": "noun",
+   "options": [
+    "deer; stag",
+    "wild boar",
+    "sparrow hawk",
+    "river otter"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0463",
+   "lemma": "mayordomo",
+   "rank": 9219,
+   "pos": "noun",
+   "options": [
+    "butler or head steward",
+    "elected town council member",
+    "traveling circus performer",
+    "chief military strategist"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0464",
+   "lemma": "papeleta",
+   "rank": 9241,
+   "pos": "noun",
+   "options": [
+    "ballot; voting slip",
+    "small glass medicine bottle",
+    "street market stall permit",
+    "narrow leather wallet or purse"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0465",
+   "lemma": "épico",
+   "rank": 9325,
+   "pos": "adj",
+   "options": [
+    "grand in scale, heroic in scope",
+    "relating to ancient myths",
+    "involving moral judgment",
+    "describing lyrical poetry"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0466",
+   "lemma": "psicópata",
+   "rank": 9342,
+   "pos": "noun",
+   "options": [
+    "person with antisocial personality disorder",
+    "military commander or general",
+    "skilled craftsman or artisan",
+    "legal guardian or trustee"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0467",
+   "lemma": "sellado",
+   "rank": 9359,
+   "pos": "adj",
+   "options": [
+    "sealed or stamped",
+    "loosely woven or porous",
+    "freshly harvested or picked",
+    "deeply carved or engraved"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0468",
+   "lemma": "carpintero",
+   "rank": 9384,
+   "pos": "noun",
+   "options": [
+    "craftsman who works with wood",
+    "butcher",
+    "locksmith",
+    "sailor"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0469",
+   "lemma": "inconstitucional",
+   "rank": 9387,
+   "pos": "adj",
+   "options": [
+    "forbidden by the founding legal charter",
+    "morally reprehensible",
+    "financially insolvent",
+    "socially unacceptable"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0470",
+   "lemma": "homogéneo",
+   "rank": 9510,
+   "pos": "adj",
+   "options": [
+    "uniform and consistent throughout",
+    "deeply rooted",
+    "publicly funded",
+    "recently widowed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0471",
+   "lemma": "resentido",
+   "rank": 9514,
+   "pos": "adj",
+   "options": [
+    "bitter, holding a grudge",
+    "deeply ashamed",
+    "recently widowed",
+    "physically exhausted"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0472",
+   "lemma": "emblema",
+   "rank": 9521,
+   "pos": "noun",
+   "options": [
+    "badge or sign standing for a group",
+    "dwelling place",
+    "written complaint",
+    "iron anchor"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0473",
+   "lemma": "bibliotecario",
+   "rank": 9761,
+   "pos": "noun",
+   "options": [
+    "librarian",
+    "tax collector",
+    "harbor pilot",
+    "grave digger"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0474",
+   "lemma": "conocedor",
+   "rank": 9775,
+   "pos": "noun",
+   "options": [
+    "expert or connoisseur",
+    "town mayor or magistrate",
+    "ship captain or helmsman",
+    "traveling merchant or trader"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0475",
+   "lemma": "métrica",
+   "rank": 9806,
+   "pos": "noun",
+   "options": [
+    "poetic meter, verse rhythm",
+    "legal ruling, court decision",
+    "landscape, natural scenery",
+    "fabric, woven textile"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0476",
+   "lemma": "explicarlo",
+   "rank": 9854,
+   "pos": "verb",
+   "options": [
+    "to explain it",
+    "to build it",
+    "to sell it",
+    "to replace it"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0477",
+   "lemma": "salpicar",
+   "rank": 9953,
+   "pos": "verb",
+   "options": [
+    "to splash; to spatter",
+    "to sweep the floor",
+    "to wrap tightly",
+    "to knock down"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0478",
+   "lemma": "bordado",
+   "rank": 9955,
+   "pos": "noun",
+   "options": [
+    "embroidery or needlework",
+    "dried and cured meat",
+    "polished wooden floor",
+    "heavy iron anchor chain"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0479",
+   "lemma": "gene",
+   "rank": 9997,
+   "pos": "noun",
+   "options": [
+    "tiny hereditary unit in a cell",
+    "knee joint",
+    "twin brother",
+    "prison sentence"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0480",
+   "lemma": "balneario",
+   "rank": 10076,
+   "pos": "noun",
+   "options": [
+    "spa, bathing resort",
+    "outdoor market stall",
+    "church bell tower",
+    "cattle ranch"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0481",
+   "lemma": "afectivo",
+   "rank": 10077,
+   "pos": "adj",
+   "options": [
+    "relating to feelings and emotions",
+    "belonging to the harvest season",
+    "related to military service",
+    "characterized by rapid movement"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0482",
+   "lemma": "multar",
+   "rank": 10098,
+   "pos": "verb",
+   "options": [
+    "to fine or penalize",
+    "to kneel or bow down",
+    "to stir or mix together",
+    "to brag or boast"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0483",
+   "lemma": "mística",
+   "rank": 10121,
+   "pos": "noun",
+   "options": [
+    "mysticism or spiritual mystery",
+    "regional dialect or accent",
+    "system of trade or barter",
+    "formal etiquette or protocol"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0484",
+   "lemma": "calzón",
+   "rank": 10123,
+   "pos": "noun",
+   "options": [
+    "underpants; shorts",
+    "leather boot",
+    "woolen blanket",
+    "wide-brimmed hat"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0485",
+   "lemma": "movil",
+   "rank": 10175,
+   "pos": "noun",
+   "options": [
+    "mobile phone; motive",
+    "traffic sign",
+    "bus schedule",
+    "parking permit"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0486",
+   "lemma": "prefecto",
+   "rank": 10244,
+   "pos": "noun",
+   "options": [
+    "senior district official or overseer",
+    "suitor, romantic admirer",
+    "merchant, traveling trader",
+    "janitor, building caretaker"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0487",
+   "lemma": "desagüe",
+   "rank": 10268,
+   "pos": "noun",
+   "options": [
+    "drain, drainage channel",
+    "roof, ceiling structure",
+    "fence, boundary wall",
+    "attic, storage loft"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0488",
+   "lemma": "poseído",
+   "rank": 10279,
+   "pos": "adj",
+   "options": [
+    "possessed, under evil influence",
+    "wounded, physically injured",
+    "bored, uninterested",
+    "frozen, extremely cold"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0489",
+   "lemma": "bizarro",
+   "rank": 10356,
+   "pos": "adj",
+   "options": [
+    "brave, gallant",
+    "deeply religious",
+    "legally prohibited",
+    "widely traveled"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0490",
+   "lemma": "viñeta",
+   "rank": 10372,
+   "pos": "noun",
+   "options": [
+    "cartoon panel, comic strip frame",
+    "small fishing boat",
+    "wooden floor plank",
+    "roof tile, clay shingle"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0491",
+   "lemma": "capitalino",
+   "rank": 10375,
+   "pos": "adj",
+   "options": [
+    "of or from the nation's chief city",
+    "related to the harvest",
+    "concerning the coastline",
+    "belonging to the clergy"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0492",
+   "lemma": "principiante",
+   "rank": 10387,
+   "pos": "noun",
+   "options": [
+    "person new to an activity",
+    "elected community spokesperson",
+    "travelling merchant or trader",
+    "formal written declaration"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0493",
+   "lemma": "porcelana",
+   "rank": 10390,
+   "pos": "noun",
+   "options": [
+    "fine white fired-clay dishware",
+    "woven silk fabric",
+    "carved wooden panel",
+    "polished marble slab"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0494",
+   "lemma": "demente",
+   "rank": 10420,
+   "pos": "adj",
+   "options": [
+    "insane or mentally deranged",
+    "lacking sufficient nourishment",
+    "relating to coastal waters",
+    "excessively shy or timid"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0495",
+   "lemma": "aver",
+   "rank": 10593,
+   "pos": "verb",
+   "options": [
+    "to affirm, assert as fact",
+    "to mourn, lament",
+    "to wander, roam about",
+    "to repay a debt"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0496",
+   "lemma": "trasladarse",
+   "rank": 10649,
+   "pos": "verb",
+   "options": [
+    "to move or relocate oneself",
+    "to disguise oneself",
+    "to recover or heal",
+    "to complain bitterly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0497",
+   "lemma": "folklore",
+   "rank": 10761,
+   "pos": "noun",
+   "options": [
+    "traditional customs and stories",
+    "branch of natural science",
+    "formal legal proceeding",
+    "military training exercise"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0498",
+   "lemma": "checo",
+   "rank": 10883,
+   "pos": "adj",
+   "options": [
+    "relating to the Czech Republic",
+    "relating to an enclosed space",
+    "relating to uneven terrain",
+    "relating to distant regions"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0499",
+   "lemma": "arbolar",
+   "rank": 10970,
+   "pos": "verb",
+   "options": [
+    "to hoist, to raise up",
+    "to grind, to crush",
+    "to kneel down",
+    "to whisper softly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0501",
+   "lemma": "bolita",
+   "rank": 11139,
+   "pos": "noun",
+   "options": [
+    "small sphere used in games",
+    "short nap or rest",
+    "small stain or mark",
+    "small knife or blade"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0502",
+   "lemma": "realizador",
+   "rank": 11166,
+   "pos": "noun",
+   "options": [
+    "film director, producer",
+    "court interpreter",
+    "harbor pilot",
+    "tax collector"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0503",
+   "lemma": "curro",
+   "rank": 11192,
+   "pos": "noun",
+   "options": [
+    "job, work",
+    "cellar, basement",
+    "wool blanket",
+    "street corner"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0504",
+   "lemma": "comodoro",
+   "rank": 11217,
+   "pos": "noun",
+   "options": [
+    "senior naval fleet officer",
+    "auctioneer, public bidder",
+    "surveyor, land inspector",
+    "chaplain, military priest"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0505",
+   "lemma": "quejo",
+   "rank": 11257,
+   "pos": "verb",
+   "options": [
+    "I grumble, I whine",
+    "I kneel, I bow down",
+    "I burn, I set fire",
+    "I fit, I have room"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0506",
+   "lemma": "crónico",
+   "rank": 11298,
+   "pos": "adj",
+   "options": [
+    "chronic, long-lasting",
+    "relating to outer appearance",
+    "capable of being divided equally",
+    "derived from plant material"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0507",
+   "lemma": "árido",
+   "rank": 11342,
+   "pos": "adj",
+   "options": [
+    "very dry, lacking moisture",
+    "overly cautious or timid",
+    "covered with dense vegetation",
+    "relating to noble ancestry"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0508",
+   "lemma": "prohibe",
+   "rank": 11417,
+   "pos": "verb",
+   "options": [
+    "forbids, bans",
+    "borrows, takes on loan",
+    "polishes, makes shiny",
+    "wraps, covers tightly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0509",
+   "lemma": "repetitivo",
+   "rank": 11616,
+   "pos": "adj",
+   "options": [
+    "done over and over without change",
+    "relating to physical strength",
+    "easily broken or fragile",
+    "producing a sharp loud noise"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0510",
+   "lemma": "martirio",
+   "rank": 11966,
+   "pos": "noun",
+   "options": [
+    "martyrdom or great suffering",
+    "formal written agreement",
+    "seasonal weather pattern",
+    "communal gathering or assembly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0511",
+   "lemma": "envergadura",
+   "rank": 12067,
+   "pos": "noun",
+   "options": [
+    "scope, scale, or wingspan",
+    "bitter dispute or quarrel",
+    "ancestral lineage or bloodline",
+    "hidden compartment or recess"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0512",
+   "lemma": "estratega",
+   "rank": 12130,
+   "pos": "noun",
+   "options": [
+    "strategist, strategic planner",
+    "witness, bystander",
+    "merchant, trader",
+    "surgeon, medical specialist"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0513",
+   "lemma": "cooperativo",
+   "rank": 12159,
+   "pos": "adj",
+   "options": [
+    "willing to work together, helpful",
+    "slender, lean in build",
+    "murky, cloudy in color",
+    "stubborn, hard-headed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0514",
+   "lemma": "confirmando",
+   "rank": 12209,
+   "pos": "verb",
+   "options": [
+    "verifying, making certain of a fact",
+    "demanding, insisting firmly",
+    "borrowing, taking temporarily",
+    "forgetting, failing to recall"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0515",
+   "lemma": "bombón",
+   "rank": 12295,
+   "pos": "noun",
+   "options": [
+    "small chocolate sweet or candy",
+    "clay pot, earthen vessel",
+    "roof tile, ceramic shingle",
+    "wool blanket, woven cover"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0516",
+   "lemma": "confinado",
+   "rank": 12351,
+   "pos": "adj",
+   "options": [
+    "restricted, unable to move about freely",
+    "widowed, having lost a spouse",
+    "wounded, injured in battle",
+    "blessed, regarded as holy"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0517",
+   "lemma": "candela",
+   "rank": 12382,
+   "pos": "noun",
+   "options": [
+    "candle or flame",
+    "wooden storage chest",
+    "iron door latch or bolt",
+    "woven woolen blanket"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0518",
+   "lemma": "enmendar",
+   "rank": 12511,
+   "pos": "verb",
+   "options": [
+    "to amend or correct",
+    "to borrow or lend",
+    "to sweeten or flavor",
+    "to scatter or spread"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0519",
+   "lemma": "extensivo",
+   "rank": 12526,
+   "pos": "adj",
+   "options": [
+    "spread broadly, covering a wide area",
+    "deeply rooted",
+    "tightly sealed",
+    "poorly lit"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0520",
+   "lemma": "multitudinario",
+   "rank": 12541,
+   "pos": "adj",
+   "options": [
+    "involving a large crowd",
+    "lasting a very long time",
+    "relating to military force",
+    "occurring at regular intervals"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0521",
+   "lemma": "asistencial",
+   "rank": 12549,
+   "pos": "adj",
+   "options": [
+    "relating to welfare or care services",
+    "involving commercial trade",
+    "relating to astronomical study",
+    "describing rural land use"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0522",
+   "lemma": "preescolar",
+   "rank": 12569,
+   "pos": "adj",
+   "options": [
+    "preschool; pre-primary age",
+    "bilingual or dual-language",
+    "remedial or catch-up level",
+    "compulsory or mandatory attendance"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0523",
+   "lemma": "vértice",
+   "rank": 12574,
+   "pos": "noun",
+   "options": [
+    "vertex, apex, or tip",
+    "steep rocky cliff face",
+    "rotating axis of a wheel",
+    "outer boundary of a region"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0524",
+   "lemma": "postulación",
+   "rank": 12677,
+   "pos": "noun",
+   "options": [
+    "nomination, candidacy",
+    "written complaint",
+    "formal pardon request",
+    "land registry entry"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0525",
+   "lemma": "meo",
+   "rank": 12679,
+   "pos": "noun",
+   "options": [
+    "act of urinating",
+    "type of fish",
+    "kitchen drawer",
+    "evening prayer"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0526",
+   "lemma": "testículo",
+   "rank": 12687,
+   "pos": "noun",
+   "options": [
+    "male reproductive gland",
+    "small bone in the ear",
+    "joint connecting leg to foot",
+    "protective skull casing"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0527",
+   "lemma": "ininterrumpido",
+   "rank": 12824,
+   "pos": "adj",
+   "options": [
+    "uninterrupted, continuous",
+    "well-known, famous",
+    "unexpected, unforeseen",
+    "deeply rooted, ingrained"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0528",
+   "lemma": "azote",
+   "rank": 12831,
+   "pos": "noun",
+   "options": [
+    "whip stroke or lash",
+    "loose soil",
+    "wooden plank",
+    "iron anchor"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0529",
+   "lemma": "seta",
+   "rank": 12836,
+   "pos": "noun",
+   "options": [
+    "mushroom",
+    "wool blanket",
+    "clay pot",
+    "fishing hook"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0530",
+   "lemma": "ortográfico",
+   "rank": 12850,
+   "pos": "adj",
+   "options": [
+    "relating to spelling or orthography",
+    "relating to bodily posture",
+    "relating to religious worship",
+    "relating to soil cultivation"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0531",
+   "lemma": "reprobar",
+   "rank": 12865,
+   "pos": "verb",
+   "options": [
+    "to fail or condemn",
+    "to sneeze or cough",
+    "to whisper or murmur",
+    "to rent or lease out"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0532",
+   "lemma": "miliciano",
+   "rank": 12876,
+   "pos": "noun",
+   "options": [
+    "militia member",
+    "parish priest",
+    "traveling merchant",
+    "harbor pilot"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0533",
+   "lemma": "ducado",
+   "rank": 12878,
+   "pos": "noun",
+   "options": [
+    "duchy; dukedom",
+    "parish; local church district",
+    "merchant guild or trade union",
+    "royal decree or edict"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0534",
+   "lemma": "excepcionalmente",
+   "rank": 13097,
+   "pos": "adv",
+   "options": [
+    "outstandingly, far above the ordinary",
+    "lately, in recent times",
+    "jointly, together with others",
+    "briefly, for a short time"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0535",
+   "lemma": "electrodoméstico",
+   "rank": 13207,
+   "pos": "noun",
+   "options": [
+    "household appliance",
+    "building material",
+    "office supply",
+    "public utility"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0536",
+   "lemma": "enganche",
+   "rank": 13209,
+   "pos": "noun",
+   "options": [
+    "hook, coupling, hitch",
+    "paved road surface",
+    "storage compartment",
+    "boundary marker"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0537",
+   "lemma": "cúmulo",
+   "rank": 13227,
+   "pos": "noun",
+   "options": [
+    "accumulation, heap, or pile",
+    "prolonged period of drought",
+    "narrow coastal inlet",
+    "formal written agreement"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0538",
+   "lemma": "cosquillas",
+   "rank": 13272,
+   "pos": "noun",
+   "options": [
+    "tickling sensation, tickles",
+    "wrinkles, skin folds",
+    "hiccups, involuntary spasms",
+    "freckles, skin spots"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0539",
+   "lemma": "presumiblemente",
+   "rank": 13323,
+   "pos": "adv",
+   "options": [
+    "most likely, as one would suppose",
+    "reluctantly, against one's will",
+    "randomly, without any order",
+    "bitterly, with great resentment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0540",
+   "lemma": "concluyente",
+   "rank": 13383,
+   "pos": "adj",
+   "options": [
+    "settling the matter beyond doubt",
+    "bitter, unpleasant to taste",
+    "narrow, of little width",
+    "fragile, easily broken"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0541",
+   "lemma": "abstinencia",
+   "rank": 13422,
+   "pos": "noun",
+   "options": [
+    "going without, self-denial of a want",
+    "public ceremony or celebration",
+    "type of legal jurisdiction",
+    "written record or register"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0542",
+   "lemma": "brindis",
+   "rank": 13432,
+   "pos": "noun",
+   "options": [
+    "toast, drinking salute",
+    "card game wager",
+    "farewell ceremony",
+    "folk dance ritual"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0543",
+   "lemma": "decile",
+   "rank": 13445,
+   "pos": "noun",
+   "options": [
+    "each tenth portion of a ranked distribution",
+    "tax bracket",
+    "census region",
+    "voting district"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0544",
+   "lemma": "culebra",
+   "rank": 13530,
+   "pos": "noun",
+   "options": [
+    "snake, serpent",
+    "wild boar",
+    "river turtle",
+    "large moth"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0545",
+   "lemma": "inundado",
+   "rank": 13536,
+   "pos": "adj",
+   "options": [
+    "flooded, submerged",
+    "firmly bolted shut",
+    "heavily taxed",
+    "tightly wound up"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0546",
+   "lemma": "carlista",
+   "rank": 13621,
+   "pos": "adj",
+   "options": [
+    "supporting the rival royal branch of Carlos",
+    "relating to maritime trade",
+    "of or pertaining to rural farming",
+    "belonging to a monastic order"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0547",
+   "lemma": "pulpa",
+   "rank": 13750,
+   "pos": "noun",
+   "options": [
+    "soft inner flesh of fruit",
+    "type of woven fabric",
+    "wooden beam or plank",
+    "collection of tools"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0548",
+   "lemma": "desembocadura",
+   "rank": 13752,
+   "pos": "noun",
+   "options": [
+    "river mouth or outlet",
+    "sudden collapse of a structure",
+    "narrow mountain pass or gorge",
+    "underground water reservoir"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0549",
+   "lemma": "merengue",
+   "rank": 13764,
+   "pos": "noun",
+   "options": [
+    "sweet whipped egg-white topping",
+    "ship's deck, upper floor",
+    "copper coin, small change",
+    "clay pot, earthen vessel"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0550",
+   "lemma": "heraldo",
+   "rank": 13776,
+   "pos": "noun",
+   "options": [
+    "royal messenger bearing official news",
+    "shepherd, herdsman",
+    "innkeeper, host",
+    "blacksmith, craftsman"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0551",
+   "lemma": "taparse",
+   "rank": 13783,
+   "pos": "verb",
+   "options": [
+    "to cover oneself up",
+    "to calm oneself down",
+    "to trip and fall",
+    "to stretch oneself out"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0552",
+   "lemma": "hacés",
+   "rank": 13826,
+   "pos": "verb",
+   "options": [
+    "you do or make (informal)",
+    "you sleep",
+    "you arrive",
+    "you read"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0553",
+   "lemma": "bolchevique",
+   "rank": 13925,
+   "pos": "adj",
+   "options": [
+    "Bolshevik",
+    "colonial, imperial",
+    "clerical, church-based",
+    "feudal, aristocratic"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0554",
+   "lemma": "transexual",
+   "rank": 14088,
+   "pos": "adj",
+   "options": [
+    "having shifted from one gender to another",
+    "unmarried, celibate",
+    "legally emancipated",
+    "foreign-born, immigrant"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0555",
+   "lemma": "asediar",
+   "rank": 14144,
+   "pos": "verb",
+   "options": [
+    "to besiege; to harass persistently",
+    "to whisper softly",
+    "to lend money",
+    "to plant seeds"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0556",
+   "lemma": "prepago",
+   "rank": 14153,
+   "pos": "noun",
+   "options": [
+    "payment made upfront before receiving goods",
+    "loan installment",
+    "tax refund",
+    "security deposit"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0557",
+   "lemma": "cochera",
+   "rank": 14161,
+   "pos": "noun",
+   "options": [
+    "garage or carriage house",
+    "fishing net or trap",
+    "watchtower or lookout post",
+    "woven basket or hamper"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0558",
+   "lemma": "aflorar",
+   "rank": 14332,
+   "pos": "verb",
+   "options": [
+    "to emerge or surface",
+    "to freeze or harden",
+    "to kneel or bow",
+    "to scatter or disperse"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0559",
+   "lemma": "espanto",
+   "rank": 14356,
+   "pos": "noun",
+   "options": [
+    "fright, terror",
+    "narrow alleyway",
+    "evening breeze",
+    "iron railing"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0560",
+   "lemma": "recambio",
+   "rank": 14373,
+   "pos": "noun",
+   "options": [
+    "spare part; replacement part",
+    "storage room",
+    "travel itinerary",
+    "rental agreement"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0561",
+   "lemma": "horca",
+   "rank": 14386,
+   "pos": "noun",
+   "options": [
+    "gallows; hanging frame",
+    "village square or plaza",
+    "iron padlock or bolt",
+    "wooden barrel or cask"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0562",
+   "lemma": "audacia",
+   "rank": 14532,
+   "pos": "noun",
+   "options": [
+    "boldness, daring",
+    "fishing net",
+    "morning dew",
+    "wooden beam"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0563",
+   "lemma": "templario",
+   "rank": 14537,
+   "pos": "noun",
+   "options": [
+    "knight of the medieval warrior brotherhood",
+    "Franciscan friar or monk",
+    "royal palace guard or sentinel",
+    "traveling merchant in medieval times"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0564",
+   "lemma": "regularizar",
+   "rank": 14563,
+   "pos": "verb",
+   "options": [
+    "to bring into proper legal standing",
+    "to postpone indefinitely",
+    "to publicly denounce",
+    "to forcibly remove"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0565",
+   "lemma": "litar",
+   "rank": 14571,
+   "pos": "verb",
+   "options": [
+    "to offer a sacrifice",
+    "to sharpen a blade",
+    "to tighten a rope",
+    "to weave a fabric"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0566",
+   "lemma": "ramificación",
+   "rank": 14577,
+   "pos": "noun",
+   "options": [
+    "branching, subdivision, offshoot",
+    "election, democratic vote",
+    "harvest, crop gathering",
+    "negotiation, formal dialogue"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0567",
+   "lemma": "ayúdanos",
+   "rank": 14603,
+   "pos": "verb",
+   "options": [
+    "help us",
+    "forgive us, pardon us",
+    "watch us, observe us",
+    "leave us, abandon us"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0568",
+   "lemma": "comerme",
+   "rank": 14610,
+   "pos": "verb",
+   "options": [
+    "to eat (something) up",
+    "to dress oneself",
+    "to fall asleep",
+    "to get lost"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0569",
+   "lemma": "rial",
+   "rank": 14714,
+   "pos": "noun",
+   "options": [
+    "monetary unit of Iran or Yemen",
+    "coastal reef or sandbar",
+    "wooden fence or railing",
+    "type of medicinal herb"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0570",
+   "lemma": "higuera",
+   "rank": 14743,
+   "pos": "noun",
+   "options": [
+    "fig tree",
+    "iron forge or smithy",
+    "freshwater spring or well",
+    "woven reed basket"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0571",
+   "lemma": "caray",
+   "rank": 14807,
+   "pos": "other",
+   "options": [
+    "wow, gosh (mild exclamation)",
+    "already, just now",
+    "of course, certainly",
+    "even so, nevertheless"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0572",
+   "lemma": "preguntarnos",
+   "rank": 14866,
+   "pos": "verb",
+   "options": [
+    "to ask ourselves",
+    "to promise each other",
+    "to gather together",
+    "to blame ourselves"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0573",
+   "lemma": "majar",
+   "rank": 14917,
+   "pos": "verb",
+   "options": [
+    "to crush or grind",
+    "to sew or stitch",
+    "to float or drift",
+    "to whistle or hum"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0574",
+   "lemma": "padecimiento",
+   "rank": 14926,
+   "pos": "noun",
+   "options": [
+    "suffering, ailment",
+    "legal proceeding",
+    "seasonal harvest",
+    "religious vow"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0575",
+   "lemma": "muleta",
+   "rank": 14951,
+   "pos": "noun",
+   "options": [
+    "crutch (walking aid)",
+    "bridle for a horse",
+    "wooden workbench",
+    "knitted woolen cap"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0576",
+   "lemma": "perejil",
+   "rank": 14962,
+   "pos": "noun",
+   "options": [
+    "parsley",
+    "cinnamon",
+    "sunflower seed",
+    "clove"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0577",
+   "lemma": "expositor",
+   "rank": 14976,
+   "pos": "noun",
+   "options": [
+    "person who exhibits or presents",
+    "tax collector",
+    "army recruiter",
+    "prison warden"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0578",
+   "lemma": "salvamento",
+   "rank": 15152,
+   "pos": "noun",
+   "options": [
+    "rescue or life-saving operation",
+    "tax exemption",
+    "harvest festival",
+    "legal inheritance"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0579",
+   "lemma": "pigmento",
+   "rank": 15170,
+   "pos": "noun",
+   "options": [
+    "substance giving color to skin or tissue",
+    "wooden splinter",
+    "glass fragment",
+    "woven fabric"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0580",
+   "lemma": "llaga",
+   "rank": 15190,
+   "pos": "noun",
+   "options": [
+    "open sore or wound",
+    "iron chain",
+    "mud puddle",
+    "wax candle"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0581",
+   "lemma": "poronga",
+   "rank": 15267,
+   "pos": "noun",
+   "options": [
+    "penis, male genitalia",
+    "large clay cooking pot",
+    "type of river fishing net",
+    "wooden cattle prod or stick"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0582",
+   "lemma": "triunfal",
+   "rank": 15345,
+   "pos": "adj",
+   "options": [
+    "triumphant or victorious",
+    "pertaining to rural farmland",
+    "relating to ancient folklore",
+    "characteristic of cold climates"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0583",
+   "lemma": "varita",
+   "rank": 15384,
+   "pos": "noun",
+   "options": [
+    "small wand or stick",
+    "glass jar or bottle",
+    "long woolen scarf",
+    "iron fence or railing"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0584",
+   "lemma": "eslabón",
+   "rank": 15433,
+   "pos": "noun",
+   "options": [
+    "link in a chain",
+    "coat lapel",
+    "wooden drawer",
+    "tax receipt"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0585",
+   "lemma": "implorar",
+   "rank": 15507,
+   "pos": "verb",
+   "options": [
+    "to beg or plead urgently",
+    "to wrap or bundle up",
+    "to delay or postpone",
+    "to wander or roam"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0586",
+   "lemma": "desenfrenar",
+   "rank": 15558,
+   "pos": "verb",
+   "options": [
+    "to unleash; to lose all restraint",
+    "to gather the harvest",
+    "to iron clothing",
+    "to file a complaint"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0587",
+   "lemma": "arboleda",
+   "rank": 15577,
+   "pos": "noun",
+   "options": [
+    "grove of trees",
+    "riverbank",
+    "wheat field",
+    "stone wall"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0588",
+   "lemma": "traste",
+   "rank": 15582,
+   "pos": "noun",
+   "options": [
+    "fret on a guitar",
+    "mill wheel",
+    "barn loft",
+    "fishing net"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0589",
+   "lemma": "ibero",
+   "rank": 15737,
+   "pos": "adj",
+   "options": [
+    "Iberian, of ancient Iberia",
+    "of the open sea",
+    "of the mountain range",
+    "of the river basin"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0590",
+   "lemma": "armónico",
+   "rank": 15966,
+   "pos": "adj",
+   "options": [
+    "harmonious, relating to harmony",
+    "sharp, pointed at the tip",
+    "belonging to a guild or trade",
+    "native to a cold climate"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0591",
+   "lemma": "clasificatorio",
+   "rank": 16036,
+   "pos": "adj",
+   "options": [
+    "qualifying; for ranking or selection",
+    "punishable by fine or penalty",
+    "related to municipal boundaries",
+    "intended for public display"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0592",
+   "lemma": "recordarles",
+   "rank": 16140,
+   "pos": "verb",
+   "options": [
+    "to remind them",
+    "to hand them",
+    "to owe them",
+    "to calm them"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0593",
+   "lemma": "teñido",
+   "rank": 16195,
+   "pos": "adj",
+   "options": [
+    "dyed; tinted in color",
+    "tightly woven",
+    "finely embroidered",
+    "freshly laundered"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0594",
+   "lemma": "desprendimiento",
+   "rank": 16199,
+   "pos": "noun",
+   "options": [
+    "detachment, loosening, landslide",
+    "formal public announcement",
+    "gradual change of opinion",
+    "sudden burst of laughter"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0595",
+   "lemma": "infusión",
+   "rank": 16317,
+   "pos": "noun",
+   "options": [
+    "hot herbal tea or brew",
+    "long public speech",
+    "formal written complaint",
+    "slow downward slope"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0596",
+   "lemma": "bicarbonato",
+   "rank": 16658,
+   "pos": "noun",
+   "options": [
+    "baking soda, sodium salt powder",
+    "refined cane sugar",
+    "powdered chalk dust",
+    "liquid bleaching agent"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0597",
+   "lemma": "plomero",
+   "rank": 16921,
+   "pos": "noun",
+   "options": [
+    "plumber",
+    "bricklayer",
+    "forest ranger",
+    "tax collector"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0598",
+   "lemma": "cristalizar",
+   "rank": 16933,
+   "pos": "verb",
+   "options": [
+    "to crystallize; to take form",
+    "to uproot from the ground",
+    "to murmur or whisper softly",
+    "to patrol or keep watch over"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0599",
+   "lemma": "influenza",
+   "rank": 17021,
+   "pos": "noun",
+   "options": [
+    "contagious respiratory fever illness",
+    "blood clot, thrombosis",
+    "skin rash, irritation",
+    "bone fracture, break"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0600",
+   "lemma": "decenio",
+   "rank": 17390,
+   "pos": "noun",
+   "options": [
+    "a period of ten years",
+    "a formal written decree",
+    "a unit of currency",
+    "a religious ceremony"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0601",
+   "lemma": "oleaje",
+   "rank": 17431,
+   "pos": "noun",
+   "options": [
+    "surf; wave motion",
+    "morning fog",
+    "river current speed",
+    "sandy shoreline"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0602",
+   "lemma": "serle",
+   "rank": 17546,
+   "pos": "other",
+   "options": [
+    "to be (for him/her/it)",
+    "to give back to him",
+    "to seem to her",
+    "to belong to them"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0603",
+   "lemma": "incapacitado",
+   "rank": 17625,
+   "pos": "adj",
+   "options": [
+    "unable to function, disabled",
+    "well-rested",
+    "newly hired",
+    "deeply indebted"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0604",
+   "lemma": "corintio",
+   "rank": 17684,
+   "pos": "adj",
+   "options": [
+    "of the Greek city on the isthmus",
+    "relating to ancient Sparta",
+    "of or from Carthage",
+    "belonging to the Aegean islands"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0605",
+   "lemma": "cualificación",
+   "rank": 17847,
+   "pos": "noun",
+   "options": [
+    "skill or credential for a job",
+    "formal written accusation",
+    "municipal zoning boundary",
+    "financial compensation payment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0606",
+   "lemma": "lucidez",
+   "rank": 17937,
+   "pos": "noun",
+   "options": [
+    "sharpness and clarity of thought",
+    "physical agility and nimbleness",
+    "warmth and personal affection",
+    "stubbornness or obstinate attitude"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0607",
+   "lemma": "uterino",
+   "rank": 17997,
+   "pos": "adj",
+   "options": [
+    "relating to the uterus",
+    "pertaining to bone marrow tissue",
+    "characteristic of the lymph nodes",
+    "relating to the outer skin layer"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0608",
+   "lemma": "gimnasta",
+   "rank": 18027,
+   "pos": "noun",
+   "options": [
+    "athlete who does floor and bar routines",
+    "lifeguard",
+    "carpenter",
+    "accountant"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0609",
+   "lemma": "batida",
+   "rank": 18048,
+   "pos": "noun",
+   "options": [
+    "hunt, search sweep",
+    "low tide, ebb",
+    "narrow ravine, gorge",
+    "formal complaint, grievance"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0610",
+   "lemma": "aplacar",
+   "rank": 18242,
+   "pos": "verb",
+   "options": [
+    "to appease or calm down",
+    "to delay or postpone",
+    "to scatter or spread out",
+    "to carve or engrave"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0611",
+   "lemma": "omnipresente",
+   "rank": 18270,
+   "pos": "adj",
+   "options": [
+    "present in all places always",
+    "capable of lifting great weight",
+    "producing very loud sounds",
+    "lasting for many centuries"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0612",
+   "lemma": "chillón",
+   "rank": 18478,
+   "pos": "adj",
+   "options": [
+    "loud, shrill, garish",
+    "bitter, sour-tasting",
+    "clumsy, awkward",
+    "narrow, tight-fitting"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0613",
+   "lemma": "pederasta",
+   "rank": 18729,
+   "pos": "noun",
+   "options": [
+    "person who abuses children sexually",
+    "street market vendor",
+    "traveling circus performer",
+    "unlicensed medical practitioner"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0614",
+   "lemma": "ahogo",
+   "rank": 18751,
+   "pos": "noun",
+   "options": [
+    "suffocation or breathlessness",
+    "sudden sharp pain in the back",
+    "feeling of intense jealousy",
+    "persistent ringing in the ears"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0615",
+   "lemma": "ultrasonido",
+   "rank": 18770,
+   "pos": "noun",
+   "options": [
+    "high-frequency waves beyond hearing range",
+    "electric current, charge",
+    "nerve impulse, reflex",
+    "optical lens, prism"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0616",
+   "lemma": "ñoquis",
+   "rank": 19425,
+   "pos": "noun",
+   "options": [
+    "small potato dumplings",
+    "dried meat strips",
+    "sweet pastry rolls",
+    "corn flour flatbreads"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0617",
+   "lemma": "costeño",
+   "rank": 19448,
+   "pos": "adj",
+   "options": [
+    "coastal; of the coast",
+    "flat and treeless",
+    "densely forested",
+    "high altitude; mountainous"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0618",
+   "lemma": "tribulación",
+   "rank": 19735,
+   "pos": "noun",
+   "options": [
+    "suffering or great trouble",
+    "a solemn public ceremony",
+    "a formal written complaint",
+    "a riverside settlement"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0619",
+   "lemma": "florecimiento",
+   "rank": 20105,
+   "pos": "noun",
+   "options": [
+    "flourishing, blossoming",
+    "lightning storm, thunderclap",
+    "border crossing, frontier",
+    "tax payment, levy"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0620",
+   "lemma": "reis",
+   "rank": 20175,
+   "pos": "noun",
+   "options": [
+    "old Portuguese or Brazilian small coin",
+    "unit of land measurement",
+    "traditional Moorish drum",
+    "type of sailing vessel"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0621",
+   "lemma": "internacionalista",
+   "rank": 20228,
+   "pos": "adj",
+   "options": [
+    "favoring ties across many nations",
+    "belonging to a religious order",
+    "typical of rural communities",
+    "based on military strategy"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0622",
+   "lemma": "licitar",
+   "rank": 20234,
+   "pos": "verb",
+   "options": [
+    "to bid at auction",
+    "to sweep the floor",
+    "to sneeze suddenly",
+    "to fold laundry"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0623",
+   "lemma": "enajenación",
+   "rank": 20236,
+   "pos": "noun",
+   "options": [
+    "alienation or transfer of property",
+    "prison sentence",
+    "public announcement",
+    "tax obligation"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0624",
+   "lemma": "encabronar",
+   "rank": 20264,
+   "pos": "verb",
+   "options": [
+    "to infuriate, make someone furious",
+    "to tie or fasten tightly",
+    "to bribe a public official",
+    "to remove hair or fur"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0625",
+   "lemma": "bajarme",
+   "rank": 20317,
+   "pos": "verb",
+   "options": [
+    "to get down or descend",
+    "to get dressed formally",
+    "to wake up early",
+    "to pay in advance"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0626",
+   "lemma": "añada",
+   "rank": 20479,
+   "pos": "noun",
+   "options": [
+    "vintage year",
+    "flour type",
+    "crop rotation",
+    "stone terrace"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0627",
+   "lemma": "limpiarse",
+   "rank": 20530,
+   "pos": "verb",
+   "options": [
+    "to clean oneself, wipe oneself",
+    "to dress oneself formally",
+    "to injure oneself accidentally",
+    "to shelter oneself from rain"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0628",
+   "lemma": "mixteco",
+   "rank": 20692,
+   "pos": "adj",
+   "options": [
+    "of a southern Mexican indigenous people",
+    "belonging to the northern coastal region",
+    "relating to ancient Andean culture",
+    "characteristic of Caribbean island groups"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0629",
+   "lemma": "incautación",
+   "rank": 21030,
+   "pos": "noun",
+   "options": [
+    "seizure or confiscation of property",
+    "formal written complaint or petition",
+    "official border crossing permit",
+    "public announcement of a verdict"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0630",
+   "lemma": "adrede",
+   "rank": 21044,
+   "pos": "adv",
+   "options": [
+    "on purpose; deliberately",
+    "barely; scarcely",
+    "nearby; close by",
+    "upside down; inverted"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0631",
+   "lemma": "reforestación",
+   "rank": 21171,
+   "pos": "noun",
+   "options": [
+    "replanting trees in cleared land",
+    "irrigation of dry farmland",
+    "restoration of old buildings",
+    "purification of contaminated water"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0632",
+   "lemma": "produciéndose",
+   "rank": 21492,
+   "pos": "verb",
+   "options": [
+    "occurring, taking place",
+    "being postponed or delayed",
+    "breaking apart or splitting",
+    "gathering or assembling together"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0633",
+   "lemma": "parachoques",
+   "rank": 21565,
+   "pos": "noun",
+   "options": [
+    "vehicle bumper or fender",
+    "windshield wiper blade",
+    "steering wheel cover",
+    "overhead luggage rack"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0634",
+   "lemma": "obituario",
+   "rank": 21630,
+   "pos": "noun",
+   "options": [
+    "published notice of someone's death",
+    "wedding announcement",
+    "legal contract",
+    "travel itinerary"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0635",
+   "lemma": "métete",
+   "rank": 21755,
+   "pos": "verb",
+   "options": [
+    "to insert oneself, butt in",
+    "to lie down, rest",
+    "to kneel, bow down",
+    "to run away, flee"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0636",
+   "lemma": "repechaje",
+   "rank": 21784,
+   "pos": "noun",
+   "options": [
+    "playoff, second-chance round",
+    "tax refund, reimbursement",
+    "public announcement, notice",
+    "border checkpoint, customs post"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0637",
+   "lemma": "crujir",
+   "rank": 21870,
+   "pos": "verb",
+   "options": [
+    "to creak or crunch",
+    "to drip or trickle slowly",
+    "to fade or grow dim",
+    "to freeze or turn solid"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0638",
+   "lemma": "longevo",
+   "rank": 22111,
+   "pos": "adj",
+   "options": [
+    "long-lived; of great age",
+    "left-handed; using the left",
+    "far away; remote in distance",
+    "talkative; fond of speaking"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0639",
+   "lemma": "cortejar",
+   "rank": 22115,
+   "pos": "verb",
+   "options": [
+    "to court, to woo someone",
+    "to settle, to reside somewhere",
+    "to stir, to mix a liquid",
+    "to climb, to scale a surface"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0640",
+   "lemma": "eclesial",
+   "rank": 22128,
+   "pos": "adj",
+   "options": [
+    "relating to the church",
+    "pertaining to royal courts",
+    "of or relating to armies",
+    "concerning civil law"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0641",
+   "lemma": "secadora",
+   "rank": 22403,
+   "pos": "noun",
+   "options": [
+    "clothes dryer",
+    "kitchen shelf",
+    "ceiling fan",
+    "door hinge"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0642",
+   "lemma": "caoba",
+   "rank": 22671,
+   "pos": "noun",
+   "options": [
+    "mahogany",
+    "pine resin",
+    "river reed",
+    "clay pot"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0643",
+   "lemma": "novicio",
+   "rank": 22685,
+   "pos": "noun",
+   "options": [
+    "trainee in a religious order",
+    "retired official",
+    "sworn witness",
+    "traveling merchant"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0644",
+   "lemma": "cachar",
+   "rank": 22690,
+   "pos": "verb",
+   "options": [
+    "to catch or grab something",
+    "to trim or prune plants",
+    "to mix or stir liquids",
+    "to complain or grumble"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0645",
+   "lemma": "basándonos",
+   "rank": 23117,
+   "pos": "verb",
+   "options": [
+    "to base ourselves on",
+    "to divide ourselves into",
+    "to move ourselves toward",
+    "to settle ourselves down"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0646",
+   "lemma": "pitufo",
+   "rank": 23246,
+   "pos": "noun",
+   "options": [
+    "smurf; small blue cartoon creature",
+    "large wooden puppet",
+    "spinning toy top",
+    "paper kite"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0647",
+   "lemma": "infumable",
+   "rank": 23350,
+   "pos": "adj",
+   "options": [
+    "unbearable, insufferable",
+    "deeply dishonest, corrupt",
+    "extremely outdated, obsolete",
+    "utterly incompetent, useless"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0648",
+   "lemma": "oblongo",
+   "rank": 23357,
+   "pos": "adj",
+   "options": [
+    "longer than wide, elongated",
+    "covered in fine hair",
+    "bent or curved inward",
+    "divided into equal halves"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0649",
+   "lemma": "correntino",
+   "rank": 23392,
+   "pos": "adj",
+   "options": [
+    "relating to Corrientes, Argentina",
+    "relating to the Canary Islands",
+    "relating to mountain terrain",
+    "relating to the colonial era"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0650",
+   "lemma": "apresuradamente",
+   "rank": 23413,
+   "pos": "adv",
+   "options": [
+    "hastily; in a hurry",
+    "reluctantly; unwillingly",
+    "silently; without a sound",
+    "roughly; without care"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0651",
+   "lemma": "hijita",
+   "rank": 23484,
+   "pos": "noun",
+   "options": [
+    "little daughter",
+    "old neighbor",
+    "dear friend",
+    "young nurse"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0652",
+   "lemma": "desfasar",
+   "rank": 23666,
+   "pos": "verb",
+   "options": [
+    "to put out of phase or sync",
+    "to water the garden",
+    "to negotiate a contract",
+    "to fold a piece of cloth"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0653",
+   "lemma": "apoyarla",
+   "rank": 23701,
+   "pos": "verb",
+   "options": [
+    "to support or back her",
+    "to argue against her",
+    "to hide her belongings",
+    "to summon or call her"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0654",
+   "lemma": "ridículamente",
+   "rank": 24164,
+   "pos": "adv",
+   "options": [
+    "in a laughably foolish manner",
+    "reluctantly; against one's will",
+    "painstakingly; with great care",
+    "discreetly; without drawing attention"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0655",
+   "lemma": "robarse",
+   "rank": 24166,
+   "pos": "verb",
+   "options": [
+    "to steal something",
+    "to get dressed",
+    "to fall asleep",
+    "to complain loudly"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0656",
+   "lemma": "trigésimo",
+   "rank": 24190,
+   "pos": "adj",
+   "options": [
+    "thirtieth",
+    "twelfth",
+    "fortieth",
+    "sixteenth"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0657",
+   "lemma": "imaginarlo",
+   "rank": 24720,
+   "pos": "verb",
+   "options": [
+    "to picture it in one's mind",
+    "to lend it, loan it out",
+    "to fold it, crease it",
+    "to weigh it, measure it"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0658",
+   "lemma": "tunel",
+   "rank": 24796,
+   "pos": "noun",
+   "options": [
+    "underground passageway through earth",
+    "chimney",
+    "harbor",
+    "scaffold"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0659",
+   "lemma": "empadronar",
+   "rank": 24839,
+   "pos": "verb",
+   "options": [
+    "to register in a census",
+    "to assign a military rank",
+    "to auction off property publicly",
+    "to grant citizenship by marriage"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0660",
+   "lemma": "agrupamiento",
+   "rank": 24891,
+   "pos": "noun",
+   "options": [
+    "grouping; clustering together",
+    "regular maintenance or upkeep",
+    "formal written complaint",
+    "gradual withdrawal or retreat"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0661",
+   "lemma": "ocurrente",
+   "rank": 24894,
+   "pos": "adj",
+   "options": [
+    "witty",
+    "slender",
+    "stubborn",
+    "pale"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0662",
+   "lemma": "terquedad",
+   "rank": 25080,
+   "pos": "noun",
+   "options": [
+    "stubbornness, obstinacy",
+    "shyness, timidity",
+    "cheerfulness, good humor",
+    "clumsiness, awkwardness"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0663",
+   "lemma": "permuta",
+   "rank": 25215,
+   "pos": "noun",
+   "options": [
+    "exchange; swap of property or posts",
+    "written complaint or grievance",
+    "legal penalty or fine",
+    "annual budget allocation"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0664",
+   "lemma": "imprecisión",
+   "rank": 25448,
+   "pos": "noun",
+   "options": [
+    "lack of exactness or sharpness",
+    "sudden outburst of anger",
+    "excessive workload or burden",
+    "refusal to follow orders"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0665",
+   "lemma": "pecaminoso",
+   "rank": 25495,
+   "pos": "adj",
+   "options": [
+    "sinful, wicked",
+    "clumsy, heavy-handed",
+    "miserly, tight-fisted",
+    "noisy, loud, clamorous"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0666",
+   "lemma": "montés",
+   "rank": 25514,
+   "pos": "adj",
+   "options": [
+    "wild or living in the mountains",
+    "relating to deep ocean waters",
+    "tame and accustomed to people",
+    "belonging to a noble lineage"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0667",
+   "lemma": "echarnos",
+   "rank": 25591,
+   "pos": "verb",
+   "options": [
+    "to throw or cast ourselves",
+    "to share among ourselves",
+    "to sing to one another",
+    "to wash or bathe ourselves"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0668",
+   "lemma": "felicitarte",
+   "rank": 25606,
+   "pos": "verb",
+   "options": [
+    "to congratulate you",
+    "to comfort you",
+    "to ignore you",
+    "to hire you"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0669",
+   "lemma": "marisma",
+   "rank": 25826,
+   "pos": "noun",
+   "options": [
+    "salt marsh",
+    "mountain ridge",
+    "narrow alley",
+    "stone quarry"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0670",
+   "lemma": "temporalidad",
+   "rank": 26170,
+   "pos": "noun",
+   "options": [
+    "quality of lasting only a short while",
+    "degree of physical warmth",
+    "condition of being well-known",
+    "state of mutual obligation"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0671",
+   "lemma": "lituano",
+   "rank": 26289,
+   "pos": "adj",
+   "options": [
+    "Lithuanian",
+    "Slovenian",
+    "Moldovan",
+    "Belarusian"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0672",
+   "lemma": "esperpento",
+   "rank": 26454,
+   "pos": "noun",
+   "options": [
+    "grotesque sight, absurd figure",
+    "narrow alleyway, passage",
+    "shallow pond, puddle",
+    "old document, charter"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0673",
+   "lemma": "chapuza",
+   "rank": 26468,
+   "pos": "noun",
+   "options": [
+    "a shoddy or botched job",
+    "a deep forest pool",
+    "a type of flat bread",
+    "a small wooden stool"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0674",
+   "lemma": "incidental",
+   "rank": 26577,
+   "pos": "adj",
+   "options": [
+    "minor, secondary, not the main focus",
+    "frightening, terrifying",
+    "twisted, distorted",
+    "stubborn, obstinate"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0675",
+   "lemma": "picota",
+   "rank": 26744,
+   "pos": "noun",
+   "options": [
+    "pillory or whipping post",
+    "fishing net",
+    "church bell tower",
+    "river embankment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0676",
+   "lemma": "carpe",
+   "rank": 26794,
+   "pos": "noun",
+   "options": [
+    "hornbeam tree",
+    "freshwater trout species",
+    "thorny desert shrub",
+    "wild mountain herb"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0677",
+   "lemma": "galope",
+   "rank": 26857,
+   "pos": "noun",
+   "options": [
+    "gallop (horse's gait)",
+    "sleeve of a garment",
+    "drawer or cabinet",
+    "bridge railing"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0678",
+   "lemma": "tantito",
+   "rank": 26966,
+   "pos": "adv",
+   "options": [
+    "a tiny bit; just a little",
+    "right away or immediately",
+    "very far or quite distant",
+    "later on or afterward"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0679",
+   "lemma": "acupuntura",
+   "rank": 27108,
+   "pos": "noun",
+   "options": [
+    "healing with needles inserted into body",
+    "herbal remedy",
+    "breathing exercise",
+    "bone fracture treatment"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0680",
+   "lemma": "queriamos",
+   "rank": 27280,
+   "pos": "verb",
+   "options": [
+    "we wanted or we loved",
+    "we arrived or we came back",
+    "we understood or we knew",
+    "we remained or we stayed"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0681",
+   "lemma": "tíralo",
+   "rank": 27334,
+   "pos": "verb",
+   "options": [
+    "throw it or toss it away",
+    "cut it into small pieces",
+    "pick it up off the floor",
+    "paint it a different color"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0682",
+   "lemma": "paje",
+   "rank": 27385,
+   "pos": "noun",
+   "options": [
+    "young attendant serving a nobleman",
+    "knife sheath",
+    "town crier",
+    "stone arch"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0683",
+   "lemma": "desajuste",
+   "rank": 27709,
+   "pos": "noun",
+   "options": [
+    "maladjustment or imbalance",
+    "formal written declaration of intent",
+    "gradual increase in market prices",
+    "sudden change of residence"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0684",
+   "lemma": "auténticamente",
+   "rank": 27770,
+   "pos": "adv",
+   "options": [
+    "genuinely",
+    "gradually",
+    "reluctantly",
+    "separately"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0685",
+   "lemma": "extraoficialmente",
+   "rank": 27848,
+   "pos": "adv",
+   "options": [
+    "outside formal or official channels",
+    "in a gradual and measured way",
+    "with considerable reluctance",
+    "at unpredictable intervals"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0686",
+   "lemma": "weona",
+   "rank": 28005,
+   "pos": "noun",
+   "options": [
+    "vulgar slang for a foolish person",
+    "a thick braided leather rope",
+    "a clay water storage vessel",
+    "a hand-rolled cigarette stub"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0687",
+   "lemma": "societario",
+   "rank": 28071,
+   "pos": "adj",
+   "options": [
+    "relating to a club or group membership",
+    "relating to health or medicine",
+    "relating to military service",
+    "relating to religious worship"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0688",
+   "lemma": "catre",
+   "rank": 28104,
+   "pos": "noun",
+   "options": [
+    "a simple folding cot or bed",
+    "a wooden storage chest",
+    "a small kitchen stool",
+    "a woven floor mat"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0689",
+   "lemma": "némesis",
+   "rank": 28275,
+   "pos": "noun",
+   "options": [
+    "one's great unavoidable downfall or foe",
+    "hidden treasure",
+    "moral guideline",
+    "founding legend"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0690",
+   "lemma": "desmenuzar",
+   "rank": 28380,
+   "pos": "verb",
+   "options": [
+    "to crumble; to break into small pieces",
+    "to anchor or moor a vessel",
+    "to kneel down in reverence",
+    "to draft or draw up a document"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0691",
+   "lemma": "subespecie",
+   "rank": 28424,
+   "pos": "noun",
+   "options": [
+    "rank below species in classification",
+    "specialized branch of medicine",
+    "minority dialect of a language",
+    "secondary theme in a musical work"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0692",
+   "lemma": "bibliotheca",
+   "rank": 28507,
+   "pos": "noun",
+   "options": [
+    "a library or collection of books",
+    "a public record of land deeds",
+    "a printed daily news bulletin",
+    "a scholarly learned society"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0693",
+   "lemma": "convencerse",
+   "rank": 28882,
+   "pos": "verb",
+   "options": [
+    "to become convinced of something",
+    "to gather together in a group",
+    "to turn away from a path",
+    "to recover from an illness"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0694",
+   "lemma": "declararlo",
+   "rank": 28895,
+   "pos": "verb",
+   "options": [
+    "to state it openly before others",
+    "to hand it over officially",
+    "to return it to its place",
+    "to hide or conceal it"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0695",
+   "lemma": "larguísimo",
+   "rank": 28962,
+   "pos": "adj",
+   "options": [
+    "extremely long",
+    "deeply sorrowful",
+    "very densely populated",
+    "completely transparent"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0696",
+   "lemma": "abrazarlo",
+   "rank": 29489,
+   "pos": "verb",
+   "options": [
+    "to hug or embrace him",
+    "to punish or scold him",
+    "to paint or draw him",
+    "to hire or employ him"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0697",
+   "lemma": "demostrarte",
+   "rank": 29576,
+   "pos": "verb",
+   "options": [
+    "to prove something to you",
+    "to forgive you, pardon you",
+    "to borrow from you",
+    "to accompany you, escort you"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0698",
+   "lemma": "servilismo",
+   "rank": 29727,
+   "pos": "noun",
+   "options": [
+    "excessive eagerness to obey and please",
+    "act of religious worship",
+    "rural farming community",
+    "formal written complaint"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0699",
+   "lemma": "homeopático",
+   "rank": 29780,
+   "pos": "adj",
+   "options": [
+    "using tiny doses to treat illness naturally",
+    "orthopedic; related to bone treatment",
+    "forensic; related to legal medicine",
+    "geriatric; related to elderly care"
+   ],
+   "correct": 0
+  },
+  {
+   "id": "mc-es-0700",
+   "lemma": "sobresueldo",
+   "rank": 29801,
+   "pos": "noun",
+   "options": [
+    "extra pay, bonus wage",
+    "work schedule, shift",
+    "labor union, guild",
+    "retirement pension fund"
+   ],
+   "correct": 0
+  }
+ ],
+ "pseudowords": [
+  {
+   "id": "pw-es-0001",
+   "form": "trunesa"
+  },
+  {
+   "id": "pw-es-0002",
+   "form": "belgomar"
+  },
+  {
+   "id": "pw-es-0004",
+   "form": "rastivel"
+  },
+  {
+   "id": "pw-es-0005",
+   "form": "dorpecha"
+  },
+  {
+   "id": "pw-es-0006",
+   "form": "melucar"
+  },
+  {
+   "id": "pw-es-0008",
+   "form": "valiecho"
+  },
+  {
+   "id": "pw-es-0009",
+   "form": "primudar"
+  },
+  {
+   "id": "pw-es-0010",
+   "form": "clordena"
+  },
+  {
+   "id": "pw-es-0011",
+   "form": "sechuvar"
+  },
+  {
+   "id": "pw-es-0012",
+   "form": "flotimal"
+  },
+  {
+   "id": "pw-es-0015",
+   "form": "torchevar"
+  },
+  {
+   "id": "pw-es-0016",
+   "form": "mondería"
+  },
+  {
+   "id": "pw-es-0017",
+   "form": "blestuna"
+  },
+  {
+   "id": "pw-es-0018",
+   "form": "crufilar"
+  },
+  {
+   "id": "pw-es-0020",
+   "form": "derbucio"
+  },
+  {
+   "id": "pw-es-0022",
+   "form": "grescular"
+  },
+  {
+   "id": "pw-es-0023",
+   "form": "melvotar"
+  },
+  {
+   "id": "pw-es-0024",
+   "form": "frundecia"
+  },
+  {
+   "id": "pw-es-0027",
+   "form": "tencholar"
+  },
+  {
+   "id": "pw-es-0028",
+   "form": "polvienta"
+  },
+  {
+   "id": "pw-es-0030",
+   "form": "berclonal"
+  },
+  {
+   "id": "pw-es-0031",
+   "form": "salfidar"
+  },
+  {
+   "id": "pw-es-0033",
+   "form": "nestovura"
+  },
+  {
+   "id": "pw-es-0034",
+   "form": "limpeciar"
+  },
+  {
+   "id": "pw-es-0036",
+   "form": "merdulcar"
+  },
+  {
+   "id": "pw-es-0038",
+   "form": "peldumar"
+  },
+  {
+   "id": "pw-es-0039",
+   "form": "corfelón"
+  },
+  {
+   "id": "pw-es-0041",
+   "form": "plondecha"
+  },
+  {
+   "id": "pw-es-0042",
+   "form": "vestufar"
+  },
+  {
+   "id": "pw-es-0043",
+   "form": "gorfencia"
+  },
+  {
+   "id": "pw-es-0044",
+   "form": "tremundar"
+  },
+  {
+   "id": "pw-es-0047",
+   "form": "sorvimura"
+  },
+  {
+   "id": "pw-es-0048",
+   "form": "frendupal"
+  },
+  {
+   "id": "pw-es-0051",
+   "form": "bisnudar"
+  },
+  {
+   "id": "pw-es-0052",
+   "form": "grondelia"
+  },
+  {
+   "id": "pw-es-0053",
+   "form": "ferlunca"
+  },
+  {
+   "id": "pw-es-0054",
+   "form": "moltrecia"
+  },
+  {
+   "id": "pw-es-0056",
+   "form": "esterpola"
+  },
+  {
+   "id": "pw-es-0057",
+   "form": "blorfedad"
+  },
+  {
+   "id": "pw-es-0058",
+   "form": "crandecha"
+  },
+  {
+   "id": "pw-es-0060",
+   "form": "peltruvio"
+  },
+  {
+   "id": "pw-es-0062",
+   "form": "rimbolar"
+  },
+  {
+   "id": "pw-es-0063",
+   "form": "glentacar"
+  },
+  {
+   "id": "pw-es-0067",
+   "form": "plinducar"
+  },
+  {
+   "id": "pw-es-0069",
+   "form": "resputona"
+  },
+  {
+   "id": "pw-es-0071",
+   "form": "vorchenar"
+  },
+  {
+   "id": "pw-es-0073",
+   "form": "telpidura"
+  },
+  {
+   "id": "pw-es-0074",
+   "form": "sulfrimal"
+  },
+  {
+   "id": "pw-es-0076",
+   "form": "morbuelda"
+  },
+  {
+   "id": "pw-es-0078",
+   "form": "sanchulir"
+  },
+  {
+   "id": "pw-es-0079",
+   "form": "frendimar"
+  },
+  {
+   "id": "pw-es-0081",
+   "form": "blescuvar"
+  },
+  {
+   "id": "pw-es-0085",
+   "form": "pelverdar"
+  },
+  {
+   "id": "pw-es-0086",
+   "form": "instúfora"
+  },
+  {
+   "id": "pw-es-0093",
+   "form": "plorbinar"
+  },
+  {
+   "id": "pw-es-0094",
+   "form": "restúdamo"
+  },
+  {
+   "id": "pw-es-0096",
+   "form": "tremolcir"
+  },
+  {
+   "id": "pw-es-0099",
+   "form": "crestumar"
+  },
+  {
+   "id": "pw-es-0102",
+   "form": "truspecia"
+  },
+  {
+   "id": "pw-es-0103",
+   "form": "clenvudar"
+  },
+  {
+   "id": "pw-es-0104",
+   "form": "frisbonca"
+  },
+  {
+   "id": "pw-es-0105",
+   "form": "sorbeldar"
+  },
+  {
+   "id": "pw-es-0107",
+   "form": "glodimura"
+  },
+  {
+   "id": "pw-es-0109",
+   "form": "molvecina"
+  },
+  {
+   "id": "pw-es-0111",
+   "form": "clambreco"
+  },
+  {
+   "id": "pw-es-0113",
+   "form": "horfundir"
+  },
+  {
+   "id": "pw-es-0115",
+   "form": "fesprulir"
+  },
+  {
+   "id": "pw-es-0119",
+   "form": "veltuncor"
+  },
+  {
+   "id": "pw-es-0120",
+   "form": "prisamura"
+  },
+  {
+   "id": "pw-es-0121",
+   "form": "clendobar"
+  },
+  {
+   "id": "pw-es-0123",
+   "form": "drostinar"
+  },
+  {
+   "id": "pw-es-0124",
+   "form": "pelconada"
+  },
+  {
+   "id": "pw-es-0132",
+   "form": "pelvondar"
+  },
+  {
+   "id": "pw-es-0136",
+   "form": "falbucera"
+  },
+  {
+   "id": "pw-es-0138",
+   "form": "solguinar"
+  },
+  {
+   "id": "pw-es-0141",
+   "form": "veltrumba"
+  },
+  {
+   "id": "pw-es-0147",
+   "form": "blespunir"
+  },
+  {
+   "id": "pw-es-0150",
+   "form": "glervinar"
+  },
+  {
+   "id": "pw-es-0152",
+   "form": "brusentar"
+  },
+  {
+   "id": "pw-es-0155",
+   "form": "lumbrecia"
+  },
+  {
+   "id": "pw-es-0157",
+   "form": "solpavida"
+  },
+  {
+   "id": "pw-es-0158",
+   "form": "calmuvero"
+  },
+  {
+   "id": "pw-es-0159",
+   "form": "frisnular"
+  },
+  {
+   "id": "pw-es-0162",
+   "form": "galvenura"
+  },
+  {
+   "id": "pw-es-0165",
+   "form": "crindobar"
+  },
+  {
+   "id": "pw-es-0167",
+   "form": "pelsundar"
+  },
+  {
+   "id": "pw-es-0169",
+   "form": "grenfulir"
+  },
+  {
+   "id": "pw-es-0172",
+   "form": "trelbunco"
+  },
+  {
+   "id": "pw-es-0177",
+   "form": "clordamar"
+  },
+  {
+   "id": "pw-es-0179",
+   "form": "geltuveda"
+  },
+  {
+   "id": "pw-es-0188",
+   "form": "tolbumeda"
+  },
+  {
+   "id": "pw-es-0191",
+   "form": "dolburnea"
+  },
+  {
+   "id": "pw-es-0193",
+   "form": "voltimeda"
+  },
+  {
+   "id": "pw-es-0194",
+   "form": "trensupir"
+  },
+  {
+   "id": "pw-es-0195",
+   "form": "colfundar"
+  },
+  {
+   "id": "pw-es-0198",
+   "form": "prentubir"
+  },
+  {
+   "id": "pw-es-0200",
+   "form": "gorfanida"
+  },
+  {
+   "id": "pw-es-0176",
+   "form": "brincuzar"
+  },
+  {
+   "id": "pw-es-0170",
+   "form": "clambodez"
+  },
+  {
+   "id": "pw-es-0190",
+   "form": "clistamez"
+  },
+  {
+   "id": "pw-es-0084",
+   "form": "cumoranza"
+  },
+  {
+   "id": "pw-es-0026",
+   "form": "grufizar"
+  },
+  {
+   "id": "pw-es-0118",
+   "form": "restiplaz"
+  },
+  {
+   "id": "pw-es-0112",
+   "form": "telgureza"
+  },
+  {
+   "id": "pw-es-0050",
+   "form": "trelcovez"
+  },
+  {
+   "id": "pw-es-0019",
+   "form": "zalpentar"
+  },
+  {
+   "id": "pw-es-0131",
+   "form": "bruñeclar"
+  },
+  {
+   "id": "pw-es-0114",
+   "form": "curvañida"
+  },
+  {
+   "id": "pw-es-0163",
+   "form": "tolvuñeda"
+  },
+  {
+   "id": "pw-es-0201",
+   "form": "jalefor"
+  },
+  {
+   "id": "pw-es-0202",
+   "form": "jomedral"
+  },
+  {
+   "id": "pw-es-0203",
+   "form": "juvilar"
+  },
+  {
+   "id": "pw-es-0204",
+   "form": "jarcofe"
+  },
+  {
+   "id": "pw-es-0205",
+   "form": "jelnada"
+  },
+  {
+   "id": "pw-es-0206",
+   "form": "jombrela"
+  },
+  {
+   "id": "pw-es-0207",
+   "form": "jarufico"
+  },
+  {
+   "id": "pw-es-0208",
+   "form": "jelcamar"
+  },
+  {
+   "id": "pw-es-0209",
+   "form": "torbusal"
+  },
+  {
+   "id": "pw-es-0210",
+   "form": "meclinar"
+  },
+  {
+   "id": "pw-es-0211",
+   "form": "pretoval"
+  },
+  {
+   "id": "pw-es-0212",
+   "form": "cafiesto"
+  },
+  {
+   "id": "pw-es-0213",
+   "form": "bordumen"
+  },
+  {
+   "id": "pw-es-0214",
+   "form": "palvecho"
+  },
+  {
+   "id": "pw-es-0215",
+   "form": "estrimo"
+  },
+  {
+   "id": "pw-es-0216",
+   "form": "garnuple"
+  },
+  {
+   "id": "pw-es-0217",
+   "form": "corfadar"
+  },
+  {
+   "id": "pw-es-0218",
+   "form": "belmunte"
+  },
+  {
+   "id": "pw-es-0219",
+   "form": "tastural"
+  },
+  {
+   "id": "pw-es-0220",
+   "form": "doncuple"
+  },
+  {
+   "id": "pw-es-0221",
+   "form": "rafentar"
+  },
+  {
+   "id": "pw-es-0222",
+   "form": "perdusal"
+  },
+  {
+   "id": "pw-es-0223",
+   "form": "cabrunar"
+  },
+  {
+   "id": "pw-es-0224",
+   "form": "olmecida"
+  },
+  {
+   "id": "pw-es-0225",
+   "form": "fintural"
+  },
+  {
+   "id": "pw-es-0226",
+   "form": "blecomar"
+  },
+  {
+   "id": "pw-es-0227",
+   "form": "surbetal"
+  },
+  {
+   "id": "pw-es-0228",
+   "form": "cortimal"
+  },
+  {
+   "id": "pw-es-0229",
+   "form": "crenvado"
+  },
+  {
+   "id": "pw-es-0230",
+   "form": "talpuero"
+  },
+  {
+   "id": "pw-es-0231",
+   "form": "dorfical"
+  },
+  {
+   "id": "pw-es-0232",
+   "form": "quebruno"
+  },
+  {
+   "id": "pw-es-0233",
+   "form": "quilsador"
+  },
+  {
+   "id": "pw-es-0234",
+   "form": "mespural"
+  },
+  {
+   "id": "pw-es-0235",
+   "form": "queltabar"
+  },
+  {
+   "id": "pw-es-0236",
+   "form": "glecinal"
+  },
+  {
+   "id": "pw-es-0237",
+   "form": "esturano"
+  },
+  {
+   "id": "pw-es-0238",
+   "form": "molvertir"
+  },
+  {
+   "id": "pw-es-0239",
+   "form": "cerpunal"
+  },
+  {
+   "id": "pw-es-0240",
+   "form": "dextulir"
+  },
+  {
+   "id": "pw-es-0241",
+   "form": "pexoldar"
+  },
+  {
+   "id": "pw-es-0242",
+   "form": "grulmado"
+  },
+  {
+   "id": "pw-es-0243",
+   "form": "quelborar"
+  },
+  {
+   "id": "pw-es-0244",
+   "form": "tilcopar"
+  },
+  {
+   "id": "pw-es-0245",
+   "form": "rendoval"
+  },
+  {
+   "id": "pw-es-0246",
+   "form": "plomicar"
+  },
+  {
+   "id": "pw-es-0247",
+   "form": "bartofela"
+  },
+  {
+   "id": "pw-es-0248",
+   "form": "cresconar"
+  },
+  {
+   "id": "pw-es-0249",
+   "form": "perdinal"
+  },
+  {
+   "id": "pw-es-0250",
+   "form": "flacudera"
+  },
+  {
+   "id": "pw-es-0251",
+   "form": "tomiclura"
+  },
+  {
+   "id": "pw-es-0252",
+   "form": "estrabona"
+  },
+  {
+   "id": "pw-es-0253",
+   "form": "carbonela"
+  },
+  {
+   "id": "pw-es-0254",
+   "form": "lustrecar"
+  },
+  {
+   "id": "pw-es-0255",
+   "form": "belvomida"
+  },
+  {
+   "id": "pw-es-0256",
+   "form": "cresponar"
+  },
+  {
+   "id": "pw-es-0257",
+   "form": "trafencia"
+  },
+  {
+   "id": "pw-es-0258",
+   "form": "hormisal"
+  },
+  {
+   "id": "pw-es-0259",
+   "form": "plavetona"
+  },
+  {
+   "id": "pw-es-0260",
+   "form": "cordunela"
+  },
+  {
+   "id": "pw-es-0261",
+   "form": "vimbular"
+  },
+  {
+   "id": "pw-es-0262",
+   "form": "xorbilar"
+  },
+  {
+   "id": "pw-es-0263",
+   "form": "taxuendo"
+  },
+  {
+   "id": "pw-es-0264",
+   "form": "calprunar"
+  },
+  {
+   "id": "pw-es-0265",
+   "form": "borvecal"
+  },
+  {
+   "id": "pw-es-0266",
+   "form": "distomar"
+  },
+  {
+   "id": "pw-es-0267",
+   "form": "rencodal"
+  },
+  {
+   "id": "pw-es-0268",
+   "form": "pleburna"
+  },
+  {
+   "id": "pw-es-0269",
+   "form": "caflendo"
+  },
+  {
+   "id": "pw-es-0270",
+   "form": "morvinca"
+  },
+  {
+   "id": "pw-es-0271",
+   "form": "tarbeldo"
+  },
+  {
+   "id": "pw-es-0272",
+   "form": "cospular"
+  },
+  {
+   "id": "pw-es-0273",
+   "form": "fintrela"
+  },
+  {
+   "id": "pw-es-0274",
+   "form": "dorvalco"
+  },
+  {
+   "id": "pw-es-0275",
+   "form": "pelminco"
+  },
+  {
+   "id": "pw-es-0276",
+   "form": "estulcar"
+  },
+  {
+   "id": "pw-es-0277",
+   "form": "bruvalco"
+  },
+  {
+   "id": "pw-es-0278",
+   "form": "talvecor"
+  },
+  {
+   "id": "pw-es-0279",
+   "form": "prundela"
+  },
+  {
+   "id": "pw-es-0280",
+   "form": "escorvina"
+  },
+  {
+   "id": "pw-es-0281",
+   "form": "filtambre"
+  },
+  {
+   "id": "pw-es-0282",
+   "form": "lorvecal"
+  },
+  {
+   "id": "pw-es-0283",
+   "form": "mespador"
+  },
+  {
+   "id": "pw-es-0284",
+   "form": "cruvonal"
+  },
+  {
+   "id": "pw-es-0285",
+   "form": "descatir"
+  },
+  {
+   "id": "pw-es-0286",
+   "form": "feblunco"
+  },
+  {
+   "id": "pw-es-0287",
+   "form": "torcipal"
+  },
+  {
+   "id": "pw-es-0288",
+   "form": "gambulero"
+  },
+  {
+   "id": "pw-es-0289",
+   "form": "esplavir"
+  },
+  {
+   "id": "pw-es-0290",
+   "form": "lendural"
+  },
+  {
+   "id": "pw-es-0291",
+   "form": "camorbar"
+  }
+ ]
+}
