@@ -2,6 +2,8 @@
 
 A browser test that estimates how many words you passively understand in a language (reading and listening, not speaking). It covers Spanish, Portuguese, French and Russian. It is a static site: no server, no accounts, no build step.
 
+Built inside my private study app from August 2026; published here as a standalone copy on 29 September 2026.
+
 ## What it measures
 
 Passive vocabulary size, counted in word families (dictionary headwords: "walk", "walks" and "walked" count once). Each language has a frozen list of its 30,000 most frequent word families, ranked by frequency, and split into seven bands from very common to rare.
