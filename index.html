@@ -293,6 +293,39 @@
     .p2-word { font-size: 2rem; }
     .results-headline { font-size: 1.6rem; }
   }
+
+  /* ---- Small windows: the page scrolls like a normal page (2026-09-30) ----
+     The desktop shell above pins the page to the window (100dvh, overflow hidden) and
+     scrolls panels INSIDE it. On a phone the start screen is taller than the window and
+     nothing was allowed to scroll, so everything under the first card was cut off. Below
+     the two-column breakpoint (and in very short windows, such as a phone held sideways)
+     the page grows to fit its content and scrolls normally. Each screen is still at least
+     one window tall, so the test screens stay centred. Desktop (>= 900px wide and > 500px
+     tall) is untouched. */
+  @media (max-width: 899.98px), (max-height: 500px) {
+    html, body { height: auto; }
+    body { min-height: 100vh; min-height: 100dvh; overflow: visible; }
+    .page-wrap { --pad: 16px; height: auto; min-height: 100vh; min-height: 100dvh; }
+    .screen.active { flex: 1 0 auto; }
+
+    /* Start: both cards take their full height instead of scrolling inside themselves. */
+    #screen-start .grid { flex: none; height: auto; }
+    #screen-start .grid .card,
+    #screen-start .grid #start-left,
+    #screen-start .grid #start-right { overflow: visible; overflow-x: clip; }
+
+    /* Results: one long page, not two scrolling panels. Done stays pinned to the bottom
+       edge so it is never buried under the expanded Full answers list. */
+    .results-grid { flex: none; overflow: visible; }
+    .results-grid .card { overflow: visible; overflow-x: clip; }
+    .results-foot {
+      position: sticky; bottom: 0; z-index: 5; margin: 0 calc(-1 * var(--pad)); padding: 10px var(--pad);
+      background: var(--bg); border-top: 1px solid var(--border);
+    }
+  }
+  @media (max-width: 600px) { .page-wrap { --pad: 12px; } }
+  /* Stacked start cards: the desktop grid's 12px gap does not exist below the breakpoint. */
+  @media (max-width: 899.98px) { #screen-start .grid #start-right { margin-top: 12px; } }
 </style>
 </head>
 <body>
@@ -1280,6 +1313,10 @@ function showScreen(name) {
     var el = document.getElementById('screen-' + n);
     if (el) el.classList.toggle('active', n === name);
   });
+  // On a phone the page scrolls, so a new screen must start at the top (otherwise results
+  // or the start screen can open already scrolled down). No-op on desktop, where the page
+  // never scrolls.
+  try { window.scrollTo(0, 0); } catch (e) { /* ignore */ }
 }
 
 function fmtDuration(sec) {
