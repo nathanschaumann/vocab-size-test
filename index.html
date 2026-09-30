@@ -13,7 +13,7 @@
 <meta property="og:image:height" content="627">
 <meta property="og:image:alt" content="Vocabulary size test by Nathan Schaumann, with a screenshot of a test question and the I know it and I do not know it buttons.">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:,">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="stylesheet" href="css/tokens.css">
 <link rel="stylesheet" href="css/buttons.css">
 <style>
@@ -50,6 +50,17 @@
   .screen { flex: 1 1 auto; min-height: 0; display: none; }
   .screen.active { display: flex; flex-direction: column; min-height: 0; }
 
+  /* ---- top row: home link on the left, Quit on the right (2026-09-30) ---- */
+  .top-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex: 0 0 auto; }
+  .top-row .home-link { min-width: 0; }
+  .quit-btn {
+    flex: 0 0 auto; min-height: 36px; padding: 0 16px;
+    border: 1px solid var(--border); border-radius: var(--radius-pill);
+    background: #fff; color: var(--text); font-size: var(--fs-base); font-weight: 600;
+  }
+  .quit-btn:hover { filter: brightness(0.97); }
+  .quit-btn[hidden] { display: none; }
+
   /* ---- quit confirm (flow-browser-dialogs, 2026-09-25) ---- */
   .quit-confirm-backdrop {
     position: fixed; inset: 0; z-index: 60;
@@ -57,7 +68,13 @@
     background: rgba(10,14,24,0.45);
   }
   .quit-confirm-backdrop[hidden] { display: none; }
-  .quit-confirm-box { padding: 18px 20px; max-width: 300px; text-align: center; }
+  /* The dialog's own look: this standalone copy has no shared popup stylesheet, so without a
+     background the text sat directly on the test behind it (seen once Quit was on screen). */
+  .quit-confirm-box {
+    padding: 18px 20px; width: min(300px, calc(100vw - 32px)); text-align: center;
+    background: var(--card); border: 1px solid var(--border); border-radius: var(--radius-panel);
+    box-shadow: 0 10px 30px rgba(10,14,24,0.25);
+  }
   .quit-confirm-box p { font-size: var(--fs-base); line-height: 1.4; margin-bottom: 14px; }
   .quit-confirm-actions { display: flex; gap: 10px; justify-content: center; }
 
@@ -143,6 +160,12 @@
      is contained inside whichever card grew tall. */
   #screen-start .grid #start-left, #screen-start .grid #start-right { overflow-y: auto; overflow-x: hidden; }
   .hist-detail-sub { margin: 2px 0 6px; }
+  /* No sittings yet for this language and person: just the short message under the heading, with
+     none of the empty chart or curve areas (they reserved about 400px of blank space). */
+  #start-right.no-history #hist-chart-slot,
+  #start-right.no-history .hist-detail-sub,
+  #start-right.no-history #hist-detail-compare-slot,
+  #start-right.no-history .hist-detail-curve { display: none; }
   .hist-detail-curve { flex: 0 0 190px; min-height: 0; }
   .hist-detail-curve svg { display: block; width: 100%; height: 100%; }
   #hist-detail-band-slot { flex: 0 0 auto; }
@@ -198,7 +221,7 @@
   .fa-mc-item.outcome-idk { border-color: #c9c2f0; background: #faf9ff; }
   .fa-mc-word { font-weight: 700; font-size: var(--fs-base); margin-bottom: 4px; }
   .fa-mc-badge { font-weight: 600; font-size: var(--fs-xs); color: var(--muted); }
-  .outcome-wrong .fa-mc-badge { color: var(--accent-2); }
+  .outcome-wrong .fa-mc-badge { color: var(--danger-text); } /* was the lighter fill colour: 3.25:1 on the pink card, now 5:1 */
   .outcome-idk .fa-mc-badge { color: #574a9c; }
   .fa-mc-opts { display: flex; flex-direction: column; gap: 2px; }
   .fa-mc-opt { font-size: var(--fs-sm); padding: 3px 7px; border-radius: var(--radius-sm); word-break: break-word; }
@@ -218,7 +241,10 @@
      button.btn-start comment above for why. */
   button.btn-know { background: var(--good); color: #fff; }
   button.btn-dontknow { background: var(--card-2); color: var(--text); border: 1px solid var(--border); }
-  .key-hint { color: var(--muted); font-size: var(--fs-sm); margin-top: 14px; }
+  /* Key hints (arrows, 1-4, Esc, Enter) only make sense with a real keyboard, so they show only on
+     devices whose main input is a mouse or trackpad. Phones and tablets never see them (2026-09-30). */
+  .key-hint { display: none; color: var(--muted); font-size: var(--fs-sm); margin-top: 14px; }
+  @media (hover: hover) and (pointer: fine) { .key-hint { display: block; } }
 
   /* ---- Interstitial ---- */
   .interstitial-card { max-width: 520px; text-align: center; }
@@ -324,6 +350,22 @@
     }
   }
   @media (max-width: 600px) { .page-wrap { --pad: 12px; } }
+
+  /* Phones: the yes/no answers table grows to its full height instead of scrolling inside itself.
+     An inner scroll box swallowed any swipe that started on it, so the page could not be scrolled
+     from there. overflow:clip keeps the rounded corners without making it a scroll container. */
+  @media (max-width: 899.98px), (max-height: 500px) {
+    .fa-yn-wrap { max-height: none; overflow: visible; overflow: clip; }
+  }
+
+  /* Touch and small screens: every tapped control is at least 36px tall (the pills were 31px).
+     Desktop with a mouse keeps the compact look. */
+  @media (max-width: 899.98px), (max-height: 500px), (pointer: coarse) {
+    .lang-pill, .person-pill { display: inline-flex; align-items: center; min-height: 36px; }
+    .person-add-input { min-height: 36px; }
+    .full-answers > summary { display: flex; align-items: center; min-height: 36px; }
+    .quit-confirm-actions button.btn { min-height: 40px; padding: 0 20px; font-size: var(--fs-base); }
+  }
   /* Stacked start cards: the desktop grid's 12px gap does not exist below the breakpoint. */
   @media (max-width: 899.98px) { #screen-start .grid #start-right { margin-top: 12px; } }
 </style>
@@ -334,7 +376,13 @@
      below, whose estimator block aliases these off window.IT. -->
 <script src="js/vocab_comparable.js"></script>
 <div class="page-wrap">
-  <nav class="home-link" style="font:14px/1.4 system-ui,-apple-system,sans-serif;margin:0 0 12px"><a href="https://nschaumann.com/" style="color:#1F4E79;text-decoration:none">← Nathan Schaumann · all projects</a></nav>
+  <div class="top-row">
+    <nav class="home-link" style="font:14px/1.4 system-ui,-apple-system,sans-serif;margin:0 0 4px"><a href="https://nschaumann.com/" style="display:inline-block;padding:8px 0;color:#1F4E79;text-decoration:none">← Nathan Schaumann · all projects</a></nav>
+    <!-- Quit, on every device (2026-09-30): Escape was the only way out, which a touch screen
+         does not have. Shown only while a test is running (see showScreen); it opens the same
+         confirm Escape opens. It shares the home link's row so it adds no height on a phone. -->
+    <button type="button" class="quit-btn" id="btn-quit" aria-label="Quit this test" hidden>Quit test</button>
+  </div>
 
   <!-- ============ START SCREEN ============ -->
   <div id="screen-start" class="screen active">
@@ -1313,6 +1361,9 @@ function showScreen(name) {
     var el = document.getElementById('screen-' + n);
     if (el) el.classList.toggle('active', n === name);
   });
+  // Quit is offered only while a test is running, on every device.
+  var quitBtn = document.getElementById('btn-quit');
+  if (quitBtn) quitBtn.hidden = !(name === 'phase1' || name === 'interstitial' || name === 'phase2');
   // On a phone the page scrolls, so a new screen must start at the top (otherwise results
   // or the start screen can open already scrolled down). No-op on desktop, where the page
   // never scrolls.
@@ -1543,6 +1594,9 @@ function renderStartScreen() {
   // the detail sub-line renderHistDetail already builds just below
   // ("Sep 6, 2026 — ≈ N words (± M) · m:ss").
   var headlineSlot = document.getElementById('hist-headline-slot');
+  // With no sitting to show, the card is just its heading and the short message below; the CSS hides
+  // the chart and curve areas instead of leaving them blank.
+  document.getElementById('start-right').classList.toggle('no-history', !selected);
   if (selected) {
     var latest = langHistory[langHistory.length - 1];
     var isLatestSelected = selected.at === latest.at;
@@ -1785,7 +1839,7 @@ function buildTrendSvg(history, width, height, selectedAt) {
   if (!history.length) {
     return '<div class="muted small" style="display:flex;align-items:center;justify-content:center;height:100%;">No history yet.</div>';
   }
-  var padL = 46, padR = 14, padT = 14, padB = 26;
+  var padL = 46, padR = 20, padT = 14, padB = 26;
   var plotW = width - padL - padR, plotH = height - padT - padB;
   var times = history.map(function (h) { return Date.parse(h.at); });
   var minT = Math.min.apply(null, times), maxT = Math.max.apply(null, times);
@@ -1867,7 +1921,9 @@ function fmtDateAxis(iso) {
 // (content still loading, or failed to load).
 function buildCurveSvg(fit, perBandObs, width, height, edges, eligibleXs, eligibleCount) {
   edges = edges || BAND_EDGES;
-  var padL = 40, padR = 12, padT = 12, padB = 26;
+  // padR leaves room for half of the widest right-end label ("20,345"), which is centred on the
+  // plot's right edge; at 12 it was clipped by the chart's own edge on narrow screens.
+  var padL = 40, padR = 20, padT = 12, padB = 26;
   var plotW = width - padL - padR, plotH = height - padT - padB;
 
   var useEligible = !!(eligibleXs && eligibleXs.length > 0);
@@ -1993,7 +2049,7 @@ function latestPerLanguage(personHistory) {
 // y = 0-100%. Same hand-rolled-SVG idiom as buildCurveSvg above (grid, no
 // entry animation), just multiple <path>s instead of one.
 function buildCompareCurveSvg(entries, width, height) {
-  var padL = 40, padR = 12, padT = 12, padB = 26;
+  var padL = 40, padR = 20, padT = 12, padB = 26; // padR: room for the centred "16,000" label at the right edge
   var plotW = width - padL - padR, plotH = height - padT - padB;
   var xMax = Math.log10(COMPARE_DEPTH);
 
@@ -2369,8 +2425,8 @@ function renderInvalidSitting(pseudoClaimed, pseudoN) {
   document.getElementById('results-headline').textContent = "This sitting couldn't be scored";
   document.getElementById('results-sub').textContent =
     'You marked ' + pseudoClaimed + ' of the ' + pseudoN + ' fake words as known. ' +
-    'That usually means the keys got mixed up (← = don’t know, → = know). ' +
-    'Nothing was saved — press Done and run it again.';
+    'That usually means the yes and no answers got mixed up. ' +
+    'Nothing was saved. Use Done and run it again.';
   document.getElementById('curve-chart-slot').innerHTML =
     '<div class="muted">No curve — the answers can’t be trusted, so no estimate was made.</div>';
   document.getElementById('band-table-slot').innerHTML = '';
@@ -2552,11 +2608,15 @@ function confirmQuit() {
   if (_quitConfirmOpen) return;
   _quitConfirmOpen = true;
   document.getElementById('quit-confirm-backdrop').hidden = false;
+  // Put focus on the safe choice so Enter or Space on a keyboard cannot quit by accident.
+  try { document.getElementById('quit-confirm-cancel').focus(); } catch (e) { /* ignore */ }
 }
 function hideQuitConfirm() {
   _quitConfirmOpen = false;
   document.getElementById('quit-confirm-backdrop').hidden = true;
 }
+// The on-screen Quit button (2026-09-30) -- the only way out on a touch screen. Same confirm as Escape.
+document.getElementById('btn-quit').addEventListener('click', confirmQuit);
 document.getElementById('quit-confirm-cancel').addEventListener('click', hideQuitConfirm);
 document.getElementById('quit-confirm-yes').addEventListener('click', function () {
   hideQuitConfirm();
@@ -2591,6 +2651,9 @@ document.addEventListener('keydown', function (e) {
     if (!e.repeat) hideQuitConfirm();
     return;
   }
+
+  // While the quit confirm is open, answer keys must not reach the test behind it.
+  if (_quitConfirmOpen) return;
 
   if (e.key === 'Escape' && (screen === 'phase1' || screen === 'interstitial' || screen === 'phase2')) {
     e.preventDefault();
